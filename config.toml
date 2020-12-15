@@ -1,8 +1,13 @@
 baseURL = "https://red-pond-0d1512e1e.azurestaticapps.net/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "圆航的笔记"
 theme = "learn"
+disableToc = "false"
 
 # For search functionality
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
+
+[params]
+# Change default color scheme with a variant one. Can be "red", "blue", "green".
+themeVariant = "blue"
