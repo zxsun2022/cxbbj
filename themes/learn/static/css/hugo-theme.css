@@ -9,13 +9,6 @@
   padding: 0 5px;
 }
 
-#TableOfContents {
-    font-size: 13px !important;
-    max-height: 85vh;
-    overflow: auto;
-    padding: 15px !important;
-}
-
 
 #TableOfContents > ul > li > ul > li > ul li {
   margin-right: 8px;
@@ -34,7 +27,7 @@
 }
 
 body {
-    font-size: 16px !important;
+    font-size: 24px !important;
     color: #323232 !important;
 }
 
@@ -155,6 +148,40 @@ h2, h3, h4, h5, h6 {
   font-weight: 400;
   line-height: 1.1;
 }
+
+#body-inner h1 {
+  font-size: 2.4em;
+  padding-top: 0.1em;
+  border-top: 3px solid #000;
+  background-color: #1C90F3;
+  color: white;
+}
+
+
+#body-inner h2 {
+  padding-top: .1em;
+  border-top: 3px solid #009;
+  background-color:#a1d2fd;
+  
+}
+
+
+#body-inner h3 {
+  padding-top: .1em;
+  border-top : 3px dashed #f00;
+  display: table; /* keep the background color wrapped tight */
+  
+  padding:5px;
+  background-color:#a1d2fd;
+}
+
+#body-inner h4 {
+  padding-top: .1em;
+  border-top: 3px dotted #080;
+  display: table;
+  background-color: #e6e6e6;
+}
+
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: inherit;
