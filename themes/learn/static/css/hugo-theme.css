@@ -197,16 +197,15 @@ h2, h3, h4, h5, h6 {
 #body-inner h4 {
   padding-top: .1em;
   border-top: 2px dotted #080;
-  display: table;
+  display: block;
   background-color: #e6e6e6;
 }
 
 
 #body-inner h5 {
   padding-top: .1em;
-  border: 2px dotted #00f;
-  border-top: 3px solid royalblue;
-  display: table;
+  border: 2px dotted royalblue;
+  display: block;
   background-color: #fff;
 }
 
