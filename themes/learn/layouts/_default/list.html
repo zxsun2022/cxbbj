@@ -1,5 +1,13 @@
 {{ partial "header.html" . }}
 
+
+{{ $readTime := mul (div (countwords .Content) 13200.0) 60 }}
+{{ $hours := math.Floor (div $readTime 60) }}
+{{ $minutes := mod $readTime 60 }}
+
+<h5>Total world: {{ .WordCount }}.  Estimated reading time: {{ $hours }} hour and {{ $minutes }} {{ cond (eq $minutes 1) "minute" "minutes" }}.</h5>
+	
+
 {{ if eq .Kind "section" }}
 	{{ .Content }}
 {{end}}
