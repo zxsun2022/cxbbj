@@ -24,7 +24,7 @@ weight = 30
 
 [markup]
   [markup.tableOfContents]
-    endLevel = 3
+    endLevel = 5
     ordered = false
     startLevel = 1
   
