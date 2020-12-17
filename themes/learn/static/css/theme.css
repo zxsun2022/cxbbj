@@ -468,9 +468,9 @@ h1 {
     font-weight: 200;
 }
 blockquote {
-    border-left: 12px solid #be76e7;
+    border: 1px solid #be76e7;
     background-color: #d2f7ff;
-    border-radius: 0 7pt 7pt 0pt;
+    border-radius: 7pt;
 }
 blockquote p {
     font-size: 1.8rem;
