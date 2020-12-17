@@ -152,7 +152,7 @@ h2, h3, h4, h5, h6 {
 #body-inner h1 {
   font-size: 2.4em;
   padding-top: 0.1em;
-  border-top: 3px solid #000;
+  border-top: 0px solid red;
   background-color: #1C90F3;
   color: white;
 }
@@ -160,7 +160,7 @@ h2, h3, h4, h5, h6 {
 
 #body-inner h2 {
   padding-top: .1em;
-  border-top: 3px solid #009;
+  border-top: 2px solid #009;
   background-color:#a1d2fd;
   
 }
@@ -168,7 +168,7 @@ h2, h3, h4, h5, h6 {
 
 #body-inner h3 {
   padding-top: .1em;
-  border-top : 3px dashed #f00;
+  border-top : 2px solid #f00;
   display: table; /* keep the background color wrapped tight */
   
   padding:5px;
@@ -177,11 +177,19 @@ h2, h3, h4, h5, h6 {
 
 #body-inner h4 {
   padding-top: .1em;
-  border-top: 3px dotted #080;
+  border-top: 2px dotted #080;
   display: table;
   background-color: #e6e6e6;
 }
 
+
+#body-inner h5 {
+  padding-top: .1em;
+  border: 2px dotted #00f;
+  border-top: 3px solid royalblue;
+  display: table;
+  background-color: #fff;
+}
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: inherit;
