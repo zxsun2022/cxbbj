@@ -468,11 +468,13 @@ h1 {
     font-weight: 200;
 }
 blockquote {
-    border-left: 10px solid #F0F2F4;
+    border-left: 12px solid #be76e7;
+    background-color: #d2f7ff;
+    border-radius: 0 7pt 7pt 0pt;
 }
 blockquote p {
-    font-size: 1.1rem;
-    color: #999;
+    font-size: 1.8rem;
+    color: #9239c5;
 }
 blockquote cite {
     display: block;

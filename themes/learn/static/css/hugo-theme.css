@@ -158,6 +158,25 @@ h2, h3, h4, h5, h6 {
   border-radius: 10pt 10pt 10pt 10pt;
 }
 
+#body-inner h1::before{
+  content: "♥";
+}
+
+#body-inner h2::before{
+  content: "..";
+}
+
+#body-inner h3::before{
+  content: "...";
+}
+
+#body-inner h4::before{
+  content: "....";
+}
+
+#body-inner h5::before{
+  content: ".....";
+}
 
 #body-inner h2 {
   padding-top: .1em;
@@ -170,7 +189,7 @@ h2, h3, h4, h5, h6 {
 #body-inner h3 {
   padding-top: .1em;
   border-top : 2px solid #f00;
-  display: table; /* keep the background color wrapped tight */
+  display: block; /* keep the background color wrapped tight */
   
   background-color:#a1d2fd;
 }
@@ -189,6 +208,14 @@ h2, h3, h4, h5, h6 {
   border-top: 3px solid royalblue;
   display: table;
   background-color: #fff;
+}
+
+#body-inner ul li {
+  border-top: 0px solid #be76e7;
+  background-color: #fae7eb;
+  font-size: 1.6rem;
+  color: #222;
+  border-radius: 3pt ;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
