@@ -4,7 +4,7 @@
 {{ $hours := math.Floor (div $readTime 60) }}
 {{ $minutes := mod $readTime 60 }}
 
-<h5>Total world: {{ .WordCount }}.  Estimated reading time: {{ $hours }} hour and {{ $minutes }} {{ cond (eq $minutes 1) "minute" "minutes" }}.</h5>
+<h5>Total words: {{ .WordCount }}.  Estimated reading time: {{ $hours }} hour and {{ $minutes }} {{ cond (eq $minutes 1) "minute" "minutes" }}.</h5>
 	
 
 
