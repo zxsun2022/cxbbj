@@ -5,4 +5,4 @@ draft: true
 ---
 
 
-{{% children  %}}
+{{% children style="h2" depth="4" %}}
