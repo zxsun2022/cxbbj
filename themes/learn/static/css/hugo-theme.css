@@ -190,7 +190,7 @@ h2, h3, h4, h5, h6 {
   padding-top: .1em;
   border-top : 2px solid #f00;
   display: block; /* keep the background color wrapped tight */
-  
+  margin: 1rem 0 1rem 0;
   background-color:#a1d2fd;
 }
 
