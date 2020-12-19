@@ -389,10 +389,10 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     vertical-align: middle;
     text-align: center;
 }
-@media only all and (max-width: 59.938em) {
+@media only all and (max-width: 259.938em) {
     #body .nav {
         display: table-cell;
-        position: static;
+        
         top: auto;
         width: 50%;
         text-align: center;
