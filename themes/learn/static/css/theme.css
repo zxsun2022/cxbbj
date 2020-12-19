@@ -347,7 +347,8 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     border: 1px solid #ccc;
 }
 #body .padding {
-    padding: 3rem 6rem;
+    padding: 3rem 3rem;
+    
 }
 @media only all and (max-width: 59.938em) {
     #body .padding {
