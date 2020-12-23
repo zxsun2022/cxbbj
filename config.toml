@@ -1,6 +1,6 @@
 baseURL = "https://red-pond-0d1512e1e.azurestaticapps.net/"
 languageCode = "en-us"
-title = "圆航的禅修班笔记"
+title = "cxb笔记"
 theme = "learn"
 disableToc = "false"
 hasCJKLanguage = "true"
