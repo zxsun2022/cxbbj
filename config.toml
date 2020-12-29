@@ -1,7 +1,7 @@
 baseURL = "https://bj.cxb123.cc/"
 languageCode = "en-us"
 title = "cxb笔记"
-theme = "learn"
+theme = "docport"
 disableToc = "false"
 hasCJKLanguage = "true"
 
