@@ -29,7 +29,7 @@ body {
 	    transform: translateZ(0);
     	
 	    > * {
-	    	max-width: 1400px;
+	    	max-width: 5000px;
 	    	width: 100%;
 	    	padding: 0 20px;
 	    	margin: 0 auto;
@@ -73,7 +73,7 @@ body {
 	    padding-top: 45px;
 		margin: 0 auto;
 	    width: 100%;
-	    max-width: 1400px;
+	    max-width: 96%;
 	    
 	    > * {
 	    	margin: 0 24px;
@@ -83,7 +83,7 @@ body {
 	  	transition: max-height .2s ease-out;
 
 	  	-webkit-box-flex: 0;
-    	flex: 0 0 20em;
+    	flex: 0 0 20rem;
         margin-left: 0;
 
         -webkit-box-flex: 0;
@@ -141,7 +141,7 @@ body {
 	}
 	footer {
 		> * {
-	    	max-width: 1400px;
+	    	max-width: 5000px;
 	    	width: 100%;
 	    	padding: 0 20px;
 	    	margin: 0 auto;

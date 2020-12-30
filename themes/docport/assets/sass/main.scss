@@ -138,9 +138,9 @@ body{
         }
 
         section.right-menu {
-            padding: 3.5rem 0 3.5rem 0;
-            font-size:14px;
-            line-height:20px;
+            padding: 1.5rem 0 0 0;
+            font-size:0.8em;
+            line-height:1em;
             padding-left:2px;
             
             > div {
@@ -158,7 +158,7 @@ body{
                     font-variant: small-caps;
                 }  
                 nav>ul{
-                    padding: 0px 0px 0px 0px;
+                    padding: 0.4rem 0px 0px 0px;
                     margin:  0px 0px 0px 0px;
                     ul{
                         padding: 0px 0px 0px 14px;
@@ -174,7 +174,7 @@ body{
                     list-style-type: none;
                 }
                 li{
-                    padding: 8px 0px 8px 0px;
+                    padding: 0.4rem 0px 0rem 0px;
                     font-weight:300;
                     border-bottom: 1px solid transparent;
                     &.active{
