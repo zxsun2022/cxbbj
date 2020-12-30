@@ -17,7 +17,7 @@ article>aside {
     /*background-color: $c_light3;*/
     background-color: transparentize($color_main,0.9);
     background-color: lighten($color_main,50%);
-    padding: 2rem 0rem 1rem 0rem;
+    padding: 1rem 0rem 1rem 0rem;
     
 
     div.search{
@@ -39,7 +39,7 @@ article>aside {
     .menu {
         list-style-type: none;
         line-height: 2rem;
-        margin-top: 2rem;
+        margin-top: 1rem;
         ul {
             display: none;
         } 
@@ -56,7 +56,7 @@ article>aside {
                 > i {
                     color:darken($color_main,6);
                     position: absolute;
-                    left:21px;
+                    left:5px;
                     font-size: 1em;
                     font-size: 20px;
                     line-height: inherit;
@@ -152,7 +152,7 @@ article>aside {
     }
 
     section {
-        margin: 2rem 0rem;
+        margin: 1rem 0rem;
     }
 }
 

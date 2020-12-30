@@ -55,16 +55,16 @@ body {
     padding-top: 45px;
     margin: 0 auto;
     width: 100%;
-    max-width: 99%; }
+    max-width: 100%; }
     body article > * {
       margin: 0 24px; }
     body article aside {
       transition: max-height .2s ease-out;
       -webkit-box-flex: 0;
-      flex: 0 0 20rem;
+      flex: 0 0 15rem;
       margin-left: 0;
       -webkit-box-flex: 0;
-      flex: 0 0 20em;
+      flex: 0 0 15em;
       height: calc(100vh - 45px);
       position: -webkit-sticky;
       position: sticky;
@@ -96,7 +96,7 @@ body {
       align-self: flex-start;
       display: block;
       -webkit-box-flex: 0;
-      flex: 0 0 240px;
+      flex: 0 0 20rem;
       max-height: calc(100vh - 45px);
       overflow-y: auto;
       position: -webkit-sticky;
