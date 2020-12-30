@@ -55,7 +55,7 @@ body {
     padding-top: 45px;
     margin: 0 auto;
     width: 100%;
-    max-width: 96%; }
+    max-width: 99%; }
     body article > * {
       margin: 0 24px; }
     body article aside {
@@ -86,7 +86,7 @@ body {
           position: absolute;
           z-index: 5;
           border: 1px solid;
-          padding: 1em 30px;
+          padding: 1em 10px;
           border-radius: 3px;
           min-width: 25%;
           max-width: 50%;

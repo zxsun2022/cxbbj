@@ -200,7 +200,8 @@ body{
         a{
             color:invert($c_dark2);
         }
-        padding: 3rem;
+        padding: 0.5em;
+        text-align: center;
     }
 
 }
@@ -346,7 +347,7 @@ article section.page {
             &.next div{
                 text-align: right;
                 justify-content: flex-end;
-                padding: 20px;
+                padding: 10px;
             }
 
             label{
