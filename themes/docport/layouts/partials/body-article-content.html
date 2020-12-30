@@ -72,6 +72,14 @@
 
 
 
+	{{ $readTime := mul (div (countwords .Content) 13200.0) 60 }}
+	{{ $hours := math.Floor (div $readTime 60) }}
+	{{ $minutes := mod $readTime 60 }}
+	
+	<div style="font-size: 0.7em; margin: 0.3em;">
+	<p>Total words: <b>{{ lang.NumFmt 0 .WordCount }}</b>.  Estimated reading time: <b>{{ $hours }} hour and {{ $minutes }} {{ cond (eq $minutes 1) "minute" "minutes" }}</b>.</p>
+	</div>	
+	
 
 	<div class="content">
     {{- with .Content -}}
