@@ -418,7 +418,7 @@ article section.page div.content{
     p::before {
         counter-increment: section;
         content: '\['counter(section)'\]';
-        color: gray;
+        color: $color_second;
         font-size: 50%;
     }
 
