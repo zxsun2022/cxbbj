@@ -174,10 +174,11 @@ body{
                     font-weight:300;
                     border-bottom: 1px solid transparent;
                     &.active{
-                        border-bottom: 1px dashed #999999;
+                        border-bottom: 1px dashed $color_second;
                     }
                     a {
                         /*padding-left: 2px;*/
+                        transition: all 100ms ease-in-out;
                     }
                     
                 }
