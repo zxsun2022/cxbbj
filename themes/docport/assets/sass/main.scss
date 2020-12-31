@@ -32,10 +32,6 @@ $c_saturate6 : saturate($color_second, 75%);
 $c_saturate7 : saturate($color_second, 90%);  
 
 
-
-    
-
-
   
 body{
 	font-family: "Montserrat",sans-serif;
@@ -139,9 +135,9 @@ body{
 
         section.right-menu {
             padding: 1.0rem 0 0 0;
-            font-size:0.8em;
-            line-height:1.1em;
-            padding-left:2px;
+            font-size: .8em;
+            line-height: 1.1em;
+            padding-left: 2px;
             
             > div {
                 margin-bottom: 1em;
