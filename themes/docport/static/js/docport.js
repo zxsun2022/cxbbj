@@ -41,6 +41,12 @@ jQuery(document).ready(function() {
 
 });
 
+function clearActiveStatesInTableOfContents() {
+  document.querySelectorAll('.TableOfContents li').forEach((section) => {
+      section.classList.remove('active');
+  });
+}
+
 //---------------------
 window.addEventListener('DOMContentLoaded', () => {
 
@@ -48,10 +54,12 @@ window.addEventListener('DOMContentLoaded', () => {
       entries.forEach(entry => {
           const id = entry.target.getAttribute('id');
           if (entry.intersectionRatio > 0) {
+              clearActiveStatesInTableOfContents();
               document.querySelector(`.TableOfContents li > a[href="#${id}"]`).parentElement.classList.add('active');
-          } else {
-              document.querySelector(`.TableOfContents li > a[href="#${id}"]`).parentElement.classList.remove('active');
-          }
+          } 
+          //else {
+          //    document.querySelector(`.TableOfContents li > a[href="#${id}"]`).parentElement.classList.remove('active');
+          //}
       });
   });
 
