@@ -1,0 +1,23 @@
+<script>
+  window.addEventListener("keydown", function (e) {
+    // scroll page up
+    if (e.key == "[") {
+      //window.scroll(0, window.scrollY - window.innerHeight * 0.6);
+      window.scroll({
+        top: window.scrollY - window.innerHeight * 0.4,
+        left: 0,
+        behavior: "smooth",
+      });
+    }
+
+    // scroll page down
+    if (e.key == "]") {
+      //window.scroll(0, window.scrollY + window.innerHeight * 0.8);
+      window.scroll({
+        top: window.scrollY + window.innerHeight * 0.4,
+        left: 0,
+        behavior: "smooth",
+      });
+    }
+  });
+</script>
