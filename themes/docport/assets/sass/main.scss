@@ -134,9 +134,9 @@ body{
         }
 
         section.right-menu {
-            padding: 1.0rem 0 0 0;
-            font-size: .8em;
-            line-height: 1.1em;
+            padding: 0.1rem 0 0 0;
+            font-size: 1em;
+            line-height: 1.2em;
             padding-left: 2px;
             
             > div {
@@ -148,7 +148,7 @@ body{
                     font-weight:700;
                     letter-spacing: -1px;
                     display: block;
-                    margin-bottom: 14px;
+                    margin-bottom: 10px;
                     border-bottom: 1px dotted $c_light1;
                     color:$c_dark2;
                     font-variant: small-caps;
@@ -207,8 +207,8 @@ article section.page {
     background-color: inherit;
     #ariane{
         display: block;
-        font-size: 1rem;
-        line-height: 1.5;
+        font-size: 1.2em;
+        line-height: 1.5em;
         letter-spacing: -.01em;
         font-weight: 500;
 
@@ -389,8 +389,8 @@ article section.page {
 }
 article section.page div.content{
     margin-top: 2.5rem;
-    font-size: 1.1em;
-    line
+    font-size: 1.6em;
+    line-height: 2em;
     a.anchor {
         display: block;
         position: relative;
@@ -407,6 +407,9 @@ article section.page div.content{
     p {
             margin-top: 1rem;
             margin-bottom: 1rem;
+            padding-left: 0px;
+            border-bottom: 1px dashed gray;
+            
     }
 
     h1 {
@@ -416,7 +419,7 @@ article section.page div.content{
         font-weight:800;
 
         letter-spacing:-0.75px;
-        line-height: 1.2em;
+        line-height: 1.4em;
         border-bottom: 2px solid navy;
    }
     h1::before{
