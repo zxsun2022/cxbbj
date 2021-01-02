@@ -19,5 +19,63 @@
         behavior: "smooth",
       });
     }
+
+    if (e.key == "9") {
+      page_scroll();
+    }
+
+    if (e.key == "0") {
+      stop_scroll();
+    }
+
+    if (e.key == "-") {
+      scrollRateDec();
+    }
+
+    if (e.key == "=") {
+      scrollRateInc();
+    }
+
+    
   });
+
+  function page_scroll() {
+    var bottom = $(document).height() - $(window).height();
+    var duration = getDuration(bottom);
+    $("HTML, BODY").animate(
+      {
+        scrollTop: bottom,
+      },
+      duration
+    );
+
+    //$("html, body").animate({ scrollTop: $(document).height() }, 20000);
+  }
+
+  function stop_scroll() {
+    $("html, body").stop();
+  }
+
+  function scrollRateInc() {
+    scrollRate = scrollRate * 0.9;
+    console.log('scrollRate=' + scrollRate);
+    page_scroll();
+  }
+
+  function scrollRateDec() {
+    scrollRate = scrollRate * 1.1;
+    console.log('scrollRate=' + scrollRate);
+    page_scroll();
+  }
+
+  var scrollRate = 5;
+
+  function getDuration(target) {
+    console.log('scrollRate=' + scrollRate);
+    var currentTop = $(window).scrollTop(),
+      rate = scrollRate, // 0.5 = 1000px/500ms
+      distance;
+    distance = Math.abs(currentTop - target);
+    return distance * rate;
+  }
 </script>
