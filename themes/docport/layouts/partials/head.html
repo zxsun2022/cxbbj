@@ -40,6 +40,8 @@
   });
 
   function page_scroll() {
+    stop_scroll();
+    
     var bottom = $(document).height() - $(window).height();
     var duration = getDuration(bottom);
     $("HTML, BODY").animate(
