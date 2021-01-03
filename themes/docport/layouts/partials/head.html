@@ -35,8 +35,6 @@
     if (e.key == "=") {
       scrollRateInc();
     }
-
-    
   });
 
   function page_scroll() {
@@ -44,12 +42,13 @@
 
     var bottom = $(document).height() - $(window).height();
     var duration = getDuration(bottom);
-    console.log('duration=' + duration);
+    console.log("duration=" + duration);
     $("HTML, BODY").animate(
       {
         scrollTop: bottom,
       },
-      duration, 'linear'
+      duration,
+      "linear"
     );
 
     //$("html, body").animate({ scrollTop: $(document).height() }, 20000);
@@ -61,24 +60,43 @@
 
   function scrollRateInc() {
     scrollRate = scrollRate * 0.8;
-    console.log('scrollRate=' + scrollRate);
+    console.log("scrollRate=" + scrollRate);
     page_scroll();
   }
 
   function scrollRateDec() {
     scrollRate = scrollRate * 1.2;
-    console.log('scrollRate=' + scrollRate);
+    console.log("scrollRate=" + scrollRate);
     page_scroll();
   }
 
   var scrollRate = 20;
 
   function getDuration(target) {
-    console.log('scrollRate=' + scrollRate);
+    console.log("scrollRate=" + scrollRate);
     var currentTop = $(window).scrollTop(),
       rate = scrollRate, // 0.5 = 1000px/500ms
       distance;
     distance = Math.abs(currentTop - target);
     return distance * rate;
   }
+
+  $(document).ready(function () {
+    $("article section.page div.content").each(function () {
+      var line = 1; //start with number 1
+      $("p", this).each(function () {
+        //look for paragraph elements inside wrapper
+        $(this).prepend(
+          "<a name='p" +
+            line +
+            "' href='#p" +
+            line +
+            "' style='font-size: 50%;'>[p" +
+            line +
+            "]</a>"
+        ); //add class with line number
+        line++;
+      });
+    });
+  });
 </script>
