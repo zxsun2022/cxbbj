@@ -415,12 +415,12 @@ article section.page div.content{
             
     }
 
-    p::before {
+    /*p::before {
         counter-increment: section;
         content: '\['counter(section)'\]';
         color: $color_second;
         font-size: 50%;
-    }
+    }*/
 
     h1 {
         color:$c_dark1;
