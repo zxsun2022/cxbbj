@@ -41,14 +41,15 @@
 
   function page_scroll() {
     stop_scroll();
-    
+
     var bottom = $(document).height() - $(window).height();
     var duration = getDuration(bottom);
+    console.log('duration=' + duration);
     $("HTML, BODY").animate(
       {
         scrollTop: bottom,
       },
-      duration
+      duration, 'linear'
     );
 
     //$("html, body").animate({ scrollTop: $(document).height() }, 20000);
@@ -70,7 +71,7 @@
     page_scroll();
   }
 
-  var scrollRate = 5;
+  var scrollRate = 20;
 
   function getDuration(target) {
     console.log('scrollRate=' + scrollRate);
