@@ -431,6 +431,8 @@ article section.page div.content{
         letter-spacing:-0.75px;
         line-height: 1.4em;
         border-top: 2px solid navy;
+        margin-top: 10px;
+        padding-top: 3px;
    }
     h1::before{
         content: "♥";
@@ -446,7 +448,8 @@ article section.page div.content{
     }
 
     h2 {
-        margin-top: 0.5em;
+        margin-top: 9px;
+        padding-top: 3px;
         font-weight:700;
         letter-spacing:-0.95px;
         border-top: 2px solid darkred;
@@ -454,13 +457,15 @@ article section.page div.content{
     } 
 
     h3 {
-        margin-top: 0.5em;
+        margin-top: 8px;
+        padding-top: 3px;
         border-top: 1px solid #000000;
         font-weight:600;
     }
 
     h4 {
-        margin-top: 0.5em;
+        margin-top: 7px;
+        padding-top: 3px;
         border-top: 1px solid #000000;
         font-weight:600;
     }
