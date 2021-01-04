@@ -449,18 +449,20 @@ article section.page div.content{
         margin-top: 0.5em;
         font-weight:700;
         letter-spacing:-0.95px;
-        border-top: 2px dotted darkred;
+        border-top: 2px solid darkred;
 
     } 
 
     h3 {
         margin-top: 0.5em;
         border-top: 1px solid #000000;
+        font-weight:600;
     }
 
     h4 {
         margin-top: 0.5em;
-        border-top: 1px dashed #000000;
+        border-top: 1px solid #000000;
+        font-weight:600;
     }
 
     // TABLE
