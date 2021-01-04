@@ -391,9 +391,9 @@ article section.page {
     }
 }
 article section.page div.content{
-    margin-top: 2.5rem;
-    font-size: 1.6em;
-    line-height: 2em;
+    margin-top: 1.0em;
+    font-size: 1.5em;
+    line-height: 1.5em;
     a.anchor {
         display: block;
         position: relative;
@@ -401,16 +401,16 @@ article section.page div.content{
         visibility: hidden;
     }
 
-    a{
+    a {
         color:$c_saturate7;
         font-weight: 500;
         text-decoration: underline;
     }
 
     p {
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-            padding-left: 0px;
+            margin-top: 0.8em;
+            margin-bottom: 0.1em;
+            padding-left: 1px;
             border-bottom: 1px dashed gray;
             
     }
