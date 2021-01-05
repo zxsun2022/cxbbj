@@ -82,8 +82,7 @@
 	
 
 	<div class="content">
-	{{ replace .Content "<p>" "<p><a name=\"p555\" href=\"#p555\" style=\"font-size: 50%;\">[p555]</a>" | safeHTML }}
-
+		
     {{- with .Content -}}
 		{{ partial "_skwad-header.html" $ }}
 		{{ . | replaceRE "(<h[1-9]) id=\"([^\"]+)\"(.+)(</h[1-9]+>)" `${1} ref="${2}" ${3}${4}<a class="anchor" id="${2}"></a>` | safeHTML }}
