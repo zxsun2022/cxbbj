@@ -39,16 +39,23 @@ jQuery(document).ready(function() {
         }
     });
 
+    headingsCache = document.querySelectorAll('.TableOfContents li');
+
 });
 
+var headingsCache;
+
+
 function clearActiveStatesInTableOfContents() {
-  document.querySelectorAll('.TableOfContents li').forEach((section) => {
+    headingsCache.forEach((section) => {
       section.classList.remove('active');
   });
 }
 
 //---------------------
 window.addEventListener('DOMContentLoaded', () => {
+
+
 
   const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
