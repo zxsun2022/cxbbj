@@ -53,7 +53,7 @@ function clearActiveStatesInTableOfContents() {
 }
 
 //---------------------
-window.addEventListener('DOMContentLoaded', () => {
+/* window.addEventListener('DOMContentLoaded', () => {
 
 
 
@@ -70,17 +70,15 @@ window.addEventListener('DOMContentLoaded', () => {
       });
   });
 
-  //1160px
-  const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
-  if(vw > 1160) {
+  
     // Track all sections that have an `id` applied
     document.querySelectorAll('article section.page div.content a[id]').forEach((section) => {
         observer.observe(section);
     });
-  }
+  
   
 });
-
+*/
 
 // Get Parameters from some url
 var getUrlParameter = function getUrlParameter(sPageURL) {
