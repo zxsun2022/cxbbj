@@ -53,7 +53,7 @@ function clearActiveStatesInTableOfContents() {
 }
 
 //---------------------
-/* window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('DOMContentLoaded', () => {
 
 
 
@@ -61,12 +61,12 @@ function clearActiveStatesInTableOfContents() {
       entries.forEach(entry => {
           const id = entry.target.getAttribute('id');
           if (entry.intersectionRatio > 0) {
-              //clearActiveStatesInTableOfContents();
+              clearActiveStatesInTableOfContents();
               document.querySelector(`.TableOfContents li > a[href="#${id}"]`).parentElement.classList.add('active');
           } 
-          else {
+          /*else {
               document.querySelector(`.TableOfContents li > a[href="#${id}"]`).parentElement.classList.remove('active');
-          }
+          }*/
       });
   });
 
@@ -78,7 +78,7 @@ function clearActiveStatesInTableOfContents() {
   
   
 });
-*/
+
 
 // Get Parameters from some url
 var getUrlParameter = function getUrlParameter(sPageURL) {
