@@ -395,6 +395,7 @@ article section.page div.content{
     margin-bottom: 0.5em;
     font-size: 1.5em;
     line-height: 1.6em;
+    border: 1px dashed gray;
     a.anchor {
         display: block;
         position: relative;
@@ -409,9 +410,9 @@ article section.page div.content{
     }
 
     p {
-            
-            padding-left: 2px;
-            border-bottom: 2px dashed gray;
+        padding-bottom: 0.5em;
+        padding-left: 2px;
+        border-bottom: 1px dashed gray;
             
     }
 
