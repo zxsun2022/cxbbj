@@ -1,0 +1,4439 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+	珍惜暇满 :: 圆航的禅修班笔记(仅供参考请勿转发)
+</title>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="revised" content="2021-02-26T13:42:37 PST">
+<meta name="description" content="">
+
+
+
+<title>珍惜暇满 :: 圆航的禅修班笔记(仅供参考请勿转发)</title>
+
+<link rel="shortcut icon" href='/images/favicon.png' type="image/x-icon" />
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+
+<script src='https://code.jquery.com/jquery-3.5.1.min.js'></script>
+
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel="stylesheet">
+
+
+
+<link rel="stylesheet" type="text/css" href='https://bj.cxb123.cc/sass/layout.css'>
+<link rel="stylesheet" type="text/css" href='https://bj.cxb123.cc/css/style.main.css'>
+<link rel="stylesheet" type="text/css" href='https://bj.cxb123.cc/css/style.menu.css'>
+<link rel="stylesheet" type="text/css" href='https://bj.cxb123.cc/sass/shortcodes/notice.css'>
+<link rel="stylesheet" type="text/css" href='https://bj.cxb123.cc/sass/shortcodes/tabs.css'>
+<link rel="stylesheet" type="text/css" href='https://bj.cxb123.cc/sass/shortcodes/panel.css'>
+<link rel="stylesheet" type="text/css" href='https://bj.cxb123.cc/sass/shortcodes/columns.css'>
+<link rel="stylesheet" type="text/css" href='https://bj.cxb123.cc/sass/shortcodes/children.css'>
+<link rel="stylesheet" type="text/css" href='https://bj.cxb123.cc/sass/shortcodes/attachments.css'>
+<link rel="stylesheet" type="text/css" href='https://bj.cxb123.cc/sass/shortcodes/alert.css'>
+<link rel="stylesheet" type="text/css" href='/css/docport.css'>
+
+<script src='/js/docport.js'></script>
+<script type="text/javascript">
+      var baseurl = "https:\/\/bj.cxb123.cc\/";
+</script>
+
+
+<script>
+  window.addEventListener("keydown", function (e) {
+    
+    if (e.key == "[") {
+      
+      window.scroll({
+        top: window.scrollY - window.innerHeight * 0.4,
+        left: 0,
+        behavior: "smooth",
+      });
+    }
+
+    
+    if (e.key == "]") {
+      
+      window.scroll({
+        top: window.scrollY + window.innerHeight * 0.4,
+        left: 0,
+        behavior: "smooth",
+      });
+    }
+
+    if (e.key == "9") {
+      page_scroll();
+    }
+
+    if (e.key == "0") {
+      stop_scroll();
+    }
+
+    if (e.key == "-") {
+      scrollRateDec();
+    }
+
+    if (e.key == "=") {
+      scrollRateInc();
+    }
+  });
+
+  function page_scroll() {
+    stop_scroll();
+
+    var bottom = $(document).height() - $(window).height();
+    var duration = getDuration(bottom);
+    console.log("duration=" + duration);
+    $("HTML, BODY").animate(
+      {
+        scrollTop: bottom,
+      },
+      duration,
+      "linear"
+    );
+
+    
+  }
+
+  function stop_scroll() {
+    $("html, body").stop();
+  }
+
+  function scrollRateInc() {
+    scrollRate = scrollRate * 0.8;
+    console.log("scrollRate=" + scrollRate);
+    page_scroll();
+  }
+
+  function scrollRateDec() {
+    scrollRate = scrollRate * 1.2;
+    console.log("scrollRate=" + scrollRate);
+    page_scroll();
+  }
+
+  var scrollRate = 20;
+
+  function getDuration(target) {
+    console.log("scrollRate=" + scrollRate);
+    var currentTop = $(window).scrollTop(),
+      rate = scrollRate, 
+      distance;
+    distance = Math.abs(currentTop - target);
+    return distance * rate;
+  }
+
+  $(document).ready(function () {
+    $("article section.page div.content").each(function () {
+      var line = 1; 
+      $("p", this).each(function () {
+        
+        $(this).prepend(
+          "<a name='p" +
+            line +
+            "' href='#p" +
+            line +
+            "' style='font-size: 50%;'>[p" +
+            line +
+            "]</a>"
+        ); 
+        line++;
+      });
+    });
+
+    console.log('window.location.hash=' + window.location.hash);
+
+    if(window.location.hash) {
+      window.location=window.location.href;
+    }
+  });
+</script>
+
+
+    
+  </head>
+
+  <body data-url="/ref/xmfw/zxxm/"
+
+  class="">
+
+<style type="text/css">
+  #debug{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 3.5rem;
+    margin-bottom: .35rem;
+    padding: 0 2rem;
+    position: fixed;
+    left: 0;      right: 0;     top: 0;
+   
+    top:0px;
+    
+    min-height: 150px;
+
+    background-color: white;
+    border: 3px solid red;
+    z-index: 10000 ;
+    word-wrap: all;
+    overflow: auto;
+  }
+</style>
+ 
+
+
+    
+    
+    <header style="">
+        <div>
+    
+    <div class="burger ">
+        <a href="javascript:void(0);" style="font-size:15px;" onclick="$('article > aside').toggleClass('responsive')">&#9776;</a>
+    </div>
+    
+
+    <div>
+
+		
+	
+			
+		
+	    	<a class='baselink' href='https://bj.cxb123.cc/'>圆航的禅修班笔记(仅供参考请勿转发) / 珍惜暇满</a>
+	  	
+	</div>
+    <nav class="shortcuts">
+            <li class="" role="">
+                <a href="/tags"  rel="noopener">
+                  <i class='fas fa-tags'></i> Tags
+                </a>
+            </li>
+    </nav>
+
+</div>
+    </header>
+    
+
+    <article>
+      
+      <aside class="">
+        
+
+		
+	
+			
+		
+	    	
+	  	
+	<div id="close_menu">
+  <a href="javascript:void(0);" style="font-size:15px;" onclick="$('article > aside').toggleClass('responsive')">
+      <i class="fa fa-lg fa-times"></i>
+  </a>
+</div>
+
+<ul class="menu">
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+          <a href="/1xm/">1暇满难得</a>
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/">1八无暇</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.1-di-yu/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.1-di-yu/">1地狱</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.1-di-yu/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.1-di-yu/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.1-di-yu/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.1-di-yu/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.1-di-yu/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.1-di-yu/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.2-e-gui/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.2-e-gui/">2饿鬼</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.2-e-gui/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.2-e-gui/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.2-e-gui/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.2-e-gui/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.2-e-gui/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.2-e-gui/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.3-pang-sheng/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.3-pang-sheng/">3旁生</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.3-pang-sheng/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.3-pang-sheng/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.3-pang-sheng/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.3-pang-sheng/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.3-pang-sheng/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.3-pang-sheng/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.4-chang-shou-tian/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.4-chang-shou-tian/">4长寿天</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.4-chang-shou-tian/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.4-chang-shou-tian/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.4-chang-shou-tian/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.4-chang-shou-tian/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.4-chang-shou-tian/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.4-chang-shou-tian/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.5-bian-di/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.5-bian-di/">5边地</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.5-bian-di/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.5-bian-di/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.5-bian-di/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.5-bian-di/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.5-bian-di/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.5-bian-di/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.6-fo-bu-chu-shi/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.6-fo-bu-chu-shi/">6佛不出世</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.6-fo-bu-chu-shi/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.6-fo-bu-chu-shi/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.6-fo-bu-chu-shi/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.6-fo-bu-chu-shi/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.6-fo-bu-chu-shi/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.6-fo-bu-chu-shi/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.7-yin-ya/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.7-yin-ya/">7喑哑</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.7-yin-ya/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.7-yin-ya/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.7-yin-ya/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.7-yin-ya/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.7-yin-ya/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.7-yin-ya/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.8-xie-jian/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.8-xie-jian/">8邪见</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.8-xie-jian/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.8-xie-jian/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.8-xie-jian/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.8-xie-jian/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.8-xie-jian/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.8-xie-jian/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/">2十圆满</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.09-de-ren-shen/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.09-de-ren-shen/">09 得人身</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.09-de-ren-shen/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.09-de-ren-shen/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.09-de-ren-shen/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.09-de-ren-shen/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.09-de-ren-shen/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.09-de-ren-shen/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.10-sheng-zhong-tu/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.10-sheng-zhong-tu/">10 生中土</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.10-sheng-zhong-tu/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.10-sheng-zhong-tu/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.10-sheng-zhong-tu/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.10-sheng-zhong-tu/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.10-sheng-zhong-tu/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.10-sheng-zhong-tu/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.11-wu-gen-ju-zu/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.11-wu-gen-ju-zu/">11 五根具足</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.11-wu-gen-ju-zu/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.11-wu-gen-ju-zu/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.11-wu-gen-ju-zu/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.11-wu-gen-ju-zu/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.11-wu-gen-ju-zu/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.11-wu-gen-ju-zu/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.12-ye-ji-bu-dian-dao/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.12-ye-ji-bu-dian-dao/">12 业际不颠倒</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.12-ye-ji-bu-dian-dao/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.12-ye-ji-bu-dian-dao/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.12-ye-ji-bu-dian-dao/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.12-ye-ji-bu-dian-dao/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.12-ye-ji-bu-dian-dao/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.12-ye-ji-bu-dian-dao/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.13-xin-fo-fa/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.13-xin-fo-fa/">13 信佛法</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.13-xin-fo-fa/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.13-xin-fo-fa/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.13-xin-fo-fa/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.13-xin-fo-fa/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.13-xin-fo-fa/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.13-xin-fo-fa/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.14-fo-tuo-chu-shi/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.14-fo-tuo-chu-shi/">14 佛陀出世</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.14-fo-tuo-chu-shi/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.14-fo-tuo-chu-shi/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.14-fo-tuo-chu-shi/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.14-fo-tuo-chu-shi/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.14-fo-tuo-chu-shi/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.14-fo-tuo-chu-shi/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.15-fo-yi-shuo-fa/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.15-fo-yi-shuo-fa/">15 佛已说法</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.15-fo-yi-shuo-fa/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.15-fo-yi-shuo-fa/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.15-fo-yi-shuo-fa/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.15-fo-yi-shuo-fa/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.15-fo-yi-shuo-fa/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.15-fo-yi-shuo-fa/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.16-fo-fa-zhu-shi/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.16-fo-fa-zhu-shi/">16 佛法住世</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.16-fo-fa-zhu-shi/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.16-fo-fa-zhu-shi/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.16-fo-fa-zhu-shi/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.16-fo-fa-zhu-shi/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.16-fo-fa-zhu-shi/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.16-fo-fa-zhu-shi/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.17-gui-yi-san-bao/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.17-gui-yi-san-bao/">17 皈依三宝</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.17-gui-yi-san-bao/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.17-gui-yi-san-bao/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.17-gui-yi-san-bao/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.17-gui-yi-san-bao/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.17-gui-yi-san-bao/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.17-gui-yi-san-bao/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.18-shang-shi-she-shou/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.18-shang-shi-she-shou/">18 上师摄受</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.18-shang-shi-she-shou/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.18-shang-shi-she-shou/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.18-shang-shi-she-shou/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.18-shang-shi-she-shou/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.18-shang-shi-she-shou/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.18-shang-shi-she-shou/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/">3暂生缘</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.19-wu-du/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.19-wu-du/">19 五毒</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.19-wu-du/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.19-wu-du/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.19-wu-du/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.19-wu-du/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.19-wu-du/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.19-wu-du/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.20-yu-chi/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.20-yu-chi/">20 愚痴</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.20-yu-chi/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.20-yu-chi/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.20-yu-chi/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.20-yu-chi/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.20-yu-chi/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.20-yu-chi/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.21-mo-suo-chi/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.21-mo-suo-chi/">21 魔所持</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.21-mo-suo-chi/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.21-mo-suo-chi/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.21-mo-suo-chi/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.21-mo-suo-chi/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.21-mo-suo-chi/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.21-mo-suo-chi/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.22-xie-dai/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.22-xie-dai/">22 懈怠</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.22-xie-dai/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.22-xie-dai/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.22-xie-dai/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.22-xie-dai/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.22-xie-dai/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.22-xie-dai/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.23-e-ye-yong-xian/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.23-e-ye-yong-xian/">23 恶业涌现</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.23-e-ye-yong-xian/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.23-e-ye-yong-xian/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.23-e-ye-yong-xian/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.23-e-ye-yong-xian/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.23-e-ye-yong-xian/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.23-e-ye-yong-xian/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.24-sui-ta-suo-zhuan/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.24-sui-ta-suo-zhuan/">24 为他所转</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.24-sui-ta-suo-zhuan/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.24-sui-ta-suo-zhuan/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.24-sui-ta-suo-zhuan/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.24-sui-ta-suo-zhuan/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.24-sui-ta-suo-zhuan/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.24-sui-ta-suo-zhuan/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.25-qiu-le-jiu-bu/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.25-qiu-le-jiu-bu/">25 求乐救怖</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.25-qiu-le-jiu-bu/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.25-qiu-le-jiu-bu/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.25-qiu-le-jiu-bu/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.25-qiu-le-jiu-bu/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.25-qiu-le-jiu-bu/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.25-qiu-le-jiu-bu/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.26-wei-zhuang-xiu-fa/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.26-wei-zhuang-xiu-fa/">26 伪装修法</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.26-wei-zhuang-xiu-fa/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.26-wei-zhuang-xiu-fa/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.26-wei-zhuang-xiu-fa/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.26-wei-zhuang-xiu-fa/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.26-wei-zhuang-xiu-fa/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.26-wei-zhuang-xiu-fa/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/">4断缘心</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.27-jin-fu-xian-xing/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.27-jin-fu-xian-xing/">27 紧缚现行</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.27-jin-fu-xian-xing/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.27-jin-fu-xian-xing/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.27-jin-fu-xian-xing/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.27-jin-fu-xian-xing/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.27-jin-fu-xian-xing/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.27-jin-fu-xian-xing/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.28-ren-ge-xia-lie/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.28-ren-ge-xia-lie/">28 人格下劣</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.28-ren-ge-xia-lie/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.28-ren-ge-xia-lie/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.28-ren-ge-xia-lie/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.28-ren-ge-xia-lie/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.28-ren-ge-xia-lie/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.28-ren-ge-xia-lie/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.29-bu-yan-lun-hui/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.29-bu-yan-lun-hui/">29 不厌轮回</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.29-bu-yan-lun-hui/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.29-bu-yan-lun-hui/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.29-bu-yan-lun-hui/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.29-bu-yan-lun-hui/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.29-bu-yan-lun-hui/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.29-bu-yan-lun-hui/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.30-wu-you-zheng-xin/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.30-wu-you-zheng-xin/">30 无有正信</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.30-wu-you-zheng-xin/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.30-wu-you-zheng-xin/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.30-wu-you-zheng-xin/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.30-wu-you-zheng-xin/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.30-wu-you-zheng-xin/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.30-wu-you-zheng-xin/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.31-xing-chi-e-ye/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.31-xing-chi-e-ye/">31 行持恶业</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.31-xing-chi-e-ye/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.31-xing-chi-e-ye/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.31-xing-chi-e-ye/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.31-xing-chi-e-ye/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.31-xing-chi-e-ye/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.31-xing-chi-e-ye/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.32-xin-li-fa/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.32-xin-li-fa/">32 心离法</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.32-xin-li-fa/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.32-xin-li-fa/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.32-xin-li-fa/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.32-xin-li-fa/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.32-xin-li-fa/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.32-xin-li-fa/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.33-shi-huai-lv-yi/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.33-shi-huai-lv-yi/">33 失坏律仪</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.33-shi-huai-lv-yi/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.33-shi-huai-lv-yi/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.33-shi-huai-lv-yi/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.33-shi-huai-lv-yi/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.33-shi-huai-lv-yi/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.33-shi-huai-lv-yi/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.34-po-san-mei-ye/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.34-po-san-mei-ye/">34 破三昧耶</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.34-po-san-mei-ye/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.34-po-san-mei-ye/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.34-po-san-mei-ye/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.34-po-san-mei-ye/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.34-po-san-mei-ye/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.34-po-san-mei-ye/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/5-xia-man-zhi-xiang/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/5-xia-man-zhi-xiang/">5暇满之相</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/5-xia-man-zhi-xiang/1.35-yin-yuan/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/5-xia-man-zhi-xiang/1.35-yin-yuan/">35 暇满之因缘</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/5-xia-man-zhi-xiang/1.35-yin-yuan/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/5-xia-man-zhi-xiang/1.35-yin-yuan/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/5-xia-man-zhi-xiang/1.35-yin-yuan/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/5-xia-man-zhi-xiang/1.35-yin-yuan/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/5-xia-man-zhi-xiang/1.35-yin-yuan/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/5-xia-man-zhi-xiang/1.35-yin-yuan/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/5-xia-man-zhi-xiang/1.36-shu-liang/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/5-xia-man-zhi-xiang/1.36-shu-liang/">36 暇满之数量</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/5-xia-man-zhi-xiang/1.36-shu-liang/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/5-xia-man-zhi-xiang/1.36-shu-liang/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/5-xia-man-zhi-xiang/1.36-shu-liang/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/5-xia-man-zhi-xiang/1.36-shu-liang/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/5-xia-man-zhi-xiang/1.36-shu-liang/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/5-xia-man-zhi-xiang/1.36-shu-liang/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/5-xia-man-zhi-xiang/1.37-bi-yu/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/5-xia-man-zhi-xiang/1.37-bi-yu/">37 暇满之比喻</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/5-xia-man-zhi-xiang/1.37-bi-yu/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/5-xia-man-zhi-xiang/1.37-bi-yu/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/5-xia-man-zhi-xiang/1.37-bi-yu/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/5-xia-man-zhi-xiang/1.37-bi-yu/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/5-xia-man-zhi-xiang/1.37-bi-yu/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/5-xia-man-zhi-xiang/1.37-bi-yu/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    
+
+    <li data-nav-id="https://bj.cxb123.cc/2wc/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+          <a href="/2wc/">2寿命无常</a>
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/2wc/01/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/2wc/01/">1器世间无常(22h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/2wc/02/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/2wc/02/">2有情众生无常(22h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/2wc/03/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/2wc/03/">3圣者无常(22h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/2wc/04/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/2wc/04/">4世间尊主无常(22h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/2wc/05/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/2wc/05/">5思维各种喻义无常(22h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/2wc/06/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/2wc/06/">6死缘不定(22h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/2wc/07/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/2wc/07/">7思维猛厉希求而修无常(22h)</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+    
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+          <a href="/3lh/">3轮回痛苦</a>
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/01/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/01/">01总体思维(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/02/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/02/">02三根本苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/03-10/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/03-10/">03-10人苦</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/03-10/03/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/03-10/03/">03生苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/03-10/04/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/03-10/04/">04老苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/03-10/05/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/03-10/05/">05病苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/03-10/06/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/03-10/06/">06死苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/03-10/07/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/03-10/07/">07爱离别(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/03-10/08/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/03-10/08/">08怨憎会(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/03-10/09/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/03-10/09/">09求不得(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/03-10/10/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/03-10/10/">10不欲临(8h)</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/11/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/11/">11旁生之苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/12/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/12/">12隐住饿鬼之苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/13/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/13/">13空游饿鬼之苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/14/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/14/">14八热地狱之苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/15/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/15/">15近边地狱之苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/16/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/16/">16八寒地狱之苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/17/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/17/">17孤独地狱之苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/18/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/18/">18天人之苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/19/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/19/">19非天之苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/20/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/20/">20总体思维轮回痛苦(8h)</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+    
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+          <a href="/4yg/">4因果不虚</a>
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/00/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/00/">00总体思维</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/01/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/01/">01杀生</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/02/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/02/">02不与取</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/03/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/03/">03邪淫</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/04/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/04/">04妄语</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/05/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/05/">05离间语</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/06/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/06/">06粗恶语</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/07/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/07/">07绮语</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/08/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/08/">08贪心</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/09/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/09/">09害心</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/10/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/10/">10邪见</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/11/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/11/">11护生</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/12/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/12/">12布施</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/13/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/13/">13持戒</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/14/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/14/">14实语</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/15/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/15/">15和语</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/16/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/16/">16爱语</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/17/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/17/">17法语</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/18/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/18/">18舍心</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/19/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/19/">19慈心</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/20/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/20/">20正见</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/21/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/21/">21业之自性</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/22/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/22/">22解脱利益</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+    
+
+    <li data-nav-id="https://bj.cxb123.cc/ref/" class="dd-item parent haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <i class="fas fa-chevron-down ddexp"></i>
+        
+      
+          <a href="/ref/">参考资料</a>
+      
+        <ul>
+              
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/ref/xmfw/" class="dd-item parent active haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/ref/xmfw/">显密佛网</a>
+      
+          <i class="fas fa-chevron-down ddexp"></i>
+        
+      
+        <ul>
+              
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/ref/xmfw/qxxl3/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/ref/xmfw/qxxl3/">前行系列3</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/ref/xmfw/qxxl4/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/ref/xmfw/qxxl4/">前行系列4</a>
+      
+        
+      
+    </li>
+              
+              
+              
+              
+              
+              
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/ref/hdcxb/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/ref/hdcxb/">禅修班笔记</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+              
+              
+              
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/ref/hdcxb/fsdgj/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/ref/hdcxb/fsdgj/">佛说稻杆经</a>
+      
+        
+      
+    </li>
+              
+              
+              
+              
+              
+              
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/ref/sllclp/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/ref/sllclp/">释量论·成量品广释</a>
+      
+        
+      
+    </li>
+              
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/ref/qsjsl/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/ref/qsjsl/">前世今生论</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/ref/qxgs/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/ref/qxgs/">前行广释</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/ref/dymqx/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/ref/dymqx/">大圆满前行</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+    
+
+
+
+</ul>
+
+		
+	
+			
+		
+	    	
+	  	
+	
+      </aside>
+      
+
+      <section class="page ">
+      
+	
+    
+    
+    <nav id="ariane" aria-label="breadcrumb">
+      <ol class="ariane">
+        
+  
+  	
+		
+  
+  	
+		
+  
+  	
+	<li >
+      <a class="text-link" href="https://bj.cxb123.cc/">
+        Home
+      </a>
+    </li>
+	
+  
+    <li class="">
+      <a class="text-link" href="/ref/">
+        参考资料
+      </a>
+    </li>
+	
+  	
+  
+    <li class="">
+      <a class="text-link" href="/ref/xmfw/">
+        显密佛网
+      </a>
+    </li>
+	
+  	
+  
+    <li class="active">
+      
+        珍惜暇满
+      
+    </li>
+
+      </ol>
+    </nav>
+    
+    
+
+    
+		
+        
+		
+		
+		
+		
+		
+		
+		
+
+		
+			<h1>显密佛网<span>珍惜暇满</span></h1>
+        
+
+			
+			
+		
+
+		
+				<nav class="subpages">
+	            		
+	        			
+	            	<li >
+	            		<a title="$pagetitle" href="/ref/xmfw/ysxxdzdhgs/">一生修行的重点和归宿</a>
+	            	</li>
+	            		
+	        			
+	            	<li >
+	            		<a title="$pagetitle" href="/ref/xmfw/zfncj-dyp/">正法念处经讲记地狱品</a>
+	            	</li>
+	            		
+	        			
+	            	<li class="active">
+	            		<a title="$pagetitle" href="/ref/xmfw/zxxm/">珍惜暇满</a>
+	            	</li>
+	            		
+	        			
+	            	<li >
+	            		<a title="$pagetitle" href="/ref/xmfw/kkzy/">苦口忠言</a>
+	            	</li>
+	            		
+	        			
+	            	<li >
+	            		<a title="$pagetitle" href="/ref/xmfw/ptdcdgl/">菩提道次第广论</a>
+	            	</li>
+	            		
+	        			
+	            	<li >
+	            		<a title="$pagetitle" href="/ref/xmfw/ttwsx/">谈谈闻思修</a>
+	            	</li>
+	            		
+	        			
+	            	<li >
+	            		<a title="$pagetitle" href="/ref/xmfw/xyjjj/">贤愚经讲记</a>
+	            	</li>
+	        	</nav> 
+		
+	
+
+	
+	
+	<div class="jump-to-section">
+		<span onclick="$h = $(this);$h.next('nav').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('nav').is(':visible') ? 'fas fa-chevron-down' : 'fas fa-chevron-right';});});">
+  			<span class="fas fa-align-right"></span>
+  			Jump to Section
+  			<i style=";" class="fas fa-chevron-right"></i>
+		</span>
+		<nav id="TableOfContents">
+  <ul>
+    <li><a href="#12">12</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#一暇满的体性">一、暇满的体性</a></li>
+            <li><a href="#一闲暇">（一）闲暇</a></li>
+            <li><a href="#二圆满">（二）圆满</a></li>
+            <li><a href="#二暇满难得之相">二、暇满难得之相</a></li>
+            <li><a href="#一以因难得">（一）以因难得</a></li>
+            <li><a href="#二以喻难得">（二）以喻难得</a></li>
+            <li><a href="#三以量难得">（三）以量难得</a></li>
+            <li><a href="#一蹉百蹉"><strong>一蹉百蹉</strong></a></li>
+            <li><a href="#珍惜福分"><strong>珍惜福分</strong></a></li>
+          </ul>
+        </li>
+        <li><a href="#三思维获得暇满能摄取大义">三、思维获得暇满能摄取大义</a>
+          <ul>
+            <li><a href="#一什么不是摄取大义"><strong>（一）什么不是摄取大义</strong></a></li>
+            <li><a href="#二什么才是摄取大义"><strong>（二）什么才是摄取大义</strong></a></li>
+            <li><a href="#三暇满义大的比喻"><strong>（三）暇满义大的比喻</strong></a></li>
+          </ul>
+        </li>
+        <li><a href="#四善用暇满人身">四、善用暇满人身</a>
+          <ul>
+            <li><a href="#世俗化吞噬了暇满"><strong>世俗化吞噬了暇满</strong></a></li>
+            <li><a href="#天人的无暇"><strong>“天人”的无暇</strong></a></li>
+            <li><a href="#细算暇满"><strong>细算暇满</strong></a></li>
+            <li><a href="#古今对照看暇满"><strong>古今对照看暇满</strong></a></li>
+            <li><a href="#戒旅游"><strong>戒旅游</strong></a></li>
+            <li><a href="#戒看报纸"><strong>戒看报纸</strong></a></li>
+            <li><a href="#戒上网"><strong>戒上网</strong></a></li>
+            <li><a href="#戒世间活动"><strong>戒世间活动</strong></a></li>
+            <li><a href="#戒娱乐器具"><strong>戒娱乐器具</strong></a></li>
+            <li><a href="#捡回浪费的时间"><strong>捡回浪费的时间</strong></a></li>
+            <li><a href="#作吞噬暇满的恶魔想"><strong>作“吞噬暇满的恶魔”想</strong></a></li>
+            <li><a href="#即生成就的所依"><strong>即生成就的所依</strong></a></li>
+          </ul>
+        </li>
+        <li><a href="#珍惜暇满问答录">珍惜暇满问答录</a></li>
+        <li><a href="#珍惜暇满的一封信">珍惜暇满的一封信</a>
+          <ul>
+            <li><a href="#清醒地认识我们每天的时间"><strong>清醒地认识我们每天的时间</strong></a></li>
+            <li><a href="#高度警惕潜伏的魔众"><strong>高度警惕潜伏的魔众</strong></a></li>
+            <li><a href="#暇满的保证共同发愿"><strong>暇满的保证——共同发愿</strong></a></li>
+            <li><a href="#另特殊开许者"><strong>另：特殊开许者</strong></a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+	</div>
+	
+	
+
+
+
+
+
+	
+	
+	
+	
+	<div style="font-size: 0.7em; margin: 0.3em;">
+	<p>Total words: <b>23,253</b>.  Estimated reading time: <b>1 hour and 45 minutes</b>.</p>
+	</div>	
+	
+
+	<div class="content">
+		<h1 ref="12" >12</h1><a class="anchor" id="12"></a>
+<p>今天是2011年元旦，我们一起来学习有关“珍惜暇满”的内容，作为新的一年良好的开端。学习的内容包括：暇满的体性、暇满难得之相、获得暇满义大，以及在“珍惜暇满”方面应遣除的障碍和今后如何珍惜时间。</p>
+<h3 ref="一暇满的体性" >一、暇满的体性</h3><a class="anchor" id="一暇满的体性"></a>
+<p>分二：（一）闲暇；（二）圆满。</p>
+<h3 ref="一闲暇" >（一）闲暇</h3><a class="anchor" id="一闲暇"></a>
+<p>脱离八种无暇，就是所谓的有暇。八无暇包括地狱、饿鬼、旁生、长寿天非人类，生为边地未开化的野蛮人、持邪见者、无佛出世、根不具足。这八类因为不具足修持善法的因缘，所以是无暇之处。</p>
+<p>具体来说，堕在三恶趣的众生，极难生起修法之心，即使生起一点，也被痛苦逼迫，不能趣入修行。“长寿天”，是指寿命很长的天人。其中，无想天除了最初受生和最后死亡时生起心念之外，其它时间心和心所都不现行，所以没有善根修解脱道。欲界天恒时处在五欲中散乱，生不起修法的善心，也是无暇。</p>
+<p>人道当中，如果生在没有四众佛弟子游行的边地，或生在无佛出世的时代，或自身根不具足，痴呆、喑哑等等，都不能了解佛法。（在无佛出世之时，没有佛说法，见不到佛法；在没有四众弟子游行之地，没有人向自己传授佛法，也不知道佛法；自己六根有残障，也不能领受佛法。）此外，如果自己持有邪见，认为无前后世、无因果、无三宝，虽有正法住世，也不能信解。</p>
+<p>以上这八类无暇，具足其中的一种，就没有因缘修法。远离这八无暇，就是具有闲暇。</p>
+<h3 ref="二圆满" >（二）圆满</h3><a class="anchor" id="二圆满"></a>
+<p>“满”指修法的因缘圆满，包括自方的五种和他方的五种，总共十种。</p>
+<p>自方的五圆满：</p>
+<p>一、得人身：没有生在三恶趣或阿修罗界、天界等的生处，生在人间得到了人身。</p>
+<p>二、生中土：没有生在边地等地方，而是生在佛法兴盛的中土。</p>
+<p>三、根具足：在中土的人类中，也有痴呆、喑哑等，自己生性并非呆哑，诸根健全。</p>
+<p>四、业未倒：纵然诸根功德具足，但如果业颠倒——舍善法、持恶法，也无缘修道，但自己造业没有颠倒善恶。</p>
+<p>五、信圣教：“圣教”，就是佛所传授的经、律、论三藏教法。内心相信佛的圣教是世出世间一切白法的依处或出生处，叫做“信圣教”。</p>
+<p>他方的五圆满：</p>
+<p>一、佛出世：佛未出世时，得人身也处在无佛之世，无缘修法。现在释迦佛已在印度金刚座示现成就正等觉，这是获得第一种圆满。</p>
+<p>二、说正法：有些佛虽然化身出兴于世，但不说法，因此也无缘修法。现在释迦佛出世，圆满宣说了三乘正法。这是获得第二种圆满。</p>
+<p>三、圣教住世：虽然佛宣说了正法，但若生在正法隐没的时期，也见不到佛的教法。而现在正处在末法时期，世间还有佛法存在。这是获得第三种圆满。</p>
+<p>四、趣入圣教有正轨：正法虽然住世，但若没有趣入正法真实义的正轨，也得不到佛法的真实密意。现在遇到了菩萨、祖师开显佛语密意的论释、教言、修行引导。这是获得第四种圆满。</p>
+<p>五、师等助缘具足：“师”，指善知识；“等”，指提供修法助缘的施主、护持修道的同行善友、便于修法的处所、设施等等。如果不具足这些助缘，也难以修法，现在基本具足助缘，这是获得第五种圆满。</p>
+<p>上述的八暇十满，归纳起来，就是“暇”和“满”两方面。“暇”是远离修法的违缘；“满”是具足修法的顺缘。圆满具足暇满的人身，称为人身宝。其余种种人身只是平庸之身，并非是宝。</p>
+<h3 ref="二暇满难得之相" >二、暇满难得之相</h3><a class="anchor" id="二暇满难得之相"></a>
+<p>分三：（一）以因难得；（二）以喻难得；（三）以量难得。</p>
+<h3 ref="一以因难得" >（一）以因难得</h3><a class="anchor" id="一以因难得"></a>
+<p>分二：１、暇满之因；２、积因极难。</p>
+<p><strong>１、暇满之因</strong></p>
+<p>单单生在善趣，也需要以持戒等修持一种清净善法作为因，而得到具足八暇十满的人身宝，更需要以圆满的善法作为因，也就是需要以清净戒作为根本、以布施等作为助伴、结合清净的发愿等，修积众多善根。</p>
+<p>总的来说，单单得人身或天身，至少需要以一种清净善法为因，纯粹的恶法因缘是不能感召善趣的。</p>
+<p>特别地观察，善趣中具足“八暇十满”的胜妙人身，它远离了种种修法违缘，具足了自他方面的种种顺缘，这不是无因无缘、侥幸现前的，每一分都是由相应的善缘所感。所以，要积聚众多的善根，既要有清净戒这一根本，又要修布施、供养、恭敬、慈、悲、喜、舍等等作为辅助，没有这些不可能在自身上现前种种修法的顺缘。而且，要以清净的发愿摄持善根，往成就自己修法的方面作回向，比如：“获得人身、生在中国、童贞入道、正信出家、长遇明师”等，即发愿自己来世能得暇满人身。这样结合清净的发愿，摄持种种善根因缘，才能特定地往获得暇满人身的方面成熟果报。</p>
+<p><strong>２、积因极难</strong></p>
+<p>认识了成就暇满的因之后，接下来思维修积这样的因缘非常困难。具体分两方面：正面思维修积成就暇满的善因极难；反面思维造集失坏人身的业因极为容易，数量极多。</p>
+<p>在地狱、饿鬼、旁生这三种恶趣中，见不到众生在造作能得安乐的善法，不必说清净的善法，连混杂烦恼的不清净善法也看不到。（比如在旁生界里，有多少畜生在守持五戒、在修上供下施等呢？在地狱和饿鬼界里，有多少众生一刹那生起了善心呢？几乎看不到。）</p>
+<p>在阿修罗界和天界当中，多少众生守持戒律、行持十善业呢？阿修罗成天嫉妒、斗争，欲天的心恒时散乱在五欲中，上界天住在定中不动念，怎么可能生善法的念呢？</p>
+<p>人类当中，在无佛出世的时代、在边地不开化的人群当中、在持邪见者和痴呆者的心里，有多少善念生起呢？这些无暇之处，不具足修作善法的因缘，所以善法极为稀少。</p>
+<p>再说，即使在佛法兴盛的中土，也并非人人都在行持善法。比如中国十多亿人当中，修善法的人非常罕见。再看这些行善的人，所做也多是夹杂着烦恼和不善业的不净善法（行善时，带有贪、嗔、嫉妒、傲慢的心，带有攀缘的心、自我显示的心，带有追求现世福报、求名求利的心），真正能做到清净善法是非常困难的。</p>
+<p>像这样，因的白法很难积集，所以果的暇满人身极难获得。就像春天在田地里播的种子非常稀少，秋天收获的果实自然是非常稀少的。</p>
+<p>再从反面观察，众生极容易造集失坏人身的因。比如三恶趣众生的心里，刹那刹那现行嗔恚、悭贪、愚痴等的烦恼，造集杀、盗、淫等的不善业。这其中的每一个刹那都是堕恶趣的业因。阿修罗界和欲天中的生活，也只是增长嫉妒、斗争和贪欲。</p>
+<p>再看人类的造业状况，大多数人多数时间都在造集不善业，结局多数是往恶趣里走。而且，对菩萨起嗔恚心，每一刹那的嗔心都会感得长劫住在无间地狱，像这样，缘着善知识、缘着佛法僧三宝所造的严重恶业非常多，这其中的每一个业都是长劫沉溺恶趣的因。而且，自己识田中还有往昔多生所造下的数不清的恶业所熏的种子，这些业种没有感果、又没有修习对治加以摧坏，合算起来，不知需要多少劫住在恶趣当中！这样衡量就知道，得人身是非常困难的。</p>
+<p>总之，在我们获得暇满人身的期间，能远离一分分的修法违缘，能具足一分分的修法顺缘，其中的任何一点都是以往昔所修的众多善法为因而感得的。所以，暇满确实是由无量劫精勤修习善根所感得的极为珍贵的如意宝。</p>
+<h3 ref="二以喻难得" >（二）以喻难得</h3><a class="anchor" id="二以喻难得"></a>
+<p><strong>１、豪华客机</strong></p>
+<p>造一架大型豪华客机，需要全球几千家工厂、几十万人为它生产各种精密配件，最后装配而成。生产这样一架豪华客机非常之难，因为它需要集聚数以万计的因缘，极庞大数目配件的设计、选材、制造、组装、整合，是极其复杂、精细的大工程。我们的暇满人身就像这样难得，这个人身宝上所具的每一份珍贵的修法因缘都来之不易。</p>
+<p><strong>２、盲龟值木</strong></p>
+<p>三千大千世界的区域成为一片茫茫大海，辽阔的海面上漂浮着一根木轭。它被四面的海风不停地吹动，在海上漂荡不已。深海之底，有一只盲龟，每隔一百年才浮上海面一次，它的头部刚好钻入木轭孔洞的机率实在是太小了。</p>
+<p>原因：如果木轭始终在一处静止不动，还有可能钻入孔洞，但木轭被四面的海风不停地吹动、漂荡；如果海面的面积很狭小，也有可能钻入孔洞，但海面极其辽阔；如果木轭上有许多孔洞，也有可能钻入，但只有一个孔洞；如果盲龟的眼睛能看见，也有可能钻入，但盲龟看不见木轭和它上面的孔洞；如果盲龟频频地浮出海面，也有可能钻入，但盲龟每经一百年才浮上一次。所以，盲龟的头部极难钻入木轭的孔洞。得到暇满人身就像这样困难。</p>
+<p>在这个比喻里，“和三千大千世界同等大的海洋”，表示众生受生的三界极为广大；“海面上木轭的孔洞”，比喻有闲暇、修法条件圆满的人身；“四面的海风不停地吹动”，比喻内心邪分别的业风不停地吹动；“盲龟”，比喻无明深重的众生，不知什么应取、什么应舍，没有打开明辨慧眼；“深海之底”，比喻恶趣受报时间漫长、难以超升；“每一百年浮出海面一次”，比喻长劫受报后，终于得到了一次善趣身；“又下落海底”，比喻得善趣身后又堕入恶趣。</p>
+<p>总的意思是说：由于没有开启慧眼，不知何取何舍，恒时都在随邪分别的业风漂荡，长劫沉沦于深深的恶趣，即使侥幸再生到善趣，也无法摆脱无明和邪分别，转瞬又堕入恶趣，因此在三界广大无边的生处当中，极难得到暇满人身。</p>
+<p><strong>３、线入针孔</strong></p>
+<p>有人站在须弥山的山顶上放下一根线，另有一人站在须弥山的山下拿着针迎接，有极猛的风吹刮着线，线刚好穿入针孔的机会极其渺茫。暇满人身比这还要难得。</p>
+<p><strong>４、鼓面撒豆</strong></p>
+<p>从天空中密密麻麻地降下豆子，这些豆子要能停留在鼓面上，极其困难。绝大多数都落在鼓的外面，即使有少许豆子落在鼓面上，也立即弹起，掉落在外。得人身就像这样困难。</p>
+<p>整个三有生处是一个很大的区域，只有落在很小的人类的鼓面上，才得到了最妙的暇满人身。无数欲界、色界、无色界的天人死后像豆子一样从天掉落，绝大多数落不到暇满人身的鼓面上，都堕入了鼓面外广大的恶趣区域。</p>
+<p>诸天最希愿的是死后能生在人间做人。天人们对即将死去的天人祝愿说：“愿你生在安乐趣中。”（“安乐趣”就是指人趣。）可是大多数天人死后没有福生到人间，都掉到恶趣深渊里去了。</p>
+<p>其它的比喻：芥子撒向朝上的针尖，芥子极难立在针尖上，得暇满人身就像这样难；在垃圾堆里极难拾到如意宝，得暇满人身就像这样难；极难见到昙花盛开，得暇满人身就像这样难。</p>
+<h3 ref="三以量难得" >（三）以量难得</h3><a class="anchor" id="三以量难得"></a>
+<p>在众多的有情类中，得暇满身的比例是极小的。经上说：地狱的众生像大地上的微尘那么多，饿鬼像弥满虚空的暴风雪雪粒那么多，旁生像酒糟那么多，而善趣人天的数量像指甲上的尘土那么少。又说：六道各类的有情，上上和下下相比，下下有情像大地上的微尘那么多，上上有情像指甲上的尘土那么少。</p>
+<p>有人问：为什么下下的有情数量这么多呢？这是因为：因上造不善业的人非常多，造善业的人极为稀少；而且造很大不善业的人极多，造轻微不善业的人极少。这就像走在非常光滑的冰面上，极容易滑倒一样，众生造恶业堕落是极容易的，造善业上升却非常困难。</p>
+<p>所以，在众多的有情类当中，得暇满人身是极罕见的。帕当巴尊者说：“总体上见诸类有情身时，几乎没有得人身的。各别地看单个有情身时，得人身也只是有可能性。”意思是说，把无数的有情身合在一起看，清一色的都是非人类身，几乎见不到人身。而各别地看每一个有情，看他能不能得人身，结果也只是有一点可能性。</p>
+<h3 ref="一蹉百蹉" ><strong>一蹉百蹉</strong></h3><a class="anchor" id="一蹉百蹉"></a>
+<p>有人想：受恶趣苦，消尽了往昔的宿恶，就还能再生在安乐善趣，所以不难脱离。其实，堕在恶趣中，正受苦时，时刻唯一是生恶念、造恶业，从恶趣死后还需要转恶趣，极难解脱。</p>
+<p>古人说：“今生若不修，一蹉是百蹉。（今生若不勤修，就会一错而连着一百生都错过。）”这个人身最难得到又最易打失，一念之差就落入恶趣，三途进去容易、出来难，“七佛以来，犹为蚁子；八万劫后，未脱鸽身。（佛经上说，有些蚂蚁直到七佛过后还在做蚂蚁，有些鸽子经过八万劫还没有脱掉鸽子的身。）”所以，我们得人身难，遇佛法更难，遇到即生成就的法门能够信受更是难中之难。如果这一生错过，打失了人身，哪一天能再得人身呢？又哪一天能再遇佛法呢？又哪一天遇到即生成就的法门而且信受呢？这何止是错过百生，是错过千生、万生乃至无穷生啊！</p>
+<h3 ref="珍惜福分" ><strong>珍惜福分</strong></h3><a class="anchor" id="珍惜福分"></a>
+<p>《云居山志》上记载，慈觉禅师行脚，去云居山参学。前一天梦到伽蓝安乐公对他说：“你从前在这座山曾经扛过一担土，这次来只有一碗粥的缘分。</p>
+<p>第二天午后上山，吃了晚粥，僧值路过寮房，和他发生争吵，结果被逐出山门。慈觉禅师心中觉得很惊讶。</p>
+<p>过了十年，慈觉禅师在卧龙先禅师处得法。南康太守张公和慈觉祖师非常熟悉。这时，云居山正好空缺住持的位置，就请慈觉禅师来云居山开法。慈觉禅师很高兴地答应下来，认为过去做的梦这回不灵验了，准备在第二天上山。当晚在麦洲庄住宿，忽然迁化。</p>
+<p>所以，因果丝毫不错，点点滴滴都是由前因所定。能在道场住一天，就要有一天的福分；能住一百天，就要有一百天的福分；哪一点是空得的呢？都是福德所感。所以不要认为我住道场一百天和住五十天是一样的，其实不一样。有住一百天的福，才能住一百天；福报再大，就可以住两百天；没那个福，只能住一天；福再少，进门一小时就打道回府。</p>
+<p>举一反三，去观察自身暇满的每个方面，都是由前世的善业因缘而来，要有清净戒、清净善法、清净愿，非常不容易！</p>
+<p>比如，坐在这里看一本经书，安心地坐三个小时，不受打扰，就是莫大的清福！身心是健康的，不瞎也不呆，看书时没有邪见障在心里，又有清净的善愿，愿意学法，这样念念心缘于法，世上有几个人有这样的福呢！</p>
+<p>从这里去体会，哪一点不是前世的善根因缘所感？这样去计算，才相信以无量劫的因缘才造就了暇满人身宝，没有无量的善业因缘不可能出现这么好、这么圆满的身。</p>
+<p>比如现在教一个小学生，哪怕教会他写几个字都要好多天，何况真正让他去行善、去持戒、去发愿、去长年这样做呢？这要积聚多少因缘，才能让他自愿这样做啊！而这样做到的就是非常稀有、珍贵的善根，我们今天学法的福分，就是由这样的善根感得的。所以现在哪怕两分钟学佛法的安闲，也是珍贵的福报。</p>
+<p>也许你认为两分钟的安闲算不了什么，我问你：以众生堕在地狱中的处境来说，他在亿万年当中能出现这样的两分钟安闲吗？像人间坐在这里安心地听佛法，他是多少亿年也梦不到的。</p>
+<p>又比如一只黄牛，在它一生十来年的时间中，出现过一刹那这样的福报吗？它能享受到这样的清福吗？它前世没有种这样的因，所以一生只有在劳苦中度过。</p>
+<p>又比如地球上不信佛的那些在商界、政界、学界、演艺界的人，谁有这样的两分钟呢？</p>
+<p>这才理解顺治皇帝的出家诗：“百年三万六千日，不及僧家半日闲。”这个“僧家半日闲”是皇帝身上求之不得的，他羡慕这样的清福，他求不到一天安闲无事。这才知道，我们身上拥有的是修法的清福啊！</p>
+<p>北俱卢洲、天上的人有福报，但不是暇满，修不了佛法。整个北俱卢洲人的福报，加起来比不上我们现在一天闻思修佛法的福报大。人间一亿个比尔·盖茨的福报也比不上我们半天学佛法的福。这才知道暇满珍贵。这才知道有半天听法、学法的福，是所有北俱卢洲人、所有欲界天、一亿个比尔·盖茨都得不到的。好好想一想，为什么我们要把这么珍贵的时间白白地浪费掉？就像把如意宝随随便便扔掉一样，用它去搞贪嗔痴。把亿两黄金买不来的暇满时光，拼命在手机上“哗啦、哗啦”地打发掉，这是糊涂到何等地步啊！</p>
+<p>真正懂了暇满难得还会问：今天该不该上网打游戏、该不该看电视、该不该上饭店、该不该参加聚会、该不该旅游、该不该装修、该不该逛超市、该不该花几个小时去美容、该不该花半天包饺子、该不该去种花、养鱼、该不该弹琴、炼功，这些通通都没有了。所以了解了暇满的珍贵后，即使有人用亿万美钞跟你换一寸光阴，你也不会换；给你一万辆小车换你三分钟，你也不换。如果有人说：你今天浪费三分钟不学佛法，就给你一亿美钞。你会坚定地拒绝说：我不干！</p>
+<p>古人就是这样，他不愿意把宝贵的人身用在无意义的事上。像喀喇共穹格西要出山洞时，有一丛荆棘挡住了洞口。他正想去砍时，转念一想：暇满这么难得，怎么能浪费！他是这样珍惜时间。</p>
+<p>所以，珍惜暇满的人不会向无意义的事走一步，倒贴一万元拉他出去吃饭，他也不会去。不要说花两三个小时逛超市，就是超市的老板把整个超市给他端过来，他都不看一眼；就算割半壁江山给他，他都不要，何况区区的一点五欲享受。这时候，他修佛法是一万匹马也拉不动的，他就像是锥子插入地中一样，没有人能把他从修法当中拉出来。</p>
+<p>像有的古德，皇帝请他出山做国师，他宁可断头也不去。他把道看得比去皇宫受赏重，比当国师重。现代所谓的世间娱乐，上网、看电视、打手机、看报纸这些，都是糊涂人才会做的事。</p>
+<p>接下来再观察“遇佛出世难”。</p>
+<p>比如从毗婆尸佛开始，先后有尸弃佛、毗舍浮佛出世。然后在无数劫中都没有佛出世。成劫过去后，到住劫第九小劫，人寿六万岁时，拘留孙佛出世；人寿四万岁时，拘那含牟尼佛出世；人寿减到二万岁时，迦叶佛出世；人寿百岁时，释迦牟尼佛出世。释迦佛灭度已近三千年，时值末法，斗争坚固，距离下一尊佛弥勒佛出世，还有五十六亿七千万年。</p>
+<p>弥勒佛以后有四个小劫，没有佛出世，到减劫的第十五个小劫中，有九百九十四尊佛相继出世，然后又有四个小劫没有佛出世。到第二十小劫时，人寿八万四千岁，楼至佛出世。然后水火风灾前后出现，世界已坏，是二十小劫的空劫。不知道什么时候佛将出现于世。</p>
+<p>所以佛出世难遇，我们这一次有幸值遇佛陀出世，又能听闻到宝贵的佛法，怎么能不倍加珍惜呢？怎么能不昼夜勤学呢？如果这一回错过去，生在无佛出世的时代，那将是亿亿年的长夜黑暗，哪怕连佛经的一个字也不可能看到。那时如何度越生死苦海呢？</p>
+<p>就像上面的举例这样，对自己已经拥有的十种圆满，每一种都这样思维：“稀有啊！人身这样难得，绝大多数的众生都只得到恶趣和天人、阿修罗的身，我这次得人身实在稀有啊！”又想：“稀有啊！佛陀出世极难值遇，大多数时间都无佛出世，我有幸生在释迦佛出世的时代，又遇到佛的正法，实在稀有啊！”又想：“稀有啊！行正道断恶行善，实在太难！现在人间大多数人都在执持恶法、舍弃善法，而我能业不颠倒、断恶行善，实在稀有啊！”又想：“稀有啊！我遇上了能趣入无上妙法的正轨，多少人没有机缘趣入佛法，即使信佛也不知道如何趣入修证，而我竟能趣入，实在稀有啊！”按这样，每一条都见到有极多数量的众生不具足，而自己竟然具足，因此应当生稀有心，誓不虚度。</p>
+<p>又思维：具备八暇十满中的仅仅一项也非常困难，而自己竟然全部具足。现在得到了这样殊胜的修法所依，不是昙花一现吗？要思维：这么殊胜的人身宝，过去极难得到，未来也难以获得，这一次务必要用它成办究竟大义。</p>
+<p>如果在今生拥有人身宝的这段时间，没有用它修持菩提，将来断不可能再得这样的人身，决定漂泊在无有边际的轮回苦海中。由宿世多少积资净障才成就的这个人身宝，决不能空耗在世间现世的事上，唯一要用来修持菩提，这一点极其重要。寂天菩萨说：“由依人身筏，当度大苦流，此筏后难得，愚莫时中眠。”</p>
+<p>金厄瓦格西是我们修行人的榜样。他彻底舍弃睡眠之后，一生精进持诵不动佛心咒，到他圆寂时念到九亿。他的上师大瑜伽师对他说：“法子啊！有时要调一调身体。不调身的话，有四大衰退的危险性。”他回答：“是这样的！但一思维起暇满难得，就没有睡觉的空闲。”要这样下至一刹那、一弹指的光阴都不浪费，完全用于修法。</p>
+<h2 ref="三思维获得暇满能摄取大义" >三、思维获得暇满能摄取大义</h2><a class="anchor" id="三思维获得暇满能摄取大义"></a>
+<p>我们要知道：（一）什么不是摄取大义；（二）什么才是摄取大义；（三）暇满义大的比喻。</p>
+<h3 ref="一什么不是摄取大义" ><strong>（一）什么不是摄取大义</strong></h3><a class="anchor" id="一什么不是摄取大义"></a>
+<p>世间人都把人生的意义错误地建立在获取心外的五欲等法上，其实这是迷乱，不是什么大义。所谓摄取大义，就像人入于宝山用手摄取珍宝一样，用自己的暇满身尽力地摄取解脱、成佛、度众生的大义。</p>
+<p>游山玩水，脚走走、眼看看，上黄山览胜，去长江畅游，看所谓的壮丽山河、看所谓的小桥人家，这不是摄取大义。</p>
+<p>收集邮票、古董，学习电脑、设计程序，这不是摄取大义。</p>
+<p>把房屋装饰得富丽堂皇，摆满一屋豪华家具、高档电器，这也不是摄取大义。</p>
+<p>掌握很多现代知识、技能，这也不是摄取大义。</p>
+<p>拥有财团企业、资产亿万，这也不是摄取大义。</p>
+<p>擅长琴棋书画，炼就一身功夫，这也不是摄取大义。</p>
+<p>仪表堂堂、口若悬河、谈古论今、能歌善舞，赢得亿万观众的喜爱，这也不是摄持大义。</p>
+<p>仕途中直步青云，当选为国会议员、首相、总统，这也不是摄取大义。</p>
+<p>世间的科学家、哲学家取得种种成果，这也不是摄取大义。商业巨头成就种种事业，这也不是摄取大义。所有外道仙人的修行，哪怕修到非想非非想天，也不是摄取了大义。</p>
+<p>所有运动会中的蹦蹦跳跳，所有世间的影视、小说创作，只是无意义地浪费人生，都不是摄取大义。</p>
+<p>生产多少套服装、多少辆汽车，建设多少城市广场、立交桥、地铁、高速公路，放多少卫星上天、开多少宇宙飞船登月，这都不是摄取大义。</p>
+<p>世间所有经济界、政治界、科学界、文艺界、体育界，在那些领域得到名声、地位、成就、事业，都不是摄取大义。他们都用错了人生。</p>
+<p>没必要把大量的时间花费在这上面，即使用尽一生的心血去经营，也不如学习佛法一个偈颂的利益大。我们应当把虚度人生的那些东西全部拨开，用暇满身成就生命的真正大义！</p>
+<h3 ref="二什么才是摄取大义" ><strong>（二）什么才是摄取大义</strong></h3><a class="anchor" id="二什么才是摄取大义"></a>
+<p>道理是简单而明了的。用我们的暇满来闻、思、修正法，就是摄取大义。修自己的心，觉悟自己的心，再帮助他人觉悟，这就是摄取大义，其它都是虚假的。</p>
+<p>这个暇满身堪为修持菩提的所依，这是此身极大的意义所在。具体地说，只有这个暇满身才能发起普厌三界的出离心、受别解脱戒、修解脱道；只有这个暇满身才能发成佛度众生的菩提心，才能受菩萨戒、修持六度万行；只有这个暇满身才能深入般若、明心见性；只有这个暇满身才最容易发起信愿行，往生净土，速疾成佛。</p>
+<p>我们这次得人身，就真正成了修持菩提的所依。这时应当日夜不断地勤修菩提，就像商人进入了宝洲，就应当尽力地摄取珍宝一样。假使我们忘掉了“人身义大”，在舍弃修菩提之后，去做世间现世的种种事业、去学世间学问、技艺、去享受五欲六尘，把时间用在看电影、电视、娱乐、体育、上网这些上，那就是把无价的如意宝变成成办三恶趣等轮回苦的所依，这有多么不合理！</p>
+<p>暇满人身不应当成为成办轮回苦的所依，而需要成为成就菩提的所依。</p>
+<h3 ref="三暇满义大的比喻" ><strong>（三）暇满义大的比喻</strong></h3><a class="anchor" id="三暇满义大的比喻"></a>
+<p><strong>１、如意宝</strong></p>
+<p>转轮王有如意宝，在人民缺粮食时，转轮王就斋戒沐浴，换上洁净的衣服，对如意宝祈祷：在我的国境内降下粮食吧！国境中就降下了粮食雨。人民缺衣服时，他就祈祷：在我的国境内降下衣服吧！全国就降下了衣服雨。我们的暇满人身是十万倍超胜它的如意宝，能成满无量无边的功德。我们现在拥有了最胜妙的如意宝！</p>
+<p>为什么是最胜妙的如意宝呢？因为从自己这个身心上能如意地涌现无量无边的功德，涌现一切现时、究竟的利益安乐。这岂是转轮王的如意宝所能比的？</p>
+<p>常常要暗自庆幸：我自己就是最珍贵的如意宝啊！我今生终于得到最殊胜的如意宝了！三恶趣众生、天人、阿修罗，都没有我这样的人身宝！我的人身宝能流现无量无边的微妙功德，能成办自他一切暂时和究竟的利益。我要珍惜啊！万万不能糟蹋啊！</p>
+<p><strong>２、昙花一现</strong></p>
+<p>据说昙花三千年一开，当佛出兴于世时，昙花才盛开，所以极难值遇。我们获得暇满身，就是“昙花一现”。无量世以来都没有开花，今生终于迎来了生命的花季，在自己暇满身上开启了觉悟之花，日夜不断地放出佛性的妙香，拥有了生命本有的尊贵。</p>
+<p>蚂蚁、蚊虫并不像我们的心，能开智慧之花、福德之花、愿力之花，能散发出广大事业的芳香。只有我们这样的暇满人身才能开花、才能觉悟，才能发出功德妙香。</p>
+<p>那些身心有厚重的业障、报障、烦恼障的众生，就不是开花的形态。地上的猪、马、牛、羊，都是没有开花的生命。地狱、饿鬼道里的无数可怜众生，长劫备受剧苦逼迫。他们身上发不出觉悟之光，发不起厌舍轮回、欣求涅槃的心，发不起成佛、度众生的心，开启不了观见实相的智慧，不能自在地从自己心中散发无量菩提行的妙香，所以都是没有开花的形态。而我们现在是昙花盛开了！</p>
+<p><strong>３、最富有的人</strong></p>
+<p>看看，我们才是三界中最富有的人！我们由前世的积功累德，以极多的善业、愿力因缘，终于成就了具足暇满的人身宝，拥有了修持一切佛法的所依，这是世间最宝贵的财富，我们是最富有的人。</p>
+<p><strong>４、登上法界机场</strong></p>
+<p>在浩瀚无垠的太空里，有个叫做“人间”的小小宝洲，其他众生不断地受生在宝洲外的区域，极难生在宝洲上面，而宝洲的中心有一座翱翔法界的机场。</p>
+<p>我们极为幸运地生在了“人间宝洲”，又进入了“暇满机场”，坐在即将起飞的飞机上。如果这时候不向上起飞，反而跑出机场去追求五欲，那就太可惜了！</p>
+<p>三界绝大多数众生都没办法踏上这个机场，坐上飞机直接起飞，而我们已经有了这个机遇，此时不飞，更待何时。古人说：“此身不向今生度，更向何生度此身。”</p>
+<p>反面的比喻：</p>
+<p><strong>１、王子</strong></p>
+<p>就像一个王子本来要登基做统理天下的事，但他忘失了自己的身份，走出皇宫流浪街头，做贩毒、偷盗、斗鸡、玩鸟等的勾当。</p>
+<p>很多人得到了暇满人身，不去成办菩提，日日夜夜闻思修行，却上网、打牌、旅游、看电视、逛商场，做这些毫无意义的事，就像这位痴迷的王子一样。</p>
+<p><strong>２、金器装粪</strong></p>
+<p>这个具有暇满种种功德的清净身心，就像是以许多珍宝装饰而成的金器。面对外在的染污境界，内心非理作意，生起一个个的染污念头，就是在这暇满金器中不断地装粪。这样做就是在无意义地浪费暇满，非常愚痴！</p>
+<p>举个例子，我们看一小时电视剧，剧中有漂亮的男女，出现一个画面，就起一个贪心，这是欲界凡夫难以避免的。因为眼睛盯着画面，缘的是可爱的异性，心里非理作意，三缘聚合，没有不生贪心的。只不过人没有自知之明，不认识什么是贪心，其实内心生起了好感，就已经堕在贪烦恼中去了。</p>
+<p>按这样计算：一秒钟出现30个画面，一小时有一半生贪的画面，就生起（１/２×30×60×60＝）54000个贪念，也就造下了54000个恶趣业因。如果看了20年电视，那就生了100万以上的贪嗔念头，造下了100万以上的恶趣业因。可怜，以大好的人身在自己八识田中熏入了无数堕恶趣的业因。其实，熏一次，就是中一次毒，身心就受一次损害，而且很难清洗，将来会变现恶趣极为漫长、难忍的果报。这就是用金器装粪的极愚痴行为。</p>
+<p>所以，像世间影视、网络、书籍里不清净的内容，一、两次接触，就生起很多世间念头；三、四次接触，就加重贪嗔烦恼；十、百、千万次接触，此身就已经在地狱中报到了！</p>
+<p>这个具有大义的人身，过去即使有一个上午无意义地空过了，也都应当生起懊悔之心。我们现在的身很快就会失去，所以唯一要用在成办究竟的义利上，此外的一切无意义空耗都是非常不应该的。</p>
+<p>从前伊庵权禅师，每天到了晚上，一定会流泪说：“今天又这么空过了，不知来日功夫如何。”他老人家在大众中从不与人交谈一句。莲池大师说：“我早晨见日出就记忆起伊庵禅师的话。我说：‘现在又换一天了。昨天已成空过，不知今日工夫如何。’但我只是叹息，并没有流泪，就此知道自己的道心远不如古人。怎么不惭愧呢？怎么不应当自勉呢？”</p>
+<p>宋朝时，大愚、慈明等六七个人结伴参访汾阳禅师。当时正值寒冬，河东非常寒冷。大家都怕寒苦，只有慈明志在道业，昼夜不懈。</p>
+<p>每当夜深昏昏欲睡的时候，他就用锥子刺自己的大腿，难过地说：“古人为生死废寝忘食，我是何等人！竟这样放逸。生无益于当时，死无闻于后世，我是自暴自弃呀！”慈明就这样通宵坐着不睡，后来得到了大成就。</p>
+<p>我们要学古德，对自己虚度人生常常心生惭愧。这样常念暇满难得、义大，就能舍弃现世的无义之事，一心修持菩提，自己这个人身就真正成了修菩提的所依。</p>
+<h2 ref="四善用暇满人身" >四、善用暇满人身</h2><a class="anchor" id="四善用暇满人身"></a>
+<p>下面讲述学习暇满之后，自己应该如何珍惜时间修道，杜绝虚度时光的问题。</p>
+<p>学习暇满之后，最要紧的一个问题，就是自己对时间要有新的规划。现代人的生活迷乱、混乱、黑白颠倒、没有规律。自由的思想造成了很多人的生活习惯已经混乱。这实际是大大地浪费暇满，是我们最需要反省改过之处。</p>
+<p>古代人的道心好，连睡眠都不愿意。他有很强的志愿求解脱、求明心见性，所以全力以赴地修道。他们得成就，就是因为全身心都投入到了修行当中。</p>
+<p>最严格的要求是二六时中念念在道，不杂用心，这是真正善用了暇满。因此连睡眠都要减少，乃至最终消除。想一想，连身体最基本的睡眠都要抛弃，何况其它身外之物：车啊、房啊、娱乐啊、逛街啊，这些就不必要提了。</p>
+<p>虽然我们暂时还做不到这样，但也应当尽量减少。从起码的要求上说，对自己的时间要有合理的规范，日常的工作、修行要有规律，要保证每天有一定的时间，身心能安定地缘在法上。如果一直散乱在非佛法的境缘上，收不住心，那就是把自己弄成“无暇”了。</p>
+<p>为了保证这一点，要从原来时间上没规律，变成时间安排有规律；从原来外缘多，变成外缘少；从原来生活要求高，变成生活简单。散乱的境缘和行为一定要去除，行为一定要有规律。</p>
+<p>过去的日常行为是随意的，现在要约束自己、有明确的计划，规定好一天当中应该做什么，什么时间做什么事。通过这种方式，把自己从不符合暇满要求的方向上拉回来，让身心真正成为修道的所依。如果心是紊乱的、混乱的，就不可能靠它来修法，只有让身安稳下来、心安静下来，这个身才成为修道的所依，才是拥有了暇满。在这个暇满上，才能修道。</p>
+<h3 ref="世俗化吞噬了暇满" ><strong>世俗化吞噬了暇满</strong></h3><a class="anchor" id="世俗化吞噬了暇满"></a>
+<p>生活在世间的修行人很容易被世俗化，对世间种种社会活动、行为、生活方式，没有足够的智慧辨别、拣择，很容易受社会和周围环境的影响，逐渐世俗化，不知不觉使自己的道心和修行腐蚀、弱化。这就是魔王以温柔的假相让自己的道心疲软下来，趴在轮回里再也不愿出离。</p>
+<p>有一个比喻说得好：把一只青蛙放在凉水锅里，慢慢烧水，这只青蛙感觉很舒服，不知不觉中就在锅里被煮死了。如果把青蛙放入开水锅里，它会立即蹦出来，保住自己的性命。</p>
+<p>世俗化给人的假相是：这是有益的、能给人快乐的、正常的，不但没问题，还是很好的。所以，这种温柔的魔最难提防。实际上，自己已经陷于迷乱，被乐的假相骗住了，在耽著它的滋味的同时，已经在加深乐执，和出离的心态完全背道而驰。这种乐执日久加深，就会让道心麻木、坏死，再也无心修道了。</p>
+<h3 ref="天人的无暇" ><strong>“天人”的无暇</strong></h3><a class="anchor" id="天人的无暇"></a>
+<p>天人就是迷在五欲享受中，使一切时光都成了无暇。想一想，天人的寿命是人寿命的几千、几万倍，为什么说他是无暇？他有很多时间，又不需要工作，怎么是无暇呢？其实，他的心已经被五欲这个温柔的魔王俘虏了，根本没有心思修道。他就是恶趣的候选人，他的享乐、他的欢娱，就是他堕入恶趣深渊的前奏。现在这个时代，欲尘这样丰富，有点福报的人都堕在“天人”的无暇当中，毫不自觉。</p>
+<p>我们定义：看电视就是无暇、进入超市就是无暇、进入高级餐馆就是无暇、进入娱乐中心、歌舞场所全部都是无暇，进入风景区跟天人进欢喜园一样，也是无暇，钻到娱乐片、暴力片里也是无暇，进入现在都市就是无暇，跟天人进天宫一样。</p>
+<p>我的看法是，对现代修行人来说，认识天人的无暇非常重要。天人的一生都成了虚度，他修道最大的违缘就是五欲。反观我们有点福报，看电视、逛超市、享美食、买时装、打扮、旅游，就是把自己的人生弄成无暇了。这样再有时间、再有福报，也是无暇，因为你的时间都消耗在享受上。心没有入在佛法当中，就是无暇。</p>
+<h3 ref="细算暇满" ><strong>细算暇满</strong></h3><a class="anchor" id="细算暇满"></a>
+<p>从微细角度来说，在某一段时间里不修法，这段时间就是无暇。仔细检视自己的人生有几分是闲暇呢？大多数成了无暇！没福报的人整天要去工厂打工，实际是无暇。有钱的人享受，又是“天人”无暇。</p>
+<p>很多情况下，有暇、无暇是由自己决定的。很多时候，害自己的凶手就是自己！我们本来福薄业重，生在这个艰难的时代，每天要付出八小时的劳作来谋生。有福报的话，就不用这么干了，而仅剩的一点闲暇，也被自己无谓地浪费掉了。</p>
+<p>如果我们不改变自己，我们还有解脱的希望吗？是不是下恶趣有份呢？目前已经跑在暇满的边上去了。</p>
+<p>牛马等旁生，一生中一秒钟的闲暇也没有。但人搞不好，会把自己搞成和旁生一样。旁生为什么没有一秒钟的闲暇？因为它的心不能依于法，整天负重劳作。如果我们人也是这样，把仅有的一点闲暇都用于非法的事情上，那跟旁生有什么区别？</p>
+<p>就看自己怎么做、怎么抉择，是使自己的人生成为暇满人生？还是把自己搞成无暇人生？是用人身修菩提道，还是用人身造恶业，使自己陷于无尽的轮回。何去何从，请自己定！现在有自由的时间，又遇到了佛法，还不把时间用在学法上，那就是“自作孽，不可活”啊！</p>
+<h3 ref="古今对照看暇满" ><strong>古今对照看暇满</strong></h3><a class="anchor" id="古今对照看暇满"></a>
+<p>古人为了办道，不跟人说杂话、不串门，因为一说话就动心，“瞥尔一念，即堕无明”。所以为了养道，多年不出山、不出门。现在的人时常在超市里逛，是什么修行？古人不说话，现在拿个手机整天东拉西扯，又是什么修行？庞居士万贯家财沉入湘江，现在成天想的是如何赚钱，又是什么修行？龙舒先生是国学进士，精通六经，认为都是业习，一抛而净，现在还有兴趣研究世间这个学问、那个理论，又是什么修行？昙鸾大师烧毁仙经，归心西方无量寿，现在炼功打拳、医卜算命、星象风水，又是什么修行？最基本的八关斋戒都要求远离歌舞娼伎，学佛多年还追明星，一集一集地看影片，又是什么修行？所以，修行人应以古德为榜样，不能随便效仿现在放逸的世俗人。</p>
+<h3 ref="戒旅游" ><strong>戒旅游</strong></h3><a class="anchor" id="戒旅游"></a>
+<p>常见有人谈旅游的必要。比如：要感受大自然的神圣啦！大好河山要游历游历，开拓心胸、眼界，增长见识啦！身心得到放松，更有利于以后的学习工作啦！</p>
+<p>哪曾想过，这只是换一种苦的行为。学苦谛时讲过，这就像担子压在一肩上，时间久了又换在另一肩上。原先呆在家里、单位里，现在换成两只脚不停地走，眼睛东张西望，看看这里有新鲜的画面，那里有什么景象，这时候是边看边生起了苦、空、无常想吗？想到了无我、如梦如幻吗？静时都不见有，动时怎么会有呢？不是虚度时光吗？实际上，这跟解脱没有直接关系，跟成佛度众生没有直接关系。如果有关系，不如升天好了，天界的景色比这里好多了，但天天看天色天景，也不会解脱，何况人间的三山五岳！</p>
+<p>讲出离心时，曾经讲过所有的轮回盛事都是欺诳人的，不说看这山山水水，就算家住在颐和园，在皇宫里享乐，问你是不是修行人？要不要厌舍这些？要不要把它看成火宅？既然是火宅，为什么还为它耗费钱财、时间、精力？旅游的动机就是你喜爱轮回。喜爱轮回的结果就是增长对轮回的爱执，直接是出离心的违品，对修行是不利的。</p>
+<p>据说，虚云老和尚有一次从安徽黄山去南京毗卢寺挂单，早晨背着简单的行囊出发。在他感到天色不早时，就睁开眼睛往前看，发现已经到了南京城的城门。再往前走，又一抬头，到了毗卢寺的山门。他从早上出发到太阳快落山，整整一天，吃没吃过中饭，他不知道；过了几条河、过没过，他也不知道；鞋子走掉了，光着脚，他也不知道。虚老是这样用功。为了了生死，什么都不顾，哪里有心思看山看水？</p>
+<h3 ref="戒看报纸" ><strong>戒看报纸</strong></h3><a class="anchor" id="戒看报纸"></a>
+<p>在城市里，人们在上班路上或地铁站台上，花一块多钱买一份晨报。其实里面绮语连篇，但大家都爱看。</p>
+<p>现在一种论调是：人要了解世界、了解时事，了解国际、国内、周围发生的事情，说这样能增长知识，开拓见解。这都是似是而非的话。</p>
+<p>什么叫做开拓见解？就是如实地了知真相，开正知见。世间人所写的东西大多是邪知邪见。世间讲新闻的人有他一套评论、一套见解，他的这套见解不知不觉就渗透到你的心里。虽然里面也会有一些世间善法，但这是极少的。大多数是鼓吹怎么享受、怎么消费、怎么娱乐、怎么竞争，谈这个轮回世界的男欢女爱、你争我夺。</p>
+<p>像这些国论、斗争论、享乐论、金钱论，都是绮语。在世间的言论中，不会谈轮回流转，不会开示世间的苦、空、无常、无我，不会警戒人们造恶的后果，不会揭示我执和烦恼是苦的根源，不会宣说解脱、成佛之道。</p>
+<p>我们并非不要拓开见识。但从哪里拓开见识？要在最极清净的佛法中拓开见识！只有虔心皈依三宝，眼睛看经书法语，耳朵听佛菩萨成就者的话，心里缘轮回的苦、空、无常、无我，涅槃的常乐我净，想自己怎么发大愿、修佛法、度众生，这样才能开真正的见解。而这种知见在世间领域里怎么有呢？根本没有。基本上都是颠倒说，你怎么可能在里面开正知见呢？所以，世间的报纸、电视、书籍都没必要看。</p>
+<h3 ref="戒上网" ><strong>戒上网</strong></h3><a class="anchor" id="戒上网"></a>
+<p>相对于看电视、打电话，更严重的是上网问题。尤其是年轻人，晚上或者周末上网，两、三个小时随随便便就被用掉。很多人刹不住车，直到深夜、凌晨，还在网上打游戏、看新闻、建博客、发贴子、看电影、闲聊，耗费了大量宝贵时光。</p>
+<p>网络内容的欲尘太丰富。引得心直接从眼、耳两道门出去，进入欲尘王国。人的心不到几分钟，就痴迷起来，无法自控地跟着欲尘的影子转。算一算在上网的几小时里，受了多少染污？网络内容的吸引力强，人的注意力又是高度集中，所以它就像吸精气鬼一样，把人的精气神很快吸掉。这样只要上了几年网，暇满人身就毁了一半。</p>
+<h3 ref="戒世间活动" ><strong>戒世间活动</strong></h3><a class="anchor" id="戒世间活动"></a>
+<p>平时不能跑亲戚、找朋友、搞世间活动，要尽量少打电话。修行人以法为业，以法为生命，不能混同于世俗人。</p>
+<p>有人说：这样做不合群，会被人嘲笑、冷落、抛弃的。</p>
+<p>被嘲笑并没有关系，因为你最终成办的是解脱轮回，成就佛果，救度无量无边的众生。因果律不会因为嘲笑而颠倒。你在积功累德，人天拥护，无数的佛菩萨欢喜，你将成就佛陀的事业，利益无量无边的众生，即使被一万个人同时嘲笑，也不应该放弃。</p>
+<p>比如，你出发去宝山取宝，很多穷光蛋嘲笑你的行为，你会不会放弃取宝呢？不会的，你只会付之一笑。一大群人沉浸在吸毒的快乐中，而你不吸毒，他们嘲笑你，你会怎么样？也是付之一笑。因为是非、利害你看得清楚。</p>
+<p>设想一下，你如果跟世间人同流合污，结局是什么？为了不被嘲笑，他们做什么，你也随顺着做什么。拉你喝酒，你就喝酒；拉你唱歌跳舞，你就跟着唱歌跳舞，结局是什么？是糟蹋极宝贵的暇满人身，堕在生死海中流转不已，丧失成佛度众生的大义。怎么能因为一些疯狂者、迷乱者的嘲笑而放弃这样无比重大的事呢？</p>
+<p>我们佛弟子，皈依了三宝，是以佛菩萨的教言为准绳的，按照佛菩萨的教言去行事，佛菩萨告诉我们什么应作、什么不应作，是应当遵循的。决不可随时流而转。这样想清楚了，自己的心就安了。</p>
+<h3 ref="戒娱乐器具" ><strong>戒娱乐器具</strong></h3><a class="anchor" id="戒娱乐器具"></a>
+<p>家里有电视机、电脑、摄相机、照相机等等，就像酒鬼身边有了酒、猎人身边有了枪、饿鬼身边有了美味，看到手就发痒，心就按捺不住。所以都是障道的冤家，一律要清除干净，不能留在屋里。</p>
+<p>有人说：这样我的生活就没情趣了、没品味了。</p>
+<p>不会的。修出离心、菩提心、无二慧是最高的品味，是往佛菩萨的品位上靠。拍拍照、看看电视、上上网，这些庸俗世间的一点乐趣，品味是非常低的。想一想，古今哪一个大修行人的关房里有照相机、电视机呢？没有一例是以现代生活方式而成就的。</p>
+<p>外物本来虚假不实，佛法是唤你回头、不要迷在幻化客尘里虚生浪死。你倒抱着假相不放，还美其名曰“时尚”、“有品味”、“有情趣”，这只是给“自我”多铐上几副“美丽”的镣铐，越铐越脱不开。</p>
+<p>一天中，哪怕在佛法上花一点点时间，也能得到千万年的利益。《贤愚经》上讲，稍微对三宝做供养，就得到人天九十一劫的圆满，何况是缘着正法长期殷重地闻思修，利益更加不可思议。这一生如果能努力地修习净业，临终就往生极乐世界，成为清净大海众菩萨中的一员，这是什么样的成就！把一生大多数时间、精力浪费在世间虚假的享乐上，到头来是沉溺在生死中长劫受苦。</p>
+<p>如果善用这个暇满人身，精进修道，就能在这一生把无量劫要受的苦彻底消尽，得到尽未来际永不退失的安乐，彻底地显发佛性功德，得到无穷无尽的法乐受用，而且还能帮助尽虚空界的众生脱离轮回！这样大的义利是在你这个人身上就能实现的，而且是一生就能成就的。为什么这么糊涂，把一切暂时和究竟利乐所依的如意宝用在毫无意义的事上，用来造集三恶趣的业因？为什么用无价的金器使劲地装粪呢？有人善用人身成了佛、菩萨、往生了极乐世界；有人用人身造业，使自己沦为旁生、饿鬼、地狱众生。何去何从，智者们应当知道如何抉择。</p>
+<p>我们要去掉虚假的生活，把一整套由假相包装出来的所谓“现代”生活方式尽情抛掉，抛掉了就回到了道上、回到了法上，就返朴归真，回到了本心，也就与道日亲，道心日纯。修道人不能做到少欲、不能乐在道中，实际是没有道心的表现！儒者求道尚且“食无求饱，居无求安”，禅者用功，连自己都要忘掉，其他哪里是究竟法呢？如果不能少欲还说“珍惜暇满”，那就是自欺欺人啊！任贪欲膨胀，大量的时间都被耗在里面，还说得上珍惜暇满吗？</p>
+<p>很多人把大多数的时间用在赚钱、追求享受上。他对生活的要求降不下，吃穿用度降不下。能降下，也不至于这么累。像眼镜，普通的一百块就能配，非要配上千块的；手机，两百块的就能用，非要买三、五千的；衣服，几十块的就能穿，非要买上千块的名牌。什么都追求高档、时尚，当然就成了金钱的奴隶、不得不辛苦劳作了。其实，俭朴的生活才省心、才安乐。</p>
+<h3 ref="捡回浪费的时间" ><strong>捡回浪费的时间</strong></h3><a class="anchor" id="捡回浪费的时间"></a>
+<p>就是把以往浪费的时间捡回来。佛法没有古今之别，只是人的生活方式有不同。如果我们能够迷途知返，采取与道相应的方式，就能省下大量的时间。</p>
+<p>从今天开始，大家要重新安排自己的人生，把不该浪费的时间都捡回来，把浪费人生的事都杜绝掉。把时间尽可能用在佛道上，依止暇满人身修道，去赢得人身的大义！</p>
+<p>暇满本是用来摄取大义的，其它与道不相干的都要放下。心只能缘一种，要么缘法，要么缘非法，凡是缘非法的，都是浪费生命。一切跟修道无关的，能减少的就减少，能放下的就放下。一定要这样作智慧的安排，对自己的人生负责，想办法节省时间，一心摄取佛法的大义。</p>
+<p>我们修行浅的人，白天出门在外奔波，做不得主。重点要把握住一天的早晨、夜晚和节假日这些时间，这些时间再不能错过了。对外，要禁止夜晚出去活动、接触世间人；对内，要禁止看电视、上网、打电话闲聊等等。这样做，才能保证每天都有一定的时间用在佛法的闻思修上。</p>
+<p>不改掉看电视、打电话、上网、闲聊等等的放逸恶行，就只有沦为无暇人生了。是有暇、还是无暇，全看你自己。喜欢看电视、打电话、上网，就是无暇之人，因为心都被搅乱了，怎么闻思修？连佛法最起码的功德也难以生起。常看到一些人看电视、打电话、上网、购物时兴致勃勃，做功课一到就无精打采，敷衍了事。精气神早被欲尘吸光了，马马虎虎念一下，打个哈欠就睡觉了。</p>
+<h3 ref="作吞噬暇满的恶魔想" ><strong>作“吞噬暇满的恶魔”想</strong></h3><a class="anchor" id="作吞噬暇满的恶魔想"></a>
+<p>举两个例子：</p>
+<p>比如，看到街上、地铁站台上卖报纸，就像见到魔鬼一样，不要碰它。要这样想：报纸让我散乱、让我生种种不清净的分别，把我拉向轮回、拉向恶趣。它就是张牙舞爪的魔鬼，吞噬我人身的精华！决不碰它！</p>
+<p>又比如，路过一家大型超市，看到商品琳琅满目。马上警惕：这是魔宫，一进去就被吃掉二、三个小时的暇满，不能进去！自己的生活能简化，就可以少进甚至不进大超市。我们修道的人，粗衣淡饭随缘过，养活自己用得了多少？不应当为五欲所累。像穿的几身衣服，好好地洗，好好地穿，两三年都不用换，哪里要经常逛时装店呢？这样，举一反三，对世间种种五欲都作“吞噬暇满的恶魔”想。</p>
+<h3 ref="即生成就的所依" ><strong>即生成就的所依</strong></h3><a class="anchor" id="即生成就的所依"></a>
+<p>《虚空珍宝经》中说：“内心分别没有摧灭，就是散乱者，无有闲暇。内心分别寂灭后，自性安住，称为闲暇。如此了知心之自性后，心与真实义相应，称为圆满。”</p>
+<p>大家都希求即生成就，即生成就的前提就是远离无暇。什么是无暇？眼耳等六识入于六尘境界里流荡，就是无暇。上等人寂灭虚妄分别，自性安住，称为“暇”。依止寂止后，以胜观照见真实而证悟，称为“满”。以此为所依，止观双运，能即生得大成就。唐代赵州禅师说：“老僧四十年不杂用心，除二时粥饭，是杂用心处。”中等人应放下万缘，一心缘在法上。最下等也应当为了修道，戒掉上网、聊天、电话、电视、旅游、串门、请客吃饭这些毫无实义的事，尽可能地利用时间修法。如果连这个最起码的要求都做不到，那就不是修道的人了。因为你连修道的所依——暇满都不具足，怎么修道呢？</p>
+<p>来果老和尚这样讲述自己修道的经历：</p>
+<p>光绪三十三年春，我住金山禅堂，发愿以开悟为期，不悟不出禅堂，立行不倒单，不请病假、香假、缝补假、经行假、殿假，宁可死在禅堂，不死在外寮。单参“念佛是谁”，毫无其他妄念。</p>
+<p>规矩熟悉后，就安心办道。任何人见不到我的眼珠，听不到我的音声，没见过我回一个头。</p>
+<p>一天洗澡回来，走到大殿门口，忽然抬眼往里看了一下，就被方丈室的僧人呵斥说：“放逸！”我惭愧得无地自容，到开大静后，自己打耳光七八下，痛责自己。</p>
+<p>又一天，有人问我大殿里供的是什么佛像？我回答不出。他又追问佛像有没有胡子，也不能回答。因为我从没有抬头向上看过。</p>
+<p>一天在斋堂里受供，工夫得力，举起碗，一动不动，约五分钟。被僧值打了一记耳光，碗和筷子全都掉地，衣袍沾满汤水，碗碎成几块。还是工夫把住，不许打失。像这样，从早到晚地用功，不论白天、夜晚，都不虚度。</p>
+<p>到光绪三十四年九月二十六号，晚上第六支香，开静的木鱼一敲，猛然豁落，就像千斤担子顿时卸下，打失娘生鼻孔，大哭不止，悲叹无尽，迷惑直到今天，沉没轮回，枉受种种苦楚。可哀可痛！可限悲思，无法言表。</p>
+<p>这就是珍惜暇满的上等之相。念念缘于法，六根毫不散乱，所以能速得成就。古人说：“取法其上，得乎其中。”大家要努力向上等修行人看齐，即使暂时做不到像他那样，也要努力朝那个方向去做。</p>
+<p>以上“珍惜暇满”的内容就讲完了。最后祝愿大家在新的一年中，个个珍惜暇满，努力勤精进！</p>
+<h2 ref="珍惜暇满问答录" >珍惜暇满问答录</h2><a class="anchor" id="珍惜暇满问答录"></a>
+<p>元旦和大家交流了暇满的法义之后，陆续收到了一些提问，在此择要进行回答，希望能加深大家对暇满的理解。</p>
+<p><strong>1、问：上师您好，听了“珍惜暇满”的开示后，认识到了过去在逛街、上网等俗事上浪费了很多时间，感到非常惭愧，感谢上师的提醒。现在还有个地方不清楚，父母年纪大了，和我们又不住在一起，比较寂寞，经常需要我打电话和他们聊天，请问这样的电话可以打吗？</strong></p>
+<p>答：事有轻重缓急，只有努力精进闻思修佛法，早日具备彻底帮助众生的能力，才能尽早尽快地救渡父母脱离轮回苦海，这是最彻底的帮助父母的方法。如果自己在佛法上没有什么进步，可能对父母的帮助也不会很大。</p>
+<p>当然，老年人社交活动圈子小，生活比较寂寞乏味，子女应该多和父母沟通，丰富他们的生活，这是子女尽孝的本分；同时父母是福田，这也是子女累积福报的一个殊胜方便。</p>
+<p>而且多打电话，完全可以和闻思修行结合在一起。如果父母还没有学佛，可以根据他们的根基和意乐，耐心地谈些现代因果事例，谈谈即使是名人、伟人也不能永远生活在这个世间的客观现实，然后启发他们对于这个世界的思考，启发他们的信根。如果父母已经在学佛，每次打电话，就以佛法为谈论的话题，可以谈谈自己对法义的理解、祖师大德们的公案、周围师兄弟们取得的进步，或者对于修持的体会等等，和父母互相鼓励，互相督促。这样的电话，既宽慰了父母，又是对父母更有意义的尽孝，同时也是对自己的佛学水平的检验和促进，这本身就是在实现暇满人身的意义，像这样的电话可以多打。</p>
+<p><strong>2、问：上师要求我们珍惜暇满，但是只让我们发一年的愿，而我们希望这一生都在上师面前发这样的愿，请问是否可以呢？</strong></p>
+<p>答：珍惜暇满，不要去做无意义的事情，是完全由暇满人身的内涵所决定的。也正因为暇满人身本来就含藏着这么重大的价值，所以大慈大悲的佛陀和历代传承祖师才代代相传，教诲我们要好好珍惜。所以大家要再再地串习暇满的法义，而不是因为我要求了才来发愿。</p>
+<p><strong>3、问：怎样才能有效地忆念暇满人身的法义？</strong></p>
+<p>答：可以经常忆念这三个方面的法义：一、我们从因、喻可以知道现在这个暇满人身来之不易，下次再要有幸得到，可能已在千百亿年之后了；二、从暇满的自性中我们也了解到，这个暇满人身，本身就蕴含着巨大的潜能，就像一个如意宝，如果好好利用，就可以产生出源源不断的功德，甚至是像密勒日巴尊者那样即身成就的奇迹，都可能在我们身上实现；三、这个暇满人身又非常短暂，正在一刻不停地减少，离它的终点越来越近，因此必需要好好地珍惜。</p>
+<p>因此，在我们想要上网、逛街、谈天等的时候，我们应该提醒自己，我们是在用这个如此珍贵罕见，可以即身成就，同时又稍纵即逝的暇满人身宝，来做这些没有价值的散漫、放逸的事情，这是多么不值得，多么愚痴，多么令人痛心的事情啊！应当再次忆及上面的三个要点，回复到正念上来。</p>
+<p><strong>4、问：这个身体是由骨肉等不净物组成的，为什么又说它是一个如意宝呢？</strong></p>
+<p>**答：**我们的这个五蕴身，从它的世俗自性来说，确实是由不清净的色身和杂染的心识组合而成的，既不牢靠，也不持久，因此我们不能执著它。同时这个五蕴身习惯于造很多恶业和无记业，这时它是痛苦之源，但是这个五蕴身因为具足了暇满，又可以造很多清净的有漏或者无漏的善业，可以产生并实践出离心、菩提心和摩诃般若，直至最终产生出佛陀那样的最最安乐的结果，从这个角度来看，它便是珍贵难得的如意宝了。</p>
+<p><strong>5、问：上师您好，新闻可以使我们增强社会责任感，请问新闻可以看吗？</strong></p>
+<p>**答：**很多人看新闻，实际上是消遣，是将各路新闻作为谈资，这样就浪费了暇满人身。本来目的是想增强对社会的责任感，但其实不但没能起到增强作用，反而浪费了十分宝贵的时间。因此在得到佛法的真正利益之前，应该把精力投入到闻思修行之中，才是理智的选择。</p>
+<p><strong>6、问：上师您好，我们学佛的时间已经比较长了，暇满这部分内容是基础法，我们已经学过几次，平时大家也都比较精进，是否可以不必要学了？</strong></p>
+<p>**答：**大家学佛精进，这点很赞叹。但是我们要分清楚形式上的精进和真正的精进。形式上的精进，是依靠已经养成的习惯，或者是大家共修的约束力而进行的闻思修，但内心里缺乏主动性，比较容易在闻思修的过程中受各种因素吸引，精力分散。真正的精进，是知道闻思修的好处，内心有一股强大的动力，喜欢并享受这种闻思修的过程。现在具备形式上精进的人不少，但是能够具备真正精进的人还不多见，其中很大的原因，就是对于暇满难得的法义还缺乏深入的观察。</p>
+<p>另一方面，暇满人身是一块宝，任何时候如理地利用它，都能产生很大的功德效益，但是并不是所有的时间都能被用来学佛，单单维护这个暇满人身的时间，可能就占去了一半。比如说需要有大约三分之一的时间用在睡眠上，吃饭也要花费不少的时间，随着年纪的增加，上医院的时间也逐渐增多，因此我们不应满足于目前的精进现状。</p>
+<p>要能获得暇满人身的大义，并不是学几遍暇满的法义就能够实现了的，对于暇满人身利用得最好的，是密勒日巴尊者、金厄瓦格西等祖师大德，大家可以多和他们作作对比，这样就能找到差距，也能知道自己哪些地方还有潜力可挖。</p>
+<p><strong>7、问：旅游确实没有多少意义，那么朝山应该如何看待？</strong></p>
+<p>**答：**从因果规律来讲，所作的一切业是正是邪，功德是高是低，首先都取决于其当时的发心。佛教的圣地本身有其加持，但是如果发心不到位，则再大的加持也难以相应，因此首先利用好暇满人身，使自己生起皈依心，乃至出离心和菩提心更为重要。佛法是一个巨大的宝山，本身就具备不可思议的加持力，真正的朝山就是利用好这个暇满人身，用闻思修的方法，深入到佛法这个宝山中去。</p>
+<p><strong>8、问：生起了对暇满人身的珍惜之心后，我们接下来应该如何行持呢？</strong></p>
+<p>**答：**生起了对暇满人身宝的珍惜之心后，就应该作好计划，将时间尽量地用在闻思修行上，每天早上对一天的计划要有个安排，到了晚上要对一天的成效做一个总结，并把善根进行回向。</p>
+<p><strong>9、问：我经营着一家公司，需要花很多的时间和精力，虽然我也很想全身心学佛，但是时间不够，请问上师有没有什么两全其美的方法？</strong></p>
+<p>**答：**公司经营得好，也能帮助到一些众生，但是要知道在经营公司的是自己无价的暇满人身。因此在进行利润核算时，应该把暇满人身也作为成本核算进去，这样即使公司经营得再好，其实每年都在遭遇巨大的亏损，这是得不偿失的。因此应该分清主次，如果未来的生活已经有了一定的保证，就应该考虑慢慢地从繁杂的公司管理中抽身出来，将这个暇满人身宝投入到能产生出世间功德的闻思修行中去。如果寄希望到退休后再学，一来人身无常，能否活到退休还是个未知数，二来退休后，因为色身的衰退，闻思修的能力已大不如前了。</p>
+<p><strong>10、问：我们现在已经退休了，应该怎样做才能利用好这个暇满人身宝呢？</strong></p>
+<p>**答：**退休后会有很多空余的时间，但是要知道暇满人身宝的黄金时期已经过去了。年轻有为的时候，时间和精力基本都浪费在了对今世的追求上，现在再看不破、放不下，就连这最后的机会也要失去了，因此应该以净土修行为主，做好精进修行的计划。</p>
+<p>益西彭措</p>
+<p>2011年1月６日</p>
+<h2 ref="珍惜暇满的一封信" >珍惜暇满的一封信</h2><a class="anchor" id="珍惜暇满的一封信"></a>
+<p>刚过完年，或许大家还沉浸在辞旧迎新的喜庆中，然而我的心却不甚踏实！人生匆匆不过几十个春秋，辞去旧岁意味着我们宝贵的人生又流逝了365个日夜，迎来新年意味着我们距离死亡又迈进了一大步。在炮竹的烟雾尚未完全消尽，餐桌上亲朋团聚的余温尚未冷却之前，我们应该反躬自省这个极难得的暇满人身，过去的一年有没有虚度，而新的一年又该怎样珍惜呢？</p>
+<h3 ref="清醒地认识我们每天的时间" ><strong>清醒地认识我们每天的时间</strong></h3><a class="anchor" id="清醒地认识我们每天的时间"></a>
+<p>迫于生活，许多在家道友每天都必须要将大量的时间投入到获取生活需求的工作中，日复一日、年复一年的流水线式生活让大多数希求解脱道的在家道友无可奈何，我们来算一笔一天24小时的时间账：</p>
+<p>１、获取生存条件投入时间（即上班时间，做生意的或许需要投入更多）：8小时/天。</p>
+<p>２、滋养色身所需时间（买菜、做饭、吃饭、睡觉等）：11小时/天。</p>
+<p>３、上下班路上所耽搁的时间（因人而异，各有不同）：2小时/天。</p>
+<p>４、社交时间（关怀问候亲人、朋友，或一些社交应酬等，情况各不相同）：1.5小时/天。</p>
+<p>５、充电时间（为提高工作水平而必要的时间投资）：1.5小时/天。</p>
+<p>以上几乎都是每个在家修行人每天所必须支出的时间，算一算你可以将身心沉浸在妙法中的时间又有多少呢？</p>
+<h3 ref="高度警惕潜伏的魔众" ><strong>高度警惕潜伏的魔众</strong></h3><a class="anchor" id="高度警惕潜伏的魔众"></a>
+<p>网络所展现的花花世界远比身边的红尘更加迷惑人心，犹如蜘蛛在虚空中所结的巨网，那些没有智慧的人，在贪嗔痴的诱惑下会不由自主地紧紧粘在上面无法挣脱。《苦口忠言》这本小册子中，我曾揭示过：这个世界上再没有比网络更大、更加令人眼花缭乱的“超市”！网络游戏和不清净的网站、视频，是直接毁坏修行人法身慧命的巨大魔王；五花八门的令心散乱的各种信息，也是每一个修行人不可忽视的魔众！而我们修行人如果沉溺在网络中难以自我警醒，最终就会失去自己最宝贵的法身慧命，被卷进恶趣痛苦的漩涡而无有出期。这就完全违背了寻求解脱的初衷，从内心使自己完全腐坏。</p>
+<p>手机、电视也是如此。每天晚上如果检查一下自己一天中打电话的时间，就会发现，这个时间至少可以修一座法、作一百个大礼拜、看十几页书抑或思维几十分钟佛法了，而有些人却喜欢和朋友煲“电话粥”，在毫无意义的闲聊中浪费着暇满的人身！电视则是我们要高度警惕的温柔的魔众，各种电视剧和种类繁多的电视节目令电视屏幕变成了巨大的吸盘，将无数人牢牢地吸在它的面前，已经被死死地抓住了，不能自拔地沉浸在电视剧的情节或者各类节目中乐不思蜀！即使是很多冠以“修行人”名称的道友，也难以在它面前时刻保持正知正念！</p>
+<p>网络也好，手机、电视也罢，不仅吞噬了修行人宝贵的时间，更在心相续中注入了无数贪嗔痴五毒烦恼的毒素，毒害修行人的法身慧命！去年冬天我去了汉地的几个城市，听到一些，看到一些，使我现在想到这些，都不禁感到痛惜无比！</p>
+<h3 ref="暇满的保证共同发愿" ><strong>暇满的保证——共同发愿</strong></h3><a class="anchor" id="暇满的保证共同发愿"></a>
+<p>去年，佛友们纷纷响应号召，按《苦口忠言》的警示而填表，发愿远离这些令身心染污和散乱的因缘，以清净的身心和更多的时间投入闻思修行。大家普遍反映，因为共同发愿的督促力量，去年一年平添了很多稳定的闲暇，在闻思佛法、修持身心上获得了不少的进步，在这危险的红尘中，获得了一分战胜散乱和堕落的群魔的力量。这让我略感欣慰，也由衷地随喜！</p>
+<p>但是，小胜之后，更重要的是进一步的坚持和增上。</p>
+<p>为了在新的一年里，继续挽救众多佛友的修行，我希望大家珍惜暇满人身，不要松懈，再接再厉为确保身心清净与闻思修的殊胜顺缘而再次填表发愿。</p>
+<p>为此，我也会一如既往地虔诚祈祷上师三宝及诸位护法神加被、护持发愿者，身心清净自在，闻思修行辗转增上，早日圆满福慧资粮！</p>
+<p>另：请将发愿表填写三份，一份自己留存，一份当地负责人保存，一份寄给我。</p>
+<p>益西彭措</p>
+<p>2010年3月6日</p>
+<p>从前两年学院降魔胜利洲的僧众发愿的效果看，的确为保证僧团的戒律清净与精进的闻思修行提供了很多殊胜顺缘，因此，新的一年希望僧众继续为此而发愿。我也是如同两年前跟大家所说的话一样：常住学院的四众弟子，凡是想听我益西彭措的课者必须填写此发愿表，不发愿者不开许听课，即使听课也得不到传承且犯盗法罪！</p>
+<p>益西彭措</p>
+<p>2011年1月1日</p>
+<p>我今于上师三宝面前郑重发愿：于公历2011年1月1日～2012年1月1日一年期间，在喇荣五明佛学院范围内（包括本院五台山范围内）决不使用手机、私人座机或网络。</p>
+<p>发愿者签名：_________</p>
+<h3 ref="另特殊开许者" ><strong>另：特殊开许者</strong></h3><a class="anchor" id="另特殊开许者"></a>
+<p>我今于上师三宝面前郑重发愿：决不使用手机（收发短信、打电话、上网等）或网络（邮箱、QQ、MSN、BLOG、网页等所有网络形式）做任何非法或不清净的行为，只做工作范围内（弘法利生或者为常住做事）的事情。（发心人员）</p>
+<p>发愿者签名：_________</p>
+<p>我今于上师三宝面前郑重发愿：决不使用座机或手机（收发短信、打电话、上网等）做任何非法或不清净的行为。（非发心人员）</p>
+<p>发愿者签名：_________</p>
+<!-- raw HTML omitted -->
+<p>前年和去年佛友们纷纷响应号召，按《苦口忠言》的警示而填表，发愿远离这些令身心染污和散乱的因缘，以清净的身心和更多的时间投入闻思修行。大家普遍反映，因为共同发愿的督促力量，前两年平添了很多稳定的闲暇，在闻思佛法、修持身心上获得了不少的进步，在这危险的红尘中，获得了一分战胜散乱和堕落的群魔的力量。这让我略感欣慰，也由衷地随喜！</p>
+<p>但是，小胜之后，更重要的是进一步的坚持和增上。</p>
+<p>为了在新的一年里，继续挽救众多佛友的修行，我希望大家珍惜暇满人身，不要松懈，再接再厉为确保身心清净与闻思修的殊胜顺缘而再次填表发愿。</p>
+<p>益西彭措</p>
+<p>2011年1月1日</p>
+<p>我今于上师三宝及护法神面前郑重发愿：</p>
+<p>于公历 年 月 日～ 年 月 日期间保证做到：</p>
+<p>1、决不赌博及观看任何不清净的视频或网站等；</p>
+<p>2、表格中所选择的内容：</p>
+<p>发愿者签名：_________</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>不上网</strong></th>
+<th style="text-align:left"><strong>不玩游戏</strong></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">整个发愿期间</td>
+<td style="text-align:left">每月15天以上</td>
+<td style="text-align:left">每月7天以上</td>
+<td style="text-align:left">整个发愿期间</td>
+<td style="text-align:left">每月15天以上</td>
+<td style="text-align:left">每月7天以上</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">上等</td>
+<td style="text-align:left">中等</td>
+<td style="text-align:left">下等</td>
+<td style="text-align:left">上等</td>
+<td style="text-align:left">中等</td>
+<td style="text-align:left">下等</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>不看电视</strong></td>
+<td style="text-align:left"><strong>不打电话</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">每天不超过1小时</td>
+<td style="text-align:left">每天不超过2小时</td>
+<td style="text-align:left">每天不超过3小时</td>
+<td style="text-align:left">每周不使用2天</td>
+<td style="text-align:left">每周不使用1天</td>
+<td style="text-align:left">每周不使用半天</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">上等</td>
+<td style="text-align:left">中等</td>
+<td style="text-align:left">下等</td>
+<td style="text-align:left">上等</td>
+<td style="text-align:left">中等</td>
+<td style="text-align:left">下等</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>戒旅游</strong></td>
+<td style="text-align:left"><strong>戒看报纸</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">整个发愿期间</td>
+<td style="text-align:left">半年内</td>
+<td style="text-align:left">三个月内</td>
+<td style="text-align:left">整个发愿期间</td>
+<td style="text-align:left">半年内</td>
+<td style="text-align:left">三个月内</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">上等</td>
+<td style="text-align:left">中等</td>
+<td style="text-align:left">下等</td>
+<td style="text-align:left">上等</td>
+<td style="text-align:left">中等</td>
+<td style="text-align:left">下等</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>戒无意义逛街及逛超市</strong></td>
+<td style="text-align:left"><strong>戒无意义社交活动</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">整个发愿期间</td>
+<td style="text-align:left">半年内</td>
+<td style="text-align:left">三个月内</td>
+<td style="text-align:left">整个发愿期间</td>
+<td style="text-align:left">半年内</td>
+<td style="text-align:left">三个月内</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">上等</td>
+<td style="text-align:left">中等</td>
+<td style="text-align:left">下等</td>
+<td style="text-align:left">上等</td>
+<td style="text-align:left">中等</td>
+<td style="text-align:left">下等</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">备注</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<p><strong>注：</strong></p>
+<p>1、上网：发愿上等者必须使用网络下载佛经论典电子版、讲经说法声音或视频文件、恭听高僧大德开示时可特殊开许。</p>
+<p>2、游戏：SONY PSⅡ及各种手机、电脑、网络等游戏。</p>
+<p>3、电视：佛法教材除外的所有节目（包括影视剧等）。</p>
+<p>4、电话：手机、座机、大灵通、小灵通及网络通话等所有通讯方式，但为弘法利生的事业或生病（自己或家人）必须通讯联络时可开许。</p>
+<p>5、请根据自己的情况及发心在上等、中等、下等的表格中相应打“√”。</p>
+
+		</div>
+
+
+
+
+
+
+	 
+	<div class="chevrons">
+		<a class="next" href="/ref/xmfw/qxxl3/" title="前行系列3" style="margin-right: 0px;">
+            <div>
+                <p>Next page</p>
+                <label>前行系列3</label>
+            </div>
+            <i class="fas fa-arrow-right" style="font-size: 1.7em"></i></a>
+	</div>
+	
+
+      </section>
+
+      
+      
+      <section class="right-menu ">
+      
+	
+
+		
+	
+			
+		
+	    	
+	  	
+	<div class="TableOfContents">
+    <label><i class="fas fa-align-right"></i>&nbsp;&nbsp;What&#39;s on this page</label>
+    <nav>
+        <ul >
+            <li><a href="/ref/xmfw/zxxm/">珍惜暇满</a></li>
+        </ul>
+    </nav>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#12">12</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#一暇满的体性">一、暇满的体性</a></li>
+            <li><a href="#一闲暇">（一）闲暇</a></li>
+            <li><a href="#二圆满">（二）圆满</a></li>
+            <li><a href="#二暇满难得之相">二、暇满难得之相</a></li>
+            <li><a href="#一以因难得">（一）以因难得</a></li>
+            <li><a href="#二以喻难得">（二）以喻难得</a></li>
+            <li><a href="#三以量难得">（三）以量难得</a></li>
+            <li><a href="#一蹉百蹉"><strong>一蹉百蹉</strong></a></li>
+            <li><a href="#珍惜福分"><strong>珍惜福分</strong></a></li>
+          </ul>
+        </li>
+        <li><a href="#三思维获得暇满能摄取大义">三、思维获得暇满能摄取大义</a>
+          <ul>
+            <li><a href="#一什么不是摄取大义"><strong>（一）什么不是摄取大义</strong></a></li>
+            <li><a href="#二什么才是摄取大义"><strong>（二）什么才是摄取大义</strong></a></li>
+            <li><a href="#三暇满义大的比喻"><strong>（三）暇满义大的比喻</strong></a></li>
+          </ul>
+        </li>
+        <li><a href="#四善用暇满人身">四、善用暇满人身</a>
+          <ul>
+            <li><a href="#世俗化吞噬了暇满"><strong>世俗化吞噬了暇满</strong></a></li>
+            <li><a href="#天人的无暇"><strong>“天人”的无暇</strong></a></li>
+            <li><a href="#细算暇满"><strong>细算暇满</strong></a></li>
+            <li><a href="#古今对照看暇满"><strong>古今对照看暇满</strong></a></li>
+            <li><a href="#戒旅游"><strong>戒旅游</strong></a></li>
+            <li><a href="#戒看报纸"><strong>戒看报纸</strong></a></li>
+            <li><a href="#戒上网"><strong>戒上网</strong></a></li>
+            <li><a href="#戒世间活动"><strong>戒世间活动</strong></a></li>
+            <li><a href="#戒娱乐器具"><strong>戒娱乐器具</strong></a></li>
+            <li><a href="#捡回浪费的时间"><strong>捡回浪费的时间</strong></a></li>
+            <li><a href="#作吞噬暇满的恶魔想"><strong>作“吞噬暇满的恶魔”想</strong></a></li>
+            <li><a href="#即生成就的所依"><strong>即生成就的所依</strong></a></li>
+          </ul>
+        </li>
+        <li><a href="#珍惜暇满问答录">珍惜暇满问答录</a></li>
+        <li><a href="#珍惜暇满的一封信">珍惜暇满的一封信</a>
+          <ul>
+            <li><a href="#清醒地认识我们每天的时间"><strong>清醒地认识我们每天的时间</strong></a></li>
+            <li><a href="#高度警惕潜伏的魔众"><strong>高度警惕潜伏的魔众</strong></a></li>
+            <li><a href="#暇满的保证共同发愿"><strong>暇满的保证——共同发愿</strong></a></li>
+            <li><a href="#另特殊开许者"><strong>另：特殊开许者</strong></a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+
+		
+	
+			
+		
+	    	
+	  	
+	<div class="Actions">
+	<nav>
+		<ul>
+				
+		    
+		    
+			
+		      <li>
+		          <i class='fas fa-calendar'></i>
+		          Last update on 14 December 2020
+		      </li>
+		    
+		    
+
+    	</ul>
+	</nav>
+    
+</div>
+
+      </section>
+      
+    </article>
+    
+    
+    <footer>
+      
+
+		
+	
+			
+		
+	    	<h6 id="圆航的禅修班笔记-仅供个人参考-请勿转发-如有错漏-请联系huidengvangmailcom">圆航的禅修班笔记📒 仅供个人参考 请勿转发 如有错漏 请联系huidengvan@gmail.com</h6>
+
+	    
+	
+    </footer>
+    
+
+
+
+  </body>
+</html>

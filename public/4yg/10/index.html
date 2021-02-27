@@ -1,0 +1,5177 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+	10邪见 :: 圆航的禅修班笔记(仅供参考请勿转发)
+</title>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="revised" content="2021-02-26T13:42:38 PST">
+<meta name="description" content="">
+
+
+
+<title>10邪见 :: 圆航的禅修班笔记(仅供参考请勿转发)</title>
+
+<link rel="shortcut icon" href='/images/favicon.png' type="image/x-icon" />
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+
+<script src='https://code.jquery.com/jquery-3.5.1.min.js'></script>
+
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel="stylesheet">
+
+
+
+<link rel="stylesheet" type="text/css" href='https://bj.cxb123.cc/sass/layout.css'>
+<link rel="stylesheet" type="text/css" href='https://bj.cxb123.cc/css/style.main.css'>
+<link rel="stylesheet" type="text/css" href='https://bj.cxb123.cc/css/style.menu.css'>
+<link rel="stylesheet" type="text/css" href='https://bj.cxb123.cc/sass/shortcodes/notice.css'>
+<link rel="stylesheet" type="text/css" href='https://bj.cxb123.cc/sass/shortcodes/tabs.css'>
+<link rel="stylesheet" type="text/css" href='https://bj.cxb123.cc/sass/shortcodes/panel.css'>
+<link rel="stylesheet" type="text/css" href='https://bj.cxb123.cc/sass/shortcodes/columns.css'>
+<link rel="stylesheet" type="text/css" href='https://bj.cxb123.cc/sass/shortcodes/children.css'>
+<link rel="stylesheet" type="text/css" href='https://bj.cxb123.cc/sass/shortcodes/attachments.css'>
+<link rel="stylesheet" type="text/css" href='https://bj.cxb123.cc/sass/shortcodes/alert.css'>
+<link rel="stylesheet" type="text/css" href='/css/docport.css'>
+
+<script src='/js/docport.js'></script>
+<script type="text/javascript">
+      var baseurl = "https:\/\/bj.cxb123.cc\/";
+</script>
+
+
+<script>
+  window.addEventListener("keydown", function (e) {
+    
+    if (e.key == "[") {
+      
+      window.scroll({
+        top: window.scrollY - window.innerHeight * 0.4,
+        left: 0,
+        behavior: "smooth",
+      });
+    }
+
+    
+    if (e.key == "]") {
+      
+      window.scroll({
+        top: window.scrollY + window.innerHeight * 0.4,
+        left: 0,
+        behavior: "smooth",
+      });
+    }
+
+    if (e.key == "9") {
+      page_scroll();
+    }
+
+    if (e.key == "0") {
+      stop_scroll();
+    }
+
+    if (e.key == "-") {
+      scrollRateDec();
+    }
+
+    if (e.key == "=") {
+      scrollRateInc();
+    }
+  });
+
+  function page_scroll() {
+    stop_scroll();
+
+    var bottom = $(document).height() - $(window).height();
+    var duration = getDuration(bottom);
+    console.log("duration=" + duration);
+    $("HTML, BODY").animate(
+      {
+        scrollTop: bottom,
+      },
+      duration,
+      "linear"
+    );
+
+    
+  }
+
+  function stop_scroll() {
+    $("html, body").stop();
+  }
+
+  function scrollRateInc() {
+    scrollRate = scrollRate * 0.8;
+    console.log("scrollRate=" + scrollRate);
+    page_scroll();
+  }
+
+  function scrollRateDec() {
+    scrollRate = scrollRate * 1.2;
+    console.log("scrollRate=" + scrollRate);
+    page_scroll();
+  }
+
+  var scrollRate = 20;
+
+  function getDuration(target) {
+    console.log("scrollRate=" + scrollRate);
+    var currentTop = $(window).scrollTop(),
+      rate = scrollRate, 
+      distance;
+    distance = Math.abs(currentTop - target);
+    return distance * rate;
+  }
+
+  $(document).ready(function () {
+    $("article section.page div.content").each(function () {
+      var line = 1; 
+      $("p", this).each(function () {
+        
+        $(this).prepend(
+          "<a name='p" +
+            line +
+            "' href='#p" +
+            line +
+            "' style='font-size: 50%;'>[p" +
+            line +
+            "]</a>"
+        ); 
+        line++;
+      });
+    });
+
+    console.log('window.location.hash=' + window.location.hash);
+
+    if(window.location.hash) {
+      window.location=window.location.href;
+    }
+  });
+</script>
+
+
+    
+  </head>
+
+  <body data-url="/4yg/10/"
+
+  class="">
+
+<style type="text/css">
+  #debug{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 3.5rem;
+    margin-bottom: .35rem;
+    padding: 0 2rem;
+    position: fixed;
+    left: 0;      right: 0;     top: 0;
+   
+    top:0px;
+    
+    min-height: 150px;
+
+    background-color: white;
+    border: 3px solid red;
+    z-index: 10000 ;
+    word-wrap: all;
+    overflow: auto;
+  }
+</style>
+ 
+
+
+    
+    
+    <header style="">
+        <div>
+    
+    <div class="burger ">
+        <a href="javascript:void(0);" style="font-size:15px;" onclick="$('article > aside').toggleClass('responsive')">&#9776;</a>
+    </div>
+    
+
+    <div>
+
+		
+	
+			
+		
+	    	<a class='baselink' href='https://bj.cxb123.cc/'>圆航的禅修班笔记(仅供参考请勿转发) / 10邪见</a>
+	  	
+	</div>
+    <nav class="shortcuts">
+            <li class="" role="">
+                <a href="/tags"  rel="noopener">
+                  <i class='fas fa-tags'></i> Tags
+                </a>
+            </li>
+    </nav>
+
+</div>
+    </header>
+    
+
+    <article>
+      
+      <aside class="">
+        
+
+		
+	
+			
+		
+	    	
+	  	
+	<div id="close_menu">
+  <a href="javascript:void(0);" style="font-size:15px;" onclick="$('article > aside').toggleClass('responsive')">
+      <i class="fa fa-lg fa-times"></i>
+  </a>
+</div>
+
+<ul class="menu">
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+          <a href="/1xm/">1暇满难得</a>
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/">1八无暇</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.1-di-yu/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.1-di-yu/">1地狱</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.1-di-yu/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.1-di-yu/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.1-di-yu/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.1-di-yu/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.1-di-yu/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.1-di-yu/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.2-e-gui/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.2-e-gui/">2饿鬼</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.2-e-gui/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.2-e-gui/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.2-e-gui/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.2-e-gui/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.2-e-gui/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.2-e-gui/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.3-pang-sheng/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.3-pang-sheng/">3旁生</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.3-pang-sheng/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.3-pang-sheng/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.3-pang-sheng/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.3-pang-sheng/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.3-pang-sheng/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.3-pang-sheng/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.4-chang-shou-tian/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.4-chang-shou-tian/">4长寿天</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.4-chang-shou-tian/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.4-chang-shou-tian/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.4-chang-shou-tian/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.4-chang-shou-tian/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.4-chang-shou-tian/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.4-chang-shou-tian/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.5-bian-di/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.5-bian-di/">5边地</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.5-bian-di/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.5-bian-di/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.5-bian-di/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.5-bian-di/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.5-bian-di/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.5-bian-di/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.6-fo-bu-chu-shi/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.6-fo-bu-chu-shi/">6佛不出世</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.6-fo-bu-chu-shi/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.6-fo-bu-chu-shi/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.6-fo-bu-chu-shi/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.6-fo-bu-chu-shi/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.6-fo-bu-chu-shi/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.6-fo-bu-chu-shi/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.7-yin-ya/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.7-yin-ya/">7喑哑</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.7-yin-ya/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.7-yin-ya/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.7-yin-ya/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.7-yin-ya/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.7-yin-ya/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.7-yin-ya/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.8-xie-jian/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.8-xie-jian/">8邪见</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.8-xie-jian/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.8-xie-jian/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.8-xie-jian/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.8-xie-jian/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/1-ba-wu-xia/1.8-xie-jian/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/1-ba-wu-xia/1.8-xie-jian/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/">2十圆满</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.09-de-ren-shen/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.09-de-ren-shen/">09 得人身</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.09-de-ren-shen/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.09-de-ren-shen/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.09-de-ren-shen/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.09-de-ren-shen/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.09-de-ren-shen/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.09-de-ren-shen/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.10-sheng-zhong-tu/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.10-sheng-zhong-tu/">10 生中土</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.10-sheng-zhong-tu/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.10-sheng-zhong-tu/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.10-sheng-zhong-tu/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.10-sheng-zhong-tu/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.10-sheng-zhong-tu/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.10-sheng-zhong-tu/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.11-wu-gen-ju-zu/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.11-wu-gen-ju-zu/">11 五根具足</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.11-wu-gen-ju-zu/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.11-wu-gen-ju-zu/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.11-wu-gen-ju-zu/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.11-wu-gen-ju-zu/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.11-wu-gen-ju-zu/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.11-wu-gen-ju-zu/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.12-ye-ji-bu-dian-dao/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.12-ye-ji-bu-dian-dao/">12 业际不颠倒</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.12-ye-ji-bu-dian-dao/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.12-ye-ji-bu-dian-dao/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.12-ye-ji-bu-dian-dao/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.12-ye-ji-bu-dian-dao/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.12-ye-ji-bu-dian-dao/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.12-ye-ji-bu-dian-dao/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.13-xin-fo-fa/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.13-xin-fo-fa/">13 信佛法</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.13-xin-fo-fa/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.13-xin-fo-fa/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.13-xin-fo-fa/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.13-xin-fo-fa/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.13-xin-fo-fa/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.13-xin-fo-fa/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.14-fo-tuo-chu-shi/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.14-fo-tuo-chu-shi/">14 佛陀出世</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.14-fo-tuo-chu-shi/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.14-fo-tuo-chu-shi/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.14-fo-tuo-chu-shi/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.14-fo-tuo-chu-shi/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.14-fo-tuo-chu-shi/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.14-fo-tuo-chu-shi/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.15-fo-yi-shuo-fa/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.15-fo-yi-shuo-fa/">15 佛已说法</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.15-fo-yi-shuo-fa/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.15-fo-yi-shuo-fa/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.15-fo-yi-shuo-fa/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.15-fo-yi-shuo-fa/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.15-fo-yi-shuo-fa/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.15-fo-yi-shuo-fa/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.16-fo-fa-zhu-shi/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.16-fo-fa-zhu-shi/">16 佛法住世</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.16-fo-fa-zhu-shi/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.16-fo-fa-zhu-shi/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.16-fo-fa-zhu-shi/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.16-fo-fa-zhu-shi/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.16-fo-fa-zhu-shi/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.16-fo-fa-zhu-shi/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.17-gui-yi-san-bao/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.17-gui-yi-san-bao/">17 皈依三宝</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.17-gui-yi-san-bao/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.17-gui-yi-san-bao/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.17-gui-yi-san-bao/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.17-gui-yi-san-bao/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.17-gui-yi-san-bao/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.17-gui-yi-san-bao/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.18-shang-shi-she-shou/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.18-shang-shi-she-shou/">18 上师摄受</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.18-shang-shi-she-shou/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.18-shang-shi-she-shou/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.18-shang-shi-she-shou/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.18-shang-shi-she-shou/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/2-shi-yuan-man/1.18-shang-shi-she-shou/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/2-shi-yuan-man/1.18-shang-shi-she-shou/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/">3暂生缘</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.19-wu-du/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.19-wu-du/">19 五毒</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.19-wu-du/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.19-wu-du/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.19-wu-du/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.19-wu-du/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.19-wu-du/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.19-wu-du/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.20-yu-chi/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.20-yu-chi/">20 愚痴</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.20-yu-chi/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.20-yu-chi/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.20-yu-chi/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.20-yu-chi/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.20-yu-chi/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.20-yu-chi/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.21-mo-suo-chi/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.21-mo-suo-chi/">21 魔所持</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.21-mo-suo-chi/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.21-mo-suo-chi/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.21-mo-suo-chi/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.21-mo-suo-chi/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.21-mo-suo-chi/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.21-mo-suo-chi/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.22-xie-dai/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.22-xie-dai/">22 懈怠</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.22-xie-dai/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.22-xie-dai/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.22-xie-dai/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.22-xie-dai/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.22-xie-dai/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.22-xie-dai/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.23-e-ye-yong-xian/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.23-e-ye-yong-xian/">23 恶业涌现</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.23-e-ye-yong-xian/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.23-e-ye-yong-xian/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.23-e-ye-yong-xian/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.23-e-ye-yong-xian/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.23-e-ye-yong-xian/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.23-e-ye-yong-xian/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.24-sui-ta-suo-zhuan/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.24-sui-ta-suo-zhuan/">24 为他所转</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.24-sui-ta-suo-zhuan/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.24-sui-ta-suo-zhuan/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.24-sui-ta-suo-zhuan/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.24-sui-ta-suo-zhuan/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.24-sui-ta-suo-zhuan/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.24-sui-ta-suo-zhuan/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.25-qiu-le-jiu-bu/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.25-qiu-le-jiu-bu/">25 求乐救怖</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.25-qiu-le-jiu-bu/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.25-qiu-le-jiu-bu/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.25-qiu-le-jiu-bu/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.25-qiu-le-jiu-bu/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.25-qiu-le-jiu-bu/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.25-qiu-le-jiu-bu/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.26-wei-zhuang-xiu-fa/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.26-wei-zhuang-xiu-fa/">26 伪装修法</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.26-wei-zhuang-xiu-fa/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.26-wei-zhuang-xiu-fa/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.26-wei-zhuang-xiu-fa/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.26-wei-zhuang-xiu-fa/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/3-zan-sheng-yuan/1.26-wei-zhuang-xiu-fa/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/3-zan-sheng-yuan/1.26-wei-zhuang-xiu-fa/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/">4断缘心</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.27-jin-fu-xian-xing/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.27-jin-fu-xian-xing/">27 紧缚现行</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.27-jin-fu-xian-xing/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.27-jin-fu-xian-xing/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.27-jin-fu-xian-xing/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.27-jin-fu-xian-xing/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.27-jin-fu-xian-xing/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.27-jin-fu-xian-xing/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.28-ren-ge-xia-lie/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.28-ren-ge-xia-lie/">28 人格下劣</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.28-ren-ge-xia-lie/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.28-ren-ge-xia-lie/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.28-ren-ge-xia-lie/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.28-ren-ge-xia-lie/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.28-ren-ge-xia-lie/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.28-ren-ge-xia-lie/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.29-bu-yan-lun-hui/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.29-bu-yan-lun-hui/">29 不厌轮回</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.29-bu-yan-lun-hui/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.29-bu-yan-lun-hui/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.29-bu-yan-lun-hui/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.29-bu-yan-lun-hui/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.29-bu-yan-lun-hui/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.29-bu-yan-lun-hui/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.30-wu-you-zheng-xin/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.30-wu-you-zheng-xin/">30 无有正信</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.30-wu-you-zheng-xin/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.30-wu-you-zheng-xin/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.30-wu-you-zheng-xin/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.30-wu-you-zheng-xin/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.30-wu-you-zheng-xin/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.30-wu-you-zheng-xin/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.31-xing-chi-e-ye/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.31-xing-chi-e-ye/">31 行持恶业</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.31-xing-chi-e-ye/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.31-xing-chi-e-ye/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.31-xing-chi-e-ye/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.31-xing-chi-e-ye/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.31-xing-chi-e-ye/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.31-xing-chi-e-ye/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.32-xin-li-fa/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.32-xin-li-fa/">32 心离法</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.32-xin-li-fa/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.32-xin-li-fa/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.32-xin-li-fa/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.32-xin-li-fa/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.32-xin-li-fa/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.32-xin-li-fa/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.33-shi-huai-lv-yi/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.33-shi-huai-lv-yi/">33 失坏律仪</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.33-shi-huai-lv-yi/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.33-shi-huai-lv-yi/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.33-shi-huai-lv-yi/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.33-shi-huai-lv-yi/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.33-shi-huai-lv-yi/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.33-shi-huai-lv-yi/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.34-po-san-mei-ye/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.34-po-san-mei-ye/">34 破三昧耶</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.34-po-san-mei-ye/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.34-po-san-mei-ye/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.34-po-san-mei-ye/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.34-po-san-mei-ye/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/4-duan-yuan-xin/1.34-po-san-mei-ye/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/4-duan-yuan-xin/1.34-po-san-mei-ye/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/5-xia-man-zhi-xiang/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/5-xia-man-zhi-xiang/">5暇满之相</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/5-xia-man-zhi-xiang/1.35-yin-yuan/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/5-xia-man-zhi-xiang/1.35-yin-yuan/">35 暇满之因缘</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/5-xia-man-zhi-xiang/1.35-yin-yuan/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/5-xia-man-zhi-xiang/1.35-yin-yuan/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/5-xia-man-zhi-xiang/1.35-yin-yuan/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/5-xia-man-zhi-xiang/1.35-yin-yuan/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/5-xia-man-zhi-xiang/1.35-yin-yuan/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/5-xia-man-zhi-xiang/1.35-yin-yuan/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/5-xia-man-zhi-xiang/1.36-shu-liang/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/5-xia-man-zhi-xiang/1.36-shu-liang/">36 暇满之数量</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/5-xia-man-zhi-xiang/1.36-shu-liang/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/5-xia-man-zhi-xiang/1.36-shu-liang/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/5-xia-man-zhi-xiang/1.36-shu-liang/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/5-xia-man-zhi-xiang/1.36-shu-liang/2-dui-bi/">2对比</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/5-xia-man-zhi-xiang/1.36-shu-liang/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/5-xia-man-zhi-xiang/1.36-shu-liang/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/5-xia-man-zhi-xiang/1.37-bi-yu/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/5-xia-man-zhi-xiang/1.37-bi-yu/">37 暇满之比喻</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/5-xia-man-zhi-xiang/1.37-bi-yu/1-liao-jie/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/5-xia-man-zhi-xiang/1.37-bi-yu/1-liao-jie/">1了解</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/5-xia-man-zhi-xiang/1.37-bi-yu/2-dui-bi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/5-xia-man-zhi-xiang/1.37-bi-yu/2-dui-bi/">2比较</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/1xm/5-xia-man-zhi-xiang/1.37-bi-yu/3-zhen-xi/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/1xm/5-xia-man-zhi-xiang/1.37-bi-yu/3-zhen-xi/">3珍惜</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    
+
+    <li data-nav-id="https://bj.cxb123.cc/2wc/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+          <a href="/2wc/">2寿命无常</a>
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/2wc/01/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/2wc/01/">1器世间无常(22h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/2wc/02/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/2wc/02/">2有情众生无常(22h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/2wc/03/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/2wc/03/">3圣者无常(22h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/2wc/04/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/2wc/04/">4世间尊主无常(22h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/2wc/05/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/2wc/05/">5思维各种喻义无常(22h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/2wc/06/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/2wc/06/">6死缘不定(22h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/2wc/07/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/2wc/07/">7思维猛厉希求而修无常(22h)</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+    
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+          <a href="/3lh/">3轮回痛苦</a>
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/01/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/01/">01总体思维(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/02/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/02/">02三根本苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/03-10/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/03-10/">03-10人苦</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/03-10/03/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/03-10/03/">03生苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/03-10/04/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/03-10/04/">04老苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/03-10/05/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/03-10/05/">05病苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/03-10/06/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/03-10/06/">06死苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/03-10/07/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/03-10/07/">07爱离别(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/03-10/08/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/03-10/08/">08怨憎会(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/03-10/09/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/03-10/09/">09求不得(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/03-10/10/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/03-10/10/">10不欲临(8h)</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/11/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/11/">11旁生之苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/12/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/12/">12隐住饿鬼之苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/13/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/13/">13空游饿鬼之苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/14/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/14/">14八热地狱之苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/15/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/15/">15近边地狱之苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/16/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/16/">16八寒地狱之苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/17/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/17/">17孤独地狱之苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/18/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/18/">18天人之苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/19/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/19/">19非天之苦(8h)</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/3lh/20/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/3lh/20/">20总体思维轮回痛苦(8h)</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+    
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/" class="dd-item parent haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <i class="fas fa-chevron-down ddexp"></i>
+        
+      
+          <a href="/4yg/">4因果不虚</a>
+      
+        <ul>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/00/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/00/">00总体思维</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/01/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/01/">01杀生</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/02/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/02/">02不与取</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/03/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/03/">03邪淫</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/04/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/04/">04妄语</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/05/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/05/">05离间语</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/06/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/06/">06粗恶语</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/07/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/07/">07绮语</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/08/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/08/">08贪心</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/09/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/09/">09害心</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/10/" class="dd-item parent active
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/10/">10邪见</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/11/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/11/">11护生</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/12/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/12/">12布施</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/13/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/13/">13持戒</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/14/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/14/">14实语</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/15/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/15/">15和语</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/16/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/16/">16爱语</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/17/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/17/">17法语</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/18/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/18/">18舍心</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/19/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/19/">19慈心</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/20/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/20/">20正见</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/21/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/21/">21业之自性</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/4yg/22/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/4yg/22/">22解脱利益</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+    
+
+    <li data-nav-id="https://bj.cxb123.cc/ref/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+          <a href="/ref/">参考资料</a>
+      
+        <ul>
+              
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/ref/xmfw/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/ref/xmfw/">显密佛网</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/ref/xmfw/qxxl3/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/ref/xmfw/qxxl3/">前行系列3</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/ref/xmfw/qxxl4/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/ref/xmfw/qxxl4/">前行系列4</a>
+      
+        
+      
+    </li>
+              
+              
+              
+              
+              
+              
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/ref/hdcxb/" class="dd-item haschildren
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/ref/hdcxb/">禅修班笔记</a>
+      <i class="fas fa-chevron-right ddexp"></i>
+        
+      
+        <ul>
+              
+              
+              
+              
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/ref/hdcxb/fsdgj/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/ref/hdcxb/fsdgj/">佛说稻杆经</a>
+      
+        
+      
+    </li>
+              
+              
+              
+              
+              
+              
+        </ul>
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/ref/sllclp/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/ref/sllclp/">释量论·成量品广释</a>
+      
+        
+      
+    </li>
+              
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/ref/qsjsl/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/ref/qsjsl/">前世今生论</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/ref/qxgs/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/ref/qxgs/">前行广释</a>
+      
+        
+      
+    </li>
+              
+
+    <li data-nav-id="https://bj.cxb123.cc/ref/dymqx/" class="dd-item
+        item_level_$level
+        ">
+
+      
+      
+      
+      
+          <a href="/ref/dymqx/">大圆满前行</a>
+      
+        
+      
+    </li>
+        </ul>
+    </li>
+    
+
+
+
+</ul>
+
+		
+	
+			
+		
+	    	
+	  	
+	
+      </aside>
+      
+
+      <section class="page ">
+      
+	
+		
+    
+    
+    <nav id="ariane" aria-label="breadcrumb">
+      <ol class="ariane">
+        
+  
+  	
+		
+  
+  	
+	<li >
+      <a class="text-link" href="https://bj.cxb123.cc/">
+        Home
+      </a>
+    </li>
+	
+  
+    <li class="">
+      <a class="text-link" href="/4yg/">
+        4因果不虚
+      </a>
+    </li>
+	
+  	
+  
+    <li class="active">
+      
+        10邪见
+      
+    </li>
+
+      </ol>
+    </nav>
+    
+    
+
+    
+		
+        
+		
+		
+		
+		
+		
+		
+		
+
+		
+			<h1>10邪见</h1>
+        
+
+		
+										
+		
+
+		
+	
+
+	
+	
+	<div class="jump-to-section">
+		<span onclick="$h = $(this);$h.next('nav').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('nav').is(':visible') ? 'fas fa-chevron-down' : 'fas fa-chevron-right';});});">
+  			<span class="fas fa-align-right"></span>
+  			Jump to Section
+  			<i style=";" class="fas fa-chevron-right"></i>
+		</span>
+		<nav id="TableOfContents">
+  <ul>
+    <li><a href="#因果不虚10邪见">因果不虚10邪见</a>
+      <ul>
+        <li><a href="#定义">定义</a>
+          <ul>
+            <li><a href="#基">基</a></li>
+            <li><a href="#发心">发心</a></li>
+            <li><a href="#加行--谤因果作用有事">加行&ndash;谤因、果、作用、有事</a></li>
+            <li><a href="#究竟">究竟</a>
+              <ul>
+                <li><a href="#一有愚昧心">(一)有愚昧心</a></li>
+                <li><a href="#二有暴酷心--欢喜心">(二)有暴酷心&ndash;欢喜心</a></li>
+                <li><a href="#三有越流行心--习惯">(三)有越流行心&ndash;习惯</a></li>
+                <li><a href="#四有失坏心--诽谤">(四)有失坏心&ndash;诽谤</a></li>
+                <li><a href="#五有覆蔽心--不感觉羞耻">(五)有覆蔽心&ndash;不感觉羞耻</a></li>
+              </ul>
+            </li>
+            <li><a href="#分类">分类</a></li>
+          </ul>
+        </li>
+        <li><a href="#果报">果报</a>
+          <ul>
+            <li><a href="#异熟果">异熟果</a></li>
+            <li><a href="#等流果">等流果</a></li>
+            <li><a href="#增上果">增上果</a></li>
+            <li><a href="#士用果">士用果</a></li>
+            <li><a href="#其他过患">其他过患</a>
+              <ul>
+                <li><a href="#净障修法文">净障修法文</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#公案">公案</a>
+          <ul>
+            <li><a href="#百业经">百业经</a></li>
+            <li><a href="#因果明镜论">因果明镜论</a>
+              <ul>
+                <li><a href="#邪见者欲以只掌遮中天之朗日岂知真理之光常存不灭照耀古今">邪见者欲以只掌遮中天之朗日，岂知真理之光常存不灭，照耀古今</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#观修思路">观修思路</a>
+      <ul>
+        <li><a href="#前提条件">前提条件</a></li>
+        <li><a href="#三个思维方式">三个思维方式</a>
+          <ul>
+            <li><a href="#第一阶段">第一阶段</a></li>
+            <li><a href="#第二阶段---思考果报">第二阶段 - 思考果报</a></li>
+            <li><a href="#第三阶段">第三阶段</a></li>
+          </ul>
+        </li>
+        <li><a href="#两个观修结果">两个观修结果</a>
+          <ul>
+            <li><a href="#净障修法文-1">净障修法文</a></li>
+            <li><a href="#因果的奥秘--同行等流果">因果的奥秘&ndash;同行等流果</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#参考资料">参考资料</a></li>
+    <li><a href="#大圆满前行">大圆满前行</a></li>
+    <li><a href="#前行广释">前行广释</a>
+      <ul>
+        <li><a href="#前行广释第64节课">前行广释第64节课</a>
+          <ul>
+            <li><a href="#己三邪见">己三（邪见）</a></li>
+            <li><a href="#杀生和邪见最为严重">杀生和邪见最为严重</a></li>
+          </ul>
+        </li>
+        <li><a href="#前行广释第66课">前行广释第66课</a>
+          <ul>
+            <li><a href="#庚二感受等流果">庚二、感受等流果</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#前行广释生西法师辅导">前行广释生西法师辅导</a>
+      <ul>
+        <li><a href="#前行广释第64课辅导资料">《前行广释》第64课辅导资料</a>
+          <ul>
+            <li><a href="#己三邪见-1">己三（邪见）</a></li>
+            <li><a href="#杀生和邪见这两种罪业最为严重">杀生和邪见这两种罪业最为严重</a></li>
+          </ul>
+        </li>
+        <li><a href="#前行广释第66课辅导资料">《前行广释》第66课辅导资料</a></li>
+        <li><a href="#前行广释第67课辅导资料">《前行广释》第67课辅导资料</a>
+          <ul>
+            <li><a href="#己三增上果">己三、增上果</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#前行系列3讲记-益西彭措堪布">前行系列3讲记-益西彭措堪布</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#3邪见">（3）邪见</a>
+              <ul>
+                <li><a href="#1略说">1）略说</a></li>
+                <li><a href="#2广说">2）广说</a>
+                  <ul>
+                    <li><a href="#二邪见">（二）邪见</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#二果相">（二）果相</a>
+              <ul>
+                <li>
+                  <ul>
+                    <li><a href="#j邪见">J邪见</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#3增上果">（3）增上果</a>
+              <ul>
+                <li><a href="#1总体认识">1）总体认识</a></li>
+                <li><a href="#2分别认识">2）分别认识</a>
+                  <ul>
+                    <li><a href="#邪见">⑩邪见</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#4士用果">（4）士用果</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#大圆满心性休息大车疏">大圆满心性休息大车疏</a></li>
+    <li><a href="#因果的奥秘">因果的奥秘</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#庚三邪见">庚三、邪见</a>
+              <ul>
+                <li><a href="#辛二何为邪见">辛二、何为邪见</a></li>
+                <li><a href="#己四摄义">己四、摄义</a></li>
+              </ul>
+            </li>
+            <li><a href="#等流果-1">等流果</a></li>
+            <li><a href="#己三增上果-1">己三、增上果</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#因果明镜论-1">因果明镜论</a>
+      <ul>
+        <li>
+          <ul>
+            <li>
+              <ul>
+                <li><a href="#十-邪见">十 邪见</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#第三章-世间果报">第三章 世间果报</a>
+          <ul>
+            <li><a href="#第四节-分说十恶业的果报">第四节 分说十恶业的果报</a>
+              <ul>
+                <li><a href="#十-邪见-1">十 邪见</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#净障修法文-2">净障修法文</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#十三忏悔邪见罪">(十三)忏悔邪见罪</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#正法念处经讲记-益西彭措堪布">正法念处经讲记-益西彭措堪布</a>
+      <ul>
+        <li>
+          <ul>
+            <li>
+              <ul>
+                <li><a href="#何为邪见">何为邪见</a></li>
+                <li><a href="#邪见果报">邪见果报</a></li>
+                <li><a href="#邪见之因">邪见之因</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#百业经-1">百业经</a></li>
+    <li><a href="#贤愚经">贤愚经</a></li>
+    <li><a href="#佛为娑伽罗龙王所说大乘经讲记">佛为娑伽罗龙王所说大乘经讲记</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#邪见的果报--一者邪见二者懈怠">邪见的果报&ndash;一者邪见，二者懈怠</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#藏传净土法">藏传净土法</a></li>
+    <li><a href="#第六十三课">第六十三课</a>
+      <ul>
+        <li>
+          <ul>
+            <li>
+              <ul>
+                <li><a href="#若能远离恶知识亦能远离诸邪见">若能远离恶知识，亦能远离诸邪见</a></li>
+                <li><a href="#佛陀也无法度化的老仆女">佛陀也无法度化的老仆女</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#第六十四课">第六十四课</a></li>
+  </ul>
+</nav>
+	</div>
+	
+	
+
+
+
+
+
+	
+	
+	
+	
+	<div style="font-size: 0.7em; margin: 0.3em;">
+	<p>Total words: <b>67,673</b>.  Estimated reading time: <b>5 hour and 7 minutes</b>.</p>
+	</div>	
+	
+
+	<div class="content">
+		<h1 ref="因果不虚10邪见" >因果不虚10邪见</h1><a class="anchor" id="因果不虚10邪见"></a>
+<h2 ref="定义" >定义</h2><a class="anchor" id="定义"></a>
+<h3 ref="基" >基</h3><a class="anchor" id="基"></a>
+<ul>
+<li>基，实有义，即因果、前后世、轮回等名言中真实存在的法。</li>
+</ul>
+<h3 ref="发心" >发心</h3><a class="anchor" id="发心"></a>
+<p>(一)想，对所持的邪⻅作真实想。</p>
+<p>(二)发起心，发起对正⻅诽谤的意乐。</p>
+<h3 ref="加行--谤因果作用有事" >加行&ndash;谤因、果、作用、有事</h3><a class="anchor" id="加行--谤因果作用有事"></a>
+<ul>
+<li>
+<p>依发心而策发实际行为。此分四，即谤因、果、作用、有事。</p>
+<ul>
+<li>(一)谤因，认为业无有善恶等;</li>
+<li>(二)谤果，认为善恶业的异熟果报不存在;</li>
+<li>(三)谤作用，又分三种:
+<ul>
+<li>诽谤殖种、持种作用，认为自己并不是父母所生;</li>
+<li>诽谤往来作用，否认前世后世的存在;</li>
+<li>诽谤受生作用，即否认化生有情的存在。</li>
+</ul>
+</li>
+<li>(四)谤实有事，认为阿罗汉等不存在。</li>
+</ul>
+</li>
+<li>
+<p>分类</p>
+<ul>
+<li>自作</li>
+<li>教他作</li>
+<li>共作</li>
+<li>随喜他作</li>
+</ul>
+</li>
+</ul>
+<h3 ref="究竟" >究竟</h3><a class="anchor" id="究竟"></a>
+<ul>
+<li>
+<p>究竟，执持邪⻅，内心决定进行诽谤。</p>
+</li>
+<li>
+<p>邪⻅圆满应具五种心:</p>
+</li>
+</ul>
+<h4 ref="一有愚昧心" >(一)有愚昧心</h4><a class="anchor" id="一有愚昧心"></a>
+<ul>
+<li>(一)有愚昧心，即不能如实了知所知;</li>
+</ul>
+<h4 ref="二有暴酷心--欢喜心" >(二)有暴酷心&ndash;欢喜心</h4><a class="anchor" id="二有暴酷心--欢喜心"></a>
+<ul>
+<li>(二)有暴酷心，对于颠倒之理有依赖心、欢喜心;</li>
+</ul>
+<h4 ref="三有越流行心--习惯" >(三)有越流行心&ndash;习惯</h4><a class="anchor" id="三有越流行心--习惯"></a>
+<ul>
+<li>(三)有越流行心，对于诸法的非理观察已成习惯;</li>
+</ul>
+<h4 ref="四有失坏心--诽谤" >(四)有失坏心&ndash;诽谤</h4><a class="anchor" id="四有失坏心--诽谤"></a>
+<ul>
+<li>(四)有失坏心，对于与自己⻅解相违的事物进行诽谤，如诽谤布施、供养、火供、善行等无有果报，失坏相续;</li>
+</ul>
+<h4 ref="五有覆蔽心--不感觉羞耻" >(五)有覆蔽心&ndash;不感觉羞耻</h4><a class="anchor" id="五有覆蔽心--不感觉羞耻"></a>
+<ul>
+<li>(五)有覆蔽心，对于自己所持的邪⻅并不感觉羞耻，不知过患，不知出离。</li>
+</ul>
+<p>以上五相若缺一种，则不为究竟的邪⻅。</p>
+<h3 ref="分类" >分类</h3><a class="anchor" id="分类"></a>
+<p>虽然还有其它种种邪⻅，但在此只称上述加行中所说的四法为邪⻅，因为此四法能断一切善根，随顺诸 恶随意所行，是邪⻅中极􏰀的。</p>
+<ul>
+<li>总之邪⻅可概括为两类:
+<ul>
+<li>无有因果之⻅</li>
+<li>常断⻅。</li>
+</ul>
+</li>
+</ul>
+<p>无有因果之⻅即认为修善法无有功德、造恶业无有罪过。</p>
+<p>常断⻅是外道的⻅解，可分六十二种邪⻅，归纳起来即常⻅与断⻅。
+常⻅认为神我常有，或认为世界的造作者是大自在天或遍入天等。
+断⻅即认为一切诸法自然而生，不承认有前后世，不承认因果报应及解脱等。如果有人认为外道的论典是真实的并随之而行，或者虽未随行但认为佛陀的 经教、上师的教言、智者的论典都不真实，这样产生怀疑或者进行诽谤都是邪⻅。</p>
+<p>十恶业中，杀生、粗恶语、嗔心由三毒引发，由嗔究竟;不与取、邪淫、贪欲由三毒起，由贪究竟;妄语、离间语、绮语的发起与究竟都由三毒;邪⻅由三毒引发，由痴心而究竟。</p>
+<h2 ref="果报" >果报</h2><a class="anchor" id="果报"></a>
+<h3 ref="异熟果" >异熟果</h3><a class="anchor" id="异熟果"></a>
+<p>所谓“异熟果”，就是指不同的因最后成熟的一种果报。（前行广释第65课）
+概而言之，十不善业的异熟果，就是指造三毒恶业会堕入三恶趣（前行广释第65课）</p>
+<p>无论是十不善业中的任意一种，如果是以嗔心所导致的，就会堕入地狱；如果是以贪心的驱使而造成的，就会投生为饿鬼；如果是在痴心的状态中进行的，就会转为旁生。万一堕落到那些恶趣中，就必然要感受各自的痛苦。或者说，按照烦恼的程度以及动机的大小而分为上中下三品。所谓上品恶业是指贪嗔痴极其粗重，并且长期积累，以这样的滔天罪恶就会下堕地狱；造中品恶业的人会投身饿鬼；积累下品恶业的人则转为旁生。（大圆满前行）</p>
+<ul>
+<li>嗔心或者依烦恼程度，动机大小，次数多少，时间长短等&ndash;上品
+<ul>
+<li>堕地狱</li>
+</ul>
+</li>
+<li>贪心或者依烦恼程度，动机大小，次数多少，时间长短等&ndash;中品
+<ul>
+<li>投生饿鬼</li>
+</ul>
+</li>
+<li>愚痴或者依烦恼程度，动机大小，次数多少，时间长短等&ndash;下品
+<ul>
+<li>转生旁生</li>
+</ul>
+</li>
+</ul>
+<h3 ref="等流果" >等流果</h3><a class="anchor" id="等流果"></a>
+<ul>
+<li>
+<p>同行等流果</p>
+</li>
+<li>
+<p>所谓的同行等流果就是说今世与前世所造的业相同。如果前世是以杀业为生的人现世也喜欢杀生，如果前世是以不与取为业的人现世也喜欢偷盗等。所以，有些人在孩提时代，只要见到虫蝇等便杀害它们，喜欢杀生的这些人就是在感受前世荼毒生灵的等流果。</p>
+<p>从幼年时起，人们由于各自前世业力所感就表现出明显的不同，有些人喜欢残杀众生，有些人喜欢偷鸡摸狗，有些人对此毫无兴趣而热衷于行善修福，这都是前世作业旧习的惯性或者是等流果所致。如经云：“过去生何处，当视今此身，未来生何处，当视今此身。”不仅仅是人，动物也是如此，比如，鹞鹰或豺狼等喜爱杀生，老鼠喜欢偷盗，这些都是各自前世所造恶业的同行等流果。</p>
+</li>
+<li>
+<p>感受等流果</p>
+<ul>
+<li>往往陷入恶见之中，</li>
+<li>常常被欺诳搅得心烦意乱。</li>
+</ul>
+</li>
+</ul>
+<p>《谛者品》和《十地经》则更具体地对每一黑业都宣说了两种等流果。</p>
+<p>十、以邪见业感召见解恶鄙、谄诳为性。邪见即颠倒见，如果前世曾经串习了邪见而没有对治，那么这一世生在人中，就仍然以宿业的习气习惯于执持恶鄙见解，心随邪恶而转，压制一切白法，因此叫做“恶鄙”。“谄诳为性”：由执持邪见而造成谄诳的品性。人的品性并不是一世养成的，主要来自前世业力的影响。有些人生性谄诳，喜欢把正的说歪，把歪的说正，都是由串习邪见的力量所致。</p>
+<h3 ref="增上果" >增上果</h3><a class="anchor" id="增上果"></a>
+<ul>
+<li>
+<p>环境-以邪见恶业转生于物资鲜少、无依无靠、孤苦伶仃的地方</p>
+</li>
+<li>
+<p>从不善业方面来说，由业力增上，会感得外器世间种种不悦意的果报。（因果的奥秘）</p>
+</li>
+</ul>
+<p>【诸邪见者，谓器世间所有第一胜妙生源悉皆隐没，诸不净物乍似清净，诸苦恼物乍似安乐，非安居所，非救护所，非归依所。】</p>
+<p>“第一胜妙生源”，指宝物之源，即黄金、宝石等矿藏。“非安居所、非救护所、非归依所”：非从轮回诸苦中脱离的安居处所，非从善趣某些损害中得救护的救护处所，非从业惑中脱离的皈依处所。</p>
+<p>邪见就是执持颠倒的见，有谤为无，无谤为有，以邪见业的力量，器世间的黄金、宝石等殊胜宝藏悉皆隐没。而且，由邪见增上的缘故，人们颠倒是非，把不清净执为清净，把苦执为安乐等。尤其当今时代，人们普遍不信三世因果，不信三宝，种种假相的欺诳性比以往任何时代都严重，像邪淫、赌博、绮语、欺诳、放逸、狂躁、斗诤等邪恶染污之法，在经过美化、包装之后，以清净、安乐的形象闪亮登场，大行其道。这是现代人类邪见共业增上的结果。</p>
+<p>以邪见业感召的环境，决定非安居所、非救护所、非皈依所。为什么呢？因为邪见增盛的地方，所显现的只有欺诳、邪恶、迷乱、染污之法，心随这些而转，只会堕落、沉溺，得不到可安居、救护、皈依的处所。</p>
+<h3 ref="士用果" >士用果</h3><a class="anchor" id="士用果"></a>
+<ul>
+<li>所谓的士用果，就是指造任何恶业都将与日俱增，世世代代辗转延续漫漫无边的痛苦，恶业越来越向上增长，依此终将漂泊在茫茫无际的轮回之中。</li>
+</ul>
+<h3 ref="其他过患" >其他过患</h3><a class="anchor" id="其他过患"></a>
+<h4 ref="净障修法文" >净障修法文</h4><a class="anchor" id="净障修法文"></a>
+<p>邪见的果报，根据意乐不同，其异熟果即分别堕入三恶趣中，尤其是堕入无间地狱后，需要感受其余地狱的所有痛苦，之后接连不断地转为旁生。假设幸得人身，也因往昔不善业的等流果而空耗，生生世世中转生为邪见者等，其过患无法想象。具邪见之人的善根也将成为痛苦之因。如龙树菩萨云:“若欲趋善趣，当修习正见，邪见者行善，其果亦难忍。”</p>
+<p>《普贤上师言教》中说:“即使在相续中生起一刹那的邪见，也将失毁一切戒律，不能列入佛教徒的群体中，也不算是闲暇的人身了。相续已被邪见染污，从此以后，即使是行善也不能趋入解脱圣道，造罪也没有忏悔的对境。”</p>
+<p>《大智度论》云:“邪见罪重，故虽持戒等身口业好，皆随邪见恶心。如佛自说，譬如种苦种，虽复四大所成，皆作苦味，邪见之人亦复如是，虽持戒精进皆成恶法。”</p>
+<h2 ref="公案" >公案</h2><a class="anchor" id="公案"></a>
+<h3 ref="百业经" >百业经</h3><a class="anchor" id="百业经"></a>
+<ul>
+<li></li>
+</ul>
+<h3 ref="因果明镜论" >因果明镜论</h3><a class="anchor" id="因果明镜论"></a>
+<p>随着业障的净化，在善根福德方面都得以增上的人类不同于旁生，有着突出的思维能力。旁生除了本能的觅食、求偶等外，并不会去思考万法的道理。对于这些低等生命来说，在业的障蔽之下，其心智处在暗昧的状态中，不可能产生决定的见。而人类却以其智力能进行想象、推理、归纳、分析等思维活动，一方面由于心智的优越潜能，使得人类有了升华理智而认识、求证、彻悟宇宙实相的可能。另一方面，在探索真理的过程中，由于认识的局限性，如果把握得不好，难免如盲人摸象，仅执一端，而以偏概全、以妄作真，由此形成的牢固知见，则大多流于邪见。而错误的见解，不论是对个体、还是对群体，都会产生非常恶劣的影响。从这一点来说，人类远胜过旁生，有着强大的造业能力。在十种不善业中，邪见最重。因为对于每个人来说，见是根本中的根本、核心中的核心，一切生命活动思想、言谈、行为都依随着见而进行。如果见地落入邪谬，那我们的整个身心都将趋入邪道，陷入冥暗之中。</p>
+<p>如果说“一念嗔心起，百万障门开。”让我们感觉到嗔心的力量远甚于洪水猛兽，它可以在一念之际将千百劫来积累的善根摧毁无余。那么邪见造成的后果更令人怵目心惊。因为嗔心虽毁善根，但如果未舍弃因果正见，仍然有忏悔净罪的机会。而一旦对因果产生邪见，谤无因果，则会使以前的一切善根都不生起，而且已断善根也不能恢复如初。所以，与心地残忍相比，见解邪恶更加可怕。残忍之心尚且可以通过教育来感化，由于良知未泯，仍有回心向善的机会和改过自新的可能。但是相续一旦被邪见所染污，直至此邪见未铲除之前，因执邪见为正确，所以即使行恶，也认为这是理所当然，心无丝毫惭愧，这样身心百分之百地决定浸入恶法之中，没有反转的余地。</p>
+<p>另一方面，由于邪见的矛头直接指向宇宙人生的真理，其所指的对境是囊括十方三世、情器万有的法则，比如业感缘起的因果律本是世俗名言之中永不错乱、颠扑不破的真理，它贯穿了尘尘刹刹的每一个法。如果直接否定因果律的存在，便否定了依因果律建立的一切行为法则，多少人会受此影响而认为行善无益、造恶无罪，致使善根断绝，肆意为恶，在长劫之中很难有解脱的机会。所以邪见对自他所造成的危害，其影响之深、范围之广、时间之长实在难以用分别心来衡量，只能以“不可说，不可说”来描述了。</p>
+<p>由此可知，邪见感召的果报尤其深重。以邪见的业力直接堕入三恶趣中，如果落入无间地狱，则要感受其余地狱的所有痛苦，之后接连不断地转为旁生，而在人道中，由余业影响将生于边地，不信三宝，诽谤因果。</p>
+<p>大品经云：“若人不信，谤大乘般若经，直堕阿鼻地狱，无量百千亿岁中受极苦痛，从一地狱至一地狱，若此劫尽生于他方大地狱中，他方劫尽，复生此方大地狱中。如是展转遍十方界。他方劫尽，还生此间大地狱中。地狱罪毕，生畜生中，亦遍十方界。畜生罪毕，来生人中，无佛法处，贫穷下贱，诸根不具，常痴狂騃，无所别知。”</p>
+<p>具邪见之人纵有善根也将成为痛苦之因。比如外道欲求解脱，以五热炙身，以为因此可净业障，在此邪见的指导下，所作的一切精进苦行，只是徒劳自缚、缘木求鱼而已。又如执著杀生祭祀追荐亡灵，可使冥阳两利，为尽孝道，而精进努力成办，由于邪见的染污，这一切所作都成为恶业，当来须要感受苦报。所以龙树菩萨说：“若欲趋善趣，当修习正见，邪见者行善，其果亦难忍。”《智度论》云：“邪见罪重，故虽持戒等身口业好，皆随邪见恶心。如佛自说，譬如种苦种，虽复四大所成，皆作苦味，邪见之人亦复如是，虽持戒精进皆成恶法，不如不执，少行慧施，无执易化，有执难度，非直自坏，亦损他人。”故《成实论》云：“宁止不行，勿行邪道，身坏命终，堕于恶趣。”</p>
+<p>以下是邪见者感受果报的公案。</p>
+<p>在舍卫城，有位须达长者，他将一切出内取与之事交付老仆。一次，须达供养佛僧，当时病比丘所需物多，老仆悭惜，怨道：“长者愚痴，被沙门骗。这些乞士贪得无厌，有何道行。”又发恶愿：“何时让我不再听到这些佛、僧之名。”后恶语传到末利夫人处，她与须达妇为度老仆设计在请佛时让老仆前来与佛相会。老仆来时，见佛从正门入，心惊毛竖，即时躲避。她想从狗洞出，狗洞即闭，四门都关，仅正门开。老仆只好以扇遮脸，但佛在其前令扇如镜，毫无障碍。老仆回首向东，东方有佛。上下南西北方，亦复如是。又用手覆面，十指头全化为佛，老仆闭目，心眼开见虚空化佛满十方界。见佛足步虚空、为老仆显现无数身，许多邪见女心中的邪见顿时被摧毁无余。但老仆仍未生信，她疾走归家，对大家说：“今天遇上大恶对，见到瞿昙，在王宫门显现幻化，身如金山，目逾青莲，放胜光明。”说完后，钻入木笼，用百张皮覆于笼上，又用白毯缠头，这样卧于暗处。</p>
+<p>佛知老仆罪重，与己无缘，而与罗睺罗有大因缘，返回精舍后，佛遣罗睺罗去度老仆。罗睺罗变为转轮圣王，众比丘化为千位王子，他们一同到须达家，以老仆为玉女宝。尔时圣王用如意珠照耀女面，老仆看见自己如玉女宝，异常欢喜，说道：“沙门说大话，自称有道，无一效验。今圣王出世，弘利处多，令我老仆如玉女宝。”说完后，顶礼圣王。此时典藏臣宣讲圣王十善，老仆听后生大欢喜，自以为圣王所说义无不善。于是作礼悔过自责。老仆既已调伏，罗睺罗等恢复原貌。老仆见后叹道：“佛法清净，不舍众生，弊恶如我，尚且度化。”随即受五戒，成须陀洹，后在佛前忏悔出家，证阿罗汉果。</p>
+<p>关于老仆的前世因缘，佛说：“往昔，宝盖灯佛的像法中，有一快见王子，出家学道，依仗出身，常怀骄慢。和尚说甚深大空义，他听后反生邪见。和尚灭度后，快见诽谤说：‘我大和尚无智慧，只知赞说空义，愿我后世不乐见他。’又说：‘我阿阇黎具足智慧辩才，愿他世世为我善知识。’说完后，教徒众都行持邪见，虽然持守禁戒，但因谤般若、执持邪说，命终后堕入阿鼻地狱，八十亿劫受苦无量。罪毕出狱，生为贫贱之人，五百身中聋痴瞎眼，一千二百身常为人仆。当时的和尚是我前身，阿阇黎即今罗睺罗，王子比丘即今老仆，他的徒众即今见佛发菩提心的邪见女。”</p>
+<p>快见王子因为对般若空性及传空性法的上师生起邪见，因而不仅得不到甚深般若法的加持，反而由此堕入地狱长劫受苦。又因他发恶愿，当他投生为老仆时，由这恶愿的障碍，见佛即生厌恶、躲避的恶心，无法得佛的加持，所以恶心等流果丝毫不爽，多劫之前是何种心态，多劫之后如是的心态依然会遇缘现起。再看徒众因受他的邪见染污，都成为持邪见者，所以在修行时择师择友极其重要，如果亲近不信因果的恶友，自己也会被染上邪见而断善根。《因缘品》说：“若将纯净吉祥草，系于腐烂之鱼上，彼草亦会变腐烂，依止恶友亦复然。”</p>
+<p>往昔，边地给国王有名为“战哦、炯几”的两个儿子，他们成了常断见者。后来国王将他俩委付胜光王抚养。他们舍弃了邪见，于佛前出家，最后证得阿罗汉果。这是由于：他俩曾是迦叶佛教法中精通三藏的两位出家人，以此业力所感，今于释迦佛教法中证得阿罗汉果。同时转生于边地成为邪见者是因为：在迦叶佛时，他们二位前往某边地，无有教言却擅自大胆修行，本来没证悟却自以为证悟了，从而生起增上慢，因临终时未获得任何功德而心生邪见，口口声声说：迦叶佛教法不真实，因果不存在，我们俩未能解脱，同样其他人也绝不会有解脱。”说完便死去了。以此邪见他们于多生累劫中堕入恶趣，并于许多世中生于边地，在此之前连三宝之声也未曾听过。</p>
+<p>在中国历史上曾经出现过三武一周的灭佛法难。由于执政者对佛法僧三宝心怀邪见，致使丧心病狂，挾其威势，造成了举国毁寺逐僧、焚经砸像的浩浩罪业。肇事者现世所遭的恶报，史有明载，而其后世果报，依因果之理当可想见。</p>
+<p>魏太武帝，为崔浩所惑，毁寺焚经，不到三四年，崔浩赤族，魏太武父子皆不得好死。（出魏书）</p>
+<p>北魏司徒崔浩，博闻强记，才智过人，魏太武帝，十分宠信他。但浩独不信佛，劝帝毁教灭僧。浩曾见妻郭氏诵经，怒而焚之。其弟崔颐、崔模，深信三宝，见佛像，虽在粪壤之中也必礼拜，崔浩对此讥笑呵斥。后来崔浩因国书之事，触怒太武帝，遂被囚于槛车，押送城南，当时所受拷掠极其惨酷。更使卫士数十人，尿于其上。时浩哀声嗷嗷，闻于道路。（出魏书）</p>
+<p>周武帝，为卫元嵩所惑，而灭法。不到四五年，元嵩贬死，武帝忽遇恶疾，遍体糜烂。年三十六而崩，末路丑恶，所不忍言。（出周书）</p>
+<p>唐武帝，听信赵归真、李德裕谗言，毁天下佛寺。不到一年，归真被诛，德裕竄死，武帝三十二岁夭亡，其后没有继嗣。（出唐书）</p>
+<p>五季之君，无有贤于周世宗者，然而世宗不知佛法，遂至毁像铸钱，由此不到六年，社稷殒灭。（出通鉴）</p>
+<p>魏废教七年后恢复，周废教六年后恢复，唐废教后不一年即恢复。</p>
+<h4 ref="邪见者欲以只掌遮中天之朗日岂知真理之光常存不灭照耀古今" >邪见者欲以只掌遮中天之朗日，岂知真理之光常存不灭，照耀古今</h4><a class="anchor" id="邪见者欲以只掌遮中天之朗日岂知真理之光常存不灭照耀古今"></a>
+<p><code>邪见者欲以只掌遮中天之朗日，岂知真理之光常存不灭，照耀古今，徒然造此重业，不过仰天而唾，反污自面而已！</code></p>
+<p>以上通过佛经的开示、公案的证明，揭示了业感缘起的规律：由贪嗔痴烦恼发动的一切身口意恶业惟有感召三恶道的痛苦，所造恶业终究会在造业者的心理、生理、外在环境上制造缺陷与苦难，却不会产生出一尘许的安乐。依随着因地造业时的发心、加行、所针对的对境，以及所造成的后果，业如其所应地在某时、某地、以某种方式显现着它的果报。如是因感如是果，没有丝毫的错乱与漏失。可以说是恶业制造了世界的悲惨与冥暗。</p>
+<p>对应今生在我们身心上现前的果报：得到了人身（异熟果），应该深自庆幸，因为免于恶趣，能够修行成道，真是千载难遇的良机；再看看自己的境遇，或贫困潦倒，或疾病缠身，或身受陷害……在经历了种种的苦难违缘后，或正在遭遇违缘时，应当明白这全是过去自己造恶所感，不可怨天尤人。总之对于一切不顺的方面都要归于自业，同时，反观自心一切的不善念头，应知是自己的恶业同行等流果所致，并励力对治，不令发展。而在增上果方面，人生的受用如何也由自业所定，如所处环境不理想、嘈杂喧扰，无处可避，也应知此是业力所感。</p>
+<p>“<code>过去种种譬如昨日死，往后种种譬如今日生</code>。”要免于恶趣的痛苦，必须断除痛苦之因——十恶业。</p>
+<h1 ref="观修思路" >观修思路</h1><a class="anchor" id="观修思路"></a>
+<h2 ref="前提条件" >前提条件</h2><a class="anchor" id="前提条件"></a>
+<blockquote>
+<ul>
+<li>前提条件是要坚信因果</li>
+</ul>
+</blockquote>
+<h2 ref="三个思维方式" >三个思维方式</h2><a class="anchor" id="三个思维方式"></a>
+<h3 ref="第一阶段" >第一阶段</h3><a class="anchor" id="第一阶段"></a>
+<ul>
+<li>了解什么是邪见。思考我做了多少这样的事情，这一年这一月我做过多少次等等，
+我曾经有没有造过这样的罪，如果这一世没有的话，往昔夙世肯定不会没有</li>
+</ul>
+<h3 ref="第二阶段---思考果报" >第二阶段 - 思考果报</h3><a class="anchor" id="第二阶段---思考果报"></a>
+<h3 ref="第三阶段" >第三阶段</h3><a class="anchor" id="第三阶段"></a>
+<ul>
+<li>我将来也要承受这样的果报，因为我已经做了这个因，
+那我怎么办，要应该怎么样去做，我也要承受这样的果报</li>
+<li>需要和自己连接提来</li>
+<li>把过去能想到的罪业都想一遍，下定决心去忏悔，
+把自己无始以来所造的罪业全部<strong>忏悔</strong></li>
+</ul>
+<h2 ref="两个观修结果" >两个观修结果</h2><a class="anchor" id="两个观修结果"></a>
+<ul>
+<li>坚定不移的相信邪见的罪过就会有这样子的果报</li>
+<li>我今生和过去世一定造过很多邪见罪，
+因缘成熟时一定会受四种果报，
+因此，我必须下定决心依四力努力忏悔，并且永不再犯。
+<ul>
+<li>依止力：依止三宝</li>
+<li>破恶力：后悔，发露忏悔，不覆不藏</li>
+<li>恢复力：发誓今后不再造</li>
+<li>对治力：尽力行持善行以对治所造恶业（打坐，持咒，三十五佛忏悔文，百字明）</li>
+</ul>
+</li>
+</ul>
+<h3 ref="净障修法文-1" >净障修法文</h3><a class="anchor" id="净障修法文-1"></a>
+<p>3、检查罪业:
+是否有过以下邪见:
+谤无前后世; 谤无业果，认为修善无功德、造恶无过患; 谤无三宝;谤无净土。</p>
+<p>4、诚心发露
+5、立誓防护: 心中清晰观想并发愿:今后再不对三宝、业果等生邪见。纵遇命难不舍此誓言。发愿使一切有情生起业果等正见。</p>
+<h3 ref="因果的奥秘--同行等流果" >因果的奥秘&ndash;同行等流果</h3><a class="anchor" id="因果的奥秘--同行等流果"></a>
+<p>人的心念、语言，总会习惯性地按照相似的方式进行。如果不能认识自己的恶习而遮止，往后就总会在这一处造业，它的后果是很可怕的，因为它能相续下去，在百世、千世乃至无量世中重复不断地造作。了知了造作等流的规律之后，就会心生畏惧，因为：哪怕只是很小的恶习，不改正它，也会不断地重复、相续下去，就像不戒除饮酒，天天都会喝酒一样。所以，修行人处处要改习气，要习善行。这样看来，修好造作等流是至关重要的。所谓修行，首先要改掉引生恶趣的造作方式，其次要改掉引生生死的造作方式，再改掉小乘自利的行为方式，由此才能成佛。所以这里有非常深细的检点、修行要做。</p>
+<h1 ref="参考资料" >参考资料</h1><a class="anchor" id="参考资料"></a>
+<h1 ref="大圆满前行" >大圆满前行</h1><a class="anchor" id="大圆满前行"></a>
+<h1 ref="前行广释" >前行广释</h1><a class="anchor" id="前行广释"></a>
+<h2 ref="前行广释第64节课" >前行广释第64节课</h2><a class="anchor" id="前行广释第64节课"></a>
+<p>思考题</p>
+<p>252、意恶业分为哪几种？请一一说明。其分别会导致什么过患？</p>
+<p>253、众生的邪见无量无边，归纳起来可摄于哪两种邪见中？请详细说明各自的定义。为什么说它不是正见？</p>
+<p>254、在对待其他宗教的问题上，我们应持哪种态度？若想在别人面前成立前世后世、因果不虚的道理，前提必须要树立什么观点？请说明理由。</p>
+<p>255、为什么说在十不善业中，杀生和邪见最为严重？你对此有何体会？</p>
+<h3 ref="己三邪见" >己三（邪见）</h3><a class="anchor" id="己三邪见"></a>
+<p>分二：一、无有因果之见；二、常断见</p>
+<p>庚一、无有因果之见：</p>
+<p>《俱舍论》、《大乘阿毗达磨》中都讲过，若认为行持善法没有功德，造恶业没有任何过患，前世后世不存在，三宝没有功德，佛没来过这个世界，上有天堂、下有地狱是谎言……这就称为无有因果的邪见，特别可怕。假如你的见解没有摆正，那学佛肯定只是一种形象，绝不可能深入其中。</p>
+<p>庚二、常断见：</p>
+<p>总的来说，邪见可分为62种或360种等。这方面的道理，全知无垢光尊者在《如意宝藏论》中有详细描述，《宗派宝藏论》也讲过一些。虽说邪见有这么多种，但这只是个大概数字，因为众生的邪见各不相同，算起来也有无量无边，不过，若将所有邪见归纳起来，完全可以归摄于常见和断见中。</p>
+<p>一、常见：</p>
+<p>认为神我常有，大自在天、遍入天是造世主，上帝、真主能创造一切……这些看法都叫常见。《释量论·成量品》中对常有的主物就进行了驳斥，我们学《中观庄严论释》、《中观根本慧论》、《入中论》等时，也分析过这种观点不成立。为什么呢？因为在胜义中，根本不可能有一法常有不变。</p>
+<p>所以，从狭义上讲，承认造物主常有的宗教，都可以叫邪道。但从广义上讲，世界各大宗教和睦共处、互相学习、彼此包容，也是应该值得提倡的。不过在这种原则下，佛教抉择见修行果的不共观点时，绝不能与之混为一谈。就像藏传佛教的各大教派，总体上虽然全是佛教，但旧派、新派也要建立各自的观点，也应该有不同的分析。所以，佛教在抉择自己的见解时，不能跟随、依止其他宗教，否则，对你们而言，别的倒不一定有害，但对解脱确实有障碍。其他宗教表面上虽有好的地方，但跟佛教比起来，实际上还是差别很大。</p>
+<p>前不久，我在北京大学遇到一个知识分子，他是学基督教的。我在讲佛教的不共伟大之处时，他直言不讳地说：他认为自己的宗教很好，有什么不好的地方，让我一针见血地指出来。当时我就回答：“别的地方也不好说，但我只是指出一点：你们宗教对人类中的异教徒、非人类中的动物都有损害，这跟佛教的慈悲理念大相径庭。如果你觉得我讲得不对，想以教理进行辩论，那我们可以心平气和地探讨……”他是个有智慧的人，听了这番话后，相信有些地方也在思考中。当然，我并不是为了凸显佛教殊胜，就一味地贬低其他宗教。诚如《胜出天神赞》中所言[<a href="#_ftn1">1]</a>，谁的宗教最符合真理，我们就应该皈依它、追随它，这才是智者的选择。</p>
+<p>二、断见：</p>
+<p>断见，是指认为一切诸法自然而生，前世后世、因果不虚、了脱生死等均不存在的观念。这种邪见的来源，是往昔非天与天人发生战争时，由于天人本性信仰因果，不愿意杀生造恶业，所以在接近失败时，为了激励天人作战，天人的师长故意造了一部无有前世后世的邪论，后来被外道的蚁穴师传播至人间。</p>
+<p>他们怎么说的呢？如《黑自在书》云：“犹如日出水下流，豆圆荆棘长而利，孔雀翎艳诸苦乐，谁亦未造自性生。”他们声称一切万法皆无因而生，有五种比喻足以证明这一点：一、太阳从东方升起，不是谁牵上去的；二、河水向下流淌，不是谁引下去的；三、所有豌豆都是圆形，不是谁抟成的；四、一切荆棘刺又长又尖、非常锋利，这也不是谁用刀削造的；五、孔雀的羽毛五彩斑斓、绚丽多彩，这并不是哪个画家绘制的，而是它的本性就是如此。同样，世间各种喜怒哀乐、善恶吉凶，也都是由其本性造成的。因此，他们一口咬定往昔业力、前生后世等不存在。</p>
+<p>这种道理非常无聊，我们学《中观庄严论释》时也剖析过。当然，没有闻思过佛法的人，乍听起来好像言之有理，但如果真正去观察，就会发现此比喻根本不成立。因为这些事物都是由各自因缘形成的，因缘具足时才出现，不具足时，包括荆棘刺的锋利也不会产生，因此这些并不是自性而生。</p>
+<p>退一步说，即便外境的这些现象自性而生，也不能说明内心的苦乐也是如此。为什么呢？因为要想比喻成立，必须是两个东西有共同特点，可这些比喻并不具足这一点。因此，众生的苦乐应该是因缘所生，依靠前面所造的善、恶之因，才会产生后面的乐与苦。</p>
+<p>当然，若想成立这种观点，首先必须要确立本师为量士夫，然后在此基础上，量士夫所说的因果不虚之理才会被人接受。或者也可以通过辩论，将他们的说法驳斥为不定因，以此无法证明前世后世不存在。这方面的教理、公案，我们以前也讲过很多，大家在推理时都可以引用。</p>
+<p>不然的话，如果认为断见派的宗旨千真万确，并且依止而随行；或者，虽然没有随行，但认为佛陀的经教、上师的言教、智者的论典不真实，满腹怀疑或妄加诽谤，这些都属于邪见。我们就算现在没有，但有些上师讲过，有时候因自己福报不够，以后也很容易产生。尤其是邪见种子没有彻底烧毁的人，原本内心的智慧就很浅薄，再加上外道或愚者言论的影响，很可能就会舍弃如意宝般的佛教，去随行对今生来世有极大损害的宗义。所以，在座的各位在抉择见解时，三思而行极为重要！</p>
+<hr>
+<p>[<a href="#_ftnref1">1]</a> 《胜出天神赞》云：“我不执佛方，不嗔淡黄等，谁具正理语，认彼为本师。”</p>
+<h3 ref="杀生和邪见最为严重" >杀生和邪见最为严重</h3><a class="anchor" id="杀生和邪见最为严重"></a>
+<p>以上全部讲完了十不善业。在这十种不善业中，要数杀生和邪见最为严重，如云：“杀生之上无他罪，十不善中邪见重。”尤其是邪见，《成实论》[<a href="#_ftn1">1]</a>中说：“意业势力，胜身口业。”又云：“于诸罪中，邪见最重。”所以，意业的力量，远远胜过身体和语言造业的程度。</p>
+<p>那么，这里为什么说杀生和邪见是最严重的恶业呢？作者就此作了一个简单分析。</p>
+<p>邪见：《毗奈耶经》、《四分律》中都说，对我们而言，即使生起一刹那的邪见，也将失毁一切戒律，不能列入佛教徒或出家人的群体中。而且，纵然你原来具足暇满人身，但从此之后，也不算是闲暇的人身了。一旦自相续已被邪见染污，即便兢兢业业地奉行善法，也不能踏上解脱之道。为什么呢？因为若想趋入解脱，必须对生死轮回、善恶因果有最基本的正见，如果你连这些都不承认，那行持善法完全是流于形象，而并非解脱之因。</p>
+<p>所以，圣天论师说：“宁毁犯尸罗，不损坏正见。”宁可毁坏戒律，也千万不能令自己的正见有损。龙猛菩萨亦云：“邪见者行善，其果亦难忍。[<a href="#_ftn1">1]</a>”邪见者就算行持一些善事，装模作样地磕头、修法，实际上所得的果报也仍是痛苦。此外，《成实论》中还说：“行善者将命终时，生邪见心，则堕地狱。行不善者死时，起正见心，则生天上。”可见，一念之差有时候特别关键。</p>
+<p>北宋时期的无德禅师，教徒十分严格。一次，他座下一位沙弥在走夜路时，不小心踩死了一只青蛙。禅师得知之后，要求沙弥到后山去跳崖谢罪。沙弥万分悲痛地来到悬崖边，往下一看，深不见底，跳下去肯定粉身碎骨。他左右为难、进退维谷，于是号啕大哭起来。正在这时，一位屠夫刚巧经过，见此就问他为什么哭。他把原委老老实实地交代了，屠夫一听，说：“你不过无意间踩死一只青蛙，罪业就这么重，要跳崖才能消业。那我天天杀猪，满手血腥，罪过岂不更是无量无边？唉，你不要跳崖，我来跳吧！”说完，毫不迟疑地纵身跳了下去。由于他的忏悔心极为强烈，眼见就要命丧深谷时，一朵祥云突然托住了他，救了他一命。也有历史说他当下成就了，这也算是“放下屠刀，立地成佛”吧。</p>
+<p>可见，一念忏悔，就能清净无量罪业；而一念邪见，则会堕入万劫不复的深渊，而且由于认为诸佛菩萨都是假的，没有任何功德，那即使你造罪后想忏悔，也没有忏悔的对境了。所以，在一切恶业中，最可怕的就是邪见。为了避免这一点，大家理应经常祈祷上师三宝，同时要懂得佛教见修行果的真理，这样一来，自相续中隐藏的邪见种子，就会被智慧火慢慢焚毁，生生世世都会以正见来护持佛法、利益众生！</p>
+<hr>
+<p>[<a href="#_ftnref1">1]</a> 《亲友书》云：“若持邪见纵行善，亦具难忍之苦果。”</p>
+<h2 ref="前行广释第66课" >前行广释第66课</h2><a class="anchor" id="前行广释第66课"></a>
+<h3 ref="庚二感受等流果" >庚二、感受等流果</h3><a class="anchor" id="庚二感受等流果"></a>
+<p>十不善业中的每一种，都有两种感受等流果。</p>
+<p>**邪见：**前世邪见重的人，今生往往陷入恶见之中，常被欺诳搅得心烦意乱。《华严经》云：“邪见之罪……若生人中，得二种果报：一者生邪见家；二者其心谄曲。”</p>
+<p>尤其是往昔造恶、没有福报之人，即生很容易就生邪见；反之，有福报、有善根的人则并非如此。在我们学院，福报不错的人，轻而易举就能生起正见，只要学了一两部论典，因果正见、空性正见马上便可产生。可是福德浅薄的人，就算学了再多经论、依止了再多上师、流了再多眼泪，自己的邪见依然根深蒂固、无法动摇。如《法华经》云：“薄德少福人，众苦所逼迫，入邪见稠林。”这种人每天被痛苦所逼恼，今天身体不行、明天生活不行，今天被这人欺负、明天跟那人关系不好，而且看谁都不顺眼，觉得上师讲得不对、道友讲得不对，甚至佛陀也讲得不对。以前就有个人跟我说：“如果释迦牟尼佛还在世，我很想跟他辩论辩论。”——很可笑啊，这就是邪见的感受等流果。</p>
+<p>总而言之，但愿我们生生世世不要有贪心、害心、邪见，这三大特别可怕的烦恼务必要断除。纵然不能从种子上根除，也应该了知它的过患，依止正见而闻思修行，尽量做到无贪、无嗔、无邪见！</p>
+<h1 ref="前行广释生西法师辅导" >前行广释生西法师辅导</h1><a class="anchor" id="前行广释生西法师辅导"></a>
+<h2 ref="前行广释第64课辅导资料" >《前行广释》第64课辅导资料</h2><a class="anchor" id="前行广释第64课辅导资料"></a>
+<h3 ref="己三邪见-1" >己三（邪见）</h3><a class="anchor" id="己三邪见-1"></a>
+<p>分二：一、无有因果之见；二、常断见</p>
+<p>庚一、无有因果之见：</p>
+<p>认为行善无功、作恶无过的观念就叫做无有因果的见解。</p>
+<p>认为行持善业没有功德，作恶业没有过患，这种观念就叫无因果见。</p>
+<p>很多人都是安住在无因果见当中，这是非常典型的邪见。有些人知道有善恶、因果之说，但是他不相信，觉得是迷信或者毒术，是毒害人们精神的观点。</p>
+<p>还有些人根本不了解善恶、因果之说，觉得根本没有。所以不管有意也好、无意也好，认为作善法没有功德、造恶业没有过患，这种观念都叫做无因果见。</p>
+<p>庚二、常断见：</p>
+<p>总的来说，邪见可以分为三百六十种或者六十二种等等。但如果将所有的邪见归纳起来，完全可以包括在常见和断见当中。</p>
+<p>邪见的种类特别多，在无垢光尊者的《宗派宝藏论》、《如意宝藏论》等当中就说，邪见广分了三百六十种、或者中等来讲是六十二种。如果把这六十二种再做归纳，或把所有邪见归纳起来，都可以包括在常见和断见这两种见解当中。</p>
+<p>不管是六十二种还是三百六十种，都是以常见和断见为基础。当然这里面的三百六十种、六十二种来安立邪见，主要是按照印度当时的状态来讲的。当时印度有很多外道，有三百六十种、还有六十二种等等，主要是依靠这种标准来讲的。</p>
+<p>其它的一些可能并不是明显的常见、断见，但是它的本性要么包括常见、要么就是断见。常见、断见可以分为最重的、中等的、最细的。像这样的话，肯定所有的见都可以包括在常见、断见当中。不管是不是外道，是不是印度，都可以包括其中。</p>
+<p>所谓的常见，就是认为神我常有，大自在天、遍入天是造世主等等的看法。</p>
+<p>所谓常见就是认为有一个真实的造物主（不单单是造物主）。比如说，认为“神我常有”。有些常见外道比如说数论外道等等，认为每一个众生的这个“我”，相当于是表面的“我”。但是在深层次中有个“神我”是胜义谛，是不变的常法。认为每一个有情都有一个“神我”，最后现前“神我”就可以解脱。现在“神我”被蒙蔽了，因此就会生起很多烦恼、业等等。如果通过修行，把这样一种烦恼、业灭尽，“神我”现前，就可以获得解脱、获得很多功德。</p>
+<p>对于他们的主尊，比如大自在天派认为有个大自在天。大自在天有很多种，有一个叫做“大自在天派安立的大自在天”。他们认为大自在天是一个天神，他是恒常的、具有很多功德的、唯一的、清净的等等，是一切有情和器世界的造物主。</p>
+<p>还有种大自在天是种天神。这种天神和外道的那种“数论外道或者大自在天外道”的主尊没什么关系，为什么呢？因为这种大自在天也是个有情。他是以前修了很多的福德，然后变成大自在天的天神，他有一定的能力、神通、福德，但不是恒常的、也绝对不是谁的造物主，就是个天神而已。</p>
+<p>还有一种大自在天是观世音菩萨化现的。平时我们念的自在祈祷文中有，九本尊中也有一个观世音菩萨化现的自在天，这种自在天是观世音菩萨的本尊，虽然名称叫大自在天，但不像外道所说的那种大自在天，也不是有情、凡夫变成的那种天神。所以说，这里的大自在天主要指刚刚所讲宗派中的主尊，认为是恒常的、胜义谛的、唯一的，所谓一切万法的造物主。</p>
+<p>遍入天也是一样的。有一种外道宗派（遍入天派）认为他们的教主也是恒常、唯一、万法的造物主，给他赋予了很多这方面的称呼。还有一种遍入天是无常的一个有情，有一定功德、福报的遍入天的天神。还有的遍入天有可能就是菩萨化现。我们主要讲的是第一种，认为大自在天、遍入天是造世主等的看法，都是属于常见派。</p>
+<p>常见派要比断见派好一点。因为常见派认为有轮回、有解脱，所以他鼓励修善法、鼓励断恶。但是他们的善恶标准不一样，比如说，有的认为把大批的牛杀了供奉天神是善业，那当然就不对了。但他们也有一些戒律，若从这个角度来讲它相信前后世、因果，这是可取的。但是他们在所谓造善的时候，有些明明不是善法却认为是善法、或是戒禁取见等等，像这样的话也会产生很多的罪业。这方面就是邪见当中的常见。</p>
+<p>断见，也就是指认为一切诸法是自然而生，前世后世、因果不虚及了脱生死等均不存在的观念。</p>
+<p>断见就是认为一切万法是自然而生的，从没有因果的角度来讲是断；或者有情死了之后不会再有后世，没有前后世之说，人死如灯灭一样，像这样的话就是断灭；造了善和恶之后没有果报，也是断灭的。所以因果不虚、了脱生死的修道等都不存在。</p>
+<p>第一个科判中的无因果见和这里指的断见基本上是一样的意思，为什么要分成两种呢？无因果见和常断见有什么差别？按照《俱舍论》的观点来分有五种见，包括邪见、边执见、见取见、戒禁取见和萨迦耶见。五种见当中邪见是第一个，并把无因果见纯粹定义成邪见。所以说按照《俱舍论》的分法，无因果见就是邪见。《俱舍论》中的边执见就是常断见或者有无见。边执指有两边，常边是一边、断边是一边，所以叫边执见。</p>
+<p>因此，在《俱舍论》的五种见当中，真正的邪见就是无因果见。常断见并立起来安立的叫边执见。所以说常断见可以和无因果见分开来。</p>
+<p>但是《俱舍论》当中的邪见是狭义的，它只是五见当中的邪见。广义来讲只要是不符合于实际情况的都可以叫邪见。常断见符不符合实际情况？不符合，所以叫邪见。《前行》所讲的邪见分二，其中无因果见是《俱舍论》当中狭义的邪见，常断见是《俱舍论》当中的边执见，但它是外道见，也是属于邪见的种类。从“邪见可以分为三百六十种”这个侧面来讲它的范围就广了，所以就可以把边执见分为常断见。</p>
+<p>常断见也有粗大、中等、细微之分。全知麦彭仁波切在《中观庄严论注释》当中也把常见、断见分了很多种。最粗大的当然就是数论外道的常见和顺世外道的断灭见等等。还有就是属于小乘的、唯识的、乃至中观自续派的这些，它相应的是中等的、微细的常断见。但那种常断见和这里的邪见已经不是一个等次了，虽然名字取为常断见，但是从出离心、菩提心、还有空证见来看，它是针对最高标准来讲的一种常断见。如果相对于最粗大的来讲，那肯定不是常断见。所以在佛法当中也有很多这方面的分类。</p>
+<p>所有的外道见都可以安立为邪见，因为没有相应于中道和无常（世俗谛的实相），没有相应于空性。从这个侧面来讲所有的外道见都可以叫邪见，都不相应于真实义。常断见可以解释为邪见。但无因果见的邪见，从《俱舍论》中的五见来讲是真实义的邪见，常断见在五见中叫边执见。</p>
+<p>这里最粗大的断见和无因果见一样。有些外道的断见说今世的因果还是有的，今生打工赚钱、种庄稼得果都有它的因果，但不承许轮回、前后世的因果。有些是一概不承认，认为这是自然规律，但这漏洞太大了。外道中最下等的就是断见。因为虽然可以见到很多因缘果法，但他们觉得不存在，所以所有的见当中最恶劣的就叫断见。</p>
+<p>上面把这个问题解决了，刚才分析了无因果见和断见之间的差别。这种可能的根据做了分别。断见就是指认为一切诸法自然而生，没有因果、前后世、因果不虚、了脱生死等，这些概念都不存在称之为断见。</p>
+<p>比如《黑自在书》中说：“犹如日出水下流，豆圆荆棘长而利，孔雀翎艳诸苦乐，谁亦未造自性生。”意思是说，持断见的人认为太阳从东方升起不是谁牵引而上的；</p>
+<p>“犹如日出”，断见者认为太阳不是谁用绳子从东边牵起来的，没有看到谁，而是自然现象。</p>
+<p>河水向下流淌也不是谁人引领下去的；</p>
+<p>水下流也是无有因果的，自然而然的。很多大德讲这里面有很多漏洞:如果没有因果,为什么太阳不从西边出来？水不从下往上流？其实里面都有一定的因缘。我们可以看到的因缘就是坡度、引力,其实这就是个因缘，是因和果。但如果说没有因果，是自然而然的，肯定说不通。</p>
+<p>所有的豌豆都是圆形也不是谁人抟成的；</p>
+<p>豌豆的圆，也没有看到是谁用豌豆机、刀子或者机器把它修得很圆，抟成的。</p>
+<p>一切荆棘刺又长又尖、非常锋利这也不是谁削造的；</p>
+<p>荆棘树的刺很长、很尖、很锋利，没看到谁去削它，他们认为这也是自然而然的，但肯定不是。</p>
+<p>如果没有因缘，为什么所有的法不这样？如果所有的法都没有因缘，为什么单单这些树是这样的，单单豌豆是圆的，而其它的不是？它有自己的前因，如果没有前因也不会无因无缘长成这样，否则为什么不长成其它样子，单单长成这样。所以如果没有它自己的不共的因，不会长成这样。</p>
+<p>如果没有因，地上所有的地方都应该长豌豆，那为什么不长？没有这个因素。为什么雪地不长鲜花？没有这个因缘，有因缘才长。如果没撒种子怎么长？种子撒在合适的地方就是因缘。否则如果没有因缘所有地方都长遍了，因为根本不需要观待因缘就可以长。中观有很多观察破斥的，漏洞特别大的这些问题站不住脚。所以没有因果是绝对不可能的。</p>
+<p>孔雀的羽毛五彩斑斓、绚丽多彩这也不是谁绘制的，而是因为它们自己的本性就是如此。</p>
+<p>孔雀的羽毛、尾巴五彩斑斓，也没有看到谁用画笔给它们画成这样，而是因为它自己的本性就是如此。他们就觉得这些是没有因缘的。</p>
+<p>当然，从世间角度来讲他们觉得有世间的因缘，但从佛法的角度来讲因缘就更深了。一般的人能够看到比较短的、浅显的因缘果报。但是有一定禅定的，或者做过一些研究的人就可以看到一些比较微细的，比如科学家们可以知道这是什么基因、染色体，他们可以观察到那种因缘。如果是佛教的学者或圣者就可以看到业因果，前因后果，以前造过这个业形成这种习气，是业的力量等等。智慧越深对因缘的理解就更加深层，很愚钝的人根本看不到，连短期的因果可能都看不到，所以他们就认为本性如此。</p>
+<p>同样，世间中显现的各种喜怒哀乐、善恶吉凶也都是由本性造成的，因此他们一口咬定往昔业力、前生后世等并不存在。</p>
+<p>他们把无情界的无因无果的思想放在有情界来观察，同样认为世间当中各种喜怒哀乐、善恶吉凶等现象，也是“本来就是这样的”本性造成的。他们一口咬定所谓的导致喜怒哀乐，善恶吉凶的前世业力，前生后世等等，其实并不存在。</p>
+<p>他们是从这个方面进行安立的，也是一种比较典型的邪见。他们认为这些和前后世的因果没有什么关联。所以现在很多人遇到不好的事情，就说运气不好或者很倒霉等等，但是真正了知因缘的人就知道“未做不遇，已做不失”。如果自己遇到这样的果说明以前曾经做过这个因，只不过这样的因比较隐蔽，而且时间拖得比较长，所以不一定能够在我们可见的范围当中找到。</p>
+<p>我们经常会认为，“我又没有惹你，我又没有怎么样？”还会努力地思维，“我没有见过这个人，没有对他做什么伤害，为什么他突然对我这么坏呢？”有些时候在几个人当中就单单对你一个人很不好等等，我们百思不得其解。其实佛陀、还有圣者、智者们早就讲了，每个人都有自己的前因后果的规律，业网非常广大。所有的有情和器世界之间都有一个业网的联系。这个联系甚至于比整个世界上每天打电话的网络、无线电波还要密。如果你能描绘出所有电话之间的网络关系的话，非常像比蜘蛛网还要密无数倍的一种状态。我们的业网（每个有情之间的业网联系）比这个还要复杂得多。这方面我们是看不到的，也没有办法理解为什么能够有这样的联系。这个电话和那个电话之间的联系，不懂的人根本想不通，懂的人知道有基站，用什么样的转换方式就可以联系到。</p>
+<p>我们对于业果之间的迷惑也是这样的。“为什么我和他之间的联系我却看不到？为什么我觉察不出来？”这是很隐蔽的。很隐蔽的东西我们没有办法了解。除非我们通过修行得到一定的禅定和一定的心性的认知，才能发现比较细微的东西。如果没有修行，通过我们比较粗大的感官、眼根、耳根没有办法直接发现。只有通过教证、道理让我们知道，的确在看不到的地方有很多因缘果报，很多互相之间的业网联系非常复杂。</p>
+<p>有些人讲“业网极广大”，像这样轮回当中，自己相续当中的业网非常广大，不知道这个因缘到底是怎么样，根本搞不清楚。十地菩萨也没有办法彻底地知道业因果的关系，因为他还有一定的所知障没有完全消尽。</p>
+<p>佛陀遍知智慧现前之后，可以很清楚地了知业因果，于一刹那之间照见。佛陀会讲一部分对于众生有用的、对解脱有帮助的业因果。佛陀讲的这一部分，并不是把他所看到的原原本本地讲出来。原原本本地讲出来，对我们来讲也用不上。而且我们也没有办法处理这么广大的信息量。佛陀把对我们修行最有用、最关键的东西讲了一部分。比如说，十善、十不善，还有修行的道理等等。我们开发本身的智慧之后，佛陀没告诉我们的那一部分，也可以了解了。</p>
+<p>我们如果认为他们的宗旨千真万确并且随之而行，或者，虽然没有随行，但认为佛的经教、上师的言教、智者的论典等不是真实的，满腹怀疑或者妄加诽谤，这些都属于邪见。</p>
+<p>如果认为他们的说法千真万确而且随之而行，心里生起认同、嘴里也是这样讲，这就是属于邪见。虽然没有随行，但是认为佛陀讲的经教、上师们关于修行、因果取舍的教言、智者们宣讲这些道理的论典都是不真实的，生起怀疑或者开始诽谤，都属于邪见。这些在世间当中也是特别严重。</p>
+<p>我们现在刚刚从这种邪见中皈依佛法，内心还残存了很多这方面的习气，这个也是一个长期斗争的过程。我们必须要经常性学习这方面的道理，以前不知道的要知道，通过祈祷、集资净障或者讨论等等方式把它确定下来。只有定解才能破怀疑，如果没有定解，心中还会有疑惑，邪见的种子还是挥之不去。还是需要非常谨慎地、很精进地去做。一方面需要认真地学，还有一个方面，要经常亲近有正见的人，尽量地远离、避免和有邪见的人交往。因为我们现在的见解并不稳固，如果经常去和有邪见的人接触，刚刚得到了一些正见，很快就会被消耗殆尽。邪见对我们伤害非常大，下面还要讲。</p>
+<p>在《宝鬘论》当中讲：如果认为轮回存在、前后世存在，叫做因果正见。“有了因果正见的人，不会堕恶趣”，龙树菩萨在《宝鬘论》当中是这样讲的。因果正见对我们来讲是很重要的，是保住善趣的一个最根本的条件。如果心中认为因果不虚、前后世存在，有此因果正见的话，也不会堕恶趣。</p>
+<h3 ref="杀生和邪见这两种罪业最为严重" >杀生和邪见这两种罪业最为严重</h3><a class="anchor" id="杀生和邪见这两种罪业最为严重"></a>
+<p>再来说一说邪见，对于某个人而言，即使相续中生起了一刹那的邪见，也将失毁一切戒律，而不能列入佛教徒的群体中，也不算是闲暇的人身。</p>
+<p>邪见的过失为什么这么重呢？因为有几种毁坏戒律或让戒律消失的因，其中一个就是邪见。如果生起邪见，戒律就会失坏。有时是破戒，有时是舍戒，有时就是邪见。只要邪见一生起来，戒律就没有了，因为所有戒律都以正见为基础。如果基础没有了，生起了邪见，那所有戒律没有基础，都会轰然倒塌。所以对某个人而言即使在相续中生起了一刹那的邪见，也会毁坏一切戒律。</p>
+<p>所有的戒律如皈依戒、别解脱戒、菩萨戒、密乘戒等的基础都在正见上面。如果生起一刹那的邪见，一切戒律都会毁坏。当然“这一刹那的邪见”看着很严格，在这里是指很严重、很明显、很强烈的一刹那的邪见。而不是平常我们稍微有一点，但不是很猛烈的那种怀疑的心，那种力量不足以摧毁戒律的基础。但那种很肯定的、特别强烈的邪见，哪怕一刹那生起之后都会摧毁戒律。</p>
+<p>摧毁戒律之后就不能再成为佛弟子，暂时会被清理出佛弟子的行列，这时的人身也不算是暇满人身，为什么他的罪业这么重呢？因为邪见的罪业很重。在《四百论》里讲：“宁毁坏尸罗，不毁坏正见。”如果“破戒”和“生邪见”必须二选一的话，那就是选择“破戒”不选择“生邪见”。这并不是说破戒没有过失，也不能在内心当中自动解读成随便可以破戒，只是两者比较起来，“破戒”的过失不如“生邪见”的过失大。如果破了戒，你有正见还可以忏悔，但如果你有了邪见，第一戒律没有了，第二有邪见不可能忏悔了。这样比较起来，宁可破戒也不失坏正见，原因是这样的。</p>
+<p>一旦相续已被邪见染污，从此以后，即使是奉行善法也不能踏上解脱之道，而且造罪也没有忏悔的对境。</p>
+<p>一旦相续被邪见染污之后，从此之后即便是奉行善行也不能踏上解脱之道了，而且造罪业后要忏悔，也没有忏悔的对境了。有了譬如“没有解脱、佛菩萨没有能力”等邪见之后你想忏悔也没有对境，但是不是永远就完蛋了呢？是不是生了邪见之后，以后再修善法也没有办法解脱，没有解脱的希望了，或者就没有忏悔？不是这个意思。</p>
+<p>乃至于没有舍弃邪见之前，你做所有的善法都是没有解脱道的，想忏悔也没有对境。但是如果舍弃了邪见，重新恢复了正见，那个时候开始修行，所有的功德在正见的基础上可以累积，可以有解脱道。在恢复正见之后，要忏罪也有了忏罪的对境。因为恢复正见之后你可以有重新获得暇满人身和受持戒律的机会，重新踏上解脱道和忏悔的机会就都有了。</p>
+<p>将“有正见”和“有邪见”两者对照起来看，生起邪见的过失的确很大。所以无论如何我们要非常小心，平时要经常发愿回向，“愿我从现在开始生生世世不生邪见，一刹那的邪见都不要生起来”，让我们修行和闻思的善根如是发愿回向，“请上师三宝加持我，永远不要生邪见”，如果生一点点的邪见就马上认识到并把它消尽。这里毁坏戒律的是很严重的那种邪见，如果没有生起很重的邪见之前要马上忏悔，然后也要经常闻思修，接近有正见的人。从这个侧面来讲，经常要和道友共修，因为很多道友在一起，都是有正见的，可以帮助我们生起正见，遣除邪见。如果经常接触有邪见的人，相续中的正见也会慢慢地染污、退失，最后就会变成一个彻头彻尾的生邪见者。</p>
+<p>虽然以前接触佛法的善根以后会成熟，还会重新生起正见，但中间很多生世可能就会在邪见中度过，生邪见，造罪业，堕恶趣，感受不必要的一种痛苦。我们可以远离的，但没办法还是要去感受，这就没必要。所以修习佛法还是要把基础打牢，打牢之后就不用担心这些问题。如果基础打不牢不知哪一天就生邪见了。所以应该要闻思修行，听闻、思维，然后通过修行的方式积资净障，让自己心中没有生邪见的土壤，这就非常好。那么不生邪见的土壤怎么培育呢?要不断地闻思修、祈祷，经常看因果故事或教理，做很多的努力，慢慢地邪见就不会生起，正见根深蒂固，这是非常重要的。</p>
+<p>今天的课就学习到这里。</p>
+<h2 ref="前行广释第66课辅导资料" >《前行广释》第66课辅导资料</h2><a class="anchor" id="前行广释第66课辅导资料"></a>
+<p>邪见的感受等流果：往往陷入恶见之中，常常被欺诳搅得心烦意乱。</p>
+<p>“往往陷入恶见之中”，邪见的感受等流果是经常生恶见、生邪见。自己或很多道友经常无因无缘生起不好的分别念、邪见、恶见等，对上师、三宝、佛像等很容易产生邪见、甚至恶见，这就是邪见的感受等流果。</p>
+<p>我们要努力忏悔。有时我们不想生，但它突然之间就冒出来，根本控制不住，很明显这里讲了，“邪见的感受等流果，往往陷入恶见之中”。自己不愿意生但控制不住，压也压不住，这边压那边冒出来了，这就是恶见。因此一定要经常忏悔，知道这是以前邪见的感受等流。</p>
+<p>“常常被欺诳搅得心烦意乱”，生于邪见的环境中，经常被自己的邪见搅得心烦意乱。这方面都属于邪见的感受等流，而且邪见以后还会不间断地生起来，后面的士用果当中会体现，这里也会体现。</p>
+<p>这些属于十不善业道中的等流果，以上我们已经学习完了。</p>
+<h2 ref="前行广释第67课辅导资料" >《前行广释》第67课辅导资料</h2><a class="anchor" id="前行广释第67课辅导资料"></a>
+<h3 ref="己三增上果" >己三、增上果</h3><a class="anchor" id="己三增上果"></a>
+<p>增上果是指成熟在外境上的报应。</p>
+<p>以邪见恶业转生于物资鲜少、无依无靠、孤苦伶仃的地方。</p>
+<p>如果经常生邪见、无因果见等等，从地狱等出来之后，会转生到物资鲜少、物产贫瘠的地方。</p>
+<p>有些地方物产很丰富，水果、庄稼、各式各样的东西都不缺。这些地方虽然好，但我们转生不到那去。或者虽然想去，但是没有因缘去。</p>
+<p>总是转生到物产鲜少或者无依无靠、孤苦伶丁的地方，不是无因无缘的，都和自己以前的行为、业有关联。就好像以前有人被发配到边疆，流放到那些孤苦伶仃、很贫瘠的地方，也一定有他的因缘。</p>
+<p>我们以后流放到无依无靠、孤苦伶仃的地方时，人烟稀少，几公里内只有你一个人，内心会特别孤单。当然如果你在修法无所谓，孤单最好。但你不是修法，你想过正常的生活，当环境没办法让你达到目标时就会非常痛苦。</p>
+<p>峡谷、陡壁这些地方虽然很不好，但是很多修行人喜欢到那儿去，在深山找个山洞修行。要修行的人是自愿去的，和无奈地去是两回事。你想在那儿过正常的生活，想要热闹的人群、齐全的娱乐设施，那是没有的。但很多修行人要远离这些，主动到一个地方去，比如戈壁、沙漠上去修行。</p>
+<p>那个环境对修行有帮助另当别论,如果我们造了业，就会被动地转生到这个地方，而且一直被放在这儿没办法出来，要么没有因缘，有因缘也不愿意走，直到把业消尽为止，这时起码五六十岁过去了，出来过几年就死去了。</p>
+<p>业就是这样成熟的，都是让我们痛苦的，如果我们不想转生,就应该把这些问题思维透彻，使我们对现在行为的约束、忏悔、修善法的动力更加强劲。</p>
+<p>如果没有打动我们，就觉得：这个和我没什么关系，我以后绝对会生在一个好地方,不是你想去就能去的，每个人都想过幸福的生活，为什么过不了？没有因缘是不行的。</p>
+<p>有些人从表面去分析因缘：没有人脉、资金。佛法是从更深的层次去分析因缘：没有业的因缘当然就不行。不好的业我们要忏悔，好的业尽量去圆满。如果我们用很深的见解去摄持，消业速度会非常快，很彻底、干净，没有遗留；如果用很深的见解去修善业，增长速度也会很强劲、干净，不附带杂质在里面。</p>
+<p>有了清净的见解，不管是忏罪、对治恶业还是引导善法都能达到最好的标准。如果没有很深的见解去修，善法就夹杂很多杂质，增长起来也不强劲，很疲软；忏罪也不干净，忏起来也非常麻烦。所以见解的确是在我们修行过程中不能缺的，而且见解越深越好、越高越好。见解越清净，修善法的力量就更大，因为见解清净，善法就很清净，不杂罪业、执著、自私自利和轮回的思想。</p>
+<p>否则，杂着自私、实执、轮回的思想修善法，果报中就会带着这些。善业带了杂质，在感受安乐的时候就会不愉悦。虽然总体上你很富裕，但总会让你有不舒服的地方,因缘不圆满：要么有点小病，要么儿女不孝顺……</p>
+<p>所修的善法如果很干净，那么果报成熟的时候也是纯粹的快乐，不会夹杂不舒服、不悦意的地方。忏罪也是这样，如果有了很高的见解，忏悔就会很彻底、干净，甚至它的种子都可以去掉。</p>
+<p>上师经常告诉我们要多闻思，佛经和祖师们早就讲了这些方法,就看你愿不愿意学，学了之后愿不愿意用，能够用上的话就非常好。我们现在正在做善业、正在忏悔的时候抉择了这些高深的见解，就尽量去使用、安住。</p>
+<h1 ref="前行系列3讲记-益西彭措堪布" >前行系列3讲记-益西彭措堪布</h1><a class="anchor" id="前行系列3讲记-益西彭措堪布"></a>
+<h3 ref="3邪见" >（3）邪见</h3><a class="anchor" id="3邪见"></a>
+<p>分二：1）略说；2）广说</p>
+<h4 ref="1略说" >1）略说</h4><a class="anchor" id="1略说"></a>
+<p><strong>第十、邪见者，即无因果见和断常二见。</strong></p>
+<p>所谓的“邪见”，典型的是指无因果见和常断见。</p>
+<p>“见”，就是指对一切万法决定它的体性，而印持无有动摇。根据知解的差别，有种种不同的见，这里指深重的邪见。粗浅地说，相当于现在说的思想、看法、观点，对于万法是怎么一种看法、怎么一种观点，但佛法的术语是微妙的、精细的，“见”字更有一种决定性。因为看法是可以变的，观点也是变来变去的，思想也是脑子里的一种想法，而见有断定性。</p>
+<p>作为一个心识活跃的人，不同于旁生等，尤其会发生见上的问题。也就是，都会对于万法持一种见解或者见地，这个范畴包括整个身心世界所有的法，到底它是怎么样子的。当对于这一切的体性已经决定了，然后印持，那就是什么样的法都拿这个去看待的。比如说持唯物论，这种断定印持，不是今天唯物、明天唯心的，现在这么想，过后又那么想，而是他已经决定了的，碰到任何东西都说这是唯物的。或者说没有因果，或者一灭永灭等等，这种在任何人、任何事上都会这么决定的，决定了万法的体性，这样就叫“见”。一旦错了以后，这些地方全部都是一种颠倒的看法，而且他是一直持着不放的，这样就叫“邪见”。</p>
+<p>这也是由宿世、今生而来的。也就是内有邪见的种子，外有邪师、邪论的传染等等，然后熏习就会成一个见。一旦形成，没有违品破掉的时候，它是无有动摇的，对任何事情都是非常坚决地这么认为。譬如持了唯物见的时候，任何处都认为唯心是不对的；持着人死如灯灭的见，任何处都认为所谓的有来世，修生天、解脱，求生净土等等，全部都是迷信，像这样就叫“邪见”。</p>
+<h4 ref="2广说" >2）广说</h4><a class="anchor" id="2广说"></a>
+<p>分三：①无因果见；②断常二见；③结说</p>
+<p>①无因果见</p>
+<p><strong>前者是指，认为善无利益、罪无过患后，持无因无果的见。</strong></p>
+<p>“无因果见”，就是心里认为善没有利益、罪没有过患，之后就执取一种无因无果的见解。</p>
+<p>②断常二见　分二：A略说体性和差别；B广说邪见的业相</p>
+<p>A略说体性和差别</p>
+<p><strong>后者断常二见者，即是外道。其中，总有三百六十种邪见或六十二种恶见等可分，又若归摄，则归在断、常二见中。</strong></p>
+<p>“断常二见”是外道宗，就是属于佛法之外的道，那个范畴。道是以见作为根本，所谓的见、修、行、果，有什么样的见就决定什么修、什么行、什么果，这是道的根本。那么执持常断见，他是属于外道宗，或者是一种偏邪道的见解。</p>
+<p>对此，由于众生在没有得到三宝救护之前，是凭着自己的分别心，对于万法有各种的见解的建立，而且，当中就有导师、教法以及一路的流传。那么，就此世界的大体上来说，譬如，按照《掌珍论》和《如意宝藏论》中详细抉择的那样，总的可以分成三百六十种邪见，或者也有可分成六十二种恶见等等。归摄的话，就归在常见和断见两大类当中。</p>
+<p>就今天而言，汉地并非过去印度各种道门的状况，然而万变不离其宗，情形是差不多的。也就是，虽然时代、民族不同，导致文化的形态上有些差别，但是，实际上今天流行的各种佛法之外的主义、思想、观念等等，那当然是五花八门。今天是网络时代，可谓“邪师说法如恒河沙”，邪论铺天盖地，那就不只是三百六十种的邪见了，而是有各种主义的奉行。单单一个顺世派的见解，也就是不承认有前生后世，其中也随着人心各种的设立，而有各种决定的见解。再者，假使有宗教倾向，相信有来世，那当然也还是有各种各样的见解。不管怎么样，归纳起来不出常、断两种见。</p>
+<p>B广说邪见的业相　分二：a常见；b断见</p>
+<p>a常见</p>
+<p><strong>对此，常见者，即是承许“我”常的见，或承许世间作者——大自在天、遍入天等常住的见。</strong></p>
+<p>常断二见就最粗品类而言，比如一种常我的见。外道宗会建立“我”的观念，这个“我”，有所谓神我，或者其他具各种功德的我，然而这个“我”是常的体性，也就是它不会灭掉的，一直都是常存的。</p>
+<p>再者，有所谓的造物主的观念。这个立论就是讲，世间的万法有一个造作者，他是大自在天，或者其他派就承许为毗纽天，或者像今天说的上帝、真主等等。而这个造物者，他是不会变的、是常存的，这一类也是常见。</p>
+<p>b断见　分二：Ⅰ略说；Ⅱ广说</p>
+<p>Ⅰ略说</p>
+<p><strong>断见者，承许一切诸法自然而生故，承许无有前后世、业因果、解脱等等。</strong></p>
+<p>断见，就粗分而言，首先略说它的宗义。“一切诸法”是有法，“自然而生”是因，“无有前后世、业因果、解脱等等”是立宗。</p>
+<p>也就是，这种立论也是由一种理由来成立没有前后世、业因果、解脱等等。就是讲，一切法本来就是自然生的缘故，没有什么从前而来，也没有流到后，也没有什么由前因至后果的因果关系，也没有什么有此因所以有此因止息的脱离等等。对此，以下详细地说明这种断见论的建立。</p>
+<p>Ⅱ广说</p>
+<p><strong>《黑自在书》云：“日升水下流，豆圆刺修锐，孔雀彩色丽，无作自然生。”譬如，日轮东升非谁牵引而出，溪水下流非谁逐驱而去，一切豆类皆成圆形非谁抟揉所作，一切荆棘修长锐利非谁削尖而成，孔雀种种杂色斑驳的翎羽之屏非谁画作，然自然如此般，世间的种种好坏苦乐的显现，都是这样自然如此出生故，无有前业及前后世等，是这样承许的。</strong></p>
+<p>这里要理解比喻和对方的因，以及立论。比喻，就是看到了这个器界的状况，举了五个例子，而且，推到一切都没有谁造就自然而生；再推到一切法都是如此；那么建立的是自然生论，其实也就是断见论。</p>
+<p>五个譬喻：一、太阳东升；二、溪水下流；三、豆类圆形；四、荆棘长利；五、孔雀美屏。外道感觉非常地有道理。你看，太阳早上从东方升起，没有谁从海里把这只金乌引出来钩到天上。再说，比如一场暴雨之后，山上的溪水“哗——”冲下去的时候，并没有谁在后面赶着它而行进。再者，可以看到田园当中的一切豆类都是圆圆的，黄豆、豌豆、青豆等等，谁也没有把它们捏成这样子。再者，山上的一切荆棘长而锐利的形状，也没有谁把它们削尖。孔雀展开尾巴以后，它杂色斑斓的翎羽呈现出来的美屏，也不是谁绘画而成的。但是，它们就自然是这样。以此我们就会了解，世界上的各种苦乐、好坏等的显现，也是自然就这样出现的。</p>
+<p>按照今天人们的想法，就会说前面的自然景观都如此，后面的人文景观也如是。那么，所谓有情界的状况，以苦乐、好坏两类来说。苦乐是领受上，身体好、身体不好，心苦、心乐等等，这是身心上的苦乐。然后，在社会上或者人的状况上，有各种品类的高低，有好有坏，比如上层和下层等。那么，所有的苦乐、好坏所摄的显现，不是说这是一个果，由前面的某个因造成的，而是就是自然那么出来的。你看生的孩子，这个是丑的，那个是好看的；或者他自然就得胃病，他就没有胃病，是这样的。</p>
+<p>以万法自然生作为因，就可以推出，这一切的法，并没有什么宿业以及前后世等等。也就是，它并非由它的前因——过去造的业感现出来，因此无业果。再者，这一个法出来，是自然就出来了，不是由它前面的相续作为因而出现它，因此没有前世。既然没有前世，那也就没有后世，因为“后”的概念是由“前”而来的。像这样，它就自然那么出来，没有什么因；自然就没有了，也没有什么因。不由因而生，不由因而灭，因此没有它的前端，也没有它的后端，没有三世。就像这样，自然就生了，自然就没有了。再者，也不是说，这个苦有个苦因，然后把因息灭了，这个苦就能息灭的，诸如此类，解脱也是没有的。</p>
+<p>思考题</p>
+<p>1、贪心的业相是什么？举例说明此种心态。</p>
+<p>2、害心的业相是什么？哪些心态属于害心？</p>
+<p>3、（1）“见”的涵义是什么？什么是“邪见”？</p>
+<p>（2）无因果见的体性是什么？</p>
+<p>（3）断常二见总的体性和差别是什么？</p>
+<p>（4）举例说明常见的体性。</p>
+<p>（5）外道是如何建立断见论的？详细说明其宗义。</p>
+<p>③结说</p>
+<p><strong>若于此等教义执为谛实而追随，或者虽非如此，然以邪禀性认为佛的语、上师的教及智者的论，无论何者都不真实，有这样的狐疑，或者作诸增益损减，一切皆是邪见。</strong></p>
+<p>这里邪见有两个方面：一、对邪教教义的执持；二、对正教教义的怀疑和增损。</p>
+<p>一、对邪教教义的执持</p>
+<p><strong>“于此等教义执为谛实而追随”。</strong></p>
+<p>“此等”，指上面说到的邪宗所说的无因果、常断等的教义，心里认为谛实不虚而随转的话，见已经偏邪了，心中有一种决定，那这个就是邪见。</p>
+<p>比如，对于一类自然生的断见论，假如执它为谛实，然后跟着它转，那就算是生了邪见。也就是说，这是一种教派的主义，它的中心思想是如此，见解是如此。假使在受过熏习以后，心里就执它“这是一个真理，这是诚谛不虚的”，那当然就产生了一个断定的见。就程度来说，是以决定为见，已经在见上这样定了，就像世人说的，已经出现成见了，那么这样的话，这个见解就要支配他的行为了。</p>
+<p>也就是，既然是无因、自然的，还有什么创造未来？因为他感觉没有什么因去生出未来的果，那他就不会积极地去修因。再说，他也不知道现在的苦都是由过去的恶业来的，如果继续造这些恶，还会导致未来的各种苦果，所以业上也不作忏悔，也不作防护。就像这样，在整个世间的三世心识之流上面，有一种非常偏邪的看法。那么这样持了邪见以后，在行为上对于断恶修善、求解脱等等，就全部都关闭了。</p>
+<p>或者，认为也没有什么善和罪，杀盗淫妄没关系的，利用各种手段来谋求私欲也是没有关系的，这样他的心就放纵，肆意造恶。那么就享乐而言，那当然性可以开放，一切都可以随意地享用等等，这样就是放纵贪欲。或者说，见到不高兴的就可以杀，杀了也没关系，杀多少人都可以用来作祭祀，或者泄自己的私愤等等，那么这样就会放纵嗔恚，等等。就像这样，认为放纵烦恼无罪，因此行为合理，这样就能支持一切的颠倒恶行。</p>
+<p>再者，假使对于常方面执取为真实，然后随之而转入，那就是出了常的邪见。比如，认为的确有个神我，虽然肉体终归灭亡，但神我始终常存；或者经由一种修炼之后，这个神我将脱出而得到永生等等。诸如此类，如果执它为诚谛，就进入到邪见里了。常见的后果，当然也是无法得解脱了。因为解脱是由明知四谛而来的，既然不承许无我，那也不知道一切烦恼的根源是我执，而我执只是一个妄执。由于他一直执著神我的见，没有办法去掉萨迦耶见这个生死的根，因此毕竟不得解脱。</p>
+<p>以上在断常二见、无因果见，这些上面举了一些例子，实际上，大大小小有各类的邪见。只要是对于万法不正确的知见，就像偏斜的眼睛看到的不是真相那样，又好像有问题的眼睛就看成有问题那样，这一类的立论不符合实相，如果执取为真实，那当然就产生了邪的见解。</p>
+<p>二、对正教教义的怀疑和增损</p>
+<p>第二类，首先，是对于正教的教义产生怀疑，这也是见解上偏邪，这也有重有轻。论中说的是很重的邪见状况，就是对于凡是佛的圣言、上师的教言、智者的论典，这三种所摄的正教的范畴，认为这个不正确吧、这个不真实吧。由于宿世的禀性，就会产生这样的邪见状况。</p>
+<p>对此，我们要认识怀疑的阴性和阳性的情况，而且落实到我们自身上有轻微等程度的状况，也要知道防微杜渐。假使这些出来的苗头没有杜绝，它也会逐渐扩展，以至于对佛经、上师教、菩萨论等发生很多阴性的狐疑，那都是恶业。</p>
+<p>这里所讲到的佛语、上师教和智者论，都是代表真理的言说，从世俗和胜义二谛所摄的各种范畴上，以能诠的文字、语言，要去说明那个真相，比如会说因果、说四谛、说无我、说佛性等等的方面。那么这些说的当然都是真相，但是由于前世曾经跟随邪师，熏习邪教，在心里落下了很多的邪种子，现在一遇到说正法、说真理的时候，他以一种邪的禀性，自然就会怀疑，说“不会是这样吧，他说的这个是吓唬人的”等等。这样就是阴性的怀疑，是黑色的，偏向于颠覆真实的方面，心的状态也是邪的，看法也是邪的。他的倾向性是对于真理认识的一种消极状态，偏向于阴性的狐疑，这一类就是邪见。就像一般社会上的人，也没有宗教信仰，他对于佛教里面所说的这些经论、上师教言，就想“这些都是不正确的吧，只是一种说教”，就像这样，当然是一种很重的邪见的状态。</p>
+<p>所谓“阳性的疑”，就是在面对各种真理的言教时，他是往积极方面走的。当然，还没有断疑根的时候，自己心里不是了然的、确定的：“应该是这样吧，但是我还是搞不清楚，这一点还没有搞明白，还没有确认”，但是他是阳性的。比如告诉他这样行善就会得很大利益。他就说“那是佛说的、上师说的，是智者的论，可能是这样吧，但是我还是有点搞不清”，那么这样子就是阳性的，因为他是倾向积极方面的，他还是肯往积极上走，还是想通过自己去思惟等的方法，来达成对它的正确认识。那么作为一个学者，在最初阶段当然会有很多的疑，大大小小的，但都是积极的状态，是阳性的疑。他不会一听到什么，就说“不是这样的”，比如一听到因果就说“这个是吓唬人的，哪里会有这样的事，可能不是吧！”那么这样就是阴性的。他一听到“诸法无我”等等，就想“这么看起来可能会是这样的”，那么这就是阳性的。</p>
+<p>这里也要知道，我们从小开始读书，熏习世间的邪论很多，而这些都是相似说法，看起来似乎非常地正确，是真理。比如，认为“没有什么善恶因果吧，一切都是自在的，可以随意的，都可以的，这个地方还有什么恶，遭到那么大果报，这个是不可能的”，诸如此类，都熏染了或轻或重的很多邪见的习气等等，这些方面我们都要善加观察。</p>
+<p>再者，对真实的教法产生增损两方面的诽谤之心。比如本来有佛说没佛，是空性说不是空性等等，这些就是对于真理的一种邪见的状态。“增益”，就是没有的说有，少的说多等等，增加出来的。“损减”，就是有的说没有，多的说少等等，作了削减或损减。这么两种当然不是如实的看法，这个知见是有问题的，像这样大大小小的都属于邪见。</p>
+<hr>
+<h5 ref="二邪见" >（二）邪见</h5><a class="anchor" id="二邪见"></a>
+<p>分二：1、刹那生起之过患；2、相续染著之过患</p>
+<p>1、刹那生起之过患</p>
+<p><strong>再者邪见，相续里仅刹那生起，也将成为断舍一切律仪，不入内道之数，及尚不属于闲暇之身。</strong></p>
+<p>这一段宣说了刹那生起邪见的三种过患：一、舍一切律仪；二、不入佛徒数；三、不成有暇身。</p>
+<p>三者联系起来讲。这里指的是一切邪见中为罪最重的邪见，也就是不相信有善行恶行、苦报乐报等等，或者不信有解脱、三宝等等。那么这样的大邪见，一旦在相续中一刹那生起的时候，已经失去了归依。因为诸佛宣说的最基本的法道，就是建立在因果上面，断恶行善，当已经不相信一分因果的时候，连一分法道也不能趣入，因此，从人天的戒行往上的所有律仪，相续中都远离了。因为心中不信、无欲，这就断舍了律仪。</p>
+<p>再者，不入佛徒数。内佛弟子的群体，都是以归依为基本条件，由于前面的谤因果、谤解脱等的邪见刹那生起，或者说对于一切诸佛语、上师教、智者论都产生狐疑，认为不是真实的，那么以这种情形，当然就舍离归依。心上由于没有信和愿，不入在内佛弟子的行列当中。</p>
+<p>再者，以这种大邪见，会断掉一切的行善，而且不断地随逐诸恶而行，因此即便得到了闲暇之身，也将成并非有暇。也就是说，所谓的“有暇”，是指内外因缘和合的时候，心中有行善的机会。但是，相续中发生了大邪见的时候，已经不信这一套，也不愿这么去做，因此，他的心中一点善都发不起来。而且，以这种邪见的非常大的摄持力或者作用力，他就随顺各种的恶业肆意而行。这样的话，当然在他的相续中，连一刹那发生一个善心善行的机会都几乎是不见的。因此，这样的身活在世上，他就成为一个完全没有法的身，也就是一个无暇的身了。八无暇中说到的邪见，就好比是深度的精神病，他就成了一种非常可怜的身份，根本上是一种大的障难，因此成了无暇。</p>
+<p>2、相续染著之过患</p>
+<p><strong>而且，相续为邪见所染之后，行了善也不趣往解脱的道，造了罪也无有忏悔的境。</strong></p>
+<p>这里说到两个方面：一、行善不趣解脱道；二、造恶无有忏悔境。</p>
+<p>“相续”，指身心相续。也就是在世俗的现象里，并没有所谓的常和断，“常”，就是一直保持不变，“断”，就是一断永无；实际是相似相续，任何一个有情，都是一刹那接一刹那不断地相续下去，这是表示这个生命的体性。如果是建立阿赖耶的宗义，那就是一直有这个阿赖耶识的相似相续，这里的“相续”代表八识田。那么，当已经发生邪见，就在这个相续中有了它的杂染分，这个杂染就是指染上了邪见，染著以后不消除的话，它就一直有作用力。这里讲了两个。</p>
+<p>首先，就一种邪见的状况而言，染著了这个邪见以后，不相信三宝，不作归依，那么他即使在世间还作一点善，比如帮助别人，做一些好事，或者服侍病人等等，但是，由于他的心中没有归依，当然这分善就无法转到解脱道上去，他不会往解脱上走。就如同世间的善人，他们也会做一点善，然而不信三宝，不作归依，那么这样就没有往解脱道上走的机缘了。因为只有佛是开示无我的大师，佛所说的四谛的法才指示了解脱正道，以僧为助伴才往解脱道上走，因此，这样的人由无归依故，绝对不可能入到无我为主的解脱道上。那么世上有很多这样的善人，但是不会得解脱，还要继续轮回。这是由于某种邪见染著，对于佛教或三宝充满狐疑或者不信，那么无论做多少善，也不会趣往解脱道。</p>
+<p>再者，造了罪也没有忏悔的境缘，以不信三宝的缘故。那么这样的话，也不会一心请三宝证明，请三宝加被，在三宝面前发露陈词等等，因而无有忏悔之境。</p>
+<p>&ndash;</p>
+<h3 ref="二果相" >（二）果相</h3><a class="anchor" id="二果相"></a>
+<h5 ref="j邪见" >J邪见</h5><a class="anchor" id="j邪见"></a>
+<p>分二：a认识；b运用</p>
+<p>a认识</p>
+<p><strong>由邪见故，住于恶见，以欺诳故，自心出现错乱。</strong></p>
+<p>邪见的领受等流果，将出现与因业同类性的果上的病态状况。有两种病态：一、见解病态，心住在恶见当中；二、心理病态，内心错乱或者心地谄曲。</p>
+<p>造了邪见业，在地狱等恶趣受了很漫长的苦后，转生在人间，也有俱生的见解和心理的病状。见解的病态，就是一直处在恶鄙的见解状况里，思想特别有问题。比如就是喜欢邪着看问题，颠倒真理，无意义说成有意义，恶的看成善，邪的视为正等等。这种思想病态俱生就是那样的，这是前世邪见的报应力，导致出现一种思想上的病态。这是一种大的病，一直陷在那种恶鄙的见解状况里，或者对万法看法的病态里。</p>
+<p>其次是心理病态。原因是，以缘起上欺诳的作用力，导致内心出现错乱，就好像脑袋倒过来看世界那样，心是颠倒的，《十地经》上说是“其心谄曲”。凡是诳骗多了，心就错乱了，或者没办法与正理相应，怎么也正不过来、顺不过来，都是邪邪的眼光、很扭曲的心地的状态。</p>
+<p>错乱和谄曲是从不同角度描述，可以会通。“错乱”，指心全是错的状态，在心理的病态上，由前面根本的见解引生出来，有各种心续上乱的状态。比如，对善应当是欢喜的，却不欢喜；对恶应当远离，却支持等等，就像这样，都是这个心已经错乱了。又比如持“杀生应理论”，那么这种邪见熏习以后，一见到杀生是非常兴奋的，而且他反面的错觉力非常地大。就像这样，都是指心地已经变坏了。又如持着一种自由放逸论，非常地放肆，这个时候，以这种欺诳的力量，心产生一种错觉，就认为这个是有意义的，完全没有什么因果律，可以随便地纵欲，随便地做，那么这种也都是心上面谄曲了。</p>
+<p>有人问：住在鄙恶的见解中，似乎是说造作等流，不是领受等流啊？</p>
+<p>要认识等流的相。同类造作的现行，那就是造作等流。前世喜欢持邪见的话，今生还是特别喜欢持恶见，往往很快就适应颠倒的见解，对此爱乐、执持、宣扬等等，这样叫“造作等流”。而俱生就有的见解的病态、心理的病态，这是属于受报。如同天生的斜眼、倒眼等那样，老是陷在一种恶鄙的见解当中，或者很邪的看法里，天生就是那样邪邪地看，颠倒地执持，有非常大的邪性。这是属于业报的残障，而且是根本上的报障，这是领受等流。</p>
+<p>b运用</p>
+<p>要深刻认识到邪见的大过患相、大病态相，诚心忏悔止息，这是消极上的。在积极上，就要发愿常持正见，而且着手修学。</p>
+<hr>
+<h3 ref="3增上果" >（3）增上果</h3><a class="anchor" id="3增上果"></a>
+<p>分二：1）总体认识；2）分别认识</p>
+<h4 ref="1总体认识" >1）总体认识</h4><a class="anchor" id="1总体认识"></a>
+<p><strong>增上果者，即是成熟于境的果分。</strong></p>
+<p>增上果是指环境上成熟的果相，即业具有一种制约力，不但出现自身身心上的报相，还左右着环境上的报相。</p>
+<p>感果是综合性的。譬如一个天人，由造大善业，此生生天，不仅在他的根身上成熟果报，还在境上显现妙果。在一个天人的环境里，有宫殿、园林、甘露、妙音等等，都是让人欢喜的，这是由善业的力量制约着境上的显现。缘起的条理是没有紊乱的，以一个大的善业、纯的善业，就普遍地现出都是那么地惬意、欢喜的境相，以及以此得到的悦意的感受。如此在环境上成熟的果，叫做“增上果”。</p>
+<p>所谓众生业感在器世间实现的情形：</p>
+<p>众生都是随着业而现身在世界中，业力同类的，彼此气息互相流通。而且，自身那个气的集中点特别有一种摄持，仿佛就觉得有各个的身体，这就是有情界。而在身体范畴之外的其他的气，彼此交相重集，仿佛有各种物质，这就是器世界。那么器世界的状况，就是自身的业成熟位出的气息在外部呈现相状，而且由众生的同类业感会出现相应的相，这个相跟业是相应的，所谓“因果相当”，这是业感缘起。而每一种业，它会出现对应的状况，缘起不紊乱，这叫“条理”。以此我们逐渐地来认识，十不善业各自业成熟的气氛所显现的器世间的苦相。</p>
+<h4 ref="2分别认识" >2）分别认识</h4><a class="anchor" id="2分别认识"></a>
+<p>分十：①杀生；②不与取；③欲邪行；④妄语；⑤离间语；⑥粗恶语；⑦绮语；⑧贪欲；⑨害心；⑩邪见</p>
+<hr>
+<h5 ref="邪见" >⑩邪见</h5><a class="anchor" id="邪见"></a>
+<p><strong>由邪见故，受生之处资财寡少，且为无归依处、无救护处。</strong></p>
+<p>邪见业的因果条理，要注意因果的同类相应。邪见业的因相：一、在诸法根源的见解上颠倒；二、谤因果、谤四谛、谤三宝，因此，先闭上了内心的归依和得救护的缘起。当邪见业种成重的时候，自然感受与其相应的环境。苦相有三：一、资财稀少；二、无归依处；三、无救护处。</p>
+<p>见解是诸法的根源。邪见就是，对于诸法真实性的看法完全是颠倒的，这是根源上的颠倒；由此导致善妙的根源消失了，内善妙的白法没有了，外善妙的物质没有了。因此就要知道，那些世间最好的资财妙宝的生源以此而消失，因而妙财稀少。</p>
+<p>接着，就重的邪见来说，认为因果是虚妄的，根本没有什么因果律；或者执持常断见为第一殊胜，因为他执持这是无上义，因此就没有了因果了，没有因果，进一步当然更不会有四谛，更不会信受开示四谛的导师，以此，心根本不信三宝。以这个邪见的力量，自然感召的就是那些没有三宝的地方，没有归处、救护处的地方，比如生在各种邪法国土、野蛮部落，世俗的一些邪见者聚集的城市、村庄等等。</p>
+<hr>
+<h3 ref="4士用果" >（4）士用果</h3><a class="anchor" id="4士用果"></a>
+<p><strong>士用果者，若造何业，彼业即成诸多增长后，于累世多生中，无边际苦海里接连经受，以及复操恶业日益增长，从而于无边际轮回中漂流。</strong></p>
+<h1 ref="大圆满心性休息大车疏" >大圆满心性休息大车疏</h1><a class="anchor" id="大圆满心性休息大车疏"></a>
+<p>戊二（宣说不善业）分二：一、宣说分基；二、宣说分类。</p>
+<p>己一、宣说分基：</p>
+<p>以善业获得善趣享受安乐，以不善业转生恶趣遭受痛苦。此处宣说不善业。
+<strong>令堕轮回上下趣，十不善业各自现，</strong>
+<strong>十不善中次第分，身三语四意三业。</strong>
+什么是不善业呢？是指令众生从善趣堕入恶趣唯受痛苦的十不善业，即杀生、不与取、邪淫三种为身不善业；妄语、离间语、绮语、恶语四种为语不善业；贪心、害心、邪见三种为意不善业。</p>
+<p>己二（宣说分类）分三：一、身业；二、语业；三、意业。</p>
+<p>庚三、意业：</p>
+<p>意之三不善业：
+<strong>贪心图财欲己有，同分贪他闻等福，</strong>
+<strong>害心嗔恨损他众，同分不利生嗔心，</strong>
+<strong>邪见常断无因果，同分增损等倒见。</strong></p>
+<p>他的资财等若是我的该多好的想，即是贪心，心怀忿恨暗想对方的多闻等福德若为我所有该多好，为其同分；</p>
+<p>有损害他众之想即为害心，不愿饶益其余众生并且心生嗔恨为其同分；</p>
+<p><strong>诽谤业因果堕于常断边即是邪见，对正法及如理讲法之善知识等进行诽谤为其同分</strong>。</p>
+<p>《俱舍论》云：“贪倒欲他财，害心嗔众生，许无善不善，即是邪见也。”《众生分辨经释》中云：“嗔他多闻等福为贪心之同分；不乐利他且怀嗔恨为害心之同分；诽谤善知识、正法与他众为邪见之同分。”</p>
+<p>此处仅仅说<code>诽谤正法与善知识是邪见之同分</code>，而《般若八千颂》中云：“须菩提，积谤正法之业者即堕入恶趣转生为邪见众生，于无间大地狱受苦，直至为火坏劫出现时，方转生于他世间界诸大地狱中，至为火坏之劫出现时亦有其余……。”其中宣说了此类人将受无量痛苦。《寂灭幻化经》云：“纵经数多劫，身五百由旬，彼头亦五百，每一头上有，不少五百舌，一舌上耕犁，不少五百数，极炽而耕作，即诽谤罪业。”《宝积经》云：“迦叶，吾与同吾者可了知法与补特迦罗，凡夫不了知法与补特伽罗。否则，会堕落之故。”</p>
+<p>丁三（果报）分三：一、略说自性；二、各自分类；三、彼等摄义。</p>
+<p>戊一、略说自性：</p>
+<p>宣说十不善业之果报：
+<strong>境心意乐加行劣，行十不善之果报，</strong>
+<strong>异熟果与等流果，增上果及士用果。</strong>
+此等不善业是由对境不善、等起不善、意乐不善、加行不善而产生的，诸大论中说其果报有异熟果、等流果、增上果。窍诀论中说在此三果基础上，加上士用果共有四种。</p>
+<p>戊二（各自分类）分四：一、异熟果；二、等流果；三、增上果；四、士用果。</p>
+<p>己一、异熟果：</p>
+<p><strong>小品不善转旁生，中品不善转饿鬼，</strong>
+<strong>大品不善堕地狱，感受异熟之苦果。</strong></p>
+<p>《念住经》云：“以此等小品不善之异熟果将转为旁生；如是以中品不善转为饿鬼；以大品不善堕入地狱。”</p>
+<p>己二（等流果）分二：一、同行等流果；二、感受等流果。</p>
+<p>庚一、同行等流果：</p>
+<p>等流分二同行果，经说所行同其果。
+《百业经》中云：“因行不善业之串习力而于后世中亦依不善、行不善、转为作不善者。”</p>
+<p>庚二、感受等流果：</p>
+<p><strong>佛说感受等流果，虽已获得诸善趣，</strong><br>
+<strong>亦成短寿多病者，资具贫乏敌共用，</strong><br>
+<strong>夫妻丑陋成怨仇，多遭诽谤受他欺，</strong><br>
+<strong>眷仆恶劣不合睦，所闻粗言成诤语，</strong><br>
+<strong>语言无力辩才微，贪欲强烈不知足，</strong><br>
+<strong>不求饶益他害处，极为狡诈具恶见，</strong><br>
+<strong>十恶依次各具二，此为感受等流果。</strong></p>
+<p>《百业经》中云：“……一旦转至天界、人间，然以杀业所感而成短寿多病者；以不与取而感资具乏少且与怨敌共用；以邪淫所感夫妻不悦意且与他（她）人共享；以妄语所感多遭诽谤且为他众所欺；以离间语所感眷仆恶劣且互不合睦；以粗语所感闻不悦耳之语且成诤论之言；以绮语所感言词无力且辩才不定；以贪心所感贪欲强烈且贪不厌足；以害心所感不寻利益且成损害根源；以邪见所感持执恶见且成十分狡诈者。”《宝鬘论》云：“杀生成短命，不与取离财，邪淫具怨敌，妄语多诽谤，离间无亲友，粗语闻恶言，绮语言无力，贪心摧所愿，害心生怖畏，邪见持恶见。”</p>
+<p>己三、增上果：</p>
+<p><strong>成熟外境增上果，不净依他起即时，</strong><br>
+<strong>杀生环境极贫瘠，树叶花果饮食等，</strong><br>
+<strong>力微损寿难消化。不与取生畏惧处，</strong><br>
+<strong>庄稼果实不成熟，常遭霜雹饥灾荒。</strong><br>
+<strong>邪淫生于粪淤泥，污秽不堪恶臭境，</strong><br>
+<strong>狭窄悲惨不悦意。妄语生于畏不合，</strong><br>
+<strong>财富不稳受欺境。离间语业所生处，</strong><br>
+<strong>深渊狭谷悬崖等，凹凸难行不悦境。</strong><br>
+<strong>粗语生于盐碱地，瓦砾荆棘枯树干，</strong><br>
+<strong>尘土飞扬劣果蔫，令人不喜粗糙处。</strong><br>
+<strong>绮语生处果不熟，不长稳住季颠倒。</strong><br>
+<strong>贪心生处果等少，糠多见贤时节变。</strong><br>
+<strong>害心生处稼苦辣，王蛇盗匪野人等，</strong><br>
+<strong>自然灾害众多境。邪见生处无宝源，</strong><br>
+<strong>药树花果极鲜少，无有依怙无亲友。</strong></p>
+<p>此等增上果是依照《摄抉择论》中所说而述。《辨中边论释》中说：“根据外境不同，善业亦增上。”依此可知，十不善业也可成熟于内心。</p>
+<p>己四、士用果：</p>
+<p>不善业之士用果，所作增上生痛苦。
+《略念住经》中云：“愚痴之士造罪，其后罪业复增上而受剧苦。”
+戊三、彼等摄义：
+<strong>总之自性十不善，何人行此如服毒，</strong>
+<strong>定生大中小剧苦，当勤弃之如怨仇。</strong>
+《毗奈耶·教诫圣者嘉哦耨品》中云：“不善业如毒，微小亦生大苦故；不善业如野人，摧毁善资故。”因此，应当精勤弃恶从善。《宝鬘论》云：“当遮身语意，一切不善业，恒时行善业，此说二种法。”</p>
+<h1 ref="因果的奥秘" >因果的奥秘</h1><a class="anchor" id="因果的奥秘"></a>
+<h3 ref="庚三邪见" >庚三、邪见</h3><a class="anchor" id="庚三邪见"></a>
+<p>分三：一、略说；二、何为邪见；三、邪见之究竟</p>
+<p>辛一、略说</p>
+<p>《止观》云：“作决定解，名之为见。”邪见即颠倒见，广义而言，对不正确的道理作决定解，都是邪见。《大智度论》云：“见有二种，一者常，二者断。常见者，见五众（五蕴）常心忍乐；断见者，见五众灭心忍乐。一切众生多堕此二见中。复有二种见，有见、无见。”邪见分为常、断两类。常见，是见五蕴恒常不变，内心忍乐；断见，是见五蕴断灭，内心忍乐。一切众生多数堕在断常二见当中。此外还可以分为有见、无见两种，即执有和执无的邪见。</p>
+<p>世间粗分的邪见：有的认为杀戮野蛮人、年迈的父母、重病人能增长福德；有的认为蛇、鼠等动物危害人类，因此猎杀它们有功德；有的认为自己是梵天后裔，世间万物本是梵天创造的，因此随意享用他人物资，并没有罪过；有的认为用恒河水沐浴能清净罪障；有的认为对女性行淫无罪，甚至认为可以与母亲姐妹行淫；有的认为猪、羊、鱼等是天人赐予人类的食物，可以尽情享受。诸如此类，都是粗分的邪见。那么，本论十黑业道中所说的邪见是指哪种邪见呢？请看下面的论文：</p>
+<h4 ref="辛二何为邪见" >辛二、何为邪见</h4><a class="anchor" id="辛二何为邪见"></a>
+<p>【邪见。事者，谓实有义。】</p>
+<p>邪见之事，是真实的存在。</p>
+<p>比如：佛菩萨、阿罗汉、六道轮回、三世因果、净土等等。十不善业中的邪见，唯一是指断见，因为其定义是对原本存在的善与不善颠倒见为无有。如《俱舍论》所说：“视善不善不存在，即是所谓之邪见。”</p>
+<p>【意乐分三：想者，谓于所谤义，作谛实想；烦恼者，谓三毒随一；等起者，谓乐诽谤欲。】</p>
+<p>邪见的意乐分三：“想”，是对所诽谤的意义作真实想；“烦恼”，是三毒中任何一种；“等起”，即乐意诽谤之欲。</p>
+<p>【加行者，即于所思策发加行。此复有四，谓谤因、果、作用、有事。】</p>
+<p>邪见的加行：对所思策发诽谤加行。其中又有四种，即：诽谤因、诽谤果、诽谤作用、诽谤有事。</p>
+<p>【诽谤因者，谓云无有妙、恶行等。】</p>
+<p>诽谤因：认为没有善行、恶行等，对因真实有善恶业谤为无有。</p>
+<p>比如想：<code>根本就没有布施善行，没有菩萨行，邪淫不是恶行等等</code>。</p>
+<p>【诽谤果者，谓云无有彼二异熟。】</p>
+<p>诽谤果：认为不存在善行或恶行的异熟果，对善恶业实有苦乐果报谤为无有。</p>
+<p>比如想：<code>杀鸡宰鸭不会堕恶趣，念佛不可能往生净土等等</code>。</p>
+<p>【诽谤作用分三：诽谤殖种持种作用者，谓云无有若父若母；诽谤往来作用者，谓云无有前世后世；诽谤受生作用者，谓云无有化生有情。】</p>
+<p>诽谤作用有三种：</p>
+<ul>
+<li>诽谤殖种、持种作用，即<code>认为无有父母</code>；</li>
+<li>诽谤往来作用，即<code>认为无有前生后世</code>，有情并非从前世来今生，也不会从今生去后世；</li>
+<li>诽谤受生作用，即<code>认为不存在中有等化生有情</code>。</li>
+</ul>
+<p>【谤实有事者，谓云无有阿罗汉等。】</p>
+<p>诽谤真实存在之事，<code>即认为不存在阿罗汉、三宝、净土等等</code>。</p>
+<p>辛三、邪见之究竟分三：一、真实；二、圆满与不圆满之差别；三、断疑。</p>
+<p>壬一、真实</p>
+<p>【究竟者，谓诽谤决定。】</p>
+<p>邪见究竟，即诽谤决定。</p>
+<p>“诽谤决定”，即对实有义诽谤为非有，起了决定的执著。比如：古印度顺世外道的足目仙人为了安立无后世，撰写否认后世的十万偈颂，即是邪见究竟。</p>
+<p>壬二、圆满与不圆满之差别</p>
+<p>【此亦由于五相圆满，谓具五心。】</p>
+<p>邪见也是由五相圆满，也就是具足如下五心：</p>
+<p>【一、有愚昧心，谓不如实了所知故。】</p>
+<p>一、有愚昧心：不如实了知所知。</p>
+<p>【二、有暴酷心，谓乐作恶故。】</p>
+<p>二、有暴酷心（猛利心）：乐意作恶。</p>
+<p>【三、有越流行心，谓于诸法不如正理善观察故。】</p>
+<p>三、有越流行心：对诸法不如理分别推求。</p>
+<p>“流转”，可分善流流转与不善流流转两种。“善流流转”指诸善行，“不善流流转”指不善行。此处将“不善流流转”称为“越流行心”。由于对诸法不如理观察，违越于善流转，故称越流行心。</p>
+<p>【四、有失坏心，谓谤无布施、爱养、祠祀、妙行等故。】</p>
+<p>四、有失坏心：诽谤无布施、无供养、无火供等，诽谤无有妙行等。</p>
+<p>“妙行等”：“等”包括实有因、实有果、实有作用、实有事。比如，诽谤无邪淫等恶业、无圣者果位等。</p>
+<p>【五、有覆蔽心，谓由邪见不觉羞耻，不知过患及与出离故。】</p>
+<p>五、有覆蔽心：被邪见覆蔽，不觉羞耻，不知邪见过患及从邪见中出离。</p>
+<p>【此五若缺，则不圆满。】</p>
+<p>以上五心随缺一种，则不是邪见圆满。</p>
+<p>壬三、断疑</p>
+<p>【虽其邪见复有所余，然惟说此名邪见者，由此能断一切善根，随顺诸恶随意所行，是为一切邪见之中极重者故。】</p>
+<p>问：一切颠倒见都称为邪见，为什么佛陀在业道中只说以上的情况是邪见呢？</p>
+<p>答：<code>虽然邪见还有其它种类，但此处只宣说这四种（诽谤因、诽谤果、诽谤作用、诽谤有事）名为邪见，原因是：这四种是极为严重的邪见。其原因又是：依止此邪见能断绝一切善根，而且此邪见随顺诸恶，执持它便会对诸恶随意放纵而行。因此，是一切邪见中的极严重者。</code></p>
+<h4 ref="己四摄义" >己四、摄义</h4><a class="anchor" id="己四摄义"></a>
+<p>分四：一、略说；二、十黑业之根源；三、能究竟之差别；四、业与业道之差别。</p>
+<p>庚一、略说</p>
+<p>以上略说了十黑业。其中，身语七种恶业，除邪淫外，自作与教他作都可成为究竟业道，唯独邪淫必须自作才能究竟，教他作并不会成立究竟业道，理由是：教他邪淫，自己不会觉受欲乐。杀生等其余六种身口黑业，若自作，在究竟之前死去，不会圆满业道。</p>
+<p>每一种身口之业，还可以按加行、正行、后行来分析。比如，具杀生意乐，起身逼近所杀对象，拔出屠刀，刺向喉咙，是杀生的加行；断命根的当刻，是正行业道；断命后，开膛、剥皮、卖肉、煮肉等，是杀生的后行。又如心中生起盗念后，为达到目的，前往作案地点撬门、搜索等，在未生起得心之前，是不与取的加行；心中起念：“财物已经属于我了”而生起得心的刹那，是不与取的正行；生起得心后，窝藏赃物或出售等，是不与取的后行。</p>
+<p>庚二、十黑业之根源</p>
+<p>引生十黑业的根源，同为三毒烦恼。比如：杀生，以贪著肉味而杀，是以贪发起；以仇恨冤家而杀，是以嗔发起；认为杀牛祭祀有功德，坏人可杀、鼠蝇须杀等，是以痴发起。不与取中，为求财而诈骗，是以贪发起；为报复仇人而盗他财物，是以嗔发起；以邪论为依据，认为掠夺坏人的财物无罪，或者战争胜利者可掠夺他国财富，或者自己是梵天子民，可随意受用世间财物等，由此而不与取，是以痴发起。邪淫中，贪著欲乐而与他妻行淫，是以贪发起；为报复而强奸怨敌之妻，是以嗔发起；在某些边鄙地区，人们受邪教影响，认为与母亲、姐妹行淫无过，是以痴发起。</p>
+<p>以语业而言，为护持亲友或贪求名利，口说妄语、离间语等，是以贪发起。为损害仇敌而说，是以嗔发起。受邪见驱使，将外道典籍执为真实而读诵、演说，其中有妄语、绮语、粗恶语、离间语等，是以痴发起。</p>
+<p>问：贪、嗔、邪见本为意乐，为什么说是以三毒引起呢？</p>
+<p>答：贪、嗔、邪见也是以三毒为根本而引生的，如《宝鬘论》所说：“以贪嗔痴三者所引起的业，即是不善业。”比如：邪见中，为求名利而趣入邪道，是以贪发起；由依止邪教而执著无业果等，是以痴发起；怨敌相信业果，自己因仇恨而连带对他所信奉的学说抨击诽谤，由此依止邪见邪论，趣入不善轨则，是以嗔发起。</p>
+<p>总之，一切黑业都是由三毒而发起。菩萨出于利他而显现身语方面的业，并非三毒所摄，因此不属黑业。以此为据，菩萨戒中有对身语七支的开许。比如：<code>师长呵斥弟子，父母为教训孩子而示现愤怒，使他舍弃恶行，都不属罪业</code>。</p>
+<p>十黑业中的身语七业，都是由意乐发起，而在身语上反映为某种作为，但就三种意业而言，并不会在行为上出现动作、语言等。那么，意业的意乐和加行又应如何理解呢？比如，起贪欲时，最初心想：这些财物的价值很昂贵，我应当获取。这是意乐。一再住著、持续这种念头，这是贪欲业道的加行。如此解释是否合理，尚需观察。</p>
+<p>庚三、能究竟之差别</p>
+<p>【其中：杀生、粗语、嗔心，由三毒起，由嗔究竟；不与而取、邪行、贪欲，由三毒起，惟贪究竟；妄言、离间及诸绮语，发起究竟，俱由三毒；邪见由其三毒发起，惟痴究竟。】</p>
+<p>十恶业中：<code>杀生、粗恶语、嗔恚，最初由贪嗔痴引起，最终由嗔心圆满；不与取、邪淫、贪欲，最初由贪嗔痴引起，最终由贪心圆满；妄语、离间语、绮语，最初由三毒引起，最终由三毒圆满；邪见由三毒引起，最终由痴心究竟。</code>《俱舍论》说：“杀生害心与粗语，皆由嗔心而究竟。邪淫贪心不予取，均由贪心而圆满。邪见由痴而究竟，余者以三而圆满。”</p>
+<p>庚四、业与业道之差别</p>
+<p>【此等之中，思惟是业而非业道，身、语所有七支是业，亦是业道，思行处故。贪欲等三，业道非业。】</p>
+<p><code>按照《俱舍论》所说：“思”是业，而不是业道；身语七支——杀生乃至绮语，是业也是业道；贪、嗔、邪见，是业道而不是业。</code></p>
+<p>造业之道，称为业道。之所以称“等起思”为业，是因为以它转的缘故而转，以它行的缘故而行，如它的势力而造作。为什么思不属业道呢？因为“等起思”不可能托前一刹那的思为境而转，前一刹那已灭故；也不可能托同时之思为境而转，不可能有同类的两个心所同时生起故。</p>
+<p>前七支是业，直接成为身语业的缘故。又是业道，是思行处的缘故。“等起思”托身语业为境而转，称身语业为思行处。</p>
+<p>贪、嗔、邪见是等起思所行之处，因此是业道。按照《俱舍论》所说，烦恼与业是别别的体性，因此不是业。小乘有部派是如此承许的。</p>
+<hr>
+<p>[<a href="#_ftnref1">1]</a> 殖种、持种作用：“殖种”是父的作用，“持种”是母的作用。</p>
+<hr>
+<h3 ref="等流果-1" >等流果</h3><a class="anchor" id="等流果-1"></a>
+<p>《谛者品》和《十地经》则更具体地对每一黑业都宣说了两种等流果。</p>
+<p>十、以邪见业感召见解恶鄙、谄诳为性。邪见即颠倒见，如果前世曾经串习了邪见而没有对治，那么这一世生在人中，就仍然以宿业的习气习惯于执持恶鄙见解，心随邪恶而转，压制一切白法，因此叫做“恶鄙”。“谄诳为性”：由执持邪见而造成谄诳的品性。人的品性并不是一世养成的，主要来自前世业力的影响。有些人生性谄诳，喜欢把正的说歪，把歪的说正，都是由串习邪见的力量所致。</p>
+<p>以上十黑业领受等流果的内容，学习之后，应当在自己身上反观、思惟。我们这一生会遇到种种厄难，每当现前逆境的时候，要知道这唯一是自己造业的果报。比如，<code>多病、贫穷、受人歧视、人际关系不好、说话无人理睬等等，看不到业果，就会怨天尤人、起嗔恨心、报复心</code>等，<code>宿业还没报尽，又造下了新殃</code>。所以，遇到有这样的情况，就应当思惟领受等流果来修好自心。</p>
+<p>比如，受人诬谤时，要想到：这一定是我前世妄语骗人的果报，既然是由自己说妄语招来的，就要欢喜地接受。进一步想到：他毁谤我，正是消我的宿业、摧毁我的我执，成就我的安忍，他是帮助我的善知识。这样作消业想、作善知识想。又比如，对眷属好言忠告，对方却不听从，这时也不应起烦恼，而应当自责：这是我往昔造作离间语的果报，是我自己没有德行，所以他才不听从。随后就要对宿世所造的恶业生起追悔心，励力忏悔，并且以自己修德来感化对方。能够这样想，确实除了自责之外，再没有任何可报怨的。</p>
+<p>总之，以业果正见摄持自心，不论被打、被骂、被诽谤等，都“只认自己错，不见他人非”，对于一切逆境都欢喜顺受，这就是“随缘消旧业，不再造新殃。”从此以后，业障会逐渐消除，福慧会日益增长，不论顺缘、逆缘都成了修行的助伴。月称菩萨在《入中论》中教导我们思惟：既然已经明白由感受苦报能消尽往昔恶业的果报，为什么还嗔他而种下未来受苦的种子呢？像这些世俗修法的核心就是因果正见。大成就者持明无畏洲说：“怨敌反对亦使修行增，无罪遭到诬陷鞭策善，此乃毁灭贪执之上师，当知无法回报彼恩德。”（即使怨敌反对也能使修行增上，无罪遭人诬陷也是策励行善，这是毁灭贪执的上师，要知道对方成就自己的恩德无法报答。）</p>
+<p>再比如，下岗生活出现贫困时，要自责：这是我前世造不与取的恶果，如果现在再不修持布施，未来会更加贫苦。这样思惟之后，发起勇猛行善之心。</p>
+<p>或者，受到别人轻视时，要想到：这是以前我轻视他的回报，现在再不修持恭敬之行，将来就更加下贱。这样，一面生惭愧心，一面发愿改过。</p>
+<p>又比如，身患重病时，就思惟：这是我往昔造杀业的报应，如果现在不发起救度众生的菩提心，怎么能解脱杀业的罪报呢？</p>
+<p>像这样从果推因，见一切祸患都是由自己宿世造业所致，只有恐惧忏悔的份，哪里还敢怨天尤人？</p>
+<p>下面是一则案例：</p>
+<p>宋朝，有一位禅师年轻时喝醉酒与人争财，伤了人命。他畏罪逃走，出家苦修，后来开悟成了大禅师，座下有几百名弟子。</p>
+<p>有一天，他忽然沐浴升座，对大众说：“你们不要动、不要说话，看我了结四十年前一桩公案。”</p>
+<p>到了中午，有个军人突然进寺院，见到禅师就拉弓欲射。禅师合掌说：“我恭候你很久了。”</p>
+<p>军人吃惊地问：“我与老和尚素不相识，为什么一见面就想动手？”</p>
+<p>禅师说：“欠债还钱，欠命还命，公平交易。请下手，不必迟疑。”之后就交待弟子：“我死后，你们要好好招待施主，饭后送他回去，如果有半句嗔恨的话，就不是我的弟子。”</p>
+<p>军人听了更加疑惑，坚持请问此事的缘由。禅师说：“你是两世人，自然不记得，我是一世人，怎么会忘记。”说完，就把往事告诉军人。</p>
+<p>军人有所领悟，虽不识字，却忽然大声吟偈：“冤冤相报何时了，劫劫相缠岂偶然，何不与师俱解释，如今立地往西天。”说完，立地而化。</p>
+<p>禅师下座为他剃头、换衣、入龛，告别大众后，端坐而化。</p>
+<p>禅师亲见这一切都是自作自受，怨不得别人，因此欢欢喜喜地顺受，毫无怨尤。上文讲到的离越阿罗汉也是如此。他被人诬陷偷牛，坐了十二年牢房，换成一般人会大叫冤屈，想不通的甚至精神崩溃，而他却任劳任怨、安心顺受，因为他知道这都是自己造业招来的，能怪谁呢？心里想通了，喂马、除粪都是安乐的事，监狱也成了道场。</p>
+<p>总之，在了达因果道理之后，对于宿业的果报，要随缘顺受，对于未来，要行善积德。平常不论发生什么事，都要归在业果上来思惟。能够想得通，就不会起烦恼，不平的心也会平静下来，而且会常生惭愧，勤求忏悔。能按这样思惟业果，转变自心，就有真实的受用。</p>
+<p>庚二、造作等流果</p>
+<p>【诸先尊长说：纵生人中，爱乐杀生等事，是造作等流果。前所说者，是领受等流果。】</p>
+<p>昔日诸尊长说：纵然生在人中，仍然爱乐杀生等事，是造作等流果。前面《十地经》等所说，是领受等流果。</p>
+<p>下面是一则案例：</p>
+<p>有一天，世尊到某城市化缘，施主供养了一种叫“拉达”的食物。这时，有个婆罗门子看到后，跑来向世尊说：“给我！给我！”世尊想了一下，就对他说：“你先说‘我不要’，我再给你。”这个孩子迫不及待地说：“我不要。”于是他得到了这份美食。</p>
+<p>回到精舍后，比丘们问佛：“以何因缘这个孩子的贪心这样重，一见到食物就说‘给我、给我’？为什么世尊最初不给，要让他说完‘我不要’之后才给呢？”</p>
+<p>佛说：“这孩子的贪心很重，在千百世当中，见到食物都是说‘给我’，从没说过‘我不要’。今天以此因缘让他说一句‘我不要’，等未来山王如来出世时，他会以这个善根，在山王如来的教法下出家、证得阿罗汉果。”（《百业经》）</p>
+<p>案例中，婆罗门子见到食物就说“给我”，是造作等流果，即以前世如此造作的缘故，此造作习气便在千百世中相续不断。世尊以方便引导他说了一句“我不要”，这是让他种下无贪的善根，以此善根力，将来能出家证果。</p>
+<p>这个案例给人很大的警示：我们心中的恶习如果不能及时发现并改正，它就会一直延续，越串习越深重，越难以摆脱，最终会长劫堕在恶趣中流转。</p>
+<p>在黑业方面，十种黑业就有十种造作等流果。比如：喜欢杀生的人，一见苍蝇、蚊子就想拍死，这是杀生的造作等流果；经商时，起心动念就想骗取别人的钱财，这是欺诈不与取的造作等流果；还有不由自主地说妄语、绮语、粗恶语等等，都是造作等流果。如果不能纠正这一类的造作方式，修行就不会进步。因为修行就是修好自己的身口意，对于自己的恶习，能反省改正，就杜绝了堕恶趣的因缘；对善的习气，能一再地串习培养，就会积累善趣或解脱的因缘。所谓断恶行善，就是在自己的造作上断和行，实际上就是除习气、改习惯。</p>
+<p>人的心念、语言，总会习惯性地按照相似的方式进行。如果不能认识自己的恶习而遮止，往后就总会在这一处造业，它的后果是很可怕的，因为它能相续下去，在百世、千世乃至无量世中重复不断地造作。了知了造作等流的规律之后，就会心生畏惧，因为：哪怕只是很小的恶习，不改正它，也会不断地重复、相续下去，就像不戒除饮酒，天天都会喝酒一样。所以，修行人处处要改习气，要习善行。这样看来，修好造作等流是至关重要的。所谓修行，首先要改掉引生恶趣的造作方式，其次要改掉引生生死的造作方式，再改掉小乘自利的行为方式，由此才能成佛。所以这里有非常深细的检点、修行要做。</p>
+<h3 ref="己三增上果-1" >己三、增上果</h3><a class="anchor" id="己三增上果-1"></a>
+<p>【诸主上果或增上果者。】</p>
+<p>增上果，主要是指成熟在外在器世间的果报。</p>
+<p>从不善业方面来说，由业力增上，会感得外器世间种种不悦意的果报。以下逐一说明：</p>
+<p>【谓由杀生，能感外器世间所有饮食及药果等，皆少光泽，势力、异熟及与威德，并皆微劣，难于消变，生长疾病。由此因缘，无量有情，未尽寿量而便中夭。】</p>
+<p>以杀生业力，能感外器世间一切饮食、药物、果实等，都缺少光泽，势力、功能、威力微劣，即使食用也难以消化，反而生长疾病。由此因缘，无量有情在寿量尚未圆满时就中途夭折。</p>
+<p>【不与取者，谓众果鲜少，果不滋长，果多变坏，果不贞实，多无雨泽，雨多淋涝，果多干枯及全无果。】</p>
+<p>不与取是夺人所有，以此恶业将感得外境的衰败之报。数量上，植物结果鲜少；成熟上，果实难以滋长，即便结果也多有变坏、果不真实，或天时不调，遭逢旱涝之灾，使果实多数干枯或根本不结果。</p>
+<p>【<strong>欲邪行者，谓多便秽，泥粪不净，臭恶迫迮，不可爱乐。</strong>】</p>
+<p>欲邪行是染污、不自在之业，所以感得受生环境多不洁净，多有粪秽、污泥，发出恶臭，或环境狭窄、压抑，不可爱乐。</p>
+<p>【<strong>虚妄语者，谓农作、行船，事业边际，不甚滋息，不相谐偶，多相欺惑，饶诸怖畏恐惧因缘。</strong>】</p>
+<p>“农作、行船，事业边际，不甚滋息”：农作、航运等事业不会发达兴盛。比如同一块田地，前面的主人有很好的收成，后面换了一个有妄语业障的主人来耕种，庄稼就长不好。行船也是如此，前面船夫行船时有很多人坐，换成有妄语业障的人开船，生意就会败落。</p>
+<p>“不相谐偶”：人和人之间不能和睦相处。</p>
+<p>一切和谐、兴盛都来自于真诚。说不诚实的妄语，会导致农作、行船、商业不得兴盛，人与人之间很难谐调、合作。人们被妄语业障碍，彼此无信任感，相互欺骗，不能真诚地交流、合作，世界充满怖畏、恐惧因缘。</p>
+<p>【离间语者，谓其地处丘坑间隔，险阻难行，饶诸怖畏恐惧因缘。】</p>
+<p>造作离间语业，使人们互相乖离，矛盾重重，由此感得所居的处所不通畅，外境显现有山丘坑坎、山河阻碍、道路难行，世间多有怖畏、恐惧因缘。</p>
+<p>【粗恶语者，谓其地所多诸株杌，刺石砾瓦，枯槁无润，无有池沼，河流泉涌，干地卤田，丘陵坑险，饶诸怖畏恐惧因缘。】</p>
+<p>以造作粗恶语的业力变现的器世界，大地有很多枯木、荆棘、瓦石、砂砾，环境枯槁、不润泽，没有池塘、河流、涌泉，地面龟裂或成盐碱之地，到处是丘陵、坑险，多有怖畏、恐惧因缘。</p>
+<p>【诸绮语者，谓诸果树不结果实，非时结实，时不结实，未熟似熟，根不坚牢，势不久停，园林池沼，可乐极少，饶诸怖畏恐惧因缘。】</p>
+<p>绮语的特征，是语言没有实义。一般人认为说绮语没有什么果报，这是一种断见。其实，随着人类绮语业增盛，世间就没有实质性的法，只有虚假外表，无有实义。</p>
+<p>绮语业的增上果：果树不结果实，还没到结果时节就已结果，到了时节反而不结果，没有成熟看似成熟，树根不坚固（如果人们都说具实义的语言，外境草木等的根就会很坚牢；反之，人们常说无实义的语言，从家到国、到外器世界都会变得没有根），“势不久停”不会长久安住、没有稳固的结果，园林、池沼少有悦意景象。总之，以绮语业力，致使美好的事物渐渐消失。</p>
+<p>我们应当从这里觉悟到人与器世界的关系。实际上，我们身口意的造业和器世界的状况息息相关。所以，每个人都应当在心上调整，只有人心向善，整个世界环境才会向好的方面转化。</p>
+<p>以上讲述四种语业的增上果时，都说到了“饶诸怖畏恐惧因缘”，这也启示我们：世间一切怖畏都来自于恶业。所以，人类能不在内心中播下恶业种子，世界就会祥和、安宁，通畅、和顺。在了解到器世间是依业变现，而业又是由自心造作之后，就知道调伏内心断恶行善，外器世界就会显现吉祥。</p>
+<p>外在种种现象其实是我们内心显现的影像。心秽则土秽，心净则土净，缘起非常不可思议，这样起心、这样取相，就这样变现。因此外器世界的相，都是唯心变现的，反映了人心与业的状况。以这条道理观察宇宙、社会现象，才能找到真正挽救自然、社会的方法。</p>
+<p>因此，人类要净化生存的世界，只有从净化内心着手，心地不得净化，世界绝不可能清净、美好。维护生态平衡，再现器世界的和谐庄严，不是单在外境上做，而是要重点在人心上做；要庄严国土，当从人人断恶行善做起，这才是根本解决之道。</p>
+<p>【贪欲心者，谓一切盛事，经历一一年时月日，渐渐衰微，惟减无增。】</p>
+<p>贪欲业的增上果：世间一切兴盛之事，经历年、月、日、时，渐渐衰微，只有损减，没有增盛。</p>
+<p>衰败来自于贪婪，兴盛来自于无私。因此，如果人类增长贪欲，世界将走向衰败；而人类能少欲知足、勤俭节约，世界就会走向兴盛。</p>
+<p>【<strong>嗔恚心者，谓多疫疠，灾横扰恼，怨敌惊怖，狮子虎等，蟒蛇蝮蝎，蚰蜒百足，毒暴药叉，诸恶贼等。</strong>】</p>
+<p>嗔恚是欲损害他人的恶心。嗔恚增盛，器世界则失去祥和，戾气增上，会出现很多恶相。瘟疫流行，洪水、台风、大火、地震等灾害频繁出现；人类社会中会出现许多怨敌、恐怖活动或恶贼（强盗），人心惶惶，没有安全感，随时面临被凶杀、抢劫的危险；旁生界会出现狮子、老虎、蟒蛇、毒蛇、蝎子、蚰蜒、百足等等猛兽毒虫；非人中会有很多毒暴夜叉等等。这些都是嗔恚业变现的恶相。</p>
+<p>【诸邪见者，谓器世间所有第一胜妙生源悉皆隐没，诸不净物乍似清净，诸苦恼物乍似安乐，非安居所，非救护所，非归依所。】</p>
+<p>“第一胜妙生源”，指宝物之源，即黄金、宝石等矿藏。“非安居所、非救护所、非归依所”：非从轮回诸苦中脱离的安居处所，非从善趣某些损害中得救护的救护处所，非从业惑中脱离的皈依处所。</p>
+<p>邪见就是执持颠倒的见，有谤为无，无谤为有，以邪见业的力量，器世间的黄金、宝石等殊胜宝藏悉皆隐没。而且，由邪见增上的缘故，人们颠倒是非，把不清净执为清净，把苦执为安乐等。尤其当今时代，人们普遍不信三世因果，不信三宝，种种假相的欺诳性比以往任何时代都严重，像邪淫、赌博、绮语、欺诳、放逸、狂躁、斗诤等邪恶染污之法，在经过美化、包装之后，以清净、安乐的形象闪亮登场，大行其道。这是现代人类邪见共业增上的结果。</p>
+<p>以邪见业感召的环境，决定非安居所、非救护所、非皈依所。为什么呢？因为邪见增盛的地方，所显现的只有欺诳、邪恶、迷乱、染污之法，心随这些而转，只会堕落、沉溺，得不到可安居、救护、皈依的处所。</p>
+<hr>
+<p>[<a href="#_ftnref1">1]</a>“多”字要统贯到下面三句。</p>
+<p>[<a href="#_ftnref2">2]</a>“多”字统贯到“诸恶贼等”。</p>
+<p>[<a href="#_ftnref3">3]</a> 蚰蜒：体似蜈蚣而小，生活于阴湿处。</p>
+<p>[<a href="#_ftnref4">4]</a> 百足：节肢动物，体圆长。由二十个环节构成，背面有黄黑相间的环纹。栖息在阴湿的地方，触之则蜷曲如环，并放出臭味。</p>
+<h1 ref="因果明镜论-1" >因果明镜论</h1><a class="anchor" id="因果明镜论-1"></a>
+<h4 ref="十-邪见" >十 邪见</h4><a class="anchor" id="十-邪见"></a>
+<p>基，实有义，即因果、前后世、轮回等名言中真实存在的法。</p>
+<p>发心，（一）想，对所持的邪见作真实想。（二）发起心，发起对正见诽谤的意乐。</p>
+<p>加行，依发心而策发实际行为。此分四，即谤因、果、作用、有事。（一）谤因，认为业无有善恶等；（二）谤果，认为善恶业的异熟果报不存在；（三）谤作用，又分三种：诽谤殖种、持种作用，认为自己并不是父母所生；诽谤往来作用，否认前世后世的存在；诽谤受生作用，即否认化生有情的存在。（四）谤实有事，认为阿罗汉等不存在。</p>
+<p>究竟，执持邪见，内心决定进行诽谤。</p>
+<p>邪见圆满应具五种心：（一）有愚昧心，即不能如实了知所知；（二）有暴酷心，对于颠倒之理有依赖心、欢喜心；（三）有越流行心，对于诸法的非理观察已成习惯；（四）有失坏心，对于与自己见解相违的事物进行诽谤，如诽谤布施、供养、火供、善行等无有果报，失坏相续；（五）有覆蔽心，对于自己所持的邪见并不感觉羞耻，不知过患，不知出离。以上五相若缺一种，则不为究竟的邪见。</p>
+<p>虽然还有其它种种邪见，但在此只称上述加行中所说的四法为邪见，因为此四法能断一切善根，随顺诸恶随意所行，是邪见中极重的。总之邪见可概括为两类：无有因果之见与常断见。无有因果之见即认为修善法无有功德、造恶业无有罪过。常断见是外道的见解，可分六十二种邪见，归纳起来即常见与断见。常见认为神我常有，或认为世界的造作者是大自在天或遍入天等。断见即认为一切诸法自然而生，不承认有前后世，不承认因果报应及解脱等。如果有人认为外道的论典是真实的并随之而行，或者虽未随行但认为佛陀的经教、上师的教言、智者的论典都不真实，这样产生怀疑或者进行诽谤都是邪见。</p>
+<p>十恶业中，杀生、粗恶语、嗔心由三毒引发，由嗔究竟；不与取、邪淫、贪欲由三毒起，由贪究竟；妄语、离间语、绮语的发起与究竟都由三毒；邪见由三毒引发，由痴心而究竟。</p>
+<hr>
+<h2 ref="第三章-世间果报" >第三章 世间果报</h2><a class="anchor" id="第三章-世间果报"></a>
+<h3 ref="第四节-分说十恶业的果报" >第四节 分说十恶业的果报</h3><a class="anchor" id="第四节-分说十恶业的果报"></a>
+<hr>
+<h4 ref="十-邪见-1" >十 邪见</h4><a class="anchor" id="十-邪见-1"></a>
+<p>随着业障的净化，在善根福德方面都得以增上的人类不同于旁生，有着突出的思维能力。旁生除了本能的觅食、求偶等外，并不会去思考万法的道理。对于这些低等生命来说，在业的障蔽之下，其心智处在暗昧的状态中，不可能产生决定的见。而人类却以其智力能进行想象、推理、归纳、分析等思维活动，一方面由于心智的优越潜能，使得人类有了升华理智而认识、求证、彻悟宇宙实相的可能。另一方面，在探索真理的过程中，由于认识的局限性，如果把握得不好，难免如盲人摸象，仅执一端，而以偏概全、以妄作真，由此形成的牢固知见，则大多流于邪见。而错误的见解，不论是对个体、还是对群体，都会产生非常恶劣的影响。从这一点来说，人类远胜过旁生，有着强大的造业能力。在十种不善业中，邪见最重。因为对于每个人来说，见是根本中的根本、核心中的核心，一切生命活动思想、言谈、行为都依随着见而进行。如果见地落入邪谬，那我们的整个身心都将趋入邪道，陷入冥暗之中。</p>
+<p>如果说“一念嗔心起，百万障门开。”让我们感觉到嗔心的力量远甚于洪水猛兽，它可以在一念之际将千百劫来积累的善根摧毁无余。那么邪见造成的后果更令人怵目心惊。因为嗔心虽毁善根，但如果未舍弃因果正见，仍然有忏悔净罪的机会。而一旦对因果产生邪见，谤无因果，则会使以前的一切善根都不生起，而且已断善根也不能恢复如初。所以，与心地残忍相比，见解邪恶更加可怕。残忍之心尚且可以通过教育来感化，由于良知未泯，仍有回心向善的机会和改过自新的可能。但是相续一旦被邪见所染污，直至此邪见未铲除之前，因执邪见为正确，所以即使行恶，也认为这是理所当然，心无丝毫惭愧，这样身心百分之百地决定浸入恶法之中，没有反转的余地。</p>
+<p>另一方面，由于邪见的矛头直接指向宇宙人生的真理，其所指的对境是囊括十方三世、情器万有的法则，比如业感缘起的因果律本是世俗名言之中永不错乱、颠扑不破的真理，它贯穿了尘尘刹刹的每一个法。如果直接否定因果律的存在，便否定了依因果律建立的一切行为法则，多少人会受此影响而认为行善无益、造恶无罪，致使善根断绝，肆意为恶，在长劫之中很难有解脱的机会。所以邪见对自他所造成的危害，其影响之深、范围之广、时间之长实在难以用分别心来衡量，只能以“不可说，不可说”来描述了。</p>
+<p>由此可知，邪见感召的果报尤其深重。以邪见的业力直接堕入三恶趣中，如果落入无间地狱，则要感受其余地狱的所有痛苦，之后接连不断地转为旁生，而在人道中，由余业影响将生于边地，不信三宝，诽谤因果。</p>
+<p>大品经云：“若人不信，谤大乘般若经，直堕阿鼻地狱，无量百千亿岁中受极苦痛，从一地狱至一地狱，若此劫尽生于他方大地狱中，他方劫尽，复生此方大地狱中。如是展转遍十方界。他方劫尽，还生此间大地狱中。地狱罪毕，生畜生中，亦遍十方界。畜生罪毕，来生人中，无佛法处，贫穷下贱，诸根不具，常痴狂騃，无所别知。”</p>
+<p>具邪见之人纵有善根也将成为痛苦之因。比如外道欲求解脱，以五热炙身，以为因此可净业障，在此邪见的指导下，所作的一切精进苦行，只是徒劳自缚、缘木求鱼而已。又如执著杀生祭祀追荐亡灵，可使冥阳两利，为尽孝道，而精进努力成办，由于邪见的染污，这一切所作都成为恶业，当来须要感受苦报。所以龙树菩萨说：“若欲趋善趣，当修习正见，邪见者行善，其果亦难忍。”《智度论》云：“邪见罪重，故虽持戒等身口业好，皆随邪见恶心。如佛自说，譬如种苦种，虽复四大所成，皆作苦味，邪见之人亦复如是，虽持戒精进皆成恶法，不如不执，少行慧施，无执易化，有执难度，非直自坏，亦损他人。”故《成实论》云：“宁止不行，勿行邪道，身坏命终，堕于恶趣。”</p>
+<p>以下是邪见者感受果报的公案。</p>
+<p>在舍卫城，有位须达长者，他将一切出内取与之事交付老仆。一次，须达供养佛僧，当时病比丘所需物多，老仆悭惜，怨道：“长者愚痴，被沙门骗。这些乞士贪得无厌，有何道行。”又发恶愿：“何时让我不再听到这些佛、僧之名。”后恶语传到末利夫人处，她与须达妇为度老仆设计在请佛时让老仆前来与佛相会。老仆来时，见佛从正门入，心惊毛竖，即时躲避。她想从狗洞出，狗洞即闭，四门都关，仅正门开。老仆只好以扇遮脸，但佛在其前令扇如镜，毫无障碍。老仆回首向东，东方有佛。上下南西北方，亦复如是。又用手覆面，十指头全化为佛，老仆闭目，心眼开见虚空化佛满十方界。见佛足步虚空、为老仆显现无数身，许多邪见女心中的邪见顿时被摧毁无余。但老仆仍未生信，她疾走归家，对大家说：“今天遇上大恶对，见到瞿昙，在王宫门显现幻化，身如金山，目逾青莲，放胜光明。”说完后，钻入木笼，用百张皮覆于笼上，又用白毯缠头，这样卧于暗处。</p>
+<p>佛知老仆罪重，与己无缘，而与罗睺罗有大因缘，返回精舍后，佛遣罗睺罗去度老仆。罗睺罗变为转轮圣王，众比丘化为千位王子，他们一同到须达家，以老仆为玉女宝。尔时圣王用如意珠照耀女面，老仆看见自己如玉女宝，异常欢喜，说道：“沙门说大话，自称有道，无一效验。今圣王出世，弘利处多，令我老仆如玉女宝。”说完后，顶礼圣王。此时典藏臣宣讲圣王十善，老仆听后生大欢喜，自以为圣王所说义无不善。于是作礼悔过自责。老仆既已调伏，罗睺罗等恢复原貌。老仆见后叹道：“佛法清净，不舍众生，弊恶如我，尚且度化。”随即受五戒，成须陀洹，后在佛前忏悔出家，证阿罗汉果。</p>
+<p>关于老仆的前世因缘，佛说：“往昔，宝盖灯佛的像法中，有一快见王子，出家学道，依仗出身，常怀骄慢。和尚说甚深大空义，他听后反生邪见。和尚灭度后，快见诽谤说：‘我大和尚无智慧，只知赞说空义，愿我后世不乐见他。’又说：‘我阿阇黎具足智慧辩才，愿他世世为我善知识。’说完后，教徒众都行持邪见，虽然持守禁戒，但因谤般若、执持邪说，命终后堕入阿鼻地狱，八十亿劫受苦无量。罪毕出狱，生为贫贱之人，五百身中聋痴瞎眼，一千二百身常为人仆。当时的和尚是我前身，阿阇黎即今罗睺罗，王子比丘即今老仆，他的徒众即今见佛发菩提心的邪见女。”</p>
+<p>快见王子因为对般若空性及传空性法的上师生起邪见，因而不仅得不到甚深般若法的加持，反而由此堕入地狱长劫受苦。又因他发恶愿，当他投生为老仆时，由这恶愿的障碍，见佛即生厌恶、躲避的恶心，无法得佛的加持，所以恶心等流果丝毫不爽，多劫之前是何种心态，多劫之后如是的心态依然会遇缘现起。再看徒众因受他的邪见染污，都成为持邪见者，所以在修行时择师择友极其重要，如果亲近不信因果的恶友，自己也会被染上邪见而断善根。《因缘品》说：“若将纯净吉祥草，系于腐烂之鱼上，彼草亦会变腐烂，依止恶友亦复然。”</p>
+<p>往昔，边地给国王有名为“战哦、炯几”的两个儿子，他们成了常断见者。后来国王将他俩委付胜光王抚养。他们舍弃了邪见，于佛前出家，最后证得阿罗汉果。这是由于：他俩曾是迦叶佛教法中精通三藏的两位出家人，以此业力所感，今于释迦佛教法中证得阿罗汉果。同时转生于边地成为邪见者是因为：在迦叶佛时，他们二位前往某边地，无有教言却擅自大胆修行，本来没证悟却自以为证悟了，从而生起增上慢，因临终时未获得任何功德而心生邪见，口口声声说：迦叶佛教法不真实，因果不存在，我们俩未能解脱，同样其他人也绝不会有解脱。”说完便死去了。以此邪见他们于多生累劫中堕入恶趣，并于许多世中生于边地，在此之前连三宝之声也未曾听过。</p>
+<p>在中国历史上曾经出现过三武一周的灭佛法难。由于执政者对佛法僧三宝心怀邪见，致使丧心病狂，挾其威势，造成了举国毁寺逐僧、焚经砸像的浩浩罪业。肇事者现世所遭的恶报，史有明载，而其后世果报，依因果之理当可想见。</p>
+<p>魏太武帝，为崔浩所惑，毁寺焚经，不到三四年，崔浩赤族，魏太武父子皆不得好死。（出魏书）</p>
+<p>北魏司徒崔浩，博闻强记，才智过人，魏太武帝，十分宠信他。但浩独不信佛，劝帝毁教灭僧。浩曾见妻郭氏诵经，怒而焚之。其弟崔颐、崔模，深信三宝，见佛像，虽在粪壤之中也必礼拜，崔浩对此讥笑呵斥。后来崔浩因国书之事，触怒太武帝，遂被囚于槛车，押送城南，当时所受拷掠极其惨酷。更使卫士数十人，尿于其上。时浩哀声嗷嗷，闻于道路。（出魏书）</p>
+<p>周武帝，为卫元嵩所惑，而灭法。不到四五年，元嵩贬死，武帝忽遇恶疾，遍体糜烂。年三十六而崩，末路丑恶，所不忍言。（出周书）</p>
+<p>唐武帝，听信赵归真、李德裕谗言，毁天下佛寺。不到一年，归真被诛，德裕竄死，武帝三十二岁夭亡，其后没有继嗣。（出唐书）</p>
+<p>五季之君，无有贤于周世宗者，然而世宗不知佛法，遂至毁像铸钱，由此不到六年，社稷殒灭。（出通鉴）</p>
+<p>魏废教七年后恢复，周废教六年后恢复，唐废教后不一年即恢复。</p>
+<p>邪见者欲以只掌遮中天之朗日，岂知真理之光常存不灭，照耀古今，徒然造此重业，不过仰天而唾，反污自面而已！</p>
+<p>以上通过佛经的开示、公案的证明，揭示了业感缘起的规律：由贪嗔痴烦恼发动的一切身口意恶业惟有感召三恶道的痛苦，所造恶业终究会在造业者的心理、生理、外在环境上制造缺陷与苦难，却不会产生出一尘许的安乐。依随着因地造业时的发心、加行、所针对的对境，以及所造成的后果，业如其所应地在某时、某地、以某种方式显现着它的果报。如是因感如是果，没有丝毫的错乱与漏失。可以说是恶业制造了世界的悲惨与冥暗。</p>
+<p>对应今生在我们身心上现前的果报：得到了人身（异熟果），应该深自庆幸，因为免于恶趣，能够修行成道，真是千载难遇的良机；再看看自己的境遇，或贫困潦倒，或疾病缠身，或身受陷害……在经历了种种的苦难违缘后，或正在遭遇违缘时，应当明白这全是过去自己造恶所感，不可怨天尤人。总之对于一切不顺的方面都要归于自业，同时，反观自心一切的不善念头，应知是自己的恶业同行等流果所致，并励力对治，不令发展。而在增上果方面，人生的受用如何也由自业所定，如所处环境不理想、嘈杂喧扰，无处可避，也应知此是业力所感。</p>
+<p>“过去种种譬如昨日死，往后种种譬如今日生。”要免于恶趣的痛苦，必须断除痛苦之因——十恶业。</p>
+<h1 ref="净障修法文-2" >净障修法文</h1><a class="anchor" id="净障修法文-2"></a>
+<h3 ref="十三忏悔邪见罪" >(十三)忏悔邪见罪</h3><a class="anchor" id="十三忏悔邪见罪"></a>
+<p>1、皈依发心</p>
+<p>2、思惟过患: 邪见的果报，根据意乐不同，其异熟果即分别堕入三恶趣中，尤其是堕入无间地狱后，需要感受其余地狱的所有痛苦，之后接连不断地转为旁生。假设幸得人身，也因往昔不善业的等流果而空耗，生生世世中转生为邪见者等，其过患无法想象。具邪见之人的善根也将成为痛苦之因。如龙树菩萨云:“若欲趋善趣，当修习正见，邪见者行善，其果亦难忍。”<br>
+《普贤上师言教》中说:“即使在相续中生起一刹那的邪见，也将失毁一切戒律，不能列入佛教徒的群体中，也不算是闲暇的人身了。相续已被邪见染污，从此以后，即使是行善也不能趋入解脱圣道，造罪也没有忏悔的对境。”<br>
+《大智度论》云:“邪见罪重，故虽持戒等身口业好，皆随邪见恶心。如佛自说，譬如种苦种，虽复四大所成，皆作苦味，邪见之人亦复如是，虽持戒精进皆成恶法。”</p>
+<p>3、检查罪业:<br>
+是否有过以下邪见:<br>
+谤无前后世; 谤无业果，认为修善无功德、造恶无过患; 谤无三宝;谤无净土。</p>
+<p>4、诚心发露</p>
+<p>5、立誓防护: 心中清晰观想并发愿:今后再不对三宝、业果等生邪见。纵遇命难不舍此誓言。发愿使一切有情生起业果等正见。</p>
+<p>6、持咒对治</p>
+<p>7、回向善根</p>
+<h1 ref="正法念处经讲记-益西彭措堪布" >正法念处经讲记-益西彭措堪布</h1><a class="anchor" id="正法念处经讲记-益西彭措堪布"></a>
+<h4 ref="何为邪见" >何为邪见</h4><a class="anchor" id="何为邪见"></a>
+<p>若生邪见，生颠倒见，是邪见业。彼有二种，谓失不信。云何不信？彼人心谓，无施无祀，无斋无会，无有善业，无不善业，无业果报，广则无量。云何为失？彼人心谓，一切苦乐，皆是天作，非业果报。如是二种，名为邪见。</p>
+<p>第三种，如果生了邪见，即不合乎真理的颠倒见，就叫做意业的邪见不善业。邪见有两类，一类是不信，另一类是失坏了因，也就是非因计因。</p>
+<p>什么叫做不信的邪见？有些人心想：<code>布施财物给别人，自己就没有了，积福只是蛊惑人的谎言；祭祀神灵祖先也不会给自己带来实际利益，不过是个习俗、念想而已；持斋戒也无福可享；开法会只是形式，人多热闹而已，对实际修行没什么助益。有人认为，没有什么一定是善，也没有什么绝对是不善，看站在谁的立场来说，因此，没有所谓善恶业各自别别不同的果报</code>，广演开来，类似这样不信的邪见有无量。总之，认为没有别别业因成熟各自不同的果报就叫做“不信”，是拨无因果的邪见，其中也有粗细的差别。</p>
+<p>什么叫失坏因果的邪见？就是判断错了，他所认定的业果律颠倒了事实，将非因（不是因的法）判断为因。业网广大无边，在纷纭难测的业力面前，凡夫难以理清头绪，出错是正常的，所以必须依靠佛的智慧指导，我们才能对业果的规律稍稍有所了知。</p>
+<p>有人认为：<code>一切苦乐都是命，是天生注定的，不是由自己的善恶业来感得不同的苦乐果报。因为这个世界有规律可循就意味着不是偶然现象，有一个不可抗拒的力量在操控这个世界，因此有人把苦乐归于天作，认为冥冥之中有超越人类的智能掌控着一切苦乐。譬如外道大自在天派，或者有些承许上帝造物、给予世人苦乐。类似这样的说法，计取一切苦乐的因是天神，是自性创造，是某些粒子的自然反应等等，这些观点就叫做错失了因果的邪见。也就是，他承许的因是不对的，判断错了，失掉了因的真实义，这样就无法正确引导人们离苦得乐。这两种就叫做邪见</code>。</p>
+<hr>
+<h4 ref="邪见果报" >邪见果报</h4><a class="anchor" id="邪见果报"></a>
+<p>又修行者内心思惟，随顺正法，观察法行，云何邪见乐行多作意不善业？彼见闻知或天眼见，邪见意业乐行多作，堕于阿鼻地狱等中，受一切苦；若堕畜生，于无量世百千万亿亿数转生；饿鬼境界，亦复如是。若生人中，如法所说，自种性业，善业道行，不依法行，于上世来父祖种性千倍下劣。</p>
+<p>再者，修行者要心里思维：我的心怎样才能随顺正法而行？应该先观察什么是如法的行，什么是不如法的行，之后严密地取舍自己的业行。那么，乐于生邪见、邪见意业多的果报是怎样的呢？我们以见闻了知到或者以天眼可见的是，常常喜欢起很多邪见意业的人，会堕在阿鼻地狱等处受一切苦；如果堕在旁生里，那就要在无量世百千万亿亿劫里转生为畜生；转生在饿鬼里的状况也是如此。</p>
+<p>可见，邪见是十不善业中最可怕的。如果认为没有因果、前后世、三宝、净土、圣人等等，以邪心否定真实存在的事物，排斥正见，这就是大的邪见。善是依正见而起，而邪见和正见相反，所以，邪见能障蔽发起一切善根。被邪见捆缚的人，将在极漫长的时劫里堕入无间地狱受苦；业力稍轻会生在畜生里，以邪见余势的障蔽无法发起善根，所以不断地转为旁生，经历了无量百千万亿亿次也难以脱出；生在饿鬼里也是如此。邪见是一切身语意恶业的主根，一旦建立就很难去除，由它不断地发出三门无量恶业，众生会不可计数次地堕在恶趣里，根本见不到边际，不得不感受生命无可奈何和难以承载的痛。总之邪见是万恶之本。</p>
+<p>如果持邪见者生在人中，那他就不会做人。正法所说的做人之道，应尽的本分，孝悌等各种善业道行，对这些不能如法而行，换句话说，就是披着人皮不干人事。比起他的前辈父祖种性下劣千倍，自己没脸，连带着丢了祖宗的人。</p>
+<hr>
+<h4 ref="邪见之因" >邪见之因</h4><a class="anchor" id="邪见之因"></a>
+<p>又修行者内心思惟，随顺正法，观察法行，云何邪见正法障碍、一切恶见心之黑暗？彼见闻知或天眼见，无始以来行邪见因，堕于地狱饿鬼畜生，故名黑暗。</p>
+<p>再者，修行者心里思维：我的心态怎样才是随顺正法？观察自己的心是不是处在法行当中，是处在法道里合乎正法？还是违越法道在颠倒上走？时时都要观察而不放逸。为什么邪见称为正法的障碍？一切恶见邪见如何成了心中的黑暗？这必须依靠审察自心来了解邪见的业行。我们见闻了知到或者以天眼可见，无始以来由邪见恶行为因，导致我们堕入地狱、饿鬼、旁生当中，这就叫做黑暗。</p>
+<p>现代人由于受媒体、舆论、知识、学说的影响，不知不觉串习成了邪见。有些时候都不知道自己被诳骗了，为什么呢？因为世俗人都在说这世间是乐的、常的、有实义的、有我的、清净的等等，很多人沉浸在邪见的舆论里而不自知。<code>邪见并不是以一种青面獠牙、非常可怕的狰狞面目出现，它是以非常善妙、可敬、有实义等等的假面来出现的。它出现时，看起来清净可爱、很殊胜、而且有大意义。当天使的假面掩盖了魔鬼的真相，人们就以假为真，被吸引到颠倒见上了，不断地发展就出现种种贪嗔痴的恶行，良知就这样慢慢被吸干，堕于地狱、饿鬼、旁生，所以它叫做“黑暗之源”。</code></p>
+<p>心处在邪见中就叫做黑暗，而黑暗就是看不清楚事物真相。过去完全处在昏蒙愚昧当中，被动地接收了很多模糊不正确的知见，只有经过正法的洗涤，经过长期治疗，邪见系统所做的破坏才能得以恢复，呈现光明智慧。</p>
+<p>乐邪见者，正道障碍，如刀火毒险岸恶处，唯有一切愚痴之人贪著乐行，以颠倒见故名邪见。</p>
+<p>如果乐著邪见而不肯舍离，对于与正道相违的一切世间见解，心里特别执著、乐意、欢喜、追求，这将成为正道的障碍。因为邪见跟正见方向相反。如果执取世间可爱乐相，当然就执取不舍。为了满足自我的欲求，罔顾业果。而且一切以自我为中心，除了与自身的利益相关的事情以外，不管他人死活。<code>这就形成了现代社会极端冷漠、自私、孤独的恶性循环。而享乐主义、性生活自由、以及过度的平等自由言论等等，诸如此类世间颠倒见确实是障碍入正道的根本。那些邪见就像刀山、火海、毒薮、悬崖等险恶的地方，入到那里就无法避免被割伤、焚烧、毒死、坠崖身亡，所以邪见是很可怕的。</code></p>
+<p><code>当今世上各种混乱不堪的现象全是邪见带来的。战争、暴乱、恐怖、离婚率增长、社会矛盾加深等，共同的根源都是邪见。多少家庭关系破裂，多少传统伦理道德的缺失，都是由鼓吹性爱自由等邪见导致的。世人所歌颂的对象，本质是邪淫，外面冠以神圣的爱情花冠，这样的邪说充斥整个时代。年轻无知的青春少年被熏染后，执著感情为美好神圣，羡慕所谓的自由开放，结果完全损坏了自己的身心。现在的小孩子很小就知道谈恋爱，到了后面毒化过深就会造邪淫的业，而且不以为意，觉得这没什么大不了的。甚至有的去色情场所卖淫，还美其名曰“不偷不抢，自食其力”，这样无耻的言行不配称之为人。披着人皮做着禽兽不如的事，这样的人连做人的资格都丧失了，这就是追随邪见的结果。</code></p>
+<p>世上推崇的竞争机制，其实说白了就是<code>弱肉强食</code>，<code>是像动物一样的行为</code>。受这种邪见影响的人，为了利益可以不择手段，他认为我一定要强，否则会被别人打倒。其实，这是我执和非法行为两者结合的结果。我执就是尽量突显自我，加上不信三世因果，结果就认定这一世就要实现自我。由于没有善恶因果的正见，他就认为可以用一切手段来达到自己的目的，这样他会扫除一切他所认为的障碍，最终我们看到的结果是，这样的人非常凶残、冷酷，为了利益不择手段，不惜以他人生命为代价来满足自我的欲求。诸如此类，都是由于颠倒见而把众生推向了刀山、火海、险崖，最后直接堕往地狱的最深处。</p>
+<p>具远见的佛陀看到了这一切才说，一切愚痴人贪著乐行这些邪见之事，由于颠倒所见的缘故，称为邪见。一切事物真相本来有天理、因果，具远见的佛陀看到了这一切才说，一切愚痴人贪著乐行这些邪见之事，由于颠倒所见的缘故，称为邪见。世人认为为了得到这世界上快乐、幸福的事，我可以为所欲为，我有什么错？愚人肤浅狂妄地认为没有因果，一切都可以任意妄为，根本不顾良心的谴责。因为抱持人死如灯灭的邪见，所以，现前为了享乐无所不用其极等等，这些全是颠倒邪见的产物。这些颠倒见一旦扎根牢固，就会一直让自己的行为落在颠倒当中，造成无数的烦恼业行，种下无数个地狱、饿鬼、旁生的业因，因此，邪见是万恶之本、众祸之源，它是最可怕的东西。</p>
+<p>彼有二种，一信邪因，二心不信业果报法。信邪因者，作如是知‘身等乐苦皆是天作，非业果报’；于业果报心不信者，谓无施等，是名邪见。</p>
+<p>邪见有两种：一、信邪因；二、不信业因果报法。</p>
+<p>第一类，信邪因。他也认为万事万物不会无因无缘出现，应该是有原因的，但是不知道具体是什么，所以有的人就认为：我身心所有的苦乐都是天生命里带来的，或者说上帝给予的，或者某个真主、自性造成的，不是自己的业因果报。像这样非因计因，就是信了邪因，这是第一类邪见。</p>
+<p>第二类，拨无因果，持无因论。就是不相信存在业因果报的法则，认为布施等不是善，没有善报等等。就像现在某些舆论导向夸张“老人摔倒事件”那样，很多人认为善恶之间没有规律。也有人认为，任何善恶的行为做完就完了，不存在后续的业力，这叫做持非业论。常听世间人说“好人不长命，祸害遗万年”，这话背后的意思是说，造善造恶没有各自偿报的，这是持无果论。像这些拨无因果的邪论就是不明因果的邪见。</p>
+<p>其实，<code>任何行为都会有后续的影响力，善的方面是这样，恶的方面也是如此，最终都会以翻倍的方式返回到自己这里</code>。可惜世人目光短浅，不明所以，对善的方面就更加不信了。国人对于所谓的慈善布施捐助失望透顶，认为这都是骗人的，做好人都是哄小孩子的话，成人世界里没有什么道德可言，行善也不会得什么乐果，傻瓜才去做等等。这样的人觉得，世上的事都是突然就这么出现的，哪里有什么善恶因果？这样不相信一切世间法都是由因果律支配，就叫做持无因论。这两类是最大的邪见，因此在这里特意指出。当然邪见也有粗细各种层面。</p>
+<p>现代人心中充满了邪见病毒，所以很难建立业果的正见。那么现代最重大的事件就是不信因果或者信邪因的邪见，信仰危机显然是目前最重大的问题。这两种邪见障蔽一切人内心的白法，有了它，下至少许善心善行都发不出来。当今人类有深重的灾难隐患，唯物论、断灭见、狂放享乐论等盛行，人心连少许善都很难发生，善的种性被埋没了，这样的状况使得人们对人、对组织、对政府、对社会普遍冷漠，缺乏信心，邪见盛行带来的后果已经非常明显，而持邪见者都滑到了无善根的种类里去了。</p>
+<p>如是十种不善业道不饶益业，一切皆以邪见为本。</p>
+<p>最后总说，像上面所说的杀生、偷盗、邪淫、妄语等不善业，所有对自他没有任何利益的行为，都是以邪见为根本的。人之所以会去杀、去偷、去邪淫、说妄语等等，这全是从邪见来的。所有非分贪求、攥取，得不到而起的嗔恨，或者心里不断漫延滋长各种非理的思想，全是以邪见为根本而起的。</p>
+<p>这样就明白，深信因果是一切白法的根本，是一切安乐的源泉。如果没有深信因果，盲目行动是非常危险的。如果颠倒再加颠倒，一直沦陷在深重业的黑暗中，几乎就没有不往恶趣走的，因此，建立因果正见非常重要，是重中之重。</p>
+<p>正法念处经卷第一</p>
+<h1 ref="百业经-1" >百业经</h1><a class="anchor" id="百业经-1"></a>
+<h1 ref="贤愚经" >贤愚经</h1><a class="anchor" id="贤愚经"></a>
+<h1 ref="佛为娑伽罗龙王所说大乘经讲记" >佛为娑伽罗龙王所说大乘经讲记</h1><a class="anchor" id="佛为娑伽罗龙王所说大乘经讲记"></a>
+<h3 ref="邪见的果报--一者邪见二者懈怠" >邪见的果报&ndash;一者邪见，二者懈怠</h3><a class="anchor" id="邪见的果报--一者邪见二者懈怠"></a>
+<p>接下来，讲十不善的最后一个，即邪见的果报。</p>
+<p><strong>若复邪见，当堕地狱、畜生及焰魔界。后生人间，以余业故，得二种报：一者邪见，二者懈怠。</strong></p>
+<p>如果邪见很重，会先堕入地狱、畜生、焰魔界。后来获得人身的时候，以余业感召，会得到两种果报，一个是邪见，另一个是懈怠。</p>
+<p>以前邪见重的人，今生第一个果报是“邪见”。为什么有些人经常会生邪见？这里我们就可以知道，其实和他前世就有邪见有一定的关系。</p>
+<p>如果发现自己有了邪见，一方面要好好忏悔往昔的罪业，另一方面，也要多学一些因明、中观的道理。邪见重的人，一定要多学理论、多忏悔。</p>
+<p>我们有些人邪见特别重，对善法方面的正见生不起任何信心，但是对一些不好的观点却经常原原本本、不折不扣地全部接纳。我们劝他行持善法，告诉他行善的功德，他一点都不信，然而当有人诽谤三宝、怂恿他造恶业、说别人过失的时候，他却经常完全赞同：“说得对啊，就是这样。”“没错,这个人就是”这样的人真的特别可怜！</p>
+<p>具有这样的邪见，可能是因为他在前世就是一个持有邪见的人，当时也许是受到外道的影响。如果是这样，今生就一定要想办法把自己的见解扭转过来，使它变得清净。像我们有些道友，刚开始学习的时候，邪见特别重，后来一直坚持闻思修行，经常与自己的邪见搏斗，过了一段时间后，智慧就完全胜出了，邪见自然而然也就消失了。</p>
+<p>这种转变也需要一种环境。如果一直接触邪见很重的人，自己的邪见就会很难消除。如果自己身处佛学院或佛教团体当中，周围的人都具有正见，那么自己也会慢慢受这些环境和人的影响，得到一些不可思议的加持，最后很可能就会成为一个具有正见的人。</p>
+<p>以前邪见重的人，今生第二个果报是“懈怠”。他会非常懈怠、懒惰。藏文译本里说，<code>这个懈怠者有点谄曲狡猾。可能他和其他懈怠者有些不同，是有点狡猾的一种人。</code></p>
+<p><code>大家也可以观察一下自己，如果很懈怠，就说明自己以前可能就具有邪见</code>。我感觉自己好像不是个特别懈怠的人，这方面应该还算可以吧，无论做什么事，还是很认真的。有时好像有点太精进了，也会导致一些事情做不好。但是我们有些人可能不一定这样，对一些发心工作经常起厌烦心：“哎呀，这件事情也很累啊，不想做了”其实在行持善法方面，大家还是应该精进，不要太懈怠了。</p>
+<p><strong>龙主，若有行于如是十不善法，决定获得如是果报，复更别得无边诸大苦蕴。</strong></p>
+<p>佛告诉龙王，如果行持了这样的十不善法，将来决定会得到这样的果报，他会在六道世界无边的痛苦中饱受折磨，非常可怜。
+以上讲的就是造作十种不善业的果报。下面讲的是远离十不善业而行持六度的功德。首先是讲远离杀生而行持布施的功德。</p>
+<h1 ref="藏传净土法" >藏传净土法</h1><a class="anchor" id="藏传净土法"></a>
+<h1 ref="第六十三课" >第六十三课</h1><a class="anchor" id="第六十三课"></a>
+<p>1.什么是邪见？</p>
+<p>2.请列举各种类型的大邪见。</p>
+<p>3.如果有些僧人和上师确实没有内证的功德，我们能否轻视他们？为什么？</p>
+<p>4.经论中说：“十不善中邪见重。”为什么邪见的过患如是严重？</p>
+<p>5.什么样的人容易产生邪见？</p>
+<p>6.邪见有何果报？</p>
+<p>7.解释教证：“若欲趋善趣，当修习正见，邪见者行善，其果亦难忍。”</p>
+<p>8.《因缘品》云：“若将纯净吉祥草，系于腐烂之鱼上，彼草亦会变腐烂，依止恶友亦复然。”这个教证说明了什么道理？你今后打算如何行持？</p>
+<p>9.有些人为了今生的幸福安乐，尽力作消灾延寿、顶礼转绕、净除罪障等佛事，然而，由于往昔的业力感召而屡遭病痛、失败等厄运。这能否说明三宝无有加持、因果不真实？你是如何看待这个问题的？</p>
+<p>在三种意不善业中，贪心和害心已经讲完了，今天开始讲邪见。</p>
+<p>邪见是指对真理的颠倒认识。有的人明明不知道所知法的真实体性，还认为自己的迷乱分别念是正确的，这种人就是具邪见者。比如，造善业会感受善趣的安乐，造恶业会感受恶趣的痛苦，一切众生都存在前生后世，三宝的加持力不可思议，修行佛法可以获得解脱……这些道理本来是千真万确的，没有任何可怀疑的，但是由于前世的业力和即生的不良熏染，有些人不但不懂这些道理，反而执持与之相反的见解，这就是颠倒的邪见。这样的邪见过患非常大，别的不说，如果相续中有了不承认因果的大邪见，原有的善根会被摧毁，包括别解脱戒也会从根本上失坏，如《俱舍论》云：“<code>唯以邪见断善根</code>。”因此，大家一定要清楚什么是邪见，之后经常观察自相续，看自己有没有产生邪见。</p>
+<p>在一切邪见中，以大邪见的过患最为严重，下面我们详细分析大邪见的各种类型。</p>
+<p>首先，认为业因果不实有、行善作恶都一样、三宝不真实、前生后世不存在，这就是非常严重的大邪见。</p>
+<p>有些人不承认业因果，认为行善作恶没有差别，杀一百只羊与供养上师三宝相比，二者在功德、过患方面完全一样。还有些人认为三宝不真实，三宝的功德和加持不存在。还有很多无神论者和顺世外道不承认前生后世，他们认为人的精神是从四大种（物质）中产生的，就像雨后突然出现的蘑菇一样，人死后就像灯灭一样一无所有。这些人不仅自己秉持邪见，还以种种相似的理由蛊惑他人，让无数众生也产生邪见。从表面上看，人人都会穿衣吃饭，也都知言解义，</p>
+<p>可是在上面这些重大问题上很多人却非常愚痴，这些愚昧的众生实在可怜。</p>
+<p>其次，认为为父母杀害众生是积累善根，或者宰杀旁生作上供下施是有功德的，或者像奉持邪道的宗派那样视损害为正法，这也属于大邪见。</p>
+<p><code>儒教认为，为了孝养父母可以杀鸡杀鱼；基督教认为，为了生活可以宰杀旁生；印度的大自在天派认为，杀生供养可以博得天尊的欢喜；等等；诸如此类的很多世间宗派都把损害众生的恶业当作善法。由于被这些宗派的遍计执著所覆盖，许多众生无法产生因果正见。</code>由此我也深深地感到，能够获得暇满人身，转生于佛法兴盛的中土，并且具有佛教的正见，这确实是非常难得的因缘。如今道友们有了来之不易的正见，希望不要轻易舍弃这样的正见。</p>
+<p>另外，<code>声称“饮酒、吸烟没有过失”、“杀生、吃肉没有罪过”，以此类语言诋毁因果也属于大邪见</code>。现在社会上这种情况非常多，甚至有些佛教徒也是如此。由于没有被善知识摄受，再加上前世的业力现前，有些佛教徒经常产生各种邪见。本来自己没有任何证悟的境界，却喜欢奢谈禅宗和密宗的高深法语，而且以一些相似的理由诋毁业因果。</p>
+<p>前一段时间，在四川某地召开了一个弘扬民族传统文化的会议，有一个身穿僧衣的人在会上说：“提倡戒杀是不合理的，如果不杀牦牛，牧区的经济就没法发展，牧民的生活水平也没法提高，就不可能实现小康社会。提倡放生也是不合理的，那么多钱扔到水里完全是浪费。”在场的很多人都不满他的言论，有个在家人当时就反驳说：“如果我们在家人说这些话，那也情有可原，可是作为一个出家人，你说这样的话是不合理的。”可是他还强辩：“我这样说是合理的，我有自由发言的权利……”后来我想：本来佛说“损害他众非沙门”、“诸恶莫作，诸善奉行”，可是某些身披僧衣的人对此视而不见、听而不闻，反而跟随世俗之见提倡杀生，他还认为在饶益本民族，这种邪见者的言论真是可怕。</p>
+<p>有些人尽管一善未做、唯造恶业，却认为自己不会堕入恶趣，肯定能获得人身，这也属于不信因果的大邪见。现在有些人就是这样，一辈子没有做过一件善事，成天造杀盗淫妄的恶业，可是对后世一点都不害怕，认为自己绝不会堕入恶趣。这种人的无所畏惧就属于不信因果的愚痴。在世间，如果一个人天天偷盗、抢劫，旁边的人一看就知道，此人迟早会受到法律的制裁，别人都会为他的处境担忧，如果他自己还无所谓，那就是标准的愚者。不信因果、不惧后世之人也是如此。</p>
+<p><code>还有些人因为愚痴而侮辱三宝的威望</code>，说什么：“僧众无有本尊，本尊无有加持力。”“我交钱请僧众念经，可是却没什么效果，看来三宝没有加持。”“出家人只不过是剃个光头而已，实际上和我们在家人没有什么区别。”等等。诸如此类的言论也属于大邪见。有时候看起来，邪见重的人什么话都敢说，这样的邪见者和外道没有差别。</p>
+<p>还有，<code>如果视僧人为有过失者也属于大邪见，过失也相当大</code>。《赞僧功德经》中说：“若于僧中起邪见，当来定堕三恶道，世尊亲自以梵音，金口弘宣诚不妄。”本来，僧众是人天恭敬之处，见到僧众要以信心合掌顶礼，乃至对僧衣上的红黄补丁以上都应生起真实僧宝想并恭敬顶戴（这是皈依的基本学处），可是有些邪见者根本认识不到出家人的尊贵，只是一味地看出家人的过失。</p>
+<p>佛经中记载，世尊成道后四处教化众生，人天大众莫不欢喜信仰，唯独波斯匿王对佛法不生信解。如来的精舍与波斯匿王的花园临近，都处在一条河边。一天，有三百个沙弥携带水瓶到河中取水，这些沙弥都是小孩子，他们脱下袈裟在水中嬉戏。当时波斯匿王和夫人正在临河的楼阁上，国王远远见到沙弥们嬉戏，便对夫人说：“佛教徒自称身心清净、无有烦恼，可是你看这些僧人和我们俗人一样嬉戏，身心根本就不清净。正因为如此，所以我不信仰佛教。”夫人答道：“<code>就像大海中龙蛇混杂一样，佛教中有得道的人，也有没得道的人，不能一概而论。</code>”夫人的话还没说完，<code>沙弥们都穿上衣服，携带装满水的瓶子以神通飞回精舍</code>。夫人便指着沙弥们对国王说：“大王，你看这些出家人的行为和一般人相同吗？”国王见后顿时对佛教产生了强烈的信心，立即率领群臣朝拜佛陀并在佛前忏悔皈依。</p>
+<p>我讲这个公案，<code>目的是希望大家对出家人观清净心</code>。在现实生活中，不可能所有的出家人行为都如理如法，可能我们会见到一些不如法的现象，但是不能因此而对出家人产生邪见。凡夫人很难了解他人的相续，如果对方是具功德者，对他生邪见很可能会摧毁自己的善根。我看过很多高僧大德的传记，有些高僧大德外在的显现也很不如法。因此，仅仅依靠外相来判断他人的相续有一定的困难。世尊也曾说：“<strong>除非我与同我者，无人能量他人心，若量则犯大罪过</strong>。”现在有些人一见到出家人就生邪见，甚至那些出家人根本没干坏事，也要说他们的过失，这样非常不好。希望这些人对出家人观清净心，如果实在无法观清净心，也没必要去毁谤，否则将来必定会感受痛苦的果报。</p>
+<p>和视出家人有过失一样，<code>视自己的上师有过失也属于大邪见</code>。《自生自显续》中说：把上师看作普通人有非常大的过失，如果认为上师的贪心、嗔心很大，上师的智慧不如自己，上师不通达世间法，等等，产生此类分别念的罪过特别大，在百千万劫中精进忏悔都很难清净。</p>
+<p>因此，我们一定要对僧人、上师观清净心。即便他们确实没有内证的功德，也不应该对他们生邪见。为什么呢？因为一切众生都具有如来藏，从这个角度来说，一切众生和佛都是平等无二的。即便在鹞鹰、豺狼等最凶残的旁生中，也没有对自己的孩子毫无慈悲心者，这样的慈悲心就是如来藏的明分。只要具足因缘，这种慈悲心就会逐渐发展、成熟，最终会与三世诸佛的大悲心无二无别。因此，从这个角度来说，我们不能把众生看得太低劣了，也不应该对暂时无有功德者生邪见。</p>
+<p>有些人由于自己的思想比较偏颇，对身边所有的人都看不惯。据说某单位有个部门，那个部门有四十个员工，<code>有一个人说他看得惯的只有一个人，其余的人都看不惯，他觉得那些人在人格、智慧、做事等方面都不如自己。这个人的见解就是一种邪见</code>。人不能总是觉得唯有自己十全十美，别人都一无是处。实际上，凡夫人不可能没有过失，很多自视甚高的人其实有很多缺点，只要他们返观自身，肯定能发现一大堆过失，可惜的是很多人都缺少自我返观的镜子。</p>
+<p>还有，<code>视正法为非法、非法为正法也是大邪见</code>。现在我们正在讲前行、净土、般若、大圆满法，本来这些法对解脱有很大的利益，可是有些人却说闻思这些法没有用。相反，一些世间的气功、法术与解脱没有任何关系，有些人却把这些旁门左道视若珍宝，不仅自己全身心投入，还把它们当作正法到处弘扬：“这个瑜伽功特别好，你只要一练，任何问题就都没有了！”</p>
+<p>总之，如果详细观察就会清楚，现在众生的邪见多之又多，可以说是“邪见无边故，一一难破尽”。由于没有值遇善知识，缺乏对佛法的系统闻思，很多人的相续中都存有各种妄想执著，在这些分别念的推动下造作了各种非法之事，对自他没有带来任何利益。对这样的众生，我只有用“可怜”两个字来形容。有时候看起来，如今的世间确实很让人生悲心——具相的高僧纷纷圆寂，对佛法和众生有责任心的大德寥若晨星，各种世间的邪见就像大海一样汹涌澎湃，众生的相续变得一天比一天下劣。在这样的浊世，大力弘扬佛法，尤其是把佛教的真理介绍给人们就显得尤为重要了。</p>
+<p>最近我们学院正在期末讲考，听了很多道友讲《定解宝灯论》、《般若摄颂》后，我心里想：现在的大环境如是污浊，邪见的乌云覆盖整个大地，有些人能有这么好的见解，明白自己前进的方向，这实在难得！由此我也更加体会到闻思佛法的重要性。不要说长期闻思，哪怕闻思几年也可能引生正见。当然，在如今的浊世，这样的正见在相续中能存留多久也很难说，福德深厚的人有长期依止善知识的机会，正法会在他们的心中长期存留，而福报浅薄的人则像云中的太阳一样，对正法稍微有一点了解，很快相续又被邪见的浓云遮蔽。</p>
+<p>以上列举了邪见的各种类型，下面分析邪见的过患。</p>
+<p>经论中说：“<strong>十不善中邪见重</strong>。”为什么邪见的过患如是严重呢？<code>因为邪见是一切罪恶的根本，一旦有了邪见，其他不善业都会随之而来</code>。现在很多人就是因为持有不信因果的邪见，所以才肆无忌惮地大造杀、盗、淫、妄等恶业。而且，从产生不信因果的邪见开始，到尚未生起诚信因果的正见之前，以往的一切善根不会生起，也就是说，邪见能使人善根断绝、无法恢复如初。由于这些原因，所以邪见的罪业极为严重。</p>
+<p>很多道友从小没有受过佛法的教育，长大后虽然趣入了佛门，可是对佛教的道理却疑虑重重：到底有没有善恶因果？前生后世真的存在吗？我遇到过一位很有名的法师，他就直言不讳地问我：“人真的有前生后世吗？”当然，我很理解他的疑问，由于从小在无神论的环境中成长，没有机会接受佛法的教育，产生这样的怀疑很正常。对这些人来说，最重要的就是多闻思佛法，如果真正明白了佛理，自然能遣除内心的怀疑和邪见。</p>
+<p>当然，也有些人虽然大概了解一些佛法，也没有能力破斥佛教的正理，但内心始终不肯接受佛教的观点。《印度佛教史》中记载：月官论师15前世是一位佛教的大师，他曾经和一个外道辩论前生后世存不存在。虽然智慧超群的大师辩胜了外道，可是对方依然不肯接受佛教的观点，他说：“虽然我无法辩过你，但这只不过是因为你善于辩论而已，无论如何我还是认为前生后世不存在。”为了度化这个外道，大师决定以一种特别的方式死去并转世，以此证明前生后世的存在。他邀请国王作证，在自己的前额涂上朱砂记号，口中含着一颗珍珠，之后让国王当着外道的面把自己关在密闭的铜棺里，生死自在的大师就以这样的方式辞世了。大师去世后，立即转生为一位班智达的儿子，他出生时就有许多奇异的征兆——前额有鲜红的记号，口中含有珍珠16。得知这个消息后，国王和外道来到大师的墓地，当把密闭的铜棺打开后，众人发现大师前额的朱砂记号不见了，口中所含的珍珠也没有了。在无可争议的事实面前，外道不得不相信那个孩童就是大师的转世，由于这个因缘，他对佛教产生了真实的信心，后来率领自己的徒众皈依了佛教。</p>
+<p>15月官：古印度佛教大师，持瑜伽唯识见，著有《致弟子书》、《菩萨戒二十颂》。</p>
+<p>16这是不可思议的缘起力所致。由于一些特殊的因缘，有的人生来身上就带有前世的痕迹，还有些人的相貌、性格和前世非常类似。我在《中观四百论广释》中阐述过这些道理。</p>
+<p>就像这个外道一样，现在有些人面对佛教的尖锐理论，根本举不出破斥的理由，但内心始终不肯放弃邪见。我听说有一个老头子，他本人不信佛，但他的儿女信佛，这个老头子经常跟儿女辩论，每次他辩输后就气得去佛堂里砸佛像。世间有些外道也是如此，他们并没有什么道理，只会用粗暴的手段破坏佛教，以强迫的手段让人们皈依他们的宗派。所以，要通过理论转变所有的邪见者也有一定困难。但即便他们不接受佛教的观点，毕竟他们的见解不符合真理，最终是经不起时间的考验的。</p>
+<p>既然邪见是一切恶业的根本，那什么人容易产生邪见呢？<code>那些不知羞耻、愚昧无知、经常转生于无暇边鄙之处、连三宝的名字也没有听过、为恶友所欺、无有信心、满腹怀疑之人容易产生邪见。总而言之，那些福报浅薄的人容易生起邪见。如《妙法莲华经》云：“薄德少福人，众苦所逼迫，入邪见稠林。”</code></p>
+<p>邪见是由三毒产生，有些人是因贪欲而生邪见，有些人由于嗔心而生邪见，但大多数人都是由于愚痴而生邪见。本来，业因果、前世后世是真实存在的，可是有些人不懂这些道理，以这种愚痴自然会引发邪见。</p>
+<p>邪见有何果报呢？根据意乐强弱不同，其异熟果报是相应地堕入三恶道：以上品邪见会堕入地狱，尤其是堕入无间地狱感受其余所有地狱的痛苦；以中品邪见会堕入饿鬼；以下品邪见会堕入旁生。如《华严经》云：“邪见之罪，亦令众生堕三恶道。”《佛本行集经》亦云：“以邪见故，邪见因缘，命终舍身，堕于饿鬼，受饿鬼苦。”</p>
+<p>邪见者即便从恶趣解脱出来，侥幸获得人身，也会因为往昔不善业的等流而转为邪见者，令人身空耗。如《华严经》云：“（邪见者）若生人中，<code>得二种果报：一者生邪见家，二者其心谄曲</code>。”邪见还会使人的心不堪能。有些人虽然想当一个好修行人，可是由于往昔生邪见的果报，心非常不堪能，经常产生各种恶分别念。有一个人对我说：“我为什么天天生嗔恨心？我觉得自己的脸都肿了，手也是麻麻的，你可不可以给我调理调理？”也许这就是前世生邪见的果报。总之，邪见有多得无法想象的过患。所以大家不要觉得生邪见不是大过错，如果在这方面不重视，那自己的一切所为都和解脱背道而驰了。</p>
+<p>此外，邪见者的善根也将成为痛苦之因，龙树菩萨说：“若欲趋善趣，当修习正见，邪见者行善，其果亦难忍。”以前法王经常引用这个教证，意思是如果想趋往善趣、获得解脱，一定要修习前后世、业因果、三宝、四谛等正见，只有具备了这些基本的正见，才谈得上在此正见摄持下进一步修持善法，否则，如果相续中存有邪见，即便行持善法也将感受恶趣的难忍苦果。</p>
+<h4 ref="若能远离恶知识亦能远离诸邪见" >若能远离恶知识，亦能远离诸邪见</h4><a class="anchor" id="若能远离恶知识亦能远离诸邪见"></a>
+<p><code>现在有些人表面上很聪明，平时能讲经说法，也能带领别人行持善法，但因为他的相续中存有邪见，当遇到关键问题的时候，他就不会再以佛法为标准，而是按自己的分别念肆意妄为，甚至毁谤佛法、诽谤高僧大德，最终让自他堕入恶趣</code>。在历史上，有很多此类误入歧途的聪明人。如果是一个愚笨无能的人，那最多只是自己生邪见，不可能影响很多人。可是有些人嘴巴会说，有钱财又有势力，在弘扬颠倒之法方面有很大的能力，结果让很多跟随他的人都误入歧途。这种现象是大家有目共睹的。因此，修行人嘴巴不会说不要紧，没有钱财、势力也不要紧，最关键的就是要具足无伪的正见。</p>
+<p><code>对于我们自身来说，为了避免产生邪见，一定要注意选择亲近的人</code>。如果一个人亲近了不信因果或者虽信因果却不懂因果道理的人，自己也会染上邪见的过患。《因缘品》云：“若将纯净吉祥草，系于腐烂之鱼上，彼草亦会变腐烂，依止恶友亦复然。”有些人本来很好，人格、见解、行为都很不错，但由于恶知识和恶友的影响，相续中产生了各种邪见，行为也变得非常不如法，最终误入歧途，这是非常可惜的。现在很多人正在闻思正法，在这个过程中，一定要注意接触的人，不要被某些恶人偷走了自己的正见。很多人都害怕钱财被偷走，但我觉得有漏的财产被偷走不可惜，最重要的是相续中的正见不要被偷走，如果正见被偷走就太可惜了。大家一定要小心。</p>
+<p>如果一个人依止了诚信业果、喜善警恶、了知因果道理之人，则自己也会变成具有正见者。《因缘品》云：“若人将紫梗树叶，置于汉香香囊中，树叶亦发出香气，依止善友亦复然。”紫梗树叶本来没有香气，如果把它放在汉香囊中，时间久了它也会散发出香气，依止善知识也是如此，本来一个人的闻思修行很一般，如果他依止闻思修行很优秀的人，自己也会逐渐变成一个很好的人。</p>
+<p>作为一个修行人，交往什么样的人的确非常重要。如果我们远离恶人，自然而然就会远离各种不良的思想和行为。《大方等大集经》云：“<strong>若能远离恶知识，亦能远离诸邪见</strong>。”如果我们亲近恶人，自然而然也会变成坏人。孔子说：“与不善人居，如入鲍鱼之肆，久而不闻其臭，亦与之化矣。”也许刚开始自己还有正知正念——他的思想行为不好，我不能像他那样，但时间一长，就和坏人同流合污了。相反，“与善人居，如入芝兰之室，久而不闻其香，即与之化矣。”如果我们亲近好人，自己不知不觉也会变成好人。学院有些人以前不爱闻思修行，自从和爱闻思修行的人交往后，也变得爱闻思修行了，不管背考、讲考、笔考都踊跃参加。</p>
+<p>总而言之，一个人是正是邪，与他接触的人有密切的关系。不仅佛教徒这样认为，世间的智者也是这样认为的。晋代的傅玄曾说：“近朱者赤，近墨者黑。声和则响清，形正则影直。”初学佛者的正见没有稳固，千万不要跟坏人交往，否则自己也会变成坏人，此时特别需要好道友的提携和帮助，这样自己的善根才会不断增长。我看到外面的很多佛友在行持善法方面互相提携帮助，这样非常好。</p>
+<p>在邪见之中，特别要注意下面几种情况。</p>
+<p>有些愚痴恶劣的弟子尽管依止了一位贤善殊胜的上师，却对上师无有恭敬诚信之心，也未能正确理解教言，只是表面上装模作样，仅仅修了少许法便自吹自擂，实际上却在散漫懈怠中虚度人生，结果任何功德也未获得。这些人居然说：“某位恶上师欺骗了我，正法也不深奥。”最终以邪见死去而堕入恶趣。现在这样的人为数不少，本来他依止的上师非常好，可是由于他的心不正，反而把自己的过失都推到上师身上，说什么：“上师没有加持”、“上师没有智慧”、“我依止这位上师是个错误，白白浪费了很多时间，现在我离开他是一种解放”……甚至当着上师的面说很多难听的话，这种邪见深重者的前途只有堕入三恶道。</p>
+<p>有些人认为：我舍弃原来的上师，依止一位更有德行的上师，这样做应该是很好的。实际上，这种愚痴的想法不可能成功。以前我曾引用大量教证说明过这个道理，如果一个人以邪见而舍弃了原来的上师，纵然他依止再殊胜的上师也没有用，以后必定会堕入恶趣。</p>
+<p>还有些人说：“这个上师传的法不殊胜，我要到一个专门学戒律的道场参学。”其实，如果一个人的见解毁坏了17，持戒也没有用。《中观四百论》云：“宁毁犯尸罗，不损坏正见，尸罗生善趣，正见得涅槃。”</p>
+<p>《历代法宝记》中也有类似的说法：“宁毁尸罗，不毁正见，尸罗生天，增诸结缚（即烦恼），正见得涅槃。”因此，持戒可以转生善趣，正见可以获得解脱。如果一个人戒律毁坏了，只要有正见就还有忏悔的机会；如果他的正见毁坏了，即便他在无数劫受持清净戒律，可是不要说获得解脱，连善趣的名字都听不到。</p>
+<p>17此处的见解包括对上师的信心。</p>
+<h4 ref="佛陀也无法度化的老仆女" >佛陀也无法度化的老仆女</h4><a class="anchor" id="佛陀也无法度化的老仆女"></a>
+<p>实际上，如果是邪见深重的人，再殊胜的上师也没法度化他，甚至佛陀来到他面前也无能为力。佛经中有这样一个故事：以前给孤独长者经常供养三宝，长者家的老仆女为人悭吝，对长者供养三宝很不高兴。一次，佛陀为了度化这个老仆女，来到老仆女面前。老仆女不想见佛，就以扇遮面，可是扇子却如同镜子一样透明。老仆女又用手覆面，十个指头又全化为佛。她闭眼不看，但心眼打开，见到虚空中遍满化佛。老仆女仍未生起信心，跑回家对须达长者说：“我今天遇上大恶对，见到瞿昙显现幻化，其身形如金山，双目逾青莲，放胜大光明。”说完便钻入木笼之中，以百张皮革覆盖木笼，并用白布缠裹头部，躲卧在黑暗处不出来。佛陀知道老仆女与自己无缘，与罗睺罗有大因缘，便派罗睺罗去度化她。罗睺罗幻化为转轮王的形相，很快就度化了老仆女，令她受三皈五戒，后来她在佛前出家证得阿罗汉果。从这个公案可见，<code>如果一个人持有邪见，连佛陀那样的善知识都无法度化。</code></p>
+<p>除了对善知识生邪见以外，还有一种需要注意的生邪见的情况：有些在家人为了今生的幸福安乐，尽力作消灾延寿、顶礼转绕、净除罪障等佛事，然而，由于往昔的业力感召而屡遭病痛、失败等厄运，于是他们说：“别人造恶业却享受快乐，我们行善却落到了这种地步，看来三宝没有加持。”还有些人虽然精进行持善法、积累福德，可是却感受各种痛苦和违缘，他们便说：“我没有行持善法时没什么痛苦，现在行持善法反而感受种种痛苦，看来因果不真实。”诸如此类也是非常严重的邪见。</p>
+<p>实际上，<code>广行善法之人今生遭受痛苦，这并不是三宝没有加持、因果不真实。恰恰是由于因果真实不虚，以行持善法之力使得往昔的恶业在现世提前成熟，感受完此果报后便可尽除此恶业，如今造的善法在后世必将成熟果报，绝不会虚耗；也正是因为三宝有加持力，才使往昔的恶业迅速现前，通过感受暂时的痛苦而清净宿世的恶业</code>。这就是所谓的“<strong>大福者临趋善趣，痛苦犹如燃烈火</strong>。”</p>
+<p>以上我们宣讲了各种生邪见的情况，学习这些道理之后，希望每个人以此为鉴，努力断除自相续中的一切邪见！</p>
+<h1 ref="第六十四课" >第六十四课</h1><a class="anchor" id="第六十四课"></a>
+<p>1.有些人虽然积累了滔天大罪，今生却过得越来越幸福快乐，</p>
+<p>不必感受任何违缘和痛苦。你如何看待这种现象？</p>
+<p>2.解释教证：“有者所造诸罪业，纵未即时如刀砍，然死降临头上时，罪业之果必现前。”</p>
+<p>3.学了具髻国王的公案，你有何感想？</p>
+<p>4.学了给热国王的两个儿子的公案，你有何感想？</p>
+<p>5.什么是世间正见？</p>
+<p>6.如果一个人今生无有邪见、诚信因果，细致取舍善恶、如理行持，则来世有何利益？</p>
+<p>昨天我们讲到，有些人虽然广行善法，今生却遭受各种痛苦和厄运，其实这是好事，这是以善法的力量使往昔的恶业提前成熟，而现在所做的善法以后必定会成熟并为自己带来幸福和安乐，这就是所谓的“大福者临趋善趣，痛苦犹如燃烈火。”因此，有些人在行持善法时出现各种违缘，如身体不好、心情不好、受到他人讥毁，此时不要产生怯懦之心，这些违缘是即将获得成就的征象。古来的很多大德在圆寂时，显现上也感受了很大的痛苦。有些人也不应该对此产生邪见：既然他们一辈子修法，为什么死时那么痛苦？如果有这样的邪见，就会障碍自己趋入解脱道。</p>
+<p>邪见的种类非常多，除了不承认因果之外，经论中还提到了很多类型的邪见。</p>
+<p>在《十地经论》中讲到了九种邪见：</p>
+<p>一、蔽意邪见，是指被无明愚痴蒙蔽自己的意识而产生的邪见。现在有些人本来特别愚痴，加之受到父母和老师的误导，所以不承认三世因果、六道轮回，这就属于蔽意邪见。</p>
+<p>二、骄慢邪见，就是经常处于骄慢的状态。有些人对佛法一窍不通，还认为自己很了不起，这就是骄慢邪见。</p>
+<p>三、爱念邪见，是指心堕在欲念渴爱之网中。有些人贪心特别重，深陷欲河情网无力自拔，缘着贪爱的对境邪念纷飞，这就是爱念邪见。</p>
+<p>四、谄曲心邪见，是指人的心谄诳歪曲。</p>
+<p>五、嫉妒行邪见，有些人嫉妒心特别强，经常以嫉妒心造作各种恶业，这就是嫉妒行邪见。</p>
+<p>六、集业邪见，相续中集聚很多贪嗔痴的烦恼而造作诸恶业。</p>
+<p>七、吹心炽燃邪见，是指因烦恼猛风所吹而燃起邪见的大火，有些人因为猛厉的烦恼现前，经常产生各种强烈的邪见。</p>
+<p>八、起业邪见，有些人因为前世的业力现前，实在无法克制自己，经常不由自主地产生邪见，由此导致凡有所作业皆与颠倒法相应。</p>
+<p>九、心意识种子邪见，这是指行持善法时随顺有漏心，有漏的善根存留在阿赖耶上，以后逐渐成熟有漏的果报。</p>
+<p>《大智度论》里讲了三种邪见：一、破罪福果报但不破罪福，破因缘果报但不破因缘，破后世但不破今世。二、破罪福果报亦破罪福，破因缘果报亦破因缘，破后世亦破今世。不破除此之外的一切法。三、破一切法皆令无所有，即对一切万法都不承认。</p>
+<p>另外，《佛说邪见经》中对邪见也有特殊的分析。大家应该多看分析邪见的经论，要搞清楚什么是邪见，这样自己生邪见时能立即觉察，别人生邪见时也会知道。否则，如果不懂这些道理，你自己生了邪见不会觉察，而且有些人的见解本来是邪见，可是你还认为他的见解是正确的，跟在他后面乱跑，最终自相续也被邪见染污。</p>
+<p>以上讲到，有些人虽然精进行持善法，即生中却遭受各种痛苦和违缘，这是消除恶业的好现象。与此相反，有些人虽然积累了滔天大罪，今生却过得越来越幸福快乐，不必感受任何违缘和痛苦，但这种暂时的快乐并不妙，这是往昔的点滴善果在现世成熟，之后便会彻底耗尽，如今所造的恶业虽然暂时没有成熟，但必将于后世成熟，那时就永远没有解脱的机会了。这就是所谓的“重罪者临堕地狱，福德犹如降大雨”。</p>
+<p>就像播下种子后不可能马上收获庄稼一样，造了善恶业后也不可能立即现前苦乐果报，但无论如何，因果是不会空耗的，以后必定会成熟相应的果报。大家一定要明白这个道理，否则很可能在遇到违缘时对因果产生邪见。</p>
+<p>关于造业之后必定感果之理，龙树菩萨曾经开示道：“有者所造诸罪业，纵未即时如刀砍，然死降临头上时，罪业之果必现前。”有些人造了罪业后，虽然不像身体被刀砍后立即流血那样迅速感受果报，但在死亡降临（或罪业成熟）时，果报必定会毫厘不爽地现前。《无量寿经》中也说：“善恶报应，祸福相承，身自当之，无谁代者。”因此，有些人造了罪业后，并没有立即显现恶果，反而在一段时间内过得很快乐，这些愚人甚至会觉得越造罪业越幸福，这样的想法完全是不懂因果的邪见，最终他们必将亲身感受造罪的果报，任何人都不能代替他们。</p>
+<p>很多人因为不懂因果或者对因果有颠倒的认识，在邪见的推动下造了很多恶业。《杂譬喻经》中记载，以前一个屠夫向阿阇世王祈求：“如果节会之际有要宰杀的旁生，请大王让我来宰杀。”国王感到很稀奇，问道：“屠宰的事，一般人都是不愿意做的，为什么你愿意做？”屠夫答道：“往昔我是一个以屠羊为生的穷人，以屠羊的果报死后转生于四天王天，天寿尽后转生到人间又屠羊，人间命终之后又转生于忉利天……这样往来天上人间已经六次了。因为屠羊的福德，我依次在六欲天享受了无量的快乐，所以我现在还愿意当屠夫。”国王说：“你怎么知道这些因缘？”屠夫答道：“我有宿命通。”国王不信，觉得像屠夫这样下贱的人，怎么可能自识宿命呢？后来国王向佛询问此事，佛说：“他确实有宿命通。往昔他值遇过一位辟支佛，当时他对辟支佛产生了欢喜心，至心谛观，仰视其首，俯察其足。因为这个功德，他辗转生于六欲天，从天界下生人间后还了知宿命。但是这一生结束后，他就会堕入地狱感受屠羊之罪，从地狱出来还要转生到羊中偿报。由于他的宿命通有限，只见到往昔转生六欲天之事，不知道更早以前遇到辟支佛之事，便误以为屠羊是生天的因。”</p>
+<p>现在很多人也是如此，因为目光短浅，看到别人造了恶业却过得很快乐，便认为因果不存在甚至对因果持有颠倒的见解。其实，有些造恶者之所以过得快乐，只是由于前世善业的果报尚未穷尽，而今生所造的恶业尚未成熟，但是，当以后恶业成熟时，他们必定会感受苦果。大家一定要通达这些道理，否则很可能产生颠倒的想法，做出颠倒的事情。</p>
+<p>下面再看一则“重罪者临堕地狱，福德犹如降大雨”的公案。</p>
+<p>以前，札珠城市的国王名叫俄扎雅那，他的儿子具髻继承王位后，把两个恶臣纳入朝中，将两个法臣摈出朝外，之后以非法治理国家，致使整个国家转入邪道。</p>
+<p>国王的力量确实非常大，能让整个国家处于颠倒的状态。以前毛泽东发动了文化大革命，在他的错误思想影响下，中国境内的很多寺院被摧毁，据某些统计显示，仅在藏地就有七千多所寺院被摧毁。所以有些国王造的业真的很可怕。</p>
+<p>俄扎雅那在世尊面前出家，通过精进修行获得了阿罗汉果位。后来他返回札珠城市，准备制止儿子和恶臣以非法治国的恶行。由于奸臣们从中挑拨离间，致使具髻杀害了父亲。由于父亲是阿罗汉，所以他造了两种无间罪。当时嘎达雅那尊者也在当地，他预言说：“从现在开始算起到第七天，札珠城市将被土埋没，具髻国王及其眷属被土埋死后将堕入无间地狱。”随后，第一天狂风四起，将地上的尘石一扫而空，第二天降下花雨，第三天降下衣雨，第四天降下银雨，第五天降下金雨，第六天降下珍宝雨，到了第七天，漫天降下土雨。尽管国王等人企图逃跑，但因非人挡住了去路而未能跑掉，结果所有的人被土压死，死后都堕入无间地狱。</p>
+<p>如果只看前六天的情况，可能有些人会觉得：天上居然降下金银财宝，看来杀父亲、杀阿罗汉没有过失，反而有很大的福德。但看了第七天的情况，就会知道什么是真正的因果。</p>
+<p>通过这个公案大家应该明白，有些人天天造恶业，可是不但没有感受痛苦，反而过得幸福快乐，而有些人精进行持善法，却出现各种违缘，这些暂时的现象不能说明因果不存在。实际上，行善之人今生感受痛苦，造恶之人今生享受安乐，这完全是有可能的，因此我们不应对因果产生邪见。</p>
+<p>有时候乍一看，好像因果确实颠倒了：有些行善之人遇到各种痛苦，身体不好，心情也不好，还经常不明不白地受到冤枉，甚至有些精进修行者连吃的穿的都没有，与之相反，有些造恶之人却过得很快乐，财富、名声、地位等世间的圆满都自然现前。见到这些现象，有些人就说：“好人没好报，千万不能当好人，从明天开始我要当坏人。”说这种话是不懂佛法的表现，这种人非常可怜，我们千万不要成为这样的人。</p>
+<p>其实，不要说一般人在行善过程中会感受暂时的痛苦，很多了不起的高僧大德临终时也要感受痛苦。翻开《百业经》：有些阿罗汉是饿死的，有些是病死的，有些是被野兽杀死的，各种情况都有。另外，龙树菩萨因为前世割草时杀虫的余业，被乐行王的太子用吉祥草砍断头颅而示现圆寂。静命论师是被马踢伤而示现圆寂的。另外，贝若扎纳大师因为前世当比丘时掐死过虱子，后来被擦瓦绒地方的国王关在遍满虱子的监狱里。这些情况在佛教的历史上非常多。</p>
+<p>可能有些人又会对此生邪见：连高僧大德的遭遇都这么惨，看来因果真的不存在。现在很多人都是如此，因为不懂佛法，经常对高僧大德的示现生邪见。藏地有位著名的贡智仁波切，他在欧美、东南亚有很多弟子，当他以车祸示现圆寂后，一些见解稳固的弟子认为：不管上师怎么示现，我对上师的信心都不变！而有些红头发的人则生邪见：上师肯定不是成就者，因为他连方向盘都控制不住，如果连自己都不能救度，还怎么救度众生啊？以前法王如意宝和阿秋喇嘛在医院治病时，一个人说：“怎么藏地的法王都住院了？既然他们是法王，为什么还要住院？18”很多人都是由于不懂教理，以一些相似的理由产生邪见，这些人应该好好闻思教理。</p>
+<p>除了因不懂教理而生邪见之外，还有以前世的恶业而于今生产生邪见的。下面我们看一则公案。</p>
+<p>18这种观点其实不值一提：如果生病住院就不是成就者，那释迦牟尼佛也示现过生病，这又如何解释呢？</p>
+<p>以前边地的给热国王有两个儿子，一个叫战哦，一个叫炯哇，他们一个是常见者，一个是断见者。后来给热国王委托胜光王抚养他们，最终他俩舍弃了邪见，在佛陀面前出家并获得了阿罗汉果位。为什么他们能获得阿罗汉果位呢？因为他们曾是迦叶佛教法中精通三藏的两位出家人，以此因缘，他们于释迦牟尼佛的教法中获得了阿罗汉果位。为什么他们会转生为边地的邪见者呢？这是因为在迦叶佛时，他们前往某边地，本来没有教言却胆大包天、擅自修行（有些人也是这样，随便买本书看看，就觉得自己什么都懂了，然后就开始盲修瞎练），本来没有证悟，却自认为已经证悟了，从而生起增上慢。在临终时，因为没有获得任何功德而心生邪见，口口声声说：“迦叶佛的教法不真实，因果不存在，我们俩没能解脱，同样，其他人也不会解脱。”说完便死去了。以此邪见恶业，他们于多生累世堕入恶趣，并且于很多世转生于边地，在此之前连三宝的名字都没有听过。</p>
+<p>在这个公案里，两个王子由于造了杂业而感受相应的果报——因为往昔出家而获得阿罗汉果位，因为生邪见而转生为邪见者，可见因果非常微妙，一点都不会错乱。</p>
+<p>从这个公案还可以看出，临终生邪见的过患非常大。唐代的道绰法师在《安乐集》中说：“若人临终时生一念邪见，增上恶心，即能倾三界之福，即入恶道也。”所以，在临终之际千万不要对上师、三宝和道友产生邪见，那时应该以清净心忆念中阴窍诀或者诸佛菩萨的名号，否则，虽然你一辈子行持善法，但临终的一个邪念也会把以前的善根全部摧毁。</p>
+<p>邪见的力量确实很大，能焚毁相续中的信心、福德、智慧等一切善根，如《正法念处经》云：“恶见烧福尽。”生邪见非常可怕，有些人生邪见后完全成了另一个人，谁都没办法挽救他。有的人明明在某上师处听过法，可是自己的心好像被魔鬼蒙蔽了一样，不由自主地对上师产生毫无理由的邪见，而且他还认为自己是正确的，其他人怎么劝也听不进去。以前我听说一个人对上师生了邪见，他把在上师面前求法、做事的亲人软禁起来，不让他们接触上师，而且以各种方式诱惑他们，说上师如何如何不好。很多人都知道他着魔了，但他还说别人着魔了。</p>
+<p>我们感受一些身心的痛苦不可怕，最可怕的就是生邪见。如果一个人的相续被邪见蒙蔽，他就不可能见到上师三宝的功德，也不可能感受到上师三宝的加持。而且这种人无论怎样努力，也不可能获得圣道，如《大乘菩萨藏正法经》中说：“邪见人积集邪见之因，能得圣道，无有是处。”因此，为了避免染上邪见的过患，大家一定要经常祈祷莲花生大士。</p>
+<p><code>现在有些人头脑很简单，稍微遇到一些因缘就产生邪见，然后就开始大肆毁谤：“我的上师不好”、“我的道友不好”……一听他的语言就知道他着魔了。这些人非常奇怪，如果要他传播正法，连一个人的心也无法打动，可是他传播起邪见来却很有煽动力：“我看到了什么”、“我听到了什么”……希望各位道友好好祈祷三宝，千万不要变成这样的人。</code></p>
+<p><strong>大家要认真思维邪见的过患，如果能做到纵遇命难也不生邪见，那么生生世世都不会堕入恶趣，而且会成为正见者。当然，前面也说过，有的邪见是以暂时的因缘产生的，这些通过闻思教理、祈祷三宝可以对治；有的邪见是由于前世的恶业产生的，这种就比较难对治。但不管怎样，道友们要尽最大的力量灭除邪见。</strong></p>
+<p><code>特别要提醒各位在家男女，因果是毫厘不爽的，即便行为上不能完全断恶行善，但对微乎其微的小事也不能说：“仅此无关利害”、“做一点善事有什么功德”、“造一点恶业没什么过患”。如果能认定因果的确存在，并诚信乃至微细以上的因果，这就是所谓的世间正见。这种世间正见非常重要，以前法王经常强调这个问题。现在很多人不重视培养世间正见，只是一味希求中观、大圆满等深法，我对此并不赞叹。经过多年的学习佛法，我深深地体会到：如果连基本的世间正见都没有，那听再多的法都没有用，修再深的法也没有用，即便能相似安住在明空双运的境界中，可是业障现前时就安住不下去了，甚至还会对明空双运产生邪见而堕入恶趣。</code></p>
+<p>因此，<strong>修行人应该从细微处入手培养因果正见</strong>。不要认为一滴水无有用处，如果逐渐积累则终将充满大的水器；也不要认为小小的火星没有危害，如果对此不加警惕，则可能焚烧大山。通过这些真实不虚的比喻，大家应该懂得因果无欺之理。可惜的是，现在很多人不懂这些道理：在善法方面，他们不重视一点一滴的善法，认为转一圈经轮、做一次放生、念一句心咒、诵一部佛经没有什么功德；在恶业方面，他们也不警惕一点一滴的恶业，在日常生活中随随便便造下很多恶业。这种人的前途是很成问题的。</p>
+<p>佛经中对这些道理讲得非常清楚。《法句经》中说：“<strong>莫轻小恶，以为无殃。水滴虽微，渐盈大器。凡罪充满，从小积成。莫轻小善，以为无福。水滴虽微，渐盈大器。凡福充满，从纤纤积</strong>。”《般若摄颂》中也说：“<strong>水滴满瓶始末间，涓涓必渐盈彼器，初心亦胜菩提因，渐圆白法终成佛</strong>。”另外，在《佛说决罪福经》、《大方等大集经》中也有类似的教言。因此，大家不要轻视微小的善恶业，应该从点点滴滴处取舍因果，恶业一点一滴都不造，善业一点一滴都要积。</p>
+<p>《因缘品》中说：“虽造微小罪，来世受痛苦。”即便造了很小的罪业，比如杀死一只蚊子、偷一点东西、诽谤一个人、说一句妄语，在世间人看来，这不算什么大事，但这也会导致来世感受无量的痛苦。在这个世界上，有我们肉眼可见的人和旁生在遭受痛苦，还有肉眼见不到的饿鬼、地狱众生在遭受痛苦，这些众生的痛苦也许就是前世的一件微小罪业而导致的。</p>
+<p>《因缘品》中又说：“虽积微小福，来世得安乐。”虽然造了微小的善根，比如念一句观音心咒、放一个生命、供一盏灯、点一支香，这些事看起来很不起眼，但却能带来后世的无量安乐。所以，现在积福，以后就能享用。这就像读书时记住一个教证，以后一辈子都能用得上。我认识一个领导，他以前学过一个教证，后来每次开会时都要引用，因为他是在不同的场合用，所以乍一听感觉他还是很有才学的。（众笑）</p>
+<p>对于世间正见，龙树菩萨曾说：“<strong>世间之正见，谁人若具足，彼于千劫中，不会堕恶趣</strong>。”这个教证非常重要，大家要牢记在心，而且不单单要会背这个教证，还应该从内心深处诚信其意义。如果一个人没有世间正见，他剃头出家没有用，闻思经论没有用，甚至修大圆满也没有用。</p>
+<p>我们学院期末考试时，很多人因明和中观讲得非常精彩，引用大量的教证：“龙树菩萨如何说”、“陈那论师如何说”、“法称论师如何说”。能够背这些教证固然很好，但也要会背因果方面的教证。我刚来佛学院时，主要就是背《入行论》、《大圆满前行》中的教证，因为当时背了很多这方面的教证，对自己以后的修行起到了很大作用。</p>
+<p><code>现在有些知识分子智慧还不错，在讲到一些甚深的难题时，如分析宗喀巴大师和麦彭仁波切的观点有何异同、中观自续派和中观应成派之间的辩论、唯识宗和中观宗的关系，可以滔滔不绝地讲三四个小时，别人听起来感觉非常精彩，可是一讲起因果就完全不同了，虽然他们也能讲出一些话，但是根本打动不了别人的心。这就是因为平时对因果法不重视，从来没有深入思维过这方面的道理，所以讲出来的话没有感染力。因此，大家除了要学一些深的理论，也要学习因果法，而且要把因果法与自己的实际修行相结合。我们应该首先成为一个修行人，在此基础上再去闻思浩如烟海的经论，这才是比较合理的。</code></p>
+<p>如果一个人今生无有邪见、诚信因果，细致取舍善恶、如理行持，则生生世世会受益不尽：此人连微小的恶业也谨慎不造，微小的善法也欢喜行持；对戒律极为重视，哪怕一分居士戒或一天的八关斋戒也认真守持；恒时欢喜出家；具有视上师为真佛的清净心，恒时恭敬、欢喜善知识；懂得仅闻一句佛法也有巨大意义，因此喜欢闻法；诸天龙鬼神也欢喜赞叹此人；经常生于正法兴盛、善友云聚的环境；暂时转生于天界获得圆满的增上生；究竟往生清净刹土获得决定胜；等等；有诸如此类的无量利益。</p>
+<p>佛学院有些人就是如此，可能是前世的良好串习所致，他们的相续中有稳固的正见，对上师有清净的信心，把一切都看作上师的游舞，非常喜欢听闻正法，不需要法师、管家督促，每天很自觉地去听课，甚至连一堂小辅导都不落下。当然，也有少数人恰恰相反，总是想办法躲避闻法，甚至为了躲避考试，每次考试都要往汉地跑。</p>
+<p><strong>因此，培养正见实在太重要了。如果一个人有正见，不管闻思佛法、受持戒律、行持善法还是弘扬佛法，什么事情都能做好，如果没有正见，不要说不能做到这些，甚至凡与之结缘者也会堕落恶趣。</strong></p>
+<p>其实，<strong>修行就是抓住两个要点</strong>：<code>一是清净的正见，二是随顺正见的正行</code>，<strong>只要具足了这两点，就能顺利获得解脱</strong>。以依止上师而言，就很需要清净的见解，否则是无法领悟上师的密意和游舞的。印度的那洛巴尊者就有这方面的教训。一次，那洛巴去寻找上师帝洛巴。当他走到一处狭窄小路时，见到一位无手无脚的麻风女子挡住了去路，那洛巴说：“别挡在路上！赶快让开！”麻风女说：“我没办法动。要是你不急，就请绕过去；要是你急，就从我身上跳过去。”那洛巴掩着鼻子，厌恶地从她身上跳过去了。这时，出现了奇异的一幕：麻风女升入空中，四周放出虹光，唱了一首金刚歌：“谛听！在究竟真理中，一切净与不净都是平等的。如果你不明白一切都是上师的化现，又怎么能找到上师呢？”唱完她就消失了。那洛巴懊悔得晕倒在地上。醒来时他想：我没认出这就是上师，从现在开始，我要把见到的任何人当作上师。他这样发愿后又踏上了旅程。在接下来的路上，那洛巴又遇到一只身体腐烂、浑身发出恶臭的母狗，他屏气跨过母狗。结果母狗又升入空中，身体放出虹光，说道：“一切众生都是自己的父母，如果你没有培养大悲心，又怎么可能找到上师呢？”言迄母狗就消失了。那洛巴知道这是上师的化现，再度昏倒在地。</p>
+<p>可见，<strong>如果有清净的见解，遇到任何众生都能成为修行的助缘</strong>，如果没有清净的见解，即便是普贤王如来化现的善知识，在你眼里也只是低劣的众生。以前，<code>外道饮光能圆由于心不清净，在他的眼里，相好庄严的世尊也成了具有十八种丑相的人</code>。可见，人的内心清净与否是最关键的。如果自己的心清净，眼前就是灿烂美丽的景象，如果自己的心污浊，眼前就会呈现另一幅景象。当我们心情不好时，见到好人都觉得是坏人，而心情愉悦时，见到的每个人都觉得是好人。从根本上讲，外在的显现完全取决于内心，因此大家一定要努力调伏自己的心。</p>
+<p>总而言之，如果有了正确的见解，就可以获得一切暂时和究竟的安乐。如经云：“业及业异熟，诚信此二者，受持正见者，彼士转善趣。”世间的一切都是业的幻化，如果对业及业的成熟之理（即善恶业会感召相应的苦乐果报）诚信不疑，那么这种受持正见者暂时将转生善趣，生生世世不离善知识和正见，究竟将往生极乐世界等清净刹土。</p>
+<p>末法时代，众生的见解十分低劣，这就是所谓五浊恶世19中的见浊。在往昔初劫的时候，人们的素质普遍很高，烦恼非常微薄，都能诚信因果。可是在如今的浊世，人们的素质普遍很差，贪嗔痴样样具足，信心、悲心、智慧则很难生起，即使偶尔生起也非常微弱。有时候看起来，现在这个时代实在是太污浊了。幸运的是，依靠上师三宝的加持，现在我们有这么好的学佛机会，此时一定要尽最大的努力远离邪见、树立正见，否则，以邪见还会在轮回中感受无量的痛苦。</p>
+<p>以上讲完了十不善业中的意不善业，了知这些道理之后，对于自己往昔生起、让别人生起以及随喜他人生起贪心、害心、邪见的恶业，应该在阿弥陀佛及其眷属面前痛自发露忏悔，并发誓以后再也不造这些恶业。</p>
+<p>十不善业的道理对于想往生净土的人非常重要。令人欣慰的是，现在不仅净土班的学员在学习这些道理，有些加行班和闻思班的学员也在学习。我觉得这非常有必要。我们不能好高骛远，如果口中说得很高，每天大谈禅宗和密宗的境界，实际上连基本的因果正见都没有，天天生烦恼、造恶业，这种人是很可笑的，不要说获得解脱，他们死后肯定会堕入恶趣。如果有了取舍因果的基础，再进入更高的修行境界，这才是比较稳妥的，别人看起来也不会觉得很可笑。在这个世界上，每个人都想远离痛苦、拥有快乐，既然如此，我们就应该好好考虑了：自己的见解如何？行为如何？这样的见解和行为会导致什么后果？这样反复考虑后，有头脑的人就会明白以后应该怎样做了。</p>
+<p>19五浊：劫浊、见浊、烦恼浊、众生浊、命浊。</p>
+
+		</div>
+
+
+
+
+
+
+	 
+	<div class="chevrons">
+		<a class="next" href="/4yg/11/" title="11护生" style="margin-right: 0px;">
+            <div>
+                <p>Next page</p>
+                <label>11护生</label>
+            </div>
+            <i class="fas fa-arrow-right" style="font-size: 1.7em"></i></a>
+	</div>
+	
+	
+
+      </section>
+
+      
+      
+      <section class="right-menu ">
+      
+	
+
+		
+	
+			
+		
+	    	
+	  	
+	<div class="TableOfContents">
+    <label><i class="fas fa-align-right"></i>&nbsp;&nbsp;What&#39;s on this page</label>
+    <nav>
+        <ul >
+            <li><a href="/4yg/10/">10邪见</a></li>
+        </ul>
+    </nav>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#因果不虚10邪见">因果不虚10邪见</a>
+      <ul>
+        <li><a href="#定义">定义</a>
+          <ul>
+            <li><a href="#基">基</a></li>
+            <li><a href="#发心">发心</a></li>
+            <li><a href="#加行--谤因果作用有事">加行&ndash;谤因、果、作用、有事</a></li>
+            <li><a href="#究竟">究竟</a>
+              <ul>
+                <li><a href="#一有愚昧心">(一)有愚昧心</a></li>
+                <li><a href="#二有暴酷心--欢喜心">(二)有暴酷心&ndash;欢喜心</a></li>
+                <li><a href="#三有越流行心--习惯">(三)有越流行心&ndash;习惯</a></li>
+                <li><a href="#四有失坏心--诽谤">(四)有失坏心&ndash;诽谤</a></li>
+                <li><a href="#五有覆蔽心--不感觉羞耻">(五)有覆蔽心&ndash;不感觉羞耻</a></li>
+              </ul>
+            </li>
+            <li><a href="#分类">分类</a></li>
+          </ul>
+        </li>
+        <li><a href="#果报">果报</a>
+          <ul>
+            <li><a href="#异熟果">异熟果</a></li>
+            <li><a href="#等流果">等流果</a></li>
+            <li><a href="#增上果">增上果</a></li>
+            <li><a href="#士用果">士用果</a></li>
+            <li><a href="#其他过患">其他过患</a>
+              <ul>
+                <li><a href="#净障修法文">净障修法文</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#公案">公案</a>
+          <ul>
+            <li><a href="#百业经">百业经</a></li>
+            <li><a href="#因果明镜论">因果明镜论</a>
+              <ul>
+                <li><a href="#邪见者欲以只掌遮中天之朗日岂知真理之光常存不灭照耀古今">邪见者欲以只掌遮中天之朗日，岂知真理之光常存不灭，照耀古今</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#观修思路">观修思路</a>
+      <ul>
+        <li><a href="#前提条件">前提条件</a></li>
+        <li><a href="#三个思维方式">三个思维方式</a>
+          <ul>
+            <li><a href="#第一阶段">第一阶段</a></li>
+            <li><a href="#第二阶段---思考果报">第二阶段 - 思考果报</a></li>
+            <li><a href="#第三阶段">第三阶段</a></li>
+          </ul>
+        </li>
+        <li><a href="#两个观修结果">两个观修结果</a>
+          <ul>
+            <li><a href="#净障修法文-1">净障修法文</a></li>
+            <li><a href="#因果的奥秘--同行等流果">因果的奥秘&ndash;同行等流果</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#参考资料">参考资料</a></li>
+    <li><a href="#大圆满前行">大圆满前行</a></li>
+    <li><a href="#前行广释">前行广释</a>
+      <ul>
+        <li><a href="#前行广释第64节课">前行广释第64节课</a>
+          <ul>
+            <li><a href="#己三邪见">己三（邪见）</a></li>
+            <li><a href="#杀生和邪见最为严重">杀生和邪见最为严重</a></li>
+          </ul>
+        </li>
+        <li><a href="#前行广释第66课">前行广释第66课</a>
+          <ul>
+            <li><a href="#庚二感受等流果">庚二、感受等流果</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#前行广释生西法师辅导">前行广释生西法师辅导</a>
+      <ul>
+        <li><a href="#前行广释第64课辅导资料">《前行广释》第64课辅导资料</a>
+          <ul>
+            <li><a href="#己三邪见-1">己三（邪见）</a></li>
+            <li><a href="#杀生和邪见这两种罪业最为严重">杀生和邪见这两种罪业最为严重</a></li>
+          </ul>
+        </li>
+        <li><a href="#前行广释第66课辅导资料">《前行广释》第66课辅导资料</a></li>
+        <li><a href="#前行广释第67课辅导资料">《前行广释》第67课辅导资料</a>
+          <ul>
+            <li><a href="#己三增上果">己三、增上果</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#前行系列3讲记-益西彭措堪布">前行系列3讲记-益西彭措堪布</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#3邪见">（3）邪见</a>
+              <ul>
+                <li><a href="#1略说">1）略说</a></li>
+                <li><a href="#2广说">2）广说</a>
+                  <ul>
+                    <li><a href="#二邪见">（二）邪见</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#二果相">（二）果相</a>
+              <ul>
+                <li>
+                  <ul>
+                    <li><a href="#j邪见">J邪见</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#3增上果">（3）增上果</a>
+              <ul>
+                <li><a href="#1总体认识">1）总体认识</a></li>
+                <li><a href="#2分别认识">2）分别认识</a>
+                  <ul>
+                    <li><a href="#邪见">⑩邪见</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#4士用果">（4）士用果</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#大圆满心性休息大车疏">大圆满心性休息大车疏</a></li>
+    <li><a href="#因果的奥秘">因果的奥秘</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#庚三邪见">庚三、邪见</a>
+              <ul>
+                <li><a href="#辛二何为邪见">辛二、何为邪见</a></li>
+                <li><a href="#己四摄义">己四、摄义</a></li>
+              </ul>
+            </li>
+            <li><a href="#等流果-1">等流果</a></li>
+            <li><a href="#己三增上果-1">己三、增上果</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#因果明镜论-1">因果明镜论</a>
+      <ul>
+        <li>
+          <ul>
+            <li>
+              <ul>
+                <li><a href="#十-邪见">十 邪见</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#第三章-世间果报">第三章 世间果报</a>
+          <ul>
+            <li><a href="#第四节-分说十恶业的果报">第四节 分说十恶业的果报</a>
+              <ul>
+                <li><a href="#十-邪见-1">十 邪见</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#净障修法文-2">净障修法文</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#十三忏悔邪见罪">(十三)忏悔邪见罪</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#正法念处经讲记-益西彭措堪布">正法念处经讲记-益西彭措堪布</a>
+      <ul>
+        <li>
+          <ul>
+            <li>
+              <ul>
+                <li><a href="#何为邪见">何为邪见</a></li>
+                <li><a href="#邪见果报">邪见果报</a></li>
+                <li><a href="#邪见之因">邪见之因</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#百业经-1">百业经</a></li>
+    <li><a href="#贤愚经">贤愚经</a></li>
+    <li><a href="#佛为娑伽罗龙王所说大乘经讲记">佛为娑伽罗龙王所说大乘经讲记</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#邪见的果报--一者邪见二者懈怠">邪见的果报&ndash;一者邪见，二者懈怠</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#藏传净土法">藏传净土法</a></li>
+    <li><a href="#第六十三课">第六十三课</a>
+      <ul>
+        <li>
+          <ul>
+            <li>
+              <ul>
+                <li><a href="#若能远离恶知识亦能远离诸邪见">若能远离恶知识，亦能远离诸邪见</a></li>
+                <li><a href="#佛陀也无法度化的老仆女">佛陀也无法度化的老仆女</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#第六十四课">第六十四课</a></li>
+  </ul>
+</nav>
+</div>
+
+		
+	
+			
+		
+	    	
+	  	
+	<div class="Actions">
+	<nav>
+		<ul>
+				
+		    
+		    
+			
+		      <li>
+		          <i class='fas fa-calendar'></i>
+		          Last update on 14 December 2020
+		      </li>
+		    
+		    
+
+    	</ul>
+	</nav>
+    
+</div>
+
+      </section>
+      
+    </article>
+    
+    
+    <footer>
+      
+
+		
+	
+			
+		
+	    	<h6 id="圆航的禅修班笔记-仅供个人参考-请勿转发-如有错漏-请联系huidengvangmailcom">圆航的禅修班笔记📒 仅供个人参考 请勿转发 如有错漏 请联系huidengvan@gmail.com</h6>
+
+	    
+	
+    </footer>
+    
+
+
+
+  </body>
+</html>

@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
-    <link>https://red-pond-0d1512e1e.azurestaticapps.net/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <title>Tags on 圆航的禅修班笔记(仅供参考请勿转发)</title>
+    <link>https://bj.cxb123.cc/tags/</link>
+    <description>Recent content in Tags on 圆航的禅修班笔记(仅供参考请勿转发)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 14 Dec 2020 17:26:13 -0800</lastBuildDate><atom:link href="https://bj.cxb123.cc/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>四加行</title>
+      <link>https://bj.cxb123.cc/tags/%E5%9B%9B%E5%8A%A0%E8%A1%8C/</link>
+      <pubDate>Mon, 14 Dec 2020 17:26:13 -0800</pubDate>
+      
+      <guid>https://bj.cxb123.cc/tags/%E5%9B%9B%E5%8A%A0%E8%A1%8C/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="https://red-pond-0d1512e1e.azurestaticapps.net/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>因果不虚</title>
+      <link>https://bj.cxb123.cc/tags/%E5%9B%A0%E6%9E%9C%E4%B8%8D%E8%99%9A/</link>
+      <pubDate>Mon, 14 Dec 2020 17:26:13 -0800</pubDate>
+      
+      <guid>https://bj.cxb123.cc/tags/%E5%9B%A0%E6%9E%9C%E4%B8%8D%E8%99%9A/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

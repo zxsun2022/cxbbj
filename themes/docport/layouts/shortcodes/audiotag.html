@@ -1,12 +1,12 @@
 
 <div>
-<audio controls id="myaudio-{{.Get "id"}}" crossorigin="anonymous">
+<audio controls id="myaudio-{{.Get "id"}}" style="width: 100%;">
             
-    <source src='{{.Get "url"}}' type="audio/mpeg">
+    <source src='{{.Get "url"}}' type="audio/mpeg" crossorigin="anonymous" preload="auto">
     Your browser does not support the audio tag.
   </audio>
   <div>
-  <a href="#" onclick="vid = document.getElementById('myaudio-{{.Get "id"}}');vid.currentTime = {{.Get "playpos"}};vid.play();" >{{.Get "title"}}</a>
+  <a onclick="vid = document.getElementById('myaudio-{{.Get "id"}}');vid.currentTime = {{.Get "playpos"}};vid.play();" >{{.Get "title"}}</a>
 </div>
 </div>
   

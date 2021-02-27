@@ -31,3 +31,14 @@ weight = 30
     ordered = false
     startLevel = 1
   
+[server]
+
+  [[server.headers]]
+    for = "/**.html"
+    [server.headers.values]
+      Content-Security-Policy = "script-src localhost:1313"
+      Referrer-Policy = "unsafe-url"
+      Access-Control-Allow-Origin = "*"
+      X-Content-Type-Options = "nosniff"
+      X-Frame-Options = "DENY"
+      X-XSS-Protection = "1; mode=block"
