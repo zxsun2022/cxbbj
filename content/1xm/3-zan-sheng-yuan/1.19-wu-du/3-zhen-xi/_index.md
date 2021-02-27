@@ -35,6 +35,8 @@ title: "3珍惜"
 
 # 一生修行的重点和归宿
 
+{{< audiotag id="id1" url="https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs01.mp3" title="一生修行的重点和归宿" playpos="1" >}}
+
 ### 第一讲　总说一生修行的重点是前行
 
 这一生的时间很短暂，而且每个人都有自身具体的因缘，所以一定要抓住最要紧的事。在修行当中以前行最主要，这是就现阶段而言。当然，如果你前行修得好，就应当趣入正行。
