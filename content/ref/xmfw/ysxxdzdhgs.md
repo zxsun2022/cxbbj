@@ -6,10 +6,6 @@ draft: false
 
 益西彭措堪布 译讲
 
-{{< audiotag id="id1" url="https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs01.mp3" title="一生修行的重点和归宿01" playpos="1" >}}
-
-{{< audiotag id="id1" url="https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs01.mp3" title="一生修行的重点和归宿01" playpos="1" >}}
-
 {{< audiotag id="id01" url="https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs01.mp3" title="一生修行的重点和归宿01" playpos="1" >}}
 
 {{< audiotag id="id02" url="https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs02.mp3" title="一生修行的重点和归宿02" playpos="1" >}}
