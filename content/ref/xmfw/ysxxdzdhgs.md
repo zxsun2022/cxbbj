@@ -6,6 +6,34 @@ draft: false
 
 益西彭措堪布 译讲
 
+{{< audiotag id="id1" url="https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs01.mp3" title="一生修行的重点和归宿01" playpos="1" >}}
+
+{{< audiotag id="id1" url="https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs01.mp3" title="一生修行的重点和归宿01" playpos="1" >}}
+
+{{< audiotag id="id01" url="https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs01.mp3" title="一生修行的重点和归宿01" playpos="1" >}}
+
+{{< audiotag id="id02" url="https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs02.mp3" title="一生修行的重点和归宿02" playpos="1" >}}
+
+{{< audiotag id="id03" url="https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs03.mp3" title="一生修行的重点和归宿03" playpos="1" >}}
+
+{{< audiotag id="id04" url="https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs04.mp3" title="一生修行的重点和归宿04" playpos="1" >}}
+
+{{< audiotag id="id05" url="https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs05.mp3" title="一生修行的重点和归宿05" playpos="1" >}}
+
+{{< audiotag id="id06" url="https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs06.mp3" title="一生修行的重点和归宿06" playpos="1" >}}
+
+{{< audiotag id="id07" url="https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs07.mp3" title="一生修行的重点和归宿07" playpos="1" >}}
+
+{{< audiotag id="id08" url="https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs08.mp3" title="一生修行的重点和归宿08" playpos="1" >}}
+
+{{< audiotag id="id09" url="https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs09.mp3" title="一生修行的重点和归宿09" playpos="1" >}}
+
+{{< audiotag id="id10" url="https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs10.mp3" title="一生修行的重点和归宿10" playpos="1" >}}
+
+{{< audiotag id="id11" url="https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs11.mp3" title="一生修行的重点和归宿11" playpos="1" >}}
+
+{{< audiotag id="id12" url="https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs12.mp3" title="一生修行的重点和归宿12" playpos="1" >}}
+
 ### 第一讲　总说一生修行的重点是前行
 
 这一生的时间很短暂，而且每个人都有自身具体的因缘，所以一定要抓住最要紧的事。在修行当中以前行最主要，这是就现阶段而言。当然，如果你前行修得好，就应当趣入正行。
