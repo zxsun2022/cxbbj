@@ -1,363 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Markmap</title>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
-      #mindmap {
-        display: block;
-        width: 100vw;
-        height: 100vh;
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.1.5/dist/style.min.css"
-    />
-  </head>
-  <body>
-    <svg id="mindmap"></svg>
-    <script src="https://cdn.jsdelivr.net/npm/d3@6.6.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/markmap-view@0.2.3"></script>
-    <script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.1.5/dist/index.umd.min.js"></script>
-    <script>
-      ((r) => {
-        setTimeout(r);
-      })(() => {
-        const { markmap, mm } = window;
-        const toolbar = new markmap.Toolbar();
-        toolbar.attach(mm);
-        const el = toolbar.render();
-        el.setAttribute("style", "position:absolute;bottom:20px;right:20px");
-        document.body.append(el);
-      });
-    </script>
-    <script>
-      ((getMarkmap, getOptions, data) => {
-        const { Markmap } = getMarkmap();
-        window.mm = Markmap.create(
-          "svg#mindmap",
-          getOptions == null ? void 0 : getOptions(),
-          data
-        );
-      })(() => window.markmap, null, {
-        t: "root",
-        d: 0,
-        v: "",
-        c: [
-          {
-            t: "heading",
-            d: 1,
-            p: { lines: [0, 1] },
-            v: "定义",
-            c: [
-              {
-                t: "bullet_list",
-                d: 2,
-                p: { lines: [2, 4] },
-                v: "",
-                c: [
-                  {
-                    t: "list_item",
-                    d: 3,
-                    p: { lines: [2, 3] },
-                    v: "不但不盗取，而且行持布施",
-                  },
-                ],
-              },
-              {
-                t: "heading",
-                d: 2,
-                p: { lines: [4, 5] },
-                v: "思维什么是一般的十善，什么是殊胜的十善",
-                c: [
-                  {
-                    t: "heading",
-                    d: 3,
-                    p: { lines: [9, 10] },
-                    v: "没有造罪",
-                    c: [
-                      {
-                        t: "list_item",
-                        d: 5,
-                        p: { lines: [11, 12] },
-                        v: "没有杀生但没有发心的话不是善，只是没有造罪而已",
-                      },
-                    ],
-                  },
-                  {
-                    t: "heading",
-                    d: 3,
-                    p: { lines: [13, 14] },
-                    v: "十善业的善",
-                    c: [
-                      {
-                        t: "bullet_list",
-                        d: 4,
-                        p: { lines: [15, 17] },
-                        v: "",
-                        c: [
-                          {
-                            t: "list_item",
-                            d: 5,
-                            p: { lines: [15, 16] },
-                            v: "十善业的善是有发心，有决心不杀生，这才叫做善",
-                          },
-                        ],
-                      },
-                      {
-                        t: "heading",
-                        d: 4,
-                        p: { lines: [17, 18] },
-                        v: "一般的善",
-                        c: [
-                          {
-                            t: "list_item",
-                            d: 6,
-                            p: { lines: [19, 20] },
-                            v:
-                              "一般的善是发心不杀生，特别的善除了不杀生，还发心去放生",
-                          },
-                        ],
-                      },
-                      {
-                        t: "heading",
-                        d: 4,
-                        p: { lines: [21, 22] },
-                        v: "特别的善",
-                        c: [
-                          {
-                            t: "list_item",
-                            d: 6,
-                            p: { lines: [23, 25] },
-                            v:
-                              "特别的善除了不偷盗，还布施给予<br>\n特别的善除了不邪淫，还守戒",
-                          },
-                        ],
-                      },
-                    ],
-                  },
-                ],
-              },
-            ],
-          },
-          {
-            t: "heading",
-            d: 1,
-            p: { lines: [26, 27] },
-            v: "再思考善的果报",
-            c: [
-              {
-                t: "heading",
-                d: 2,
-                p: { lines: [28, 29] },
-                v: "四种果报",
-                c: [
-                  {
-                    t: "heading",
-                    d: 3,
-                    p: { lines: [30, 31] },
-                    v: "异熟果",
-                    c: [
-                      {
-                        t: "list_item",
-                        d: 5,
-                        p: { lines: [32, 33] },
-                        v: "10 命终之后得生天界",
-                      },
-                      {
-                        t: "list_item",
-                        d: 5,
-                        p: { lines: [33, 37] },
-                        v:
-                          "龙主，士夫补特伽罗，远离偷盗，获得如是十依止法。<br>\n以彼善根，于诸佛法，自能证知，<strong>当得无上正等正觉</strong><br>\n如果以大乘菩提心摄持，将这个善根回向给一切众生，愿他们获得佛果，<br>\n那么这个人就会逐渐在修学佛法的过程中远离一切烦恼，得到清净的智慧，最终获得无上正等正觉的果位",
-                      },
-                    ],
-                  },
-                  {
-                    t: "heading",
-                    d: 3,
-                    p: { lines: [38, 39] },
-                    v: "等流果",
-                    c: [
-                      {
-                        t: "list_item",
-                        d: 5,
-                        p: { lines: [40, 41] },
-                        v: "同行等流果",
-                      },
-                      {
-                        t: "list_item",
-                        d: 5,
-                        p: { lines: [41, 42] },
-                        v: "感受等流果",
-                      },
-                      {
-                        t: "list_item",
-                        d: 5,
-                        p: { lines: [42, 43] },
-                        v: "不偷盗的功德",
-                        c: [
-                          {
-                            t: "list_item",
-                            d: 7,
-                            p: { lines: [43, 52] },
-                            v:
-                              "1 得大富自在，得免王难，得免水、火、贼盗、冤家之难<br>\n2 得多眷属，善顺和睦<br>\n3 得多人爱乐，不相苦恼<br>\n4 凡所言说，一切谛信<br>\n5 得无量财宝皆悉集聚（不会遭受任何损失）<br>\n6 得此方他方一切称赞，于一切行处无怖无畏（演讲、发言不会胆怯）<br>\n7 得他称善名，赞于智慧（智慧方面会受到肯定和赞叹）<br>\n8 又得色力、寿命，辞辩相应（相貌庄严，气力充足，寿命很长，辩才很强，非常快乐）<br>\n9 于亲非亲，心无分别，不生恼害（对亲人和非亲人不会有任何分别心及恼害之心）",
-                          },
-                        ],
-                      },
-                    ],
-                  },
-                  {
-                    t: "heading",
-                    d: 3,
-                    p: { lines: [53, 54] },
-                    v: "增上果",
-                    c: [
-                      {
-                        t: "list_item",
-                        d: 5,
-                        p: { lines: [55, 56] },
-                        v: "成熟于环境的果分",
-                      },
-                      {
-                        t: "list_item",
-                        d: 5,
-                        p: { lines: [56, 57] },
-                        v:
-                          "断除不与取者转生于饮食容易消化且具美味、药具强力之境；",
-                      },
-                      {
-                        t: "list_item",
-                        d: 5,
-                        p: { lines: [57, 58] },
-                        v: "物产丰富，庄稼丰收；",
-                      },
-                      {
-                        t: "list_item",
-                        d: 5,
-                        p: { lines: [58, 59] },
-                        v: "果实累累，又大又好，不容易变坏；",
-                      },
-                      {
-                        t: "list_item",
-                        d: 5,
-                        p: { lines: [59, 60] },
-                        v: "从来不缺食物等等",
-                      },
-                    ],
-                  },
-                  { t: "heading", d: 3, p: { lines: [61, 62] }, v: "士用果" },
-                ],
-              },
-              {
-                t: "heading",
-                d: 2,
-                p: { lines: [63, 64] },
-                v: "公案",
-                c: [
-                  {
-                    t: "heading",
-                    d: 3,
-                    p: { lines: [65, 66] },
-                    v: "贤愚经",
-                    c: [
-                      {
-                        t: "list_item",
-                        d: 5,
-                        p: { lines: [67, 81] },
-                        v:
-                          "贤愚经白话：金财因缘品第九<br>\n贤愚经白话：华天因缘品第十<br>\n贤愚经白话：慈力王血施缘品第十三<br>\n贤愚经白话：贫人夫妇氎施得现报缘品第二十一<br>\n贤愚经白话：锯陀身施缘品第十五<br>\n贤愚经白话：金天缘品第二十三<br>\n贤愚经白话：月光王头施缘品第二十六<br>\n贤愚经白话：七瓶金施缘品第三十六<br>\n贤愚经白话：梵志施佛纳衣得授记缘品第六十二<br>\n贤愚经白话：波婆梨缘品第五十七<br>\n贤愚经白话：顶生王缘品第六十四<br>\n贤愚经白话：阿输迦施土缘品第三十五<br>\n贤愚经白话：贫女难陀品第五十三<br>\n贤愚经白话：象护缘品第五十六",
-                      },
-                    ],
-                  },
-                  {
-                    t: "heading",
-                    d: 3,
-                    p: { lines: [82, 83] },
-                    v: "白莲花论 - 释迦牟尼佛广传",
-                    c: [
-                      {
-                        t: "list_item",
-                        d: 5,
-                        p: { lines: [84, 109] },
-                        v:
-                          "一 功德品<br>\n三 布施品<br>\n大悲尊者太子以身饲虎<br>\n月光大国王布施头颅<br>\n大布施取宝利众<br>\n善义太子为众取宝<br>\n慈力王布施血肉<br>\n义成王子广行布施<br>\n普度王子行布施<br>\n福力王有大福德<br>\n胜者王求福德<br>\n吉祥部国王布施身体<br>\n金色国王布施口粮<br>\n西吾国王舍身护鸽<br>\n王子施药<br>\n大象舍身救人<br>\n梵施国王舍弃口粮<br>\n极难行之种种布施<br>\n月兔由来<br>\n无有皮肤 仍要利众<br>\n经中所说无量布施之举<br>\n人药王子<br>\n代人受刑<br>\n兽王善行<br>\n商主善举",
-                      },
-                    ],
-                  },
-                ],
-              },
-            ],
-          },
-          {
-            t: "heading",
-            d: 1,
-            p: { lines: [110, 111] },
-            v: "两个结论",
-            c: [
-              {
-                t: "bullet_list",
-                d: 2,
-                p: { lines: [112, 119] },
-                v: "",
-                c: [
-                  {
-                    t: "list_item",
-                    d: 3,
-                    p: { lines: [112, 113] },
-                    v: "<strong>相信因果</strong>：坚定不移的相信善有善报",
-                  },
-                  {
-                    t: "list_item",
-                    d: 3,
-                    p: { lines: [113, 118] },
-                    v:
-                      "<strong>消归自心</strong>：<br>\n观察自己过去或现在有没有去做这个善业，<br>\n没有的话要去做，有机会，有能力的话以后就一定要去做。<br>\n有过要继续，随喜，更加精进。不能忽略任何一个机会，<br>\n做的不够就要努力，做的不错就要好好回向",
-                  },
-                ],
-              },
-              {
-                t: "heading",
-                d: 2,
-                p: { lines: [119, 120] },
-                v: "极其殊胜之八大发愿",
-                c: [
-                  {
-                    t: "list_item",
-                    d: 4,
-                    p: { lines: [121, 124] },
-                    v:
-                      "索上师说：这个发心非常大！我们平时应专门抄在笔记本上，<br>\n或者写在自己能看得见的墙上。有些现在可能难以做到，但慢慢地，<br>\n哪怕经常发里面的一个愿，也有无量的功德。",
-                  },
-                  {
-                    t: "list_item",
-                    d: 4,
-                    p: { lines: [125, 137] },
-                    v:
-                      "但愿我有朝一日，能遣除一切众生的痛苦；<br>\n但愿我有朝一日，能令苦难众生具有大财富，不管是精神财富、还是物<br>\n质财富，只要有苦难众生，我都能赐予他们这些；<br>\n但愿我有朝一日，能像佛陀在因地时那样，以自己的血肉之躯利益众生<br>\n但愿我有朝一日，能饶益长久堕于地狱中的众生；<br>\n但愿我有朝一日，能以世间、出世间的广大财富，满足众生希求；<br>\n但愿我有朝一日，成佛后，定能去除众生身心的一切痛苦；<br>\n但愿我生生世世中，断除一切损害众生之行，不唯住胜义之一味寂灭，<br>\n不言令众生不悦之语，不行不利他众之事，不转成有害于众生的身体、<br>\n智者、富翁，不喜损害他众；<br>\n但愿我有朝一日，能令一切众生罪业果报成熟于自身，自之善果成熟于<br>\n众生令彼等享乐。",
-                  },
-                  {
-                    t: "list_item",
-                    d: 4,
-                    p: { lines: [138, 142] },
-                    v:
-                      "发八大愿有何功德<br>\n让我的能力尽快成熟，具足<br>\n经常这样发愿，本身就是增上慈悲心和菩提心的修法<br>\n是最好积资净障的方法，又能圆满资粮，又能清净业障的最好方法",
-                  },
-                ],
-              },
-            ],
-          },
-        ],
-        p: {},
-      });
-    </script>
-  </body>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.1.5/dist/style.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.6.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.2.3"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.1.5/dist/index.umd.min.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, data) => {
+        const {
+          Markmap
+        } = getMarkmap();
+        window.mm = Markmap.create('svg#mindmap', getOptions == null ? void 0 : getOptions(), data);
+      })(() => window.markmap,null,{"t":"root","d":0,"v":"","c":[{"t":"heading","d":1,"p":{"lines":[0,1]},"v":"定义","c":[{"t":"bullet_list","d":2,"p":{"lines":[2,4]},"v":"","c":[{"t":"list_item","d":3,"p":{"lines":[2,3]},"v":"不但不做不与取，而且行持布施"}]},{"t":"heading","d":2,"p":{"lines":[4,5]},"v":"思维什么是一般的十善，什么是殊胜的十善","c":[{"t":"heading","d":3,"p":{"lines":[9,10]},"v":"没有造罪","c":[{"t":"list_item","d":5,"p":{"lines":[11,12]},"v":"没有不与取但没有发心的话不是善，只是没有造罪而已"}]},{"t":"heading","d":3,"p":{"lines":[13,14]},"v":"十善业的善","c":[{"t":"bullet_list","d":4,"p":{"lines":[15,17]},"v":"","c":[{"t":"list_item","d":5,"p":{"lines":[15,16]},"v":"十善业的善是有发心，有决心不杀生，这才叫做善"}]},{"t":"heading","d":4,"p":{"lines":[17,18]},"v":"一般的善","c":[{"t":"list_item","d":6,"p":{"lines":[19,20]},"v":"一般的善是发心不杀生，特别的善除了不杀生，还发心去放生"}]},{"t":"heading","d":4,"p":{"lines":[21,22]},"v":"特别的善","c":[{"t":"list_item","d":6,"p":{"lines":[23,24]},"v":"特别的善除了不偷盗，还布施给予"}]}]}]}]},{"t":"heading","d":1,"p":{"lines":[25,26]},"v":"再思考善的果报","c":[{"t":"heading","d":2,"p":{"lines":[27,28]},"v":"四种果报","c":[{"t":"heading","d":3,"p":{"lines":[29,30]},"v":"异熟果","c":[{"t":"list_item","d":5,"p":{"lines":[31,32]},"v":"10 命终之后得生天界"},{"t":"list_item","d":5,"p":{"lines":[32,36]},"v":"龙主，士夫补特伽罗，远离偷盗，获得如是十依止法。<br>\n以彼善根，于诸佛法，自能证知，<strong>当得无上正等正觉</strong><br>\n如果以大乘菩提心摄持，将这个善根回向给一切众生，愿他们获得佛果，<br>\n那么这个人就会逐渐在修学佛法的过程中远离一切烦恼，得到清净的智慧，最终获得无上正等正觉的果位"}]},{"t":"heading","d":3,"p":{"lines":[37,38]},"v":"等流果","c":[{"t":"list_item","d":5,"p":{"lines":[39,40]},"v":"同行等流果"},{"t":"list_item","d":5,"p":{"lines":[40,41]},"v":"感受等流果","c":[{"t":"list_item","d":7,"p":{"lines":[41,42]},"v":"不偷盗的功德","c":[{"t":"list_item","d":9,"p":{"lines":[42,51]},"v":"1 得大富自在，得免王难，得免水、火、贼盗、冤家之难<br>\n2 得多眷属，善顺和睦<br>\n3 得多人爱乐，不相苦恼<br>\n4 凡所言说，一切谛信<br>\n5 得无量财宝皆悉集聚（不会遭受任何损失）<br>\n6 得此方他方一切称赞，于一切行处无怖无畏（演讲、发言不会胆怯）<br>\n7 得他称善名，赞于智慧（智慧方面会受到肯定和赞叹）<br>\n8 又得色力、寿命，辞辩相应（相貌庄严，气力充足，寿命很长，辩才很强，非常快乐）<br>\n9 于亲非亲，心无分别，不生恼害（对亲人和非亲人不会有任何分别心及恼害之心）"}]}]}]},{"t":"heading","d":3,"p":{"lines":[52,53]},"v":"增上果(成熟于环境)","c":[{"t":"list_item","d":5,"p":{"lines":[54,55]},"v":"断除不与取者转生于饮食容易消化且具美味、药具强力之境；"},{"t":"list_item","d":5,"p":{"lines":[55,56]},"v":"物产丰富，庄稼丰收；"},{"t":"list_item","d":5,"p":{"lines":[56,57]},"v":"果实累累，又大又好，不容易变坏；"},{"t":"list_item","d":5,"p":{"lines":[57,58]},"v":"从来不缺食物等等"}]},{"t":"heading","d":3,"p":{"lines":[59,60]},"v":"士用果"}]},{"t":"heading","d":2,"p":{"lines":[61,62]},"v":"公案","c":[{"t":"heading","d":3,"p":{"lines":[63,64]},"v":"贤愚经","c":[{"t":"list_item","d":5,"p":{"lines":[65,79]},"v":"贤愚经白话：金财因缘品第九<br>\n贤愚经白话：华天因缘品第十<br>\n贤愚经白话：慈力王血施缘品第十三<br>\n贤愚经白话：贫人夫妇氎施得现报缘品第二十一<br>\n贤愚经白话：锯陀身施缘品第十五<br>\n贤愚经白话：金天缘品第二十三<br>\n贤愚经白话：月光王头施缘品第二十六<br>\n贤愚经白话：七瓶金施缘品第三十六<br>\n贤愚经白话：梵志施佛纳衣得授记缘品第六十二<br>\n贤愚经白话：波婆梨缘品第五十七<br>\n贤愚经白话：顶生王缘品第六十四<br>\n贤愚经白话：阿输迦施土缘品第三十五<br>\n贤愚经白话：贫女难陀品第五十三<br>\n贤愚经白话：象护缘品第五十六"}]},{"t":"heading","d":3,"p":{"lines":[80,81]},"v":"白莲花论 - 释迦牟尼佛广传","c":[{"t":"list_item","d":5,"p":{"lines":[82,107]},"v":"一 功德品<br>\n三 布施品<br>\n大悲尊者太子以身饲虎<br>\n月光大国王布施头颅<br>\n大布施取宝利众<br>\n善义太子为众取宝<br>\n慈力王布施血肉<br>\n义成王子广行布施<br>\n普度王子行布施<br>\n福力王有大福德<br>\n胜者王求福德<br>\n吉祥部国王布施身体<br>\n金色国王布施口粮<br>\n西吾国王舍身护鸽<br>\n王子施药<br>\n大象舍身救人<br>\n梵施国王舍弃口粮<br>\n极难行之种种布施<br>\n月兔由来<br>\n无有皮肤 仍要利众<br>\n经中所说无量布施之举<br>\n人药王子<br>\n代人受刑<br>\n兽王善行<br>\n商主善举"}]}]}]},{"t":"heading","d":1,"p":{"lines":[108,109]},"v":"两个结论","c":[{"t":"bullet_list","d":2,"p":{"lines":[110,117]},"v":"","c":[{"t":"list_item","d":3,"p":{"lines":[110,111]},"v":"<strong>相信因果</strong>：坚定不移的相信善有善报"},{"t":"list_item","d":3,"p":{"lines":[111,116]},"v":"<strong>消归自心</strong>：<br>\n观察自己过去或现在有没有去做这个善业，<br>\n没有的话要去做，有机会，有能力的话以后就一定要去做。<br>\n有过要继续，随喜，更加精进。不能忽略任何一个机会，<br>\n做的不够就要努力，做的不错就要好好回向"}]},{"t":"heading","d":2,"p":{"lines":[117,118]},"v":"极其殊胜之八大发愿","c":[{"t":"list_item","d":4,"p":{"lines":[119,131]},"v":"1 但愿我有朝一日，能遣除一切众生的痛苦；<br>\n2 但愿我有朝一日，能令苦难众生具有大财富，不管是精神财富、还是物质财富，<br>\n只要有苦难众生，我都能赐予他们这些；<br>\n3 但愿我有朝一日，能像佛陀在因地时那样，以自己的血肉之躯利益众生<br>\n4 但愿我有朝一日，能饶益长久堕于地狱中的众生；<br>\n5 但愿我有朝一日，能以世间、出世间的广大财富，满足众生希求；<br>\n6 但愿我有朝一日，成佛后，定能去除众生身心的一切痛苦；<br>\n7 但愿我生生世世中，断除一切损害众生之行，不唯住胜义之一味寂灭，<br>\n不言令众生不悦之语，不行不利他众之事，<br>\n不转成有害于众生的身体、智者、富翁，不喜损害他众；<br>\n8 但愿我有朝一日，能令一切众生罪业果报成熟于自身，<br>\n自之善果成熟于众生令彼等享乐。"},{"t":"list_item","d":4,"p":{"lines":[132,135]},"v":"索上师说：这个发心非常大！我们平时应专门抄在笔记本上，<br>\n或者写在自己能看得见的墙上。有些现在可能难以做到，但慢慢地，<br>\n哪怕经常发里面的一个愿，也有无量的功德。"},{"t":"list_item","d":4,"p":{"lines":[136,140]},"v":"发八大愿有何功德<br>\n让我的能力尽快成熟，具足<br>\n经常这样发愿，本身就是增上慈悲心和菩提心的修法<br>\n是最好积资净障的方法，又能圆满资粮，又能清净业障的最好方法"}]}]}],"p":{}})</script>
+</body>
 </html>
