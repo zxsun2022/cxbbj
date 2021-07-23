@@ -1,5 +1,5 @@
 ---
-title: "20 愚痴"
+title: "20愚痴(3h)"
 ---
 
 {{% children  %}}

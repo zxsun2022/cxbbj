@@ -1,5 +1,5 @@
 ---
-title: "22 懈怠"
+title: "22懈怠(3h)"
 ---
 
 {{% children  %}}
