@@ -1,0 +1,12 @@
+
+<div>
+<video  controls id="myvideo-{{.Get "id"}}" style="width: 100%;">
+            
+    <source src='{{.Get "url"}}' type="video/mp4" crossorigin="anonymous" preload="auto">
+    Your browser does not support the video tag.
+  </audio>
+  <div>
+    <a onclick="vid = document.getElementById('myvideo-{{.Get "id"}}');vid.src={{.Get "url"}};vid.currentTime = {{.Get "playpos"}};vid.play();" >{{.Get "title"}}</a>
+  </div>
+</div>
+  
