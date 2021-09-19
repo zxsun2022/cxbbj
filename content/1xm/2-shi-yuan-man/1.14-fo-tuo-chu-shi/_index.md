@@ -727,4 +727,4 @@ title: "14佛陀出世(3h)"
 # 扩展阅读
 
 
-![](https://raw.githubusercontent.com/huidengvan/pics/master/20210919124744.png)
+![](https://raw.githubusercontent.com/huidengvan/pics/master/20210919125315.png)
