@@ -719,3 +719,12 @@ title: "14佛陀出世(3h)"
 
 **虽得闲暇而乏真实法，虽入佛门而耽非法行，  
 我与如我愚痴诸有情，获得暇满实义祈加持。**
+
+
+
+---
+
+# 扩展阅读
+
+
+![](https://raw.githubusercontent.com/huidengvan/pics/master/%E4%BD%9B%E9%99%80%E5%87%BA%E4%B8%962.png)
