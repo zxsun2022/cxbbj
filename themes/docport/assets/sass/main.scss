@@ -315,9 +315,7 @@ article section.page {
             opacity: 0.95;
         }
     }
-            
-            
-
+    
 
     div.chevrons {
         margin-top: 3rem;
@@ -366,6 +364,7 @@ article section.page {
         
     }
 }
+
 article section.page {
      line-height:1.6em;
 
@@ -390,6 +389,7 @@ article section.page {
         }
     }
 }
+
 article section.page div.content{
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -480,8 +480,6 @@ article section.page div.content{
         border-spacing: 0;
         border: 1px solid #e6e6e6;
 
-
-
         th,
         td {
             padding: .25rem .75rem
@@ -568,6 +566,16 @@ article section.page div.content{
             margin-left:-1.5rem;
             margin-right:-1.5rem;
         }
+    }
+
+    code {
+        color:inherit!important;
+        font-size: 100%;
+        border: 1px solid #e7e9ed;
+        border-radius: 0.25rem;
+        border: 1px solid #ddd6c1;                
+        padding: 0 0.125rem;
+        background-color: #f4e4c1;
     }
 }
 
