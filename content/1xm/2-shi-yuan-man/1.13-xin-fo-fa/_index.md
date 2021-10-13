@@ -281,6 +281,28 @@ title: "13信佛法(3h)"
 
 如上所示总的修习十圆满的要点，仍然需要分为座上、座间，并按照思维和止住轮番的方式来具体修持。
 
+## 扩展阅读
+
+### 1927年第五屆索爾維會議(Solvay Conference)
+
+索爾維國際物理學化學研究會（Institut International de Physique Solvay）是由比利時企業家歐內斯特·索爾維於1912年在布魯塞爾創辦的一個學會。此前一年他通過邀請方式舉辦了第一屆國際物理學會議，即第一次索爾維會議（法語：Conseils Solvay）。在此次成功之後，研究會繼續負責邀請世界著名的物理學家和化學家對前沿問題進行討論的會議。索爾維會議致力於研究物理學和化學中突出的前沿問題，每三年舉辦一次。(維基百科)
+
+[索尔维会议 - 维基百科，自由的百科全书 (wikipedia.org)](https://zh.wikipedia.org/wiki/索尔维会议)
+
+
+
+#### 第五次索尔维会议--这些伟大的科学家们有几个信佛法？
+
+可能最著名的一次索尔维会议是1927年10月召开的第五次索尔维会议。此次会议主题为“[电子](https://zh.wikipedia.org/wiki/电子)和[光子](https://zh.wikipedia.org/wiki/光子)”，世界上最主要的物理学家聚在一起讨论新近表述的[量子理论](https://zh.wikipedia.org/wiki/量子理论)。会议上最出众的角色是[爱因斯坦](https://zh.wikipedia.org/wiki/爱因斯坦)和[尼尔斯·玻尔](https://zh.wikipedia.org/wiki/尼尔斯·玻尔)。前者以“上帝不会掷骰子”的观点反对[海森堡](https://zh.wikipedia.org/wiki/沃纳·海森堡)的[不确定性原理](https://zh.wikipedia.org/wiki/不確定性原理)，而玻尔反驳道，“爱因斯坦，不要告诉上帝怎么做”——这一争论被称为[玻尔-爱因斯坦论战](https://zh.wikipedia.org/wiki/玻尔-爱因斯坦论战)。参加这次会议的二十九人中有十七人获得或后来获得[诺贝尔奖](https://zh.wikipedia.org/wiki/诺贝尔奖)。[玛丽·居里](https://zh.wikipedia.org/wiki/瑪麗·居禮)是照片中唯一一位女性。
+
+
+
+![img](https://raw.githubusercontent.com/huidengvan/pics/master/Solvay_conference_1927.jpg)
+
+![](https://raw.githubusercontent.com/huidengvan/pics/master/1927%E5%B9%B4%E7%AC%AC%E4%BA%94%E5%B1%86%E7%B4%A2%E7%88%BE%E7%B6%AD%E6%9C%83%E8%AD%B0(Solvay%20Conference)-10420345_573995842700091_3477899534472360688_n.jpg)
+
+![img](https://raw.githubusercontent.com/huidengvan/pics/master/r827n15q-sq5n-4398-op6r-081777193173.jpg)
+
 # 3 珍惜
 
 ## 前行广释 16 课辅导
