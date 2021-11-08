@@ -1,5 +1,5 @@
 ---
-title: "佛陀传"
+title: "佛陀"
 date: 2021-03-13T17:26:13-08:00
 draft: false
 ---
@@ -15,8 +15,6 @@ draft: false
 [09](https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft09.mp4)
 [10](https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft10.mp4)
 
-
-
 [11](https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft11.mp4)
 [12](https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft12.mp4)
 [13](https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft13.mp4)
@@ -27,7 +25,6 @@ draft: false
 [18](https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft18.mp4)
 [19](https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft19.mp4)
 [20](https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft20.mp4)
-
 
 [21](https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft21.mp4)
 [22](https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft22.mp4)
@@ -41,7 +38,6 @@ draft: false
 [30a](https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft30a.mp4)
 [30b](https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft30b.mp4)
 
-
 [31](https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft31.mp4)
 [32](https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft32.mp4)
 [33](https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft33.mp4)
@@ -52,7 +48,6 @@ draft: false
 [38](https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft38.mp4)
 [39](https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft39.mp4)
 [40](https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft40.mp4)
-
 
 [41](https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft41.mp4)
 [42](https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft42.mp4)
@@ -65,11 +60,9 @@ draft: false
 [49](https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft49.mp4)
 [50](https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft50.mp4)
 
-
 [51](https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft51.mp4)
 [52](https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft52.mp4)
 [53](https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft53.mp4)
 [54](https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft54.mp4)
-
 
 {{< videotag id="id1" url="https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft01.mp4" title="佛陀传第一集" playpos="1" >}}
