@@ -466,7 +466,7 @@ draft: false
 
 人间世2
 
-76天（新冠）
+武汉七十六日（Wuhan From Lockdown to Reopening）
 
 生门
 
