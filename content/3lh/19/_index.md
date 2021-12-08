@@ -483,7 +483,7 @@ draft: false
 
 ## 畜生所摄的阿修罗
 
-<https://bj.cxb123.cc/3lh/11/#heading-58>
+<https://bj.cxb123.cc/ref/xmfw/zfncj-csp/#heading-7>
 
 **虽见轮回痛苦仍贪执，虽畏恶趣险地仍作恶，  
 我与如我邪道众有情，看破放下今世祈加持。**
