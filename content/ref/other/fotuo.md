@@ -1,7 +1,7 @@
 ---
 title: "佛陀"
 date: 2021-03-13T17:26:13-08:00
-draft: false
+draft: true
 ---
 
 [01](https://hdvblob.blob.core.windows.net/hdv/other/%E4%BD%9B%E9%99%80%E4%BC%A0/ft01.mp4)
