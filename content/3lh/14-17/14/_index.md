@@ -912,5 +912,11 @@ draft: false
 
 [正法念处经讲记-地狱品](/ref/xmfw/zfncj-dyp/)
 
+# 佛经地狱因果图鉴
+
+[佛经地狱因果图鉴1](http://huidengchanxiu.net/hdv/d/%e4%bd%9b%e7%bb%8f%e5%9c%b0%e7%8b%b1%e5%9b%a0%e6%9e%9c%e5%9b%be%e9%89%b4RB41-017-01.pdf)  
+[佛经地狱因果图鉴2](http://huidengchanxiu.net/hdv/d/%e4%bd%9b%e7%bb%8f%e5%9c%b0%e7%8b%b1%e5%9b%a0%e6%9e%9c%e5%9b%be%e9%89%b4RB41-018-01.pdf)  
+[佛经地狱因果图鉴3](http://huidengchanxiu.net/hdv/d/%e4%bd%9b%e7%bb%8f%e5%9c%b0%e7%8b%b1%e5%9b%a0%e6%9e%9c%e5%9b%be%e9%89%b4RB41-019-01.pdf)  
+
 **虽见轮回痛苦仍贪执，虽畏恶趣险地仍作恶，  
 我与如我邪道众有情，看破放下今世祈加持。**  
