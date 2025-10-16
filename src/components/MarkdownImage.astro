@@ -1,0 +1,47 @@
+---
+import { Image } from 'astro:assets';
+
+type Props = {
+	src: string;
+	alt?: string;
+	widths?: string | number[];
+	formats?: string | string[];
+	sizes?: string;
+};
+
+const {
+	src,
+	alt = '',
+	widths = '320,640,960,1280',
+	formats = 'avif,webp,png',
+	sizes = '(min-width: 960px) 960px, 100vw',
+}: Props = Astro.props;
+
+const parseNumberList = (value: string | number[]) =>
+	Array.isArray(value)
+		? value.map((entry) => Number(entry)).filter((entry) => Number.isFinite(entry) && entry > 0)
+		: String(value)
+				.split(',')
+				.map((entry) => Number.parseInt(entry.trim(), 10))
+				.filter((entry) => Number.isFinite(entry) && entry > 0);
+
+const parseStringList = (value: string | string[]) =>
+	Array.isArray(value)
+		? value.map((entry) => String(entry).trim()).filter(Boolean)
+		: String(value)
+				.split(',')
+				.map((entry) => entry.trim())
+				.filter(Boolean);
+
+const resolvedWidths = parseNumberList(widths);
+const resolvedFormats = parseStringList(formats);
+---
+<Image
+	src={src}
+	alt={alt}
+	widths={resolvedWidths.length ? resolvedWidths : undefined}
+	formats={resolvedFormats.length ? resolvedFormats : undefined}
+	sizes={sizes}
+	loading="lazy"
+	decoding="async"
+/>

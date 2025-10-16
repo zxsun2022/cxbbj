@@ -1,3 +1,0 @@
-# sed -r -f kepan-sed.txt ./kepan.md > kepan-output.md 
-# for mubu copy/paste text
-s|^\s*|& - |g
