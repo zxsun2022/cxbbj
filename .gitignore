@@ -4,6 +4,15 @@ dist/
 # Astro generated types & cache
 .astro/
 
+# Generated site artifacts
+public/
+!public/docs/
+!public/docs/**
+!public/mm/
+!public/mm/**
+!public/favicon.svg
+resources/
+
 # Dependencies
 node_modules/
 .npm-cache/
