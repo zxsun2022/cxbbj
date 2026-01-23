@@ -4,54 +4,6 @@ date: '2020-12-15T01:26:13.000Z'
 ---
 益西彭措堪布 译讲
 
-
-[🎧 一生修行的重点和归宿01](https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs01.mp3)
-
-
-
-[🎧 一生修行的重点和归宿02](https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs02.mp3)
-
-
-
-[🎧 一生修行的重点和归宿03](https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs03.mp3)
-
-
-
-[🎧 一生修行的重点和归宿04](https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs04.mp3)
-
-
-
-[🎧 一生修行的重点和归宿05](https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs05.mp3)
-
-
-
-[🎧 一生修行的重点和归宿06](https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs06.mp3)
-
-
-
-[🎧 一生修行的重点和归宿07](https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs07.mp3)
-
-
-
-[🎧 一生修行的重点和归宿08](https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs08.mp3)
-
-
-
-[🎧 一生修行的重点和归宿09](https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs09.mp3)
-
-
-
-[🎧 一生修行的重点和归宿10](https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs10.mp3)
-
-
-
-[🎧 一生修行的重点和归宿11](https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs11.mp3)
-
-
-
-[🎧 一生修行的重点和归宿12](https://hdvblob.blob.core.windows.net/hdv/jsxxdzdhgs12.mp3)
-
-
 #### 第一讲　总说一生修行的重点是前行
 
 这一生的时间很短暂，而且每个人都有自身具体的因缘，所以一定要抓住最要紧的事。在修行当中以前行最主要，这是就现阶段而言。当然，如果你前行修得好，就应当趣入正行。
