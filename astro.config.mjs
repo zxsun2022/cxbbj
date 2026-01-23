@@ -28,6 +28,7 @@ export default defineConfig({
 		starlight({
 			title: SITE_TITLE,
 			description: SITE_DESCRIPTION,
+			customCss: ['./src/styles/starlight-custom.css'],
 			social: [],
 			sidebar: [
 				{

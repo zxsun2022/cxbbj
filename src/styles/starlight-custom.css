@@ -1,0 +1,78 @@
+/* Zen / tranquil palette for long-form reading */
+:root {
+  --sl-color-accent: #7b8f87;
+  --sl-color-accent-high: #6a7f77;
+  --sl-color-accent-low: #dde6e1;
+  --sl-color-bg: #f4f1ea;
+  --sl-color-bg-nav: #f2efe7;
+  --sl-color-bg-sidebar: #efece4;
+  --sl-color-bg-inline-code: #ebe7df;
+  --sl-color-bg-code: #ece7dd;
+  --sl-color-text: #2f3a34;
+  --sl-color-text-accent: #5a6c64;
+  --sl-color-text-invert: #f9f6ef;
+  --sl-color-link: #5f766d;
+  --sl-color-link-hover: #4d625a;
+  --sl-color-gray-1: #3a4741;
+  --sl-color-gray-2: #5a6b64;
+  --sl-color-gray-3: #7c8c86;
+  --sl-color-gray-4: #a2afa8;
+  --sl-color-gray-5: #c8d0c9;
+  --sl-color-gray-6: #e3e6df;
+}
+
+:root[data-theme='dark'] {
+  --sl-color-accent: #7f9aa0;
+  --sl-color-accent-high: #8ea8ae;
+  --sl-color-accent-low: #263033;
+  --sl-color-bg: #121416;
+  --sl-color-bg-nav: #171a1d;
+  --sl-color-bg-sidebar: #161a1d;
+  --sl-color-bg-inline-code: #1d2226;
+  --sl-color-bg-code: #1a1f23;
+  --sl-color-text: #e9edf0;
+  --sl-color-text-accent: #bcc6cc;
+  --sl-color-text-invert: #0a0c0d;
+  --sl-color-link: #a9c0c7;
+  --sl-color-link-hover: #c7dbe0;
+  --sl-color-gray-1: #e6ebef;
+  --sl-color-gray-2: #c6d0d6;
+  --sl-color-gray-3: #a4b1b8;
+  --sl-color-gray-4: #7f8d94;
+  --sl-color-gray-5: #4a5660;
+  --sl-color-gray-6: #242a30;
+}
+
+main {
+  font-size: 1.05rem;
+  line-height: 1.85;
+}
+
+article :where(h1, h2, h3, h4, h5, h6) {
+  letter-spacing: 0.01em;
+}
+
+article :where(h2, h3) {
+  margin-top: 2.2rem;
+  margin-bottom: 0.8rem;
+}
+
+article :where(p, ul, ol, blockquote) {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+article blockquote {
+  border-inline-start: 4px solid var(--sl-color-accent);
+  background: color-mix(in srgb, var(--sl-color-bg) 92%, var(--sl-color-accent) 8%);
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+}
+
+article :where(code, pre) {
+  border-radius: 0.5rem;
+}
+
+article a {
+  text-underline-offset: 0.2em;
+}
