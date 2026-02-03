@@ -1,7 +1,7 @@
 ---
 title: 颂词复习
 ---
-### [思维导图](/mm/clp/)
+## [思维导图](/mm/clp/)
   
 -  [思维导图 markdown 文件](/mm/clp/data.md)
 

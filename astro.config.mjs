@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import { fileURLToPath } from 'node:url';
+import remarkAutoIndex from './src/markdown/remark-auto-index.mjs';
 import remarkImageToAstro from './src/markdown/remark-image-to-astro.mjs';
 
 const SITE_TITLE = '禅修班笔记';
@@ -22,7 +23,7 @@ export default defineConfig({
 		remotePatterns: REMOTE_IMAGE_PATTERNS,
 	},
 	markdown: {
-		remarkPlugins: [remarkImageToAstro],
+		remarkPlugins: [remarkImageToAstro, remarkAutoIndex],
 	},
 	integrations: [
 		starlight({

@@ -2,7 +2,7 @@
 title: 禅修班笔记
 date: '2020-12-15T01:26:13.000Z'
 ---
-## 圆航的禅修班视频笔记
+# 圆航的禅修班视频笔记
 
 
 [🎧 禅定的四个阶段](https://mrs.huidengzhiguang.com/mp3/va/2012/U12027_ChanDingDeSiGeJieDuan.mp3)

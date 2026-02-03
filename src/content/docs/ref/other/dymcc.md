@@ -62,16 +62,16 @@ draft: true
 才吉桑吉哲巴辛吉洛 今生成就佛果祈加持
 
 
-## 蒋扬钦哲旺波
+# 蒋扬钦哲旺波
 
 http://www.lqwiki.net/index.php?title=%E8%92%8B%E6%89%AC%E9%92%A6%E5%93%B2%E6%97%BA%E6%B3%A2
 
 
-## 嘉瑟•贤彭他耶
+# 嘉瑟•贤彭他耶
 
 http://www.lqwiki.net/index.php?title=%E5%98%89%E7%91%9F%E2%80%A2%E8%B4%A4%E5%BD%AD%E4%BB%96%E8%80%B6
 
-## 第三世雪谦嘉察仁波切
+# 第三世雪谦嘉察仁波切
 （重定向自第三世雪谦嘉察久美贝玛南嘉）
 
 第三世雪谦嘉察仁波切
@@ -79,7 +79,7 @@ http://www.lqwiki.net/index.php?title=%E5%98%89%E7%91%9F%E2%80%A2%E8%B4%A4%E5%BD
 http://www.lqwiki.net/index.php?title=%E7%AC%AC%E4%B8%89%E4%B8%96%E9%9B%AA%E8%B0%A6%E5%98%89%E5%AF%9F%E4%BB%81%E6%B3%A2%E5%88%87
 
 
-## 堪布拥丹贡布
+# 堪布拥丹贡布
 http://www.lqwiki.net/index.php?title=%E5%A0%AA%E5%B8%83%E6%8B%A5%E4%B8%B9%E8%B4%A1%E5%B8%83
 
 
@@ -168,41 +168,41 @@ http://www.lqwiki.net/index.php?title=%E5%A0%AA%E5%B8%83%E6%8B%A5%E4%B8%B9%E8%B4
 
 　　若你具有全然的信心，便不难得到三宝的加持。若你不具信心，你便将自己隔绝於加持之外。太阳光普照着地球上的每一个人，然而只有籍着放大镜将它们聚集，你才能令干草生火。同理，若你已有信心的放大镜，那么上师的加持力将在你心中燃起。　　信心有不同的层次。首先，当你一听到三宝的特质和佛陀、大成就者的生平时，行者的心中便充满的清楚的喜乐，并且改变行者的认知，这是所谓的“明显的信心”（clrar faith）。当想到他们时，便使行者充满了要去知道更多关于他们的
 
-## 多钦哲•益西多杰
+# 多钦哲•益西多杰
 
 http://www.lqwiki.net/index.php?title=%E5%A4%9A%E9%92%A6%E5%93%B2
 
-## 堪布贝玛多杰
+# 堪布贝玛多杰
 
 http://www.lqwiki.net/index.php?title=%E5%A0%AA%E5%B8%83%E8%B4%9D%E7%8E%9B%E5%A4%9A%E6%9D%B0
 
-## 第四世多智钦仁波切
+# 第四世多智钦仁波切
 http://www.lqwiki.net/index.php?title=%E7%AC%AC%E5%9B%9B%E4%B8%96%E5%A4%9A%E6%99%BA%E9%92%A6%E7%89%B9%E5%B7%B4%E4%BB%81%E6%B3%A2%E5%88%87
 
-## 格贡堪布•衮桑华丹 堪布根华
+# 格贡堪布•衮桑华丹 堪布根华
 
 http://www.lqwiki.net/index.php?title=%E6%A0%BC%E8%B4%A1%E5%A0%AA%E5%B8%83%E2%80%A2%E8%A1%AE%E6%A1%91%E5%8D%8E%E4%B8%B9
 
-## 钨金丹增
+# 钨金丹增
 
 http://www.lqwiki.net/index.php?title=%E6%96%87%E6%B3%A2%E2%80%A2%E4%B8%B9%E5%A2%9E%E8%AF%BA%E5%B8%83
 
 
-## 嘉贡堪布•贤嘎确吉囊哇 贾功堪钦先盘囊瓦
+# 嘉贡堪布•贤嘎确吉囊哇 贾功堪钦先盘囊瓦
 
 http://www.lqwiki.net/index.php?title=%E5%98%89%E8%B4%A1%E5%A0%AA%E5%B8%83%E2%80%A2%E8%B4%A4%E5%98%8E%E7%A1%AE%E5%90%89%E5%9B%8A%E5%93%87
 
 
 
-## 格贡堪布•衮桑华丹 堪布根华 
+# 格贡堪布•衮桑华丹 堪布根华 
 
 http://www.lqwiki.net/index.php?title=%E6%A0%BC%E8%B4%A1%E5%A0%AA%E5%B8%83%E2%80%A2%E8%A1%AE%E6%A1%91%E5%8D%8E%E4%B8%B9
 
-## 第一世蒋贡康楚仁波切
+# 第一世蒋贡康楚仁波切
 
 蒋贡康楚罗卓他耶  
 http://www.lqwiki.net/index.php?title=%E7%AC%AC%E4%B8%80%E4%B8%96%E8%92%8B%E8%B4%A1%E5%BA%B7%E6%A5%9A%E4%BB%81%E6%B3%A2%E5%88%87
 
-## 塔泽本洛·罗德旺波
+# 塔泽本洛·罗德旺波
 
 http://www.lqwiki.net/index.php?title=%E5%A1%94%E6%B3%BD%E6%9C%AC%E6%B4%9B%E2%80%A2%E7%BD%97%E5%BE%B7%E6%97%BA%E6%B3%A2
