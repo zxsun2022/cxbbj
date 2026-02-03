@@ -30,6 +30,10 @@ export default defineConfig({
 			title: SITE_TITLE,
 			description: SITE_DESCRIPTION,
 			customCss: ['./src/styles/starlight-custom.css'],
+			tableOfContents: {
+				minHeadingLevel: 1,
+				maxHeadingLevel: 3,
+			},
 			social: [],
 			sidebar: [
 				{

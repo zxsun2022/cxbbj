@@ -25,15 +25,18 @@ const extractTitle = (filePath) => {
   }
 };
 
+const normalizeSegment = (segment) => segment.replace(/\./g, '');
+
 const toDocUrl = (filePath) => {
   const rel = toPosix(path.relative(DOCS_ROOT, filePath));
-  if (rel.endsWith('/index.md')) {
-    return `/${rel.replace(/\/index\.md$/, '/')}`;
+  const segments = rel.split('/');
+  if (segments[segments.length - 1] === 'index.md') {
+    segments.pop();
+  } else if (segments[segments.length - 1]?.endsWith('.md')) {
+    segments[segments.length - 1] = segments[segments.length - 1].replace(/\.md$/, '');
   }
-  if (rel.endsWith('.md')) {
-    return `/${rel.replace(/\.md$/, '/')}`;
-  }
-  return `/${rel}/`;
+  const normalized = segments.map(normalizeSegment).filter(Boolean);
+  return `/${normalized.join('/')}/`;
 };
 
 const humanizeSlug = (slug) => slug.replace(/[-_]+/g, ' ');
