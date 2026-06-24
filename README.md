@@ -45,6 +45,7 @@ npx wrangler pages deploy dist --project-name <your-project>
 
 ## 其他说明
 
+- PC 端页头右侧有「收起 / 展开侧边栏」按钮，可隐藏左侧导航栏让正文回收空间，状态记忆在浏览器 localStorage；实现见 `src/components/SocialIcons.astro` 与 `src/styles/starlight-custom.css`。
 - Starlight 已默认为标题生成 `id` 和锚点链接，便于外部引用。
 - 搜索功能由 Pagefind 自动生成，无需额外配置。
 - 项目中保留大量中文内容，编辑前请确认文件编码为 UTF-8。

@@ -76,3 +76,21 @@ article :where(code, pre) {
 article a {
   text-underline-offset: 0.2em;
 }
+
+/* 右侧目录（On this page）宽度收窄，恢复升级前更紧凑的观感 */
+@media (min-width: 72rem) {
+  .right-sidebar-panel {
+    max-width: 16rem;
+  }
+}
+
+/* PC 端收起整个左侧导航栏：把侧边栏宽度归零（会级联到 --sl-content-inline-start，
+   让正文回收空间），并隐藏侧边栏本体。状态由页头按钮 + localStorage 控制。 */
+@media (min-width: 50rem) {
+  :root.sidebar-collapsed {
+    --sl-sidebar-width: 0rem;
+  }
+  :root.sidebar-collapsed .sidebar {
+    display: none;
+  }
+}

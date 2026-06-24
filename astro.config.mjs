@@ -34,6 +34,17 @@ export default defineConfig({
 			description: SITE_DESCRIPTION,
 			favicon: '/favicon.svg',
 			customCss: ['./src/styles/starlight-custom.css'],
+			components: {
+				SocialIcons: './src/components/SocialIcons.astro',
+			},
+			head: [
+				{
+					// 在首屏渲染前根据 localStorage 恢复侧边栏收起状态，避免闪烁
+					tag: 'script',
+					content:
+						"try{if(localStorage.getItem('sidebar-collapsed')==='true')document.documentElement.classList.add('sidebar-collapsed')}catch(e){}",
+				},
+			],
 			lastUpdated: true,
 			pagination: true,
 			tableOfContents: {
