@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import sitemap from '@astrojs/sitemap';
+import { unified } from '@astrojs/markdown-remark';
 import { fileURLToPath } from 'node:url';
 import remarkAutoIndex from './src/markdown/remark-auto-index.mjs';
 import remarkImageToAstro from './src/markdown/remark-image-to-astro.mjs';
@@ -25,7 +26,7 @@ export default defineConfig({
 		remotePatterns: REMOTE_IMAGE_PATTERNS,
 	},
 	markdown: {
-		remarkPlugins: [remarkImageToAstro, remarkAutoIndex],
+		processor: unified({ remarkPlugins: [remarkImageToAstro, remarkAutoIndex] }),
 	},
 	integrations: [
 		starlight({

@@ -32,7 +32,7 @@
 2. 构建命令：`npm install && npm run build`
 3. 产物目录：`dist`
 4. 可选环境变量：
-   - `NODE_VERSION=22`（Astro 7 要求 Node ≥ 22.12，请勿低于此版本）
+   - Node 版本：Astro 7 要求 Node ≥ 22.12。Cloudflare Pages 默认 Node 已满足，通常无需手动设置；仓库内 `.nvmrc` 已固定为 22 以保证本地/CI 版本一致。如需显式覆盖可设置环境变量 `NODE_VERSION=22`。
    - 若使用私人 npm registry，可在此处配置认证信息。
 5. 保存后触发首次构建，成功后即可访问。
 
