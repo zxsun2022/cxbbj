@@ -9,8 +9,7 @@ const links = config.social || [];
 
 <button
 	type="button"
-	id="sidebar-collapse-toggle"
-	class="sidebar-collapse-toggle sl-flex"
+	class="sidebar-collapse-toggle js-sidebar-toggle sl-flex"
 	aria-label="收起或展开左侧导航栏"
 	title="收起 / 展开侧边栏"
 	aria-pressed="false"
@@ -41,21 +40,27 @@ const links = config.social || [];
 		const root = document.documentElement;
 		const sync = () => {
 			const collapsed = root.classList.contains('sidebar-collapsed');
-			const btn = document.getElementById('sidebar-collapse-toggle');
-			if (btn) btn.setAttribute('aria-pressed', String(collapsed));
+			document
+				.querySelectorAll('.js-sidebar-toggle')
+				.forEach((btn) => btn.setAttribute('aria-pressed', String(collapsed)));
 		};
-		// 初始状态已由 <head> 内联脚本设置，这里仅同步按钮的无障碍状态。
+		// 初始 class 已由 <head> 内联脚本设置，这里仅同步按钮的无障碍状态。
 		sync();
-		document.addEventListener('click', (e) => {
-			const btn = e.target.closest && e.target.closest('#sidebar-collapse-toggle');
-			if (!btn) return;
-			const collapsed = !root.classList.contains('sidebar-collapsed');
-			root.classList.toggle('sidebar-collapsed', collapsed);
-			try {
-				localStorage.setItem(KEY, String(collapsed));
-			} catch (_) {}
-			sync();
-		});
+		// 该组件会在页头与移动端菜单各渲染一次，用全局标记保证 click 监听只绑定一次，
+		// 否则两次监听会把状态切换两次、互相抵消，导致点击「无反应」。
+		if (!window.__sidebarToggleBound) {
+			window.__sidebarToggleBound = true;
+			document.addEventListener('click', (e) => {
+				const btn = e.target.closest && e.target.closest('.js-sidebar-toggle');
+				if (!btn) return;
+				const collapsed = !root.classList.contains('sidebar-collapsed');
+				root.classList.toggle('sidebar-collapsed', collapsed);
+				try {
+					localStorage.setItem(KEY, String(collapsed));
+				} catch (_) {}
+				sync();
+			});
+		}
 	})();
 </script>
 

@@ -77,10 +77,20 @@ article a {
   text-underline-offset: 0.2em;
 }
 
-/* 右侧目录（On this page）宽度收窄，恢复升级前更紧凑的观感 */
+/* 右侧目录（On this page）：贴住页面右边缘、收窄宽度，并拥有自己的滚动条。
+   宽度用 min() 限制在「正文右侧可用空间」之内（(100vw - 正文宽)/2 再留 1rem 间距），
+   避免在 72rem 临界宽度与正文重叠；最宽不超过 14rem。 */
 @media (min-width: 72rem) {
+  .right-sidebar {
+    inset-inline-start: auto;
+    inset-inline-end: 0;
+    width: min(14rem, calc((100vw - var(--sl-content-width)) / 2 - 1rem));
+    /* 让目录区域显示自己的滚动条（Starlight 默认隐藏） */
+    scrollbar-width: thin;
+    scrollbar-color: var(--sl-color-gray-5) transparent;
+  }
   .right-sidebar-panel {
-    max-width: 16rem;
+    max-width: none;
   }
 }
 
