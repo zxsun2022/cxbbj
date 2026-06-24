@@ -77,30 +77,58 @@ article a {
   text-underline-offset: 0.2em;
 }
 
-/* 右侧目录（On this page）：贴住页面右边缘、收窄宽度，并拥有自己的滚动条。
-   宽度用 min() 限制在「正文右侧可用空间」之内（(100vw - 正文宽)/2 再留 1rem 间距），
-   避免在 72rem 临界宽度与正文重叠；最宽不超过 14rem。 */
+/* 右侧目录（On this page）：限定舒适的阅读宽度并自动换行，避免在某些视口宽度下文字溢出；
+   同时显示目录自己的滚动条（Starlight 默认隐藏）。不改变正文布局。 */
 @media (min-width: 72rem) {
+  .right-sidebar-panel {
+    max-width: 15rem;
+  }
   .right-sidebar {
-    inset-inline-start: auto;
-    inset-inline-end: 0;
-    width: min(14rem, calc((100vw - var(--sl-content-width)) / 2 - 1rem));
-    /* 让目录区域显示自己的滚动条（Starlight 默认隐藏） */
     scrollbar-width: thin;
     scrollbar-color: var(--sl-color-gray-5) transparent;
   }
-  .right-sidebar-panel {
-    max-width: none;
+}
+
+/* —— 左右两栏的收起/展开 ——
+   关键：只做「显示/隐藏」，不修改任何宽度变量。两栏都是定位元素，隐藏后不影响正文流，
+   因此正文始终保持原来的居中位置与固定宽度，排版完全一致（搜索框、目录都不会移动）。 */
+@media (min-width: 50rem) {
+  :root.sidebar-collapsed nav.sidebar {
+    display: none;
+  }
+}
+@media (min-width: 72rem) {
+  :root.toc-collapsed .right-sidebar-container {
+    display: none;
   }
 }
 
-/* PC 端收起整个左侧导航栏：把侧边栏宽度归零（会级联到 --sl-content-inline-start，
-   让正文回收空间），并隐藏侧边栏本体。状态由页头按钮 + localStorage 控制。 */
-@media (min-width: 50rem) {
-  :root.sidebar-collapsed {
-    --sl-sidebar-width: 0rem;
+/* 两个收起按钮的样式 */
+.sidebar-toggle-btn,
+.toc-toggle-btn {
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  background: transparent;
+  color: var(--sl-color-text-accent);
+  cursor: pointer;
+  padding: 0.4em;
+  border-radius: 0.375rem;
+}
+.sidebar-toggle-btn:hover,
+.toc-toggle-btn:hover {
+  color: var(--sl-color-white);
+  background: var(--sl-color-gray-6);
+}
+/* 左栏按钮只在「持久左侧栏」出现的桌面断点显示；移动端是抽屉，无需此按钮 */
+@media (max-width: 49.999rem) {
+  .sidebar-toggle-btn {
+    display: none;
   }
-  :root.sidebar-collapsed .sidebar {
+}
+/* 右栏按钮只在「右侧目录」出现的断点显示 */
+@media (max-width: 71.999rem) {
+  .toc-toggle-btn {
     display: none;
   }
 }
