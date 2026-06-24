@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import sitemap from '@astrojs/sitemap';
 import { fileURLToPath } from 'node:url';
 import remarkAutoIndex from './src/markdown/remark-auto-index.mjs';
 import remarkImageToAstro from './src/markdown/remark-image-to-astro.mjs';
@@ -16,6 +17,7 @@ const REMOTE_IMAGE_PATTERNS = [
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://chanxiu.zsun.uk',
 	image: {
 		service: {
 			entrypoint: 'astro/assets/services/sharp',
@@ -29,9 +31,12 @@ export default defineConfig({
 		starlight({
 			title: SITE_TITLE,
 			description: SITE_DESCRIPTION,
+			favicon: '/favicon.svg',
 			customCss: ['./src/styles/starlight-custom.css'],
+			lastUpdated: true,
+			pagination: true,
 			tableOfContents: {
-				minHeadingLevel: 1,
+				minHeadingLevel: 2,
 				maxHeadingLevel: 3,
 			},
 			social: [],
@@ -222,26 +227,27 @@ export default defineConfig({
 					label: '参考资料',
 					collapsed: true,
 					items: [
-						{ label: '白莲花论', autogenerate: { directory: 'ref/blhl' } },
-						{ label: '大圆满前行引导文', autogenerate: { directory: 'ref/dymqx' } },
-						{ label: '大圆满心性休息', autogenerate: { directory: 'ref/dymxxxx' } },
-						{ label: '禅修班笔记', autogenerate: { directory: 'ref/hdcxb' } },
-						{ label: '慧灯之光', autogenerate: { directory: 'ref/hdzg' } },
-						{ label: '俱舍论', autogenerate: { directory: 'ref/jsl' } },
-						{ label: '菩提道次第广论', autogenerate: { directory: 'ref/ptdcdgl' } },
-						{ label: '前世今生论', autogenerate: { directory: 'ref/qsjsl' } },
-						{ label: '前行备忘录', autogenerate: { directory: 'ref/qxbwl' } },
-						{ label: '前行广释', autogenerate: { directory: 'ref/qxgs' } },
-						{ label: '入菩萨行论', autogenerate: { directory: 'ref/rxl' } },
-						{ label: '释量论·成量品广释', autogenerate: { directory: 'ref/sllclp' } },
-						{ label: '显密佛网', autogenerate: { directory: 'ref/xmfw' } },
-						{ label: '藏传净土法', autogenerate: { directory: 'ref/zcjtf' } },
-						{ label: '中观庄严论释', autogenerate: { directory: 'ref/zgzyls' } },
-						{ label: '其他', autogenerate: { directory: 'ref/other' } },
+						{ label: '白莲花论', collapsed: true, items: [{ autogenerate: { directory: 'ref/blhl' } }] },
+						{ label: '大圆满前行引导文', collapsed: true, items: [{ autogenerate: { directory: 'ref/dymqx' } }] },
+						{ label: '大圆满心性休息', collapsed: true, items: [{ autogenerate: { directory: 'ref/dymxxxx' } }] },
+						{ label: '禅修班笔记', collapsed: true, items: [{ autogenerate: { directory: 'ref/hdcxb' } }] },
+						{ label: '慧灯之光', collapsed: true, items: [{ autogenerate: { directory: 'ref/hdzg' } }] },
+						{ label: '俱舍论', collapsed: true, items: [{ autogenerate: { directory: 'ref/jsl' } }] },
+						{ label: '菩提道次第广论', collapsed: true, items: [{ autogenerate: { directory: 'ref/ptdcdgl' } }] },
+						{ label: '前世今生论', collapsed: true, items: [{ autogenerate: { directory: 'ref/qsjsl' } }] },
+						{ label: '前行备忘录', collapsed: true, items: [{ autogenerate: { directory: 'ref/qxbwl' } }] },
+						{ label: '前行广释', collapsed: true, items: [{ autogenerate: { directory: 'ref/qxgs' } }] },
+						{ label: '入菩萨行论', collapsed: true, items: [{ autogenerate: { directory: 'ref/rxl' } }] },
+						{ label: '释量论·成量品广释', collapsed: true, items: [{ autogenerate: { directory: 'ref/sllclp' } }] },
+						{ label: '显密佛网', collapsed: true, items: [{ autogenerate: { directory: 'ref/xmfw' } }] },
+						{ label: '藏传净土法', collapsed: true, items: [{ autogenerate: { directory: 'ref/zcjtf' } }] },
+						{ label: '中观庄严论释', collapsed: true, items: [{ autogenerate: { directory: 'ref/zgzyls' } }] },
+						{ label: '其他', collapsed: true, items: [{ autogenerate: { directory: 'ref/other' } }] },
 					],
 				},
 			],
 		}),
+		sitemap(),
 	],
 	vite: {
 		resolve: {
