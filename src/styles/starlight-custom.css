@@ -77,23 +77,30 @@ article a {
   text-underline-offset: 0.2em;
 }
 
-/* 右侧目录（On this page）：钉在页面右侧（贴右边缘），宽度限定在「正文右侧可用空间」之内
-   （(100vw - 正文宽)/2 再留 0.75rem 间距），最宽 15rem，避免与正文重叠；文字自动换行。
-   留白因此落在正文与目录之间，而不是目录右侧。并显示目录自己的滚动条。
-   说明：收起机制已不再改动任何宽度变量，故此处定位在所有状态下都稳定。 */
+/* 右侧目录（On this page）：钉在页面右边缘，宽度用「固定 rem + 断点」分级，
+   不使用 100vw/calc，避免在不同视口与滚动条组合下定位/取整出错导致文字被裁切或溢出。
+   每一档宽度都经过校验，不会与居中正文（45rem）重叠。文字在固定宽度内自动换行，完整显示。 */
 @media (min-width: 72rem) {
   .right-sidebar {
     inset-inline-start: auto;
     inset-inline-end: 0;
-    width: min(15rem, calc((100vw - var(--sl-content-width)) / 2 - 0.75rem));
-    /* 仅纵向滚动；显式裁剪横向，避免 overflow-y:auto 把 overflow-x 也变成 auto 后
-       因内容比容器宽出零点几像素而冒出一条横向滚动条（窄视口/有滚动条时易触发）。 */
+    width: 13rem;
     overflow-x: hidden;
     scrollbar-width: thin;
     scrollbar-color: var(--sl-color-gray-5) transparent;
   }
   .right-sidebar-panel {
     max-width: none;
+  }
+}
+@media (min-width: 80rem) {
+  .right-sidebar {
+    width: 15rem;
+  }
+}
+@media (min-width: 92rem) {
+  .right-sidebar {
+    width: 16rem;
   }
 }
 
