@@ -86,6 +86,9 @@ article a {
     inset-inline-start: auto;
     inset-inline-end: 0;
     width: min(15rem, calc((100vw - var(--sl-content-width)) / 2 - 0.75rem));
+    /* 仅纵向滚动；显式裁剪横向，避免 overflow-y:auto 把 overflow-x 也变成 auto 后
+       因内容比容器宽出零点几像素而冒出一条横向滚动条（窄视口/有滚动条时易触发）。 */
+    overflow-x: hidden;
     scrollbar-width: thin;
     scrollbar-color: var(--sl-color-gray-5) transparent;
   }
