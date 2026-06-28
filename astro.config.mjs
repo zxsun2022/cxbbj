@@ -34,30 +34,6 @@ export default defineConfig({
 			description: SITE_DESCRIPTION,
 			favicon: '/favicon.svg',
 			customCss: ['./src/styles/starlight-custom.css'],
-			components: {
-				SiteTitle: './src/components/SiteTitle.astro',
-				SocialIcons: './src/components/SocialIcons.astro',
-			},
-			head: [
-				{
-					// 左右两栏的收起/展开逻辑：在 <head> 内联运行，首屏前恢复状态（无闪烁），
-					// 并以事件委托在 document 上只绑定一次点击监听（按钮在页头/移动端会多次渲染）。
-					tag: 'script',
-					content: [
-						'(function(){var r=document.documentElement;',
-						'try{if(localStorage.getItem("sidebar-collapsed")==="true")r.classList.add("sidebar-collapsed");',
-						'if(localStorage.getItem("toc-collapsed")==="true")r.classList.add("toc-collapsed");}catch(e){}',
-						'function sync(){var s=r.classList.contains("sidebar-collapsed"),t=r.classList.contains("toc-collapsed");',
-						'document.querySelectorAll(".js-sidebar-toggle").forEach(function(b){b.setAttribute("aria-pressed",String(s));});',
-						'document.querySelectorAll(".js-toc-toggle").forEach(function(b){b.setAttribute("aria-pressed",String(t));});}',
-						'document.addEventListener("click",function(e){var t=e.target;if(!t.closest)return;',
-						'var sb=t.closest(".js-sidebar-toggle"),tb=t.closest(".js-toc-toggle");',
-						'if(sb){var v=!r.classList.contains("sidebar-collapsed");r.classList.toggle("sidebar-collapsed",v);try{localStorage.setItem("sidebar-collapsed",String(v));}catch(_){}sync();}',
-						'else if(tb){var w=!r.classList.contains("toc-collapsed");r.classList.toggle("toc-collapsed",w);try{localStorage.setItem("toc-collapsed",String(w));}catch(_){}sync();}});',
-						'document.addEventListener("DOMContentLoaded",sync);})();',
-					].join(''),
-				},
-			],
 			lastUpdated: true,
 			pagination: true,
 			tableOfContents: {
