@@ -5,7 +5,8 @@
 ## 快速开始
 
 - `npm install`
-- `npm run dev` 启动开发服务器（默认端口 4321）。
+- `npm run dev` 在 `http://127.0.0.1:4321` 启动开发服务器。
+- 首次启动会索引约 93 MB 的 Markdown 内容，可能需要 1–2 分钟；看到 `Syncing content` 时请等待 `ready` 提示。
 - `npm run build` 构建静态产物到 `dist/`。
 - `npm run preview` 在本地预览构建结果。
 
@@ -32,7 +33,7 @@
 2. 构建命令：`npm install && npm run build`
 3. 产物目录：`dist`
 4. 可选环境变量：
-   - `NODE_VERSION=20`（或与本地一致的版本）
+   - `NODE_VERSION=22.12.0`（Astro 7 要求 Node.js 22.12 或更高版本）
    - 若使用私人 npm registry，可在此处配置认证信息。
 5. 保存后触发首次构建，成功后即可访问。
 

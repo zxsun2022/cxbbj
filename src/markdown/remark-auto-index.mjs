@@ -82,18 +82,23 @@ export default function remarkAutoIndex() {
     const rel = path.relative(DOCS_ROOT, filePath);
     if (rel.startsWith('..')) return;
 
+    const items = buildIndexItems(path.dirname(filePath));
+    if (items.length === 0) return;
+
     const contentNodes = tree.children.filter(
       (node) => node.type !== 'yaml' && node.type !== 'toml'
     );
-    if (contentNodes.length > 0) return;
-
-    const items = buildIndexItems(path.dirname(filePath));
-    if (items.length === 0) return;
+    const hasDirectoryHeading = contentNodes.some(
+      (node) =>
+        node.type === 'heading' &&
+        node.children?.some((child) => child.type === 'text' && child.value === '子页面')
+    );
+    if (hasDirectoryHeading) return;
 
     tree.children.push({
       type: 'heading',
       depth: 2,
-      children: [{ type: 'text', value: '目录' }],
+      children: [{ type: 'text', value: '子页面' }],
     });
     tree.children.push({
       type: 'list',
