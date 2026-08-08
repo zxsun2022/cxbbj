@@ -12,6 +12,7 @@ public/
 !public/mm/**
 !public/favicon.svg
 resources/
+.local-backups/
 
 # Dependencies
 node_modules/

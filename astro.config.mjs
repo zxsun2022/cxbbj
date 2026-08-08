@@ -26,7 +26,9 @@ export default defineConfig({
 		remotePatterns: REMOTE_IMAGE_PATTERNS,
 	},
 	markdown: {
-		processor: unified({ remarkPlugins: [remarkImageToAstro, remarkAutoIndex] }),
+		processor: unified({
+			remarkPlugins: [remarkImageToAstro, remarkAutoIndex],
+		}),
 	},
 	integrations: [
 		starlight({
@@ -37,7 +39,7 @@ export default defineConfig({
 			lastUpdated: true,
 			pagination: true,
 			tableOfContents: {
-				minHeadingLevel: 2,
+				minHeadingLevel: 1,
 				maxHeadingLevel: 3,
 			},
 			social: [],
@@ -52,11 +54,13 @@ export default defineConfig({
 							label: '暇满难得',
 							collapsed: true,
 							items: [
+								{ label: '总览', link: '/1xm/' },
 								// 八闲暇 (基础条件)
 								{
 									label: '八闲暇(基础条件)',
 									collapsed: true,
 									items: [
+										{ label: '目录', link: '/1xm/1-ba-wu-xia/' },
 										{ label: '1地狱', link: '/1xm/1-ba-wu-xia/11-di-yu/' },
 										{ label: '2饿鬼', link: '/1xm/1-ba-wu-xia/12-e-gui/' },
 										{ label: '3旁生', link: '/1xm/1-ba-wu-xia/13-pang-sheng/' },
@@ -72,6 +76,7 @@ export default defineConfig({
 									label: '十圆满(特别条件)',
 									collapsed: true,
 									items: [
+										{ label: '目录', link: '/1xm/2-shi-yuan-man/' },
 										{ label: '09得人身', link: '/1xm/2-shi-yuan-man/109-de-ren-shen/' },
 										{ label: '10生中土', link: '/1xm/2-shi-yuan-man/110-sheng-zhong-tu/' },
 										{ label: '11五根具足', link: '/1xm/2-shi-yuan-man/111-wu-gen-ju-zu/' },
@@ -89,6 +94,7 @@ export default defineConfig({
 									label: '暂生缘八无暇',
 									collapsed: true,
 									items: [
+										{ label: '目录', link: '/1xm/3-zan-sheng-yuan/' },
 										{ label: '19五毒', link: '/1xm/3-zan-sheng-yuan/119-wu-du/' },
 										{ label: '20愚痴', link: '/1xm/3-zan-sheng-yuan/120-yu-chi/' },
 										{ label: '21魔所持', link: '/1xm/3-zan-sheng-yuan/121-mo-suo-chi/' },
@@ -104,6 +110,7 @@ export default defineConfig({
 									label: '断缘心八无暇',
 									collapsed: true,
 									items: [
+										{ label: '目录', link: '/1xm/4-duan-yuan-xin/' },
 										{ label: '27紧缚现行', link: '/1xm/4-duan-yuan-xin/127-jin-fu-xian-xing/' },
 										{ label: '28人格下劣', link: '/1xm/4-duan-yuan-xin/128-ren-ge-xia-lie/' },
 										{ label: '29不厌轮回', link: '/1xm/4-duan-yuan-xin/129-bu-yan-lun-hui/' },
@@ -119,6 +126,7 @@ export default defineConfig({
 									label: '暇满之相',
 									collapsed: true,
 									items: [
+										{ label: '目录', link: '/1xm/5-xia-man-zhi-xiang/' },
 										{ label: '35暇满之因缘', link: '/1xm/5-xia-man-zhi-xiang/135-yin-yuan/' },
 										{ label: '36暇满之比喻', link: '/1xm/5-xia-man-zhi-xiang/136-bi-yu/' },
 										{ label: '37暇满之数量', link: '/1xm/5-xia-man-zhi-xiang/137-shu-liang/' },
@@ -132,6 +140,7 @@ export default defineConfig({
 							label: '无常',
 							collapsed: true,
 							items: [
+								{ label: '总览', link: '/2wc/' },
 								{ label: '1器世间无常', link: '/2wc/01/' },
 								{ label: '2有情众生无常', link: '/2wc/02/' },
 								{ label: '3圣者无常', link: '/2wc/03/' },
@@ -147,6 +156,7 @@ export default defineConfig({
 							label: '轮回痛苦',
 							collapsed: true,
 							items: [
+								{ label: '总览', link: '/3lh/' },
 								{ label: '01总体思维', link: '/3lh/01/' },
 								{ label: '02三根本苦', link: '/3lh/02/' },
 								// 人苦
@@ -154,6 +164,7 @@ export default defineConfig({
 									label: '人苦',
 									collapsed: true,
 									items: [
+										{ label: '目录', link: '/3lh/03-10/' },
 										{ label: '03生苦', link: '/3lh/03-10/03/' },
 										{ label: '04老苦', link: '/3lh/03-10/04/' },
 										{ label: '05病苦', link: '/3lh/03-10/05/' },
@@ -170,6 +181,7 @@ export default defineConfig({
 									label: '饿鬼与地狱',
 									collapsed: true,
 									items: [
+										{ label: '目录', link: '/3lh/12-13/' },
 										{ label: '12饿鬼苦', link: '/3lh/12-13/12/' },
 										{ label: '13地狱苦', link: '/3lh/12-13/13/' },
 									]
@@ -179,6 +191,7 @@ export default defineConfig({
 									label: '天人与阿修罗',
 									collapsed: true,
 									items: [
+										{ label: '目录', link: '/3lh/14-17/' },
 										{ label: '14天人苦', link: '/3lh/14-17/14/' },
 										{ label: '15非天苦', link: '/3lh/14-17/15/' },
 										{ label: '16总结轮回痛苦', link: '/3lh/14-17/16/' },
@@ -196,6 +209,7 @@ export default defineConfig({
 							label: '因果不虚',
 							collapsed: true,
 							items: [
+								{ label: '总览', link: '/4yg/' },
 								{ label: '00总体思维(30h)', link: '/4yg/00/' },
 								{ label: '01杀生(6h)', link: '/4yg/01/' },
 								{ label: '02不与取(6h)', link: '/4yg/02/' },

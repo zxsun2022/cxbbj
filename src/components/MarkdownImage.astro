@@ -1,5 +1,5 @@
 ---
-import { Image } from 'astro:assets';
+import { Picture } from 'astro:assets';
 
 type Props = {
 	src: string;
@@ -36,9 +36,10 @@ const parseStringList = (value: string | string[]) =>
 const resolvedWidths = parseNumberList(widths);
 const resolvedFormats = parseStringList(formats);
 ---
-<Image
+<Picture
 	src={src}
 	alt={alt}
+	inferSize={true}
 	widths={resolvedWidths.length ? resolvedWidths : undefined}
 	formats={resolvedFormats.length ? resolvedFormats : undefined}
 	sizes={sizes}

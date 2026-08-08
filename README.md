@@ -5,7 +5,8 @@
 ## 快速开始
 
 - `npm install`
-- `npm run dev` 启动开发服务器（默认端口 4321）。
+- `npm run dev` 在 `http://127.0.0.1:4321` 启动开发服务器。
+- 首次启动会索引约 93 MB 的 Markdown 内容，可能需要 1–2 分钟；看到 `Syncing content` 时请等待 `ready` 提示。
 - `npm run build` 构建静态产物到 `dist/`。
 - `npm run preview` 在本地预览构建结果。
 
